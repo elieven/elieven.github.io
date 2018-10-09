@@ -1,2 +1,4 @@
 name: SolaMona
 markdown: kramdown
+baseurl: /
+url: https://elieven.github.io/SolaMona/
