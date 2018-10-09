@@ -1,0 +1,13 @@
+ime: Gimnazija Koper
+kratica: GIM Koper
+code: gim-kp
+programi:
+  - program: Splošna smer
+    code:    spl
+    letniki:
+      - letnik: 1
+        predmeti:
+          - predmet: Biologija
+            code:    biologija
+            name:    Biologija
+            status:  wip

@@ -1,0 +1,33 @@
+{% for letnik in include.program.letniki %}
+
+  <!-- Št. letnika -->
+  <h3 class="list-title">{{letnik.letnik}}. letnik</h3>
+
+  <!-- Vsebina letnika (predmeti) -->
+  <div class="row predmeti">
+    {% for predmet in letnik.predmeti %}
+      <div class="predmet-wrap col-12 col-sm-4 col-md-3 col-lg-2">
+        <a class="predmet" href="{{letnik.letnik}}l/{{predmet.code}}.html" draggable="false">
+          <div class="predmet-content">
+            <div class="predmet-status {{predmet.status}}"></div>
+            <div class="predmet-figure">
+              <div class="predmet-icon">
+                {% capture svg %}{% include /icons/predmeti/{{predmet.code}}.svg %}{% endcapture %}
+                {% assign svgsplit = svg | split: 'encoding="UTF-8"?>' %}
+                {% assign svgpart = svgsplit[1] %}
+                {{ svgpart }}
+              </div>
+            </div>
+            <div class="predmet-text">
+              <span class="predmet-title">{{predmet.predmet}}</span>
+              <span class="predmet-subtitle">1 datoteka</span>
+            </div>
+          </div>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+
+
+
+{% endfor %}

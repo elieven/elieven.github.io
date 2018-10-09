@@ -1,0 +1,4 @@
+{% capture svg %}{% include /icons/{{include.icoPath}}.svg %}{% endcapture %}
+{% assign svgsplit = svg | split: {{include.cutAfter}} %}
+{% assign svgpart = svgsplit[1] %}
+{{ svgpart }}

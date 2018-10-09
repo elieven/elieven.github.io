@@ -1,0 +1,90 @@
+---
+layout: solamona
+title: SolaMona
+---
+
+<div class="con">
+
+  <h1 id="logo-big">SolaMona</h1>
+
+  <!--
+  {% capture svg %}{% include /solamona_logo.svg %}{% endcapture %}
+  {% assign svgsplit = svg | split: 'hics/SVG/1.1/DTD/svg11.dtd">' %}
+  {% assign svgpart = svgsplit[1] %}
+  {{ svgpart }}
+  -->
+
+  <p class="quote">
+    I think that there should be a good balance between
+    being a good student and being able to enjoy your high
+    school life.
+  </p>
+
+</div>
+
+<div class="con">
+
+  <div class="row list">
+
+    <h2 class="list-title">Šole</h2>
+
+    <div class="list-item-wrap col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6">
+      <a href="/s/sts-kp" class="list-item">
+        <div class="list-item-image" style="background-image: url(https://image.ibb.co/gyCFbz/sts_logo.png)"></div>
+        <div class="list-item-text">
+          <span class="list-item-title">Srednja Tehniška Šola Koper</span>
+          <span class="list-item-subtitle">2 programa • 23 dokumentov</span>
+        </div>
+      </a>
+    </div>
+
+    <div class="list-item-wrap col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6">
+      <a href="/s/gim-kp" class="list-item">
+        <div class="list-item-image" style="background-image: url(https://image.ibb.co/c4QRGz/gim_logo.jpg)"></div>
+        <div class="list-item-text">
+          <span class="list-item-title">Gimnazija Koper</span>
+          <span class="list-item-subtitle">1 program • 1 dokument</span>
+        </div>
+      </a>
+    </div>
+
+  </div>
+
+  <div class="row list">
+
+    <h2 class="list-title">Bližnjice</h2>
+
+    <div class="list-item-wrap col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6">
+      <a href="/s/sts-kp/rat" class="list-item">
+        <div class="list-item-image">
+          {% capture svg %}{% include /icons/programi/racunalniski-tehnik.svg %}{% endcapture %}
+          {% assign svgsplit = svg | split: 'encoding="UTF-8"?>' %}
+          {% assign svgpart = svgsplit[1] %}
+          {{ svgpart }}
+        </div>
+        <div class="list-item-text">
+          <span class="list-item-title">Računalniški Tehnik</span>
+          <span class="list-item-subtitle">STŠ Koper</span>
+        </div>
+      </a>
+    </div>
+
+  </div>
+
+  <!--div class="px-2 my-8">
+    <div class="flex flex-wrap -mx-4">
+
+      {% for i in (1..11) %}
+        {% if i == 10 %}
+          {% continue %}
+        {% else %}
+          <div class="w-full sm:w-1/4 md:w-1/5 lg:w-1/6 p-2">
+            <div class="border border-b-2 bg-white h-48"></div>
+          </div>
+        {% endif %}
+      {% endfor %}
+
+    </div>
+  </div-->
+
+</div>

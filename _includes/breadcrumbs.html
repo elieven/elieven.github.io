@@ -1,0 +1,46 @@
+<!--nav class="breadcrumbs px-3 py-2 rounded font-sans w-full mb-8 mt-2">
+  <ol class="list-reset flex text-grey-dark">
+    <li><a href="#" class="text-blue-dark font-semibold">SolaMona</a></li>
+    <li><span class="mx-2">/</span></li>
+    <li><a href="#" class="text-blue-dark font-normal">sts-kp</a></li>
+    <li><span class="mx-2">/</span></li>
+    <li><a href="#" class="text-blue-dark font-normal">rac</a></li>
+    <li><span class="mx-2">/</span></li>
+    <li class="font-semibold text-black">Geografija</li>
+  </ol>
+</nav-->
+
+{% capture this_url %}{{ page.url | remove: '.html' }}{% endcapture %}
+
+{% assign url_arr = this_url | split: '/' %}
+{% assign url_arr_size = url_arr.size | minus: 1 %}
+{% assign url_loop_size = url_arr.size | minus: 2 %}
+
+<nav class="breadcrumbs">
+
+  <ol class="list-reset flex text-grey-dark">
+
+    <!-- Zečetni url - vedno na home / solamona -->
+    <li><a href="/" class="path-root">SolaMona</a></li>
+
+    {% assign prevurl = "/" %}
+
+    <!-- loopa skozi use dele URL arraya (srednji del URLja) -->
+    {% for i in (1..url_loop_size) %}
+
+      {% assign cururl = prevurl | append: url_arr[i] | append: "/" %}
+
+      <li><span class="path-separator">/</span></li>
+      <li><a href="{{cururl}}" class="path-segment">{{ url_arr[i] }}</a></li>
+
+      {% assign prevurl = cururl %}
+
+    {% endfor %}
+
+    <!-- zadni del URLja torej trenutni dokument / folder -->
+    <li><span class="path-separator">/</span></li>
+    <li><span class="path-end">{{url_arr[url_arr_size]}}</span></li>
+
+  </ol>
+
+</nav>

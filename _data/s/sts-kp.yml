@@ -1,0 +1,146 @@
+# cel file je object od šole tko da ni treba nardit posebaj objecta za šolo
+
+ime: Srednja Tehniška Šola Koper
+kratica: STŠ Koper
+code: sts-kp
+programi:
+  - program: Računalnikar
+    code:    rac
+    letniki:
+      - letnik: 1
+        predmeti:
+          - predmet: OED
+            code:    oed
+            name:    Osnove Elektrodinamike
+            status:  wip
+
+          - predmet: IEKI
+            code:    ieki
+            name:    Izdelava Elektronskih Komunikacijskih Inštalacij
+            status:  done
+
+      - letnik: 2
+        predmeti:
+          - predmet: NVPO
+            code:    nvpo
+            name:    Osnove Elektrodinamike
+            status:  pmd
+
+          - predmet: OED
+            code:    oed
+            name:    Osnove Elektrodinamike
+            status:  pmd
+
+          - predmet: VPPB
+            code:    vppb
+            name:    Vzdrževanje in Postavitev Podatkovnih Baz
+            status:  wip
+
+          - predmet: PN
+            code:    pn
+            name:    Programiranje Naprav
+            status:  nic
+
+      - letnik: 3
+        predmeti:
+          - predmet: Slovenščina
+            code:    slovenscina
+            name:    Slovenščina
+            status:  done
+
+          - predmet: VPPB
+            code:    vppb
+            name:    Vzdrževanje in Postavitev Podatkovnih Baz
+            status:  nic
+
+  - program: Računalniški Tehnik
+    code: rat
+    letniki:
+      - letnik: 1
+        predmeti:
+          - predmet: Angleščina
+            code:    anglescina
+            name:    Angleščina
+            status:  wip
+
+          - predmet: Geografija
+            code:    geografija
+            name:    Geografija
+            status:  done
+
+          - predmet: Kemija
+            code:    kemija
+            name:    Kemija
+            status:  done
+
+          - predmet: Slovenščina
+            code:    slovenscina
+            name:    Slovenščina
+            status:  wip
+
+          - predmet: Sociologija
+            code:    sociologija
+            name:    Sociologija
+            status:  pmd
+
+          - predmet: UIKST
+            code:    uikst
+            name:    Upravljanje IK Sistemov
+            status:  pmd
+
+      - letnik: 2
+        predmeti:
+          - predmet: Matematika
+            code:    matematika
+            name:    Matematika
+            status:  wip
+
+          - predmet: OMT
+            code:    omt
+            name:    Oprema za Multimedisjsko Tehniko
+            status:  nic
+
+          - predmet: Programiranje
+            code:    programiranje
+            name:    Programiranje
+            status:  wip
+
+          - predmet: UIKS
+            code:    uiks
+            name:    Upravljanje IK Sistemov
+            status:  pmd
+
+          - predmet: VOS
+            code:    vos
+            name:    Vzpostavitev Omrežnih Servisov
+            status:  nic
+
+          - predmet: UMN
+            code:    umn
+            name:    Uporaba Mikroprocesorskih Naprav
+            status:  nic
+
+          - predmet: RSA
+            code:    rsa
+            name:    Razvoj Spletnih Aplikacij
+            status:  nic
+
+          - predmet: Fizika
+            code:    fizika
+            name:    Fizika
+            status:  wip
+
+          - predmet: Angleščina
+            code:    anglescina
+            name:    Angleščina
+            status:  nic
+
+          - predmet: Slovenščina
+            code:    slovenscina
+            name:    Slovenščina
+            status:  nic
+
+          - predmet: Italijanščina
+            code:    italijanscina
+            name:    Italijanščina
+            status:  nic
