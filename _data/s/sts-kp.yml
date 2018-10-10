@@ -123,7 +123,7 @@ programi:
           - predmet: RSA
             code:    rsa
             name:    Razvoj Spletnih Aplikacij
-            status:  nic
+            status:  wip
 
           - predmet: Fizika
             code:    fizika
