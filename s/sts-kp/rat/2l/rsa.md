@@ -126,7 +126,7 @@ Drugi argument metode `substr` je koliko znakov po začetnem naj vzame, od `subs
 
 Napiši kodo ki iz imena ("ime priimek") ne glede na to kako je napisano spremeni da so velike začetnice, druge črke pa male. To naj deluje tudi če ima nekdo srednje ime in ali 2 priimka (torej do 4 imena).
 
-Vsak problem ima miljon rešitev, tukaj je pa demonstrirana samo ena in to je**rešitev z metodo forEach() in split()**.
+Vsak problem ima miljon rešitev, tukaj je pa demonstrirana samo ena in to je **rešitev z metodo forEach() in split()**.
 
 ```javascript
 var ime = "JAneZ vajkaRD VaLVasoR";
