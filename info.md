@@ -25,7 +25,6 @@ Ti znaki prikazujejo **trenutno stanje** določenih elementov / dokumentov:
 
 ### To do
 
-- [x] enostavno dodajanje datotek
 - [x] delujoči breadcrumbsi
 - [x] vsem stranem dat naslov in description in mogoce keywords
 - [ ] popravit linke da ko kliknes gor scrolla do naslova pravega (s custom easingom)
