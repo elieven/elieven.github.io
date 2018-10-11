@@ -23,3 +23,12 @@ if (!isMobile) {
   document.querySelector('#sscon').className = "mobile";
 
 }
+
+
+
+// dobi use linke v toc
+// vsakemu daj funkcijo ki sprejme id od naslova
+// funkcija pol najde lokacijo tega naslova v pikslih
+// in potem reče smooth scrollbaru naj scrolla do tam
+// v mobilu to pač nerabiš kr link dela normalno
+// useno pa lahko nardimo za mobile samo nek drug scroll

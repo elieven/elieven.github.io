@@ -33,6 +33,7 @@ Ti znaki prikazujejo **trenutno stanje** določenih elementov / dokumentov:
 - [ ] popravit style za mobile
 - [ ] mobile breadcrumbs nardit da so kot na stari verziji
 - [ ] list name popravit da ne polomi grida in da ni tko krš z margini
+- [ ] up in down gumb za se premikat po hierarhiji naslovou da ne scrollas pac da samo
 
 
 <br>
