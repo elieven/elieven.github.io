@@ -366,6 +366,64 @@ public class PotovanjeVlakov {
 
 > Vredno je omeniti da ta program ne preveri ali je vpis podatkov pravilen (npr. 1 bi bil napačen vnos in sesul program). V tem primeru je vredu saj to ni bil del naloge, načeloma pa se tudi to vgradi.
 
+<br><br>
+
+### Zanke
+
+Stavek ali skupino stavkov izvedemo večkrat zaporedoma.
+
+#### Zanka for
+
+![Diagram zanke for - ne lih tanajbolši ma kajčeš](https://upload.wikimedia.org/wikipedia/commons/0/06/For-loop-diagram.png)
+
+```
+for (int i=0; i<kolikokratSeZankaIzvede; i++)
+for (int i=kolikokratSeZankaIzvede; i>0; i--)
+```
+
+`int i=0;` in `int i=kolikokratSeZankaIzvede;` - deklariramo spremenljivko (števec)  ki ga običajno nastavimo na min ali max vrednost. 
+
+`i<kolikokratSeZankaIzvede;` in  `i>0;` - pogoj za izvedbo ukazov - se preveri pred vsako izvedbo zanke. 
+
+`i++` in `i--` - povečanje ali zmanjševanje števca po vsaki izvedbi zanke.
+
+Primer
+
+```
+for (int i=0; i<kolikokratSeZankaIzvede; i++) {
+	koda
+}
+```
+
+#### Zanka while
+
+![Diagram while zanke](https://www.tutorialspoint.com/cprogramming/images/cpp_while_loop.jpg)
+
+Preveri pogoj in ponavlja blok stavkov, dokler je pogoj izpolnjen.
+
+```
+while (pogoj) {
+	koda
+}
+```
+
+#### Zanka do while
+
+![Diagram do while zanke](https://www.tutorialspoint.com/cprogramming/images/cpp_do_while_loop.jpg)
+
+**Izvede se blok stavkov, šele potem preveri izpolnjenost pogoja**, kar pomeni da se **izvede vsaj enkrat**.
+
+```
+do {
+	koda
+} while (pogoj)
+```
+
+### Vaja
+
+napiši program, ki bo prebral naravno število in izračunal produkt njegovih od 0 različnih števk. Torej št 1203 = 1 x 2 x 3 = 6
+
+
 
 [if]: https://res.cloudinary.com/solamona/image/upload/v1537456195/zvs/sts-kp/rac/5l/programiranje/if_statement.jpg
 [ifelse]: https://res.cloudinary.com/solamona/image/upload/v1537456152/zvs/sts-kp/rac/5l/programiranje/if_else_statement.jpg
