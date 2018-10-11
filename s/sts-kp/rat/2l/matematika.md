@@ -107,10 +107,28 @@ Tam kjer manjka člen (npr. 3. enačba nima \\(x^3\\) ima ta člen koeficient 0)
 
 ### Računanje s polinomi
 
-#### Seštevanje in odštevanje
+#### Seštevanje
 
 \\( p(x) = 2x^3 - 5x + 4 \\\\ q(x) = x^2 + x - 3 \\)
 
-\\( p(x) + q(x) = 2x^3 - 5x + 4 + x^2 + x - 3 \\\\ = 2x^3 + x^2 - 4x + 1 \\)
+\\( p(x) + q(x) \\\\ = 2x^3 - 5x + 4 + x^2 + x - 3 \\\\ = 2x^3 + x^2 - 4x + 1 \\)
 
 Pri seštevanju polinomov lahko dobimo nižjo stopnjo polinoma, nikoli pa višjo od najvišje stopnje polinomov ki jih seštevamo.
+
+#### Odštevanje
+
+\\( p(x) = 2x^3 - 5x + 4 \\\\ q(x) = x^2 + x - 3 \\)
+
+\\( p(x) - q(x) \\\\ = (2x^3 - 5x + 4) - (x^2 + x - 3) \\\\ = 2x^3 - 5x + 4 - x^2 + x - 3 \\\\ = 2x^3 - x^2 - 6x + 7 \\)
+
+#### Množenje
+
+\\( p(x) = x^2 + x - 2 \\\\ q(x) = 2x + 3 \\)
+
+\\( p(x) \cdot q(x) \\\\ = (x^2 + x - 2)(2x + 3) \\\\ = 2x^3 + 3x^2 + 2x^2 + 3x - 4x - 6 \\\\ = 2x^3 + 5x^2 - x - 6 \\)
+
+Pri množenju se stopnja polinoma sešteva (ker se potence pri množenju seštevajo).
+
+#### Deljenje
+
+> wtf kako da to nardim u mathjaxu ??? tipo 1 mesec rabi da skontam zaprau lol

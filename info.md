@@ -25,15 +25,15 @@ Ti znaki prikazujejo **trenutno stanje** določenih elementov / dokumentov:
 
 ### To do
 
-- [x] enostavno dodajanje datotek
+- [x] delujoči breadcrumbsi
+- [x] vsem stranem dat naslov in description in mogoce keywords
 - [ ] popravit linke da ko kliknes gor scrolla do naslova pravega (s custom easingom)
 - [ ] nardit da ko zlouda page preveri url če je treba scrollat kam
 - [ ] dodat back to top button s custom easingom (material motion)
-- [ ] delujoči breadcrumbsi
 - [ ] popravit style za mobile
 - [ ] mobile breadcrumbs nardit da so kot na stari verziji
 - [ ] list name popravit da ne polomi grida in da ni tko krš z margini
-- [ ] vsem stranem dat naslov in description in mogoce keywords
+
 
 <br>
 
