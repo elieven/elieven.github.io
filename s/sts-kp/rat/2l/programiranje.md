@@ -419,6 +419,9 @@ do {
 } while (pogoj)
 ```
 
+### Vaja
+
+napiši program, ki bo prebral naravno število in izračunal produkt njegovih od 0 različnih števk. Torej št 1203 = 1 x 2 x 3 = 6
 
 
 
