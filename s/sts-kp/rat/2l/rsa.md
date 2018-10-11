@@ -142,3 +142,7 @@ console.log( deliImena.join(" ") ); // rezultat: "Janez Vajkard Valvasor"
 
 Metoda `forEach()` ni podprta v vseh verzijah brskalnikov - naprimer internet explorer je ne podpira razen v tazadnji verziji. Podobno rešitev se da naredit s tem da namesto `forEach()` uporabimo zanko `for`. Razlika je v vrstici kode ali dveh.
 
+<br>
+
+### If stavek
+
