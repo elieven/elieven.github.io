@@ -423,6 +423,36 @@ do {
 
 napiši program, ki bo prebral naravno število in izračunal produkt njegovih od 0 različnih števk. Torej št 1203 = 1 x 2 x 3 = 6
 
+```java
+import java.io.*;
+
+public class MnozenjeRazenNicel {
+  public static void main(String[] args) throws IOException {
+    // dev inputa
+    BufferedReader vhod = new BufferedReader(new InputStreamReader(System.in));
+    // vprasa za stevilo
+    System.out.println("Vnesite naravno število");
+    // st pretvori v int
+    int s = Integer.parseInt(vhod.readLine());
+    // def produkta
+    int p = 1;
+    // dokler je st vecje od nic
+    while (s > 0) {
+      // preveri ce zadnja stevlka ni nic
+      if (s%10 != 0) {
+        // ce je zmnozi produkt s to stevilko
+        p = p * (s%10);
+      }
+      // potem odstrani zadnjo stevilko iz s
+      s = s/10;
+    }
+    // pokaze koncni produkt
+    System.out.println(p);
+  }
+}
+
+
+```
 
 
 [if]: https://res.cloudinary.com/solamona/image/upload/v1537456195/zvs/sts-kp/rac/5l/programiranje/if_statement.jpg
