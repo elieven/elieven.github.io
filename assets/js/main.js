@@ -32,3 +32,22 @@ if (!isMobile) {
 // in potem reče smooth scrollbaru naj scrolla do tam
 // v mobilu to pač nerabiš kr link dela normalno
 // useno pa lahko nardimo za mobile samo nek drug scroll
+
+const back_to_top_btn = document.querySelector('#back-to-top-btn');
+const scrollbar = Scrollbar.get(document.querySelector('#sscon'));
+const scroll_ui_show_threshold = 2000;
+
+back_to_top_btn.addEventListener("click", function(){
+
+  // za napisat custom bezier curve funkcijo iz material design standard easinga
+  scrollbar.scrollTo(0, 0, 300);
+
+});
+
+scrollbar.addListener(function(){
+  if (scrollbar.offset.y > scroll_ui_show_threshold) {
+    back_to_top_btn.className = 'lift';
+  } else {
+    back_to_top_btn.className = '';
+  }
+});
