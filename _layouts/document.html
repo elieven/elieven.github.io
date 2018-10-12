@@ -1,15 +1,46 @@
 ---
-layout: solamona
+layout: default
 ---
 
-<div class="con">
-  {% include breadcrumbs.html %}
-</div>
+<div id="buttons-overlay">
+  <div id="buttons-overlay-wrap">
 
-<div class="docwrap">
-  <div class="doc">
-
-    {{ content }}
+    <button id="back-to-top-btn"></button>
 
   </div>
 </div>
+
+<div id="sscon">
+
+  {% include header.html %}
+
+  <div class="con">
+    {% include breadcrumbs.html %}
+  </div>
+  
+  <div class="docwrap">
+    <div class="doc">
+  
+      {{ content }}
+  
+    </div>
+  </div>
+
+</div>
+
+<!-- javascriptS -->
+<!-- smooth scrollbar -->
+<script type="text/javascript" src="/assets/js/fullss.js"></script>
+<!-- main -->
+<script type="text/javascript" src="/assets/js/main.js"></script>
+
+{% if page.latex %}
+  <!-- MathJax for rendering equations -->
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        extensions: ["tex2jax.js", "TeX/AMSmath.js"],
+        jax: ["input/TeX", "output/SVG"],
+    })
+  </script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=default"></script>
+{% endif %}
