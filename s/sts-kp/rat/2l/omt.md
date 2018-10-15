@@ -97,5 +97,38 @@ Glede na **dolžino filmske predstave** poznamo:
 - **dolgometražni**
 - **kratkometražni**
 
+---
+
+Osnovna žanra filma sta **komedija** in **drama**.
+
+**Komedija** je lahko ***situacijska*** ali pa *karakterna* (situacijska komedija temelji na smešnih dogodkih, **karakterna** pa se ponaša z dobro dodelanimi osebnostmi in značaji).
+
+**Drama** se lahko dogaja v kateremukoli času, sem uvrščamo psihološke drame, westerne, kriminalke ipd.
+
+### Filmi glede na tehniko
+
+#### **Dokumentarni filmi** 
+- so najstarejša in ena najbolj razširjenih sodobnih filmskih zvrsti.
+- Namen dokumentarnih filmov je prikazati (pomembno) resnično dogajanje sodobnemu gledalcu, potomcem pa služi kot dokument.
+- Gre za resnične dogodke iz vsakdanjega življenja, ki so sestavljeni v zaokroženo celoto. Sedaj vanj posegajo tudi umetniške zvrsti.
+- Dokumentarni film ne pozna igralcev.
+
+**Robert J. Flaherty (1884-1951)** velja za očeta dokumentarnega filma (**Nonook s severa** oz. **Nanook of the north**). Slednji velja tudi za prvi dolgometražni dokumentarec.
+
+**Michael Moore** - posnel je dokumentarne filme kot so **Bowling for Columbine, Fahrenheit 9/11, Capitalism - a love story.**
+
+#### Animirani filmi
+
+- To je posebna zvrst, ki zajema risani film in lutkovni film. V njih ustvarjalec uporablja predmete in jih animira (*anima* = duša, *animirati* = vdahniti dušo). Presega meje realnega, liki so običajno karikirani.
+- Filmi so navadno posneti sličico za sličico - za kar je potrebno ogromno dela.
+- Razvoj računalništva je delo ustvarjalcev animiranega filma močno olajšal - risani filmo dobijo nove dimenzije.
+- Utemeljitelj risanega filma je Američan **Walt Disney** (1901 - 1966).
+
+#### Igrani filmi
+
+- so filmi z zgodbo, ki je prikazana s pomočjo igre.
+- Igrani film predstavlja največji del svetovne filmske proizvodnje in se kaže v najrazličnejših žanrih.
+- V dobi nemega filma je igrani film temeljil na pantomimiki (igra brez besed in z gibi). Zvočni film teži k realnim oblikam izražanja. Nudi priložnost igralcem, da se lahko bolje izrazijo.
+
 
 
