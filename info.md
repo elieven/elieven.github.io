@@ -66,3 +66,7 @@ Matematične formule so napisane v __LaTeX__ sintaksi in generirane s sistemom _
 </div>
 
 <br>
+
+### Future ref
+
+- [Cool animation page](https://www.fontface.ninja/)
