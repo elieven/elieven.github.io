@@ -12,6 +12,8 @@ title: OMT • 2. letnik • Računalniški Tehnik • STŠ Koper
    + z animacijo (navidezno oživljanje lutk, predmetov ali risanih figur z njihovim premikanjem),
    + z navidezno resničnistjo (z računalniki izdelamo okolje, ki uporabniku vzbudi občutek prave realnosti).
    
+<br><br>
+
 ## Video
 
  + **_video = vidim (lat.)_**
@@ -28,6 +30,7 @@ title: OMT • 2. letnik • Računalniški Tehnik • STŠ Koper
  
  + Z iznajdbo televizije pa so morali zagotoviti potrebno frekvenčno razliko med video in avdio podatki - slednjo so zagotovili z zaokrožitvijo na 29.97 slik na sekundo.
  
+<br><br>
 
 ## Televizija
 
@@ -56,7 +59,8 @@ title: OMT • 2. letnik • Računalniški Tehnik • STŠ Koper
 
 > tu umes neki manjka
 
- 
+ <br><br>
+
 ## Film kot umetnost
 **Film** štejemo kot **sedmo umetnost** (prvih šest predstavljajo arhitektura, ples, kiparstvo, glasba, slikarstvo in književnost), fotografija spada pod osmo.
 
@@ -104,6 +108,8 @@ Osnovna žanra filma sta **komedija** in **drama**.
 **Komedija** je lahko ***situacijska*** ali pa *karakterna* (situacijska komedija temelji na smešnih dogodkih, **karakterna** pa se ponaša z dobro dodelanimi osebnostmi in značaji).
 
 **Drama** se lahko dogaja v kateremukoli času, sem uvrščamo psihološke drame, westerne, kriminalke ipd.
+
+<br>
 
 ### Filmi glede na tehniko
 
