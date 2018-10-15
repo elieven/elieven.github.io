@@ -8,7 +8,6 @@
 @import predmet
 @import list
 @import breadcrumbs
-@import buttons-overlay
 
 #logo-big
   font-family: 'poppinsregular'
@@ -64,3 +63,69 @@
   font-weight: 400
   text-align: center
   padding: 32px 0 16px 0
+
+
+// button soverlay
+
+#buttons-overlay
+  position: fixed
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  z-index: 200
+  pointer-events: none
+
+  #buttons-overlay-wrap
+    position: relative
+    height: 100%
+    width: 100%
+    max-width: $mw - 16*2
+    margin: 0 auto
+
+$btn-size: 36px
+$spc: $mw + ($btn-size + 32px) * 2
+
+#back-to-top-btn
+  width: $btn-size
+  height: $btn-size
+  background-size: 20px
+  background-position: center
+  background-repeat: no-repeat
+  pointer-events: all!important
+  position: absolute
+  right: - ($btn-size + 16px )
+  bottom: 56px - $btn-size / 2
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgZmlsbD0iIzYwN0Q4QiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTE1LDIwSDlWMTJINC4xNkwxMiw0LjE2TDE5Ljg0LDEySDE1VjIwWiIgLz48L3N2Zz4=)
+  
+  border-radius: .25rem
+  outline: 0
+  background-color: #f1f5f8
+  border: 1px solid #dae1e7
+
+  opacity: 0
+  transform: translateY(150px)
+  transition: all 0.2s ease
+
+  &:hover
+    background-color: #dae1e7
+    border: 1px solid #b8c2cc
+
+  &.lift
+    opacity: 1
+    transform: translateY(0)
+
+
+@media screen and (max-width: $spc)
+  #buttons-overlay-wrap
+    position: static!important
+
+  #back-to-top-btn
+    position: absolute
+    right: 16px + 16px
+    bottom: 20px
+
+
+@media screen and (max-width: $xs)
+  #back-to-top-btn
+    right: 16px
