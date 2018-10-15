@@ -109,7 +109,9 @@ $$ \frac{1}{R} = \frac{1}{R_1} + \frac{1}{R_2} \phantom{a} ... $$
 Izračunaj upor, tok,
 
 
+---
 
+Vaja zajebana ena za dodat
 
 
 [ohmov-trikotnik]: https://image.ibb.co/fUZ48e/ohm_law_triangle.jpg
