@@ -1,7 +1,6 @@
 name: SolaMona
 markdown: kramdown
-#url: https://elieven.github.io
 url: solamona.com
 encoding: UTF-8
 sass:
-    sass_dir: sass
+    sass_dir: _sass
