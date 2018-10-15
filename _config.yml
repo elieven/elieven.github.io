@@ -4,4 +4,4 @@ markdown: kramdown
 url: solamona.com
 encoding: UTF-8
 sass:
-    sass_dir: _sass
+    sass_dir: sass
