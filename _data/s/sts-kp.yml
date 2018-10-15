@@ -118,7 +118,7 @@ programi:
           - predmet: UMN
             code:    umn
             name:    Uporaba Mikroprocesorskih Naprav
-            status:  nic
+            status:  wip
 
           - predmet: RSA
             code:    rsa
