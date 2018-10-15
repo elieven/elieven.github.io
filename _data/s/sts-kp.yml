@@ -98,7 +98,7 @@ programi:
           - predmet: OMT
             code:    omt
             name:    Oprema za Multimedisjsko Tehniko
-            status:  nic
+            status:  wip
 
           - predmet: Programiranje
             code:    programiranje

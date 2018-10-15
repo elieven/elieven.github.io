@@ -129,6 +129,3 @@ Osnovna žanra filma sta **komedija** in **drama**.
 - so filmi z zgodbo, ki je prikazana s pomočjo igre.
 - Igrani film predstavlja največji del svetovne filmske proizvodnje in se kaže v najrazličnejših žanrih.
 - V dobi nemega filma je igrani film temeljil na pantomimiki (igra brez besed in z gibi). Zvočni film teži k realnim oblikam izražanja. Nudi priložnost igralcem, da se lahko bolje izrazijo.
-
-
-
