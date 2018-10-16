@@ -311,9 +311,9 @@ default:
 
 <br><br>
 
-## Vaje
+### Vaje
 
-### Potovanje vlaka
+#### Potovanje vlaka
 
 Napiši program, ki sprejme čas odhoda in čas prihoda vlaka, ter nam izpiše trajanje potovanja.
 
@@ -418,8 +418,11 @@ do {
 	koda
 } while (pogoj)
 ```
+<br><br>
 
-### Vaja
+### Vaje
+
+#### Vaja 1
 
 napiši program, ki bo prebral naravno število in izračunal produkt njegovih od 0 različnih števk. Torej št 1203 = 1 x 2 x 3 = 6
 
@@ -454,7 +457,7 @@ public class MnozenjeRazenNicel {
 
 ```
 
-### Vaja
+#### Vaja 2
 
 Napiši program, ki sprejme 2 naravni števili, in nam pove koliko večkratnikov števila sedem je vmes.
 
