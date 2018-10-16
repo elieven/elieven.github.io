@@ -454,6 +454,47 @@ public class MnozenjeRazenNicel {
 
 ```
 
+### Vaja
+
+Napiši program, ki sprejme 2 naravni števili, in nam pove koliko večkratnikov števila sedem je vmes.
+
+```java
+import java.io.*;
+
+public class VeckratnikiSedmice {
+  public static void main(String[] args) throws IOException {
+    
+    // dev inputa
+    BufferedReader vhod = new BufferedReader(new InputStreamReader(System.in));
+    
+    // vprasa za stevili
+    System.out.println("Vnesite prvo naravno število");
+    int st1 = Integer.parseInt(vhod.readLine());
+    
+    System.out.println("Vnesite drugo naravno število");
+    int st2 = Integer.parseInt(vhod.readLine());
+    
+    // racunanje
+    int vmes = 0;
+    
+    if ( st1 != st2 ) {
+      if ( st1 > st2 ) {
+        vmes = st1 - st2;
+      }
+      else {
+        vmes = st2 - st1;
+      }
+    } else {
+      System.out.println("Števili ne smeta biti enaki");
+    }
+    
+    int stsed = (vmes - vmes % 7) / 7;
+    System.out.println("Med temi števili je " + stsed + " večkratnikov števila 7.");
+    
+  }
+}
+```
+
 
 [if]: https://res.cloudinary.com/solamona/image/upload/v1537456195/zvs/sts-kp/rac/5l/programiranje/if_statement.jpg
 [ifelse]: https://res.cloudinary.com/solamona/image/upload/v1537456152/zvs/sts-kp/rac/5l/programiranje/if_else_statement.jpg
