@@ -4,75 +4,14 @@ latex: true
 title: Kemija • 1. letnik • Računalniški Tehnik • STŠ Koper
 ---
 
-# KEMIJA <!-- omit in toc -->
+# KEMIJA
+{: .no_toc}
 
-## Vsebina: <!-- omit in toc -->
+## Vsebina:
+{: .no_toc}
 
-- [Mehanske lastnosti](#mehanske-lastnosti)
-    - [Električna prevodnost](#električna-prevodnost)
-    - [Toplotna prevodnost](#toplotna-prevodnost)
-    - [Obstojnost](#obstojnost)
-    - [Gostota snovi](#gostota-snovi)
-- [Metode ločevanja zmesi in čiščenja snovi](#metode-ločevanja-zmesi-in-čiščenja-snovi)
-    - [Sejanje](#sejanje)
-    - [Dekantiranje / odlivanje](#dekantiranje--odlivanje)
-    - [Centrifugiranje](#centrifugiranje)
-    - [Sublimacija](#sublimacija)
-    - [Filtracija](#filtracija)
-    - [Izhlapevanje / izparevanje](#izhlapevanje--izparevanje)
-    - [Ločevanje z magnetom](#ločevanje-z-magnetom)
-    - [Destilacija](#destilacija)
-    - [Ločevanje z lijem ločnikom](#ločevanje-z-lijem-ločnikom)
-- [Osnove toksikologije](#osnove-toksikologije)
-  - [Izpostavljenost](#izpostavljenost)
-  - [Strupi](#strupi)
-  - [Odnos med učinkom in odmerkom](#odnos-med-učinkom-in-odmerkom)
-  - [Označevanje nevarnih snovi](#označevanje-nevarnih-snovi)
-  - [Stavki o nevarnosti](#stavki-o-nevarnosti)
-- [Zgradba atoma](#zgradba-atoma)
-  - [Izotopi](#izotopi)
-- [Jedrska energija](#jedrska-energija)
-- [Element ali prvina](#element-ali-prvina)
-  - [Simboli elementov](#simboli-elementov)
-  - [Periodni sistem](#periodni-sistem)
-- [Kovine](#kovine)
-  - [Alkalijske kovine](#alkalijske-kovine)
-    - [Aluminij (Al)](#aluminij-al)
-    - [Zlato (Au)](#zlato-au)
-    - [Baker (Cu)](#baker-cu)
-    - [Železo (Fe)](#Železo-fe)
-    - [Titan (Ti)](#titan-ti)
-  - [Zlitine ali legure](#zlitine-ali-legure)
-    - [Jeklo](#jeklo)
-    - [Bron](#bron)
-    - [Cin](#cin)
-    - [Amalgam](#amalgam)
-- [Polkovine](#polkovine)
-    - [Silicij](#silicij)
-- [Nekovine](#nekovine)
-    - [Vodik (H)](#vodik-h)
-    - [Kisik (O)](#kisik-o)
-    - [Dušik (N)](#dušik-n)
-- [Halogeni elementi](#halogeni-elementi)
-    - [Fluor (F)](#fluor-f)
-    - [Klor (Cl)](#klor-cl)
-    - [Brom (Br)](#brom-br)
-    - [Jod (I)](#jod-i)
-- [Žlahtni plini](#Žlahtni-plini)
-  - [Zrak in plini](#zrak-in-plini)
-  - [Plini](#plini)
-  - [Lastnosti plinov](#lastnosti-plinov)
-  - [Ogljikov dioksid (CO<sub>2</sub>)](#ogljikov-dioksid-cosub2sub)
-- [Pojav tople grede](#pojav-tople-grede)
-  - [Izvor toplogrednih plinov](#izvor-toplogrednih-plinov)
-  - [Toplogredni plini](#toplogredni-plini)
-  - [Posledice globalnega segrevanja](#posledice-globalnega-segrevanja)
-  - [Reševanje problema](#reševanje-problema)
-- [Obnovljivi viri energije](#obnovljivi-viri-energije)
-  - [Sončna energija](#sončna-energija)
-  - [Vodna energija](#vodna-energija)
-  - [Biomasa](#biomasa)
-  - [Geotermalna energija](#geotermalna-energija)
+- TOC
+{:toc}
 
 <br><br>
 
@@ -502,7 +441,7 @@ Ne prevajajo električnega toka (razen grafita) in slabo prevajajo toploto. Najd
 
 ## Halogeni elementi
 
-\\( \mathrm{  F_2, Cl_2, Br_2, I_2} \\)
+![F](https://res.cloudinary.com/solamona/image/upload/v1539688740/spl/per_el/92px/09-Fluorine-Tile.png) ![Cl](https://res.cloudinary.com/solamona/image/upload/v1539688743/spl/per_el/92px/17-Chlorine-Tile.png) ![Br](https://res.cloudinary.com/solamona/image/upload/v1539688750/spl/per_el/92px/35-Bromine-Tile.png) ![I](https://res.cloudinary.com/solamona/image/upload/v1539688757/spl/per_el/92px/53-Iodine-Tile.png)
 
 #### Fluor (F)
 
@@ -537,9 +476,11 @@ Ne prevajajo električnega toka (razen grafita) in slabo prevajajo toploto. Najd
 
 ## Žlahtni plini
 
+![He](https://res.cloudinary.com/solamona/image/upload/v1539688737/spl/per_el/92px/02-Helium-Tile.png) ![Ne](https://res.cloudinary.com/solamona/image/upload/v1539688740/spl/per_el/92px/10-Neon-Tile.png) ![Ar](https://res.cloudinary.com/solamona/image/upload/v1539688743/spl/per_el/92px/18-Argon-Tile.png) ![Kr](https://res.cloudinary.com/solamona/image/upload/v1539688751/spl/per_el/92px/36-Krypton-Tile.png) ![Xe](https://res.cloudinary.com/solamona/image/upload/v1539688757/spl/per_el/92px/54-Xenon-Tile.png)
+
 So zelo stabilni in nereaktivni plini.
 
-$$ \mathrm{  He, Ne, Ar, Kr, Xe  } $$
+<br>
 
 ### Zrak in plini
 
@@ -553,7 +494,7 @@ $$ \mathrm{  He, Ne, Ar, Kr, Xe  } $$
 
 |          Ime in formula           |              Uporaba              |
 | --------------------------------- | --------------------------------- |
-| \\(\mathrm{ He }\\) - helij                        | baloni                            |
+| \\(\mathrm{ He }\\) - helij              | baloni                  |
 | \\(\mathrm{ N_2 }\\) - dušik             | hlajenje, zmrzovanje              |
 | \\(\mathrm{ CO_2 }\\) - ogljikov dioksid | gasilno sredstvo, gaziranje pijač |
 | \\(\mathrm{ NH_3 }\\) - amonijak         | gnojilo                           |

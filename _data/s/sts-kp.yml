@@ -86,7 +86,7 @@ programi:
           - predmet: UIKST
             code:    uikst
             name:    Upravljanje IK Sistemov
-            status:  pmd
+            status:  done
 
       - letnik: 2
         predmeti:

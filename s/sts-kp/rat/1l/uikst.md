@@ -1,44 +1,18 @@
 ---
 layout: document
 title: UIKST • 1. letnik • Računalniški Tehnik • STŠ Koper
+latex: true
 ---
 
-# UIKST <!-- omit in toc -->
+# UIKST
+{: .no_toc}
 
-## Vsebina: <!-- omit in toc -->
+## Vsebina:
+{: .no_toc}
 
-- [OSNOVE RAČUNALNIŠKEGA OMREŽJA](#osnove-raČunalniŠkega-omreŽja)
-    - [Elementi rač. omrežja:](#elementi-rač-omrežja)
-  - [Delitev omrežja glede na geografski obseg](#delitev-omrežja-glede-na-geografski-obseg)
-- [DOSTOP DO OMREŽJA](#dostop-do-omreŽja)
-  - [Modemski dostop](#modemski-dostop)
-  - [Širokopasovni dostop](#Širokopasovni-dostop)
-    - [Tehnologija DSL](#tehnologija-dsl)
-    - [Tehnologija HFC (hibridno omrežje)](#tehnologija-hfc-hibridno-omrežje)
-    - [Tehnologija FTTH (Optika do doma - Fiber To The Home)](#tehnologija-ftth-optika-do-doma---fiber-to-the-home)
-  - [Dostop preko satelitske povezave](#dostop-preko-satelitske-povezave)
-  - [Brezžični dostop](#brezžični-dostop)
-    - [Brezžično lokalno omrežje (WiFi)](#brezžično-lokalno-omrežje-wifi)
-    - [Brezžični dostop širokega spektra](#brezžični-dostop-širokega-spektra)
-- [PRENOSNA SREDSTVA](#prenosna-sredstva)
-  - [Parica](#parica)
-  - [Koaksialni kabel](#koaksialni-kabel)
-  - [Optični kabel](#optični-kabel)
-- [VEČPLASTNA ARHITEKTURA](#veČplastna-arhitektura)
-  - [Referenčni model osi](#referenčni-model-osi)
-    - [Referenčni model TCP/IP](#referenčni-model-tcpip)
-- [Aplikacijski sloj](#aplikacijski-sloj)
-  - [Splet (Aplikacija Web)](#splet-aplikacija-web)
-  - [Piškotki](#piškotki)
-  - [Proxy strežnik](#proxy-strežnik)
-  - [Eleketronska pošta](#eleketronska-pošta)
-  - [Aplikacija prenos datotek](#aplikacija-prenos-datotek)
-  - [Aplikacija DNS](#aplikacija-dns)
-- [Transportni sloj](#transportni-sloj)
-  - [Kontrola napak](#kontrola-napak)
-    - [Postopek računanja kontrolnih bitov](#postopek-računanja-kontrolnih-bitov)
-- [Mrežni sloj](#mrežni-sloj)
-  - [Naslavljanje IPv4](#naslavljanje-ipv4)
+- TOC
+{:toc}
+
 
 <br><br>
 
@@ -251,7 +225,7 @@ Naloga transportnega sloja je zagotavljanje **logične** komunikacije med proces
 
 ![diagram pošiljanja segmenta iz aplikacijskega v aplikacijski sloj preko transportnega][posiljanje-segmenta]
 
-Na prejemni strani transportni sloj iz segmenta "izvleče" sporočilo (zahteva) in ga šreda ustreznemu procesu aplikacije.
+Na prejemni strani transportni sloj iz segmenta "izvleče" sporočilo (zahteva) in ga preda ustreznemu procesu aplikacije.
 
 Izvajata se dva protokola: **TCP** in **UDP**. Osnovni nalogi obeh sta multipleksiranje (in demultipleksiranje) podatkov in odkrivanje napak.
 
@@ -280,13 +254,85 @@ Preveri se , da se biti tekom prenosa niso spremenili. Protokola UDP in TCP na s
 
 ![diagram kontrolnih bitov v segmentu][kontrolni-biti]
 
+<br>
+
 #### Postopek računanja kontrolnih bitov
 
-![Slika postopka računanja]()
+Začnemo s številom, ki mu želimo izračunati kontrolne bite in s številom `k`, ki nam pove na kako velike dele razdelimo število.
 
-Na strani prejemnika protokola (UDP, TCP) med sabo seštejeta bite podatkov in bite v polju kontrole. Seštevek mora vsebovati same enice. V primeru, da seštevek vsebuje ničlo, vemo, da je med prenosom prišlo do napake.
+V tem primeru je `št = 110110001111000` in `k = 3`. Najprej razdelimo število na dele velikosti `k` in dobimo `110 110 000 111 000`. Napišemo si jih tako, od desne proti levi in od zgoraj navzdol. Zraven si napišemo št. 2 saj bomo z njim delili vsa števila.
 
-<br>
+$$
+
+\begin{matrix}
+
+0 & 0 & 0 \\
+1 & 1 & 1 \\
+0 & 0 & 1 \\
+1 & 1 & 0 \\
+1 & 1 & 0  & _2\\
+\hline\\
+
+\end{matrix}
+
+$$
+
+Seštejemo prvi stolpec (začnemo na desni in nadaljujemo levo). Seštevek delimo s št. 2 in ostanek napišemo pod stolpec, celi del rezultata pa prenesemo naprej. `2 : 2 = 1, ost. 0` torej pod stolpec napišemo 0 in 1 prenesemo naprej.
+
+$$
+
+\begin{matrix}
+
+0 & 0 & 0 \\
+1 & 1 & 1 \\
+0 & 0 & 1 \\
+1 & 1 & 0 \\
+1 & 1_{\color{red}1} & 0  & _2\\
+\hline
+& & {\color{red}0}
+
+\end{matrix}
+
+$$
+
+To ponavljamo dokler nam ne ostane nič več.
+
+$$
+
+\begin{matrix}
+
+& & 0 & 0 & 0 \\
+& & 1 & 1 & 1 \\
+& & 0 & 0 & 1 \\
+& & 1 & 1 & 0 \\
+_1 & _2 & 1_2 & 1_1 & 0 & _2\\
+\hline
+1 & 0 & \color{red}{1} & \color{red}{0} & \color{red}{0}
+
+\end{matrix}
+
+$$
+
+Potem zadnje `k` bitov negiramo in jih dodamo na konec prvega števila `110 110 000 111 000 011`. Še enkrat seštejemo števila in preverimo, če so zadnji `k` biti enice, ker na strani prejemnika protokola (UDP, TCP) med sabo seštejeta bite podatkov in bite v polju kontrole. Seštevek mora vsebovati same enice. V primeru, da seštevek vsebuje ničlo, vemo, da je med prenosom prišlo do napake.
+
+$$
+
+\begin{matrix}
+
+& & 1 & 1 & 0 \\
+& & 1 & 1 & 0 \\
+& & 0 & 0 & 1 \\
+& & 1 & 1 & 1 \\
+& & 0 & 0 & 0 \\
+& & 0 & 1_1 & 1 & _2 \\
+\hline
+1 & 0 & \color{red}{1} & \color{red}{1} & \color{red}{1}
+
+\end{matrix}
+
+$$
+
+<br><br>
 
 ## Mrežni sloj
 

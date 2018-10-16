@@ -477,10 +477,12 @@ public class VeckratnikiSedmice {
     System.out.println("Vnesite drugo naravno število");
     int st2 = Integer.parseInt(vhod.readLine());
     
-    // racunanje
+    // definiramo spremelnjivko za shranit razliko med stevili
     int vmes = 0;
     
+    // preverimo če sta števili različni, če niso opozorimo
     if ( st1 != st2 ) {
+      // pogledamo katero št je večje in od njega odštejemo manjše
       if ( st1 > st2 ) {
         vmes = st1 - st2;
       }
@@ -491,12 +493,17 @@ public class VeckratnikiSedmice {
       System.out.println("Števili ne smeta biti enaki");
     }
     
+    // od št odstranimo nedeljivi ostanek in potem delimo in dobimo točno število
     int stsed = (vmes - vmes % 7) / 7;
     System.out.println("Med temi števili je " + stsed + " večkratnikov števila 7.");
     
   }
 }
 ```
+
+V tej nalogi bi `vmes` lahko definirali kot double in delili normalno, potem pa pretvorili v **int** kar bi odstranilo ostanek.
+
+
 
 
 [if]: https://res.cloudinary.com/solamona/image/upload/v1537456195/zvs/sts-kp/rac/5l/programiranje/if_statement.jpg
