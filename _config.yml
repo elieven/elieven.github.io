@@ -2,5 +2,3 @@ name: SolaMona
 markdown: kramdown
 url: solamona.com
 encoding: UTF-8
-sass:
-    style: compressed
