@@ -37,9 +37,11 @@ back_to_top_btn.addEventListener("click", function () {
   scrollbar.scrollTo(0, 0, 300);
 
   // odstrani linked header
-  let pageUrl = window.location.href;
-  let url = pageUrl.slice(0, pageUrl.indexOf('#'));
-  history.pushState({}, "zvezek", url);
+  if (window.location.href.indexOf('#') > 0) {
+    let pageUrl = window.location.href;
+    let url = pageUrl.slice(0, pageUrl.indexOf('#'));
+    history.pushState({}, "zvezek", url);
+  }
 });
 
 window.setInterval(function () {
