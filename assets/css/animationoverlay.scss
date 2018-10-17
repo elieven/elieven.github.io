@@ -1,0 +1,17 @@
+#animation-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 300;
+  pointer-events: none;
+
+  #link-animation {
+    $d: 56px;
+    width: $d;
+    height: $d;
+    background-color: dodgerblue;
+  }
+}
+    

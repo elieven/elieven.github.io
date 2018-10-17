@@ -3,58 +3,14 @@ layout: document
 title: Biologija • 1. letnik • Splošna Smer • Gimnazija Koper
 ---
 
-# BIOLOGIJA <!-- omit in toc -->
+# BIOLOGIJA
+{: .no_toc}
 
-## Vsebina: <!-- omit in toc -->
+## Vsebina:
+{: .no_toc}
 
-- [Gradniki življenja - atomi in molekule](#gradniki-življenja---atomi-in-molekule)
-  - [Biogeni elementi](#biogeni-elementi)
-  - [Voda](#voda)
-    - [Lastnosti vode](#lastnosti-vode)
-- [Organske molekule v celici](#organske-molekule-v-celici)
-  - [Ogljikovi hidrati](#ogljikovi-hidrati)
-    - [Zgradba](#zgradba)
-    - [Delimo jih na:](#delimo-jih-na)
-    - [Lastnosti ogljikovih hidratov](#lastnosti-ogljikovih-hidratov)
-    - [Polisaharidi](#polisaharidi)
-  - [Beljakovine](#beljakovine)
-    - [Zgradba](#zgradba-1)
-    - [Biološki pomen beljakovin](#biološki-pomen-beljakovin)
-    - [Primarna, sekundarna, terciarna in kvartarna zgradba beljakovin](#primarna-sekundarna-terciarna-in-kvartarna-zgradba-beljakovin)
-      - [Primarna zgradba](#primarna-zgradba)
-      - [Sekundarna zgradba](#sekundarna-zgradba)
-      - [Terciarna zgradba](#terciarna-zgradba)
-      - [Kvartarna zgradba beljakovin](#kvartarna-zgradba-beljakovin)
-    - [Denaturacija beljakovin](#denaturacija-beljakovin)
-  - [Lipidi](#lipidi)
-    - [Maščobe](#maščobe)
-      - [Pomen maščob](#pomen-maščob)
-    - [Fosfolipidi](#fosfolipidi)
-      - [Liposom](#liposom)
-    - [Steroidi](#steroidi)
-      - [Naravni steroidi](#naravni-steroidi)
-      - [Umetni steroidi](#umetni-steroidi)
-      - [Doping](#doping)
-  - [Vitamini](#vitamini)
-- [Celica in njeni organeli](#celica-in-njeni-organeli)
-  - [Velikost celice](#velikost-celice)
-  - [Ločljivost človeškega očesa](#ločljivost-človeškega-očesa)
-  - [Zgradba prokarionske celice](#zgradba-prokarionske-celice)
-  - [Evkariontska celica](#evkariontska-celica)
-  - [Primerjava živalske in rastlinske celice](#primerjava-živalske-in-rastlinske-celice)
-  - [Celični organeli](#celični-organeli)
-    - [Celična membrana - plazmalema](#celična-membrana---plazmalema)
-    - [Jedro](#jedro)
-    - [Vakuola](#vakuola)
-    - [Plastidi](#plastidi)
-    - [Izvor kloroplastidov in mitohondrijev](#izvor-kloroplastidov-in-mitohondrijev)
-    - [Celična stena](#celična-stena)
-- [Delitev celice](#delitev-celice)
-  - [Delitev prokariontske celice](#delitev-prokariontske-celice)
-  - [Delitev evkariontske celice](#delitev-evkariontske-celice)
-    - [Delitev jedra](#delitev-jedra)
-    - [Delitev plazme - citokineza](#delitev-plazme---citokineza)
-    - [Metafaza](#metafaza)
+- TOC
+{:toc}
 
 <br><br>
 

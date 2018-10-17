@@ -4,6 +4,19 @@ title: IEKI • 1. letnik • Računalnikar • STŠ Koper
 ---
 
 # Izdelava Elektronskih Komunikacijskih Inštalacij
+{: .no_toc}
+
+## Vsebina:
+{: .no_toc}
+
+- TOC
+{:toc}
+
+<br><br>
+
+---
+
+<br><br>
 
 ## Omrežja
 
