@@ -4,6 +4,19 @@ title: Programiranje • 2. letnik • Računalniški Tehnik • STŠ Koper
 ---
 
 # Programiranje
+{: .no_toc}
+
+## Vsebina:
+{: .no_toc}
+
+- TOC
+{:toc}
+
+<br><br>
+
+---
+
+<br><br>
 
 Programer ustvarja nove programe ali sestavne dele programa po dogovorjenih pravilih. Razvijajo programsko opremo. Programiranju rečemo tudi **kodiranje**. Za reševanje določenih problemov uporabljamo **programske jezike**.
 
@@ -422,7 +435,7 @@ do {
 
 ### Vaje
 
-#### Vaja 1
+#### Vaja 1 - množenje števk ki niso 0
 
 napiši program, ki bo prebral naravno število in izračunal produkt njegovih od 0 različnih števk. Torej št 1203 = 1 x 2 x 3 = 6
 
@@ -453,57 +466,176 @@ public class MnozenjeRazenNicel {
     System.out.println(p);
   }
 }
-
-
 ```
 
-#### Vaja 2
+#### Vaja 2 - večkratniki števila 7 med dvemi števili
 
 Napiši program, ki sprejme 2 naravni števili, in nam pove koliko večkratnikov števila sedem je vmes.
 
 ```java
 import java.io.*;
 
+// primer: sprejme 5 in 15. vmes sta dva veckratnika (7 in 14)
+
 public class VeckratnikiSedmice {
   public static void main(String[] args) throws IOException {
-    
-    // dev inputa
+
     BufferedReader vhod = new BufferedReader(new InputStreamReader(System.in));
-    
-    // vprasa za stevili
+    // vpraša za število
     System.out.println("Vnesite prvo naravno število");
     int st1 = Integer.parseInt(vhod.readLine());
     
     System.out.println("Vnesite drugo naravno število");
     int st2 = Integer.parseInt(vhod.readLine());
     
-    // definiramo spremelnjivko za shranit razliko med stevili
-    int vmes = 0;
+    int stVec = 0;
     
-    // preverimo če sta števili različni, če niso opozorimo
-    if ( st1 != st2 ) {
-      // pogledamo katero št je večje in od njega odštejemo manjše
-      if ( st1 > st2 ) {
-        vmes = st1 - st2;
+    for (int i = st1+1; i < st2; i++ ) {
+      if (i%7==0) {
+        stVec++;
       }
-      else {
-        vmes = st2 - st1;
-      }
-    } else {
-      System.out.println("Števili ne smeta biti enaki");
     }
     
-    // od št odstranimo nedeljivi ostanek in potem delimo in dobimo točno število
-    int stsed = (vmes - vmes % 7) / 7;
-    System.out.println("Med temi števili je " + stsed + " večkratnikov števila 7.");
-    
+    System.out.println("Stevilo veckratnikov: "+stVec);
   }
 }
 ```
 
-V tej nalogi bi `vmes` lahko definirali kot double in delili normalno, potem pa pretvorili v **int** kar bi odstranilo ostanek.
+#### Vaja 3 - pretvorba iz desetiškega v dvojiško število
 
+Pretvori desetiško število v dvojiško.
 
+```java
+import java.io.*;
+
+// primer: 3 = 00000011
+
+public class DesToDv {
+  public static void main(String[] args) throws IOException {
+    
+    BufferedReader vhod = new BufferedReader(new InputStreamReader(System.in));
+    
+    System.out.println("Vnesite desetiško število");
+    
+    int dec = Integer.parseInt(vhod.readLine());
+    int ost = 0;
+    String bin = "";
+    
+    while (rez > 0) {
+      
+      ost = dec % 2;
+      dec = dec / 2;
+      bin = ost + "" + bin;
+      
+    }
+    
+    System.out.println("Dvojiska verzija stevila je: " + bin);
+  }
+}
+```
+
+#### Vaja 4 - pretvorba iz desetiškega v osmiško število
+
+Pretvori desetiško število v osmiško.
+
+```java
+import java.io.*;
+
+public class DesToOct {
+  public static void main(String[] args) throws IOException {
+    
+    BufferedReader vhod = new BufferedReader(new InputStreamReader(System.in));
+    
+    System.out.println("Vnesite desetiško število");
+    
+    int dec = Integer.parseInt(vhod.readLine());
+    int ost = 0;
+    String oct = "";
+    
+    while (dec > 0) {
+      
+      ost = dec % 8;
+      dec = dec / 8;
+      oct = ost + "" + oct;
+      
+    }
+    
+    System.out.println("Oktalna verzija stevila je: " + oct);
+  }
+}
+```
+
+#### Vaja 5 - pretvorba iz desetiškega v šestnajstiško
+
+Pretvori desetiško število v šestnajstiško.
+
+```java
+import java.io.*;
+
+public class DesToHex {
+  public static void main(String[] args) throws IOException {
+    
+    BufferedReader vhod = new BufferedReader(new InputStreamReader(System.in));
+    
+    System.out.println("Vnesite desetiško število");
+    
+    int dec = Integer.parseInt(vhod.readLine());
+    int ost = 0;
+    String hex = "";
+    String[] nums = {"0","1","2","3","4","5","6","7","8","9","A","B","C","D","E","F"};
+    
+    while (dec > 0) {
+      
+      ost = dec % 16;
+      dec = dec / 16;
+      hex = nums[ost] + "" + hex;
+      
+    }
+    
+    System.out.println("Sestnajstiska verzija stevila je: " + hex);
+  }
+}
+```
+
+#### Vaja 6 - večkratniki 7 z enicami večjimi kot stoticami
+
+Izpiši vse 3 mestne večkratnike števila 7, ki imajo enice večje kot stotice. Števila naj se izpišejo po 5 v vrsto.
+
+```java
+import java.io.*;
+
+public class VeckratnikiSedemVecjeEniceKotStotice {
+  public static void main(String[] args) throws IOException {
+    
+    BufferedReader vhod = new BufferedReader(new InputStreamReader(System.in));
+    
+    int min = 105; // najmanjsi trimestni veckrat
+    int max = 999; // najvecje mozno tromestno stevilo
+    
+    int maxLineWidth = 5; // najvec stevil kar je lahko v eni vrstici
+    int curLinePos = 1; // trenutna pozicija v liniji
+    
+    while (min <= max) {
+       
+      // preveri ce so enice vecje od stotic
+      if (min%10 > min/100) {
+        
+        if (curLinePos % maxLineWidth != 0) {
+          System.out.print(min + " ");
+        } else {
+          System.out.println(min + " ");
+        }
+        curLinePos++;
+      }
+      min = min + 7;
+    }
+  }
+}
+```
+
+#### Vaja 7 - računanje točk in zmag v nogometu
+
+Napiši program, ki sprejme število točk od ekipe in število odigranih tekem (nogomet). Izpišite na kakšen način je možno doseči tako število točk.
 
 
 [if]: https://res.cloudinary.com/solamona/image/upload/v1537456195/zvs/sts-kp/rac/5l/programiranje/if_statement.jpg

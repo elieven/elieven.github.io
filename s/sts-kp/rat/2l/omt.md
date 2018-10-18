@@ -71,7 +71,9 @@ title: OMT • 2. letnik • Računalniški Tehnik • STŠ Koper
  
  + Digitalna televizija (DTV) je naslednica običajne (analogne) televizije. Najopaznejši izboljšavi DTV sta kvalitetnejša slika in možnost vpliva gledalca na program (interaktivnost).
 
-## Vrste digitalne televizije
+<br>
+
+### Vrste digitalne televizije
 
 Poznamo več različnih vrst digitalne TV:
 + Satelitska digitalna TV (DVB-S; oddajnik nameščen na satelitu).
@@ -80,10 +82,14 @@ Poznamo več različnih vrst digitalne TV:
 + Mobilna digitalna TV (DVB-H; sprejem digitalnih programov na mobilnih napravah).
 + IPTV (končni uporabnik mora biti priključen na telefonsko ali optično omrežje in mora biti naročen na internetni paket ponudnika; npr. SIOL TV).
 
+<br><br>
+
 ## Zasloni
 
 LCD - zaslon (angl. **Liqud Crystal Display**)
 + ali zaslon s tekočimi kristali je zaslon, izdelan v tehnologiji tekočih kristalov. Najpogosteje ga srečamo v računalniških zaslonih in televizijskih sprejemnikih. Nadomestil je katodno cev (CRT - **Cathode Ray Tube**).
+
+<br>
 
 ### Vrste tehnologij zaslonov
 

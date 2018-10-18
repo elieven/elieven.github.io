@@ -4,40 +4,20 @@ latex: true
 title: UIKS • 2. letnik • Računalniški Tehnik • STŠ Koper
 ---
 
-# Upravljanje IK Sistemov <!-- omit in toc -->
+# Upravljanje IK Sistemov
+{: .no_toc}
 
-- [Tvorjenje omrežij](#tvorjenje-omrežij)
-  - [Dodeljevanje IP naslovov napravam](#dodeljevanje-ip-naslovov-napravam)
-    - [Delovanje](#delovanje)
-  - [NAT sistem](#nat-sistem)
-    - [NAT tabela](#nat-tabela)
-  - [IPv6](#ipv6)
-    - [Primer:](#primer)
-- [Metoda usmerjanja in posredovanja](#metoda-usmerjanja-in-posredovanja)
-  - [Algoritem Dijksta](#algoritem-dijksta)
-- [Linijski sloj](#linijski-sloj)
-  - [Povezovalni sloj](#povezovalni-sloj)
-  - [Tehnike odkrivanja in odpravljanja napak](#tehnike-odkrivanja-in-odpravljanja-napak)
-- [Dostop do povezav in protokoli](#dostop-do-povezav-in-protokoli)
-- [Lokalno omrežje (LAN)](#lokalno-omrežje-lan)
-  - [Najavljanje na linijskem sloju](#najavljanje-na-linijskem-sloju)
-    - [MAC naslov](#mac-naslov)
-    - [ARP protokol (adress resolution protocol)](#arp-protokol-adress-resolution-protocol)
-  - [Pošiljanje znotraj istega omrežja](#pošiljanje-znotraj-istega-omrežja)
-  - [Pošiljanje v drugo omrežje](#pošiljanje-v-drugo-omrežje)
-- [Fizični sloj](#fizični-sloj)
-  - [Topologija omrežja (zgradba)](#topologija-omrežja-zgradba)
-  - [Vodilo](#vodilo)
-  - [Zvezda](#zvezda)
-  - [Obroč](#obroč)
-  - [Polna](#polna)
-  - [Načini pošiljanja paketkov](#načini-pošiljanja-paketkov)
+## Vsebina:
+{: .no_toc}
+
+- TOC
+{:toc}
 
 <br><br>
 
 ---
 
-<br>
+<br><br>
 
 ## Tvorjenje omrežij
 
