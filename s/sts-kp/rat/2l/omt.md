@@ -56,12 +56,59 @@ title: OMT • 2. letnik • Računalniški Tehnik • STŠ Koper
  
  + Izoblikovali in poimenovali so nov barvni model **_YCbCr_**, ki se od takrat uporablja za prikaz videa.
  
+ + Digitalna televizija (DTV) je naslednica običajne (analogne) televizije. Najopaznejši izboljšavi DTV sta kvalitetnejša slika in možnost vpliva gledalca na program (interaktivnost).
 
-> tu umes neki manjka
+## Vrste digitalne televizije
+
+Poznamo več različnih vrst digitalne TV:
++ Satelitska digitalna TV (DVB-S; oddajnik nameščen na satelitu).
++ Zemeljska digitalna TV (DVB-T) ali DTT (podobna satelitski, upravlja obstječe sprejemne antene, uporabnik mora imeti ustrezni digitalni sprejemnik).
++ Kabelsko digitalna TV (DVB-C; signal potuje, namesto preko anten, preko koaksialnega kabla ali optičnih vlaken; na istem priključku imamo lahko istočasno še širokopasovni internet).
++ Mobilna digitalna TV (DVB-H; sprejem digitalnih programov na mobilnih napravah).
++ IPTV (končni uporabnik mora biti priključen na telefonsko ali optično omrežje in mora biti naročen na internetni paket ponudnika; npr. SIOL TV).
+
+## Zasloni
+
+LCD - zaslon (angl. **Liqud Crystal Display**)
++ ali zaslon s tekočimi kristali je zaslon, izdelan v tehnologiji tekočih kristalov. Najpogosteje ga srečamo v računalniških zaslonih in televizijskih sprejemnikih. Nadomestil je katodno cev (CRT - **Cathode Ray Tube**).
+
+### Vrste tehnologij zaslonov
+
+CCFL (**Cold-Cathode Fluorescent Lamps**) LCD
++ izvor svetlobe je običajna neonska svetilka(vgrajenih je od 6-20, odvisno od velikosti zaslona). Življenjska doba znaša okrog 60.000 delovnih ur in se izteče ko svetilnost zaslona pade na 50% prvotne.
+
+DIRECT LED LCD
++ izvor svetlobe so bele LED diode, nameščene enakomerno preko cele površine vgrajenega zaslona.
++ so med seboj povezane, vedno svetijo z enako močjo, njihova svetilnost se lahko nastavlja.
++ DIRECT LED je v primerjavi z običajnim CCFL zaslonom svetlejši, dosega dinamično kontrastno razmerje, ima daljšo življenjsko dobo (100.000 delovnih ur) in približno 40% nižjo porabo energije.
++ svetlinos zaslona je skozi življenjsko dobo praktično konstantna.
+
+EDGE LED LCD
++ izvor svetlobe so bele LED diode, anmeščene ob robovih vgrajenega zaslona.
++ posebna struktura, v zaslonu njihovo svetlobo enakomerno porazdeli prek celotne površine.
++ debelina zaslona znaša približno 1cm, aparata pa 4cm.
++ EDGE LED je primerljiv z zaslonom DIRECT LED, vendar je tanjši.
+
+Micro Dimming pri naprednejših LED LCD televizorjih omogoča lokalno nadziranje osvetljevanja in zatemnjevanja zaslona, kar izboljša kontrast, barvo in ostrino slike.
+
+Črna barva na televizorju tako ostane neosvetljena in zato res črna (pri klasičnih LED televizorjih brez lokalnega zatemnjevanja osvetli tudi čeni del slike, in tako je le-ta bolj sivkasta).
+
+Tehnologija OLED (**organic light-emitting diode**)
++ uporablja naravno snov, ki v kombinaciji z električnim tokom zasveti in oddaja svetlobo.
++ ta revolucionarna snov je del najnovejših TV prejemnikov, ki občutno zmanjšajo debelino in težo televizorjev.
++ svetloba, ki potuje prek kombinacije posebnih flitrov, prikazuje sliko v izrednoi kakovostnih, visoko ločljivih barvah in kontrastih.
+
+Prednosti LED LCD zaslonov:
++ bistveno zmanjša porabo električne energije, kot običajni LCD in plazma zasloni.
++ slika na LED zaslonih je bolj realistična, naravnih barv in intenzivnejših kontrastov.
++ LED zasloni dosegajo višje kontrastno razmerje v primerjavi z običajnimi LCD in plazma zasloni - višje kontrastno razmerje omogoča prikaz bolj intenzivne čne barve in tudi več različnih barvnih odtenkov
++ življenjska doba LED zasalonov je približno 100.000 ur
 
  <br><br>
+ 
+## Osnove filmske umetnosti
 
-## Film kot umetnost
+### Film kot umetnost
 **Film** štejemo kot **sedmo umetnost** (prvih šest predstavljajo arhitektura, ples, kiparstvo, glasba, slikarstvo in književnost), fotografija spada pod osmo.
 
 Film se je začel razvijati na koncu 19. stoletja - to so bile predvsem sličice, ki so bile predvajane v istem zaporedju, najprej s hitrostjo okoli 16 sličic na sekundo, dandanes pa do 25 (25 fps = frames per second).
@@ -102,6 +149,7 @@ Glede na **dolžino filmske predstave** poznamo:
 - **kratkometražni**
 
 ---
+### Filmski žanri
 
 Osnovna žanra filma sta **komedija** in **drama**.
 
@@ -128,7 +176,7 @@ Osnovna žanra filma sta **komedija** in **drama**.
 - To je posebna zvrst, ki zajema risani film in lutkovni film. V njih ustvarjalec uporablja predmete in jih animira (*anima* = duša, *animirati* = vdahniti dušo). Presega meje realnega, liki so običajno karikirani.
 - Filmi so navadno posneti sličico za sličico - za kar je potrebno ogromno dela.
 - Razvoj računalništva je delo ustvarjalcev animiranega filma močno olajšal - risani filmo dobijo nove dimenzije.
-- Utemeljitelj risanega filma je Američan **Walt Disney** (1901 - 1966).
+- Utemeljitelj risanega filma je Američan **Walt Disney (1901 - 1966)**.
 
 #### Igrani filmi
 
