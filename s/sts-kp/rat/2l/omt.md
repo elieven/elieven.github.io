@@ -4,6 +4,19 @@ title: OMT • 2. letnik • Računalniški Tehnik • STŠ Koper
 ---
 
 # Oprema za Multimedijsko Tehniko
+{: .no_toc}
+
+## Vsebina:
+{: .no_toc}
+
+- TOC
+{:toc}
+
+<br><br>
+
+---
+
+<br><br>
 
 ## Predstavitev Informacij z Gibljivo Sliko
 
