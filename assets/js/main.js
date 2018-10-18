@@ -19,6 +19,7 @@ if (!isMobile) {
     damping: 0.3
   });
 } else if (isMobile) {
+  document.querySelector('html').className = 'mobile';
   document.querySelector('#sscon').className = "mobile";
 }
 
@@ -44,15 +45,16 @@ back_to_top_btn.addEventListener("click", function () {
   }
 });
 
-window.setInterval(function () {
-  if (scrollbar.offset.y > scroll_ui_show_threshold) {
-    back_to_top_btn.className = 'lift';
-  } else {
-    back_to_top_btn.className = '';
-  }
-}, 16);
 
-
+function addBackToTopBtnFunctionality() {
+  window.setInterval(function () {
+    if (scrollbar.offset.y > scroll_ui_show_threshold) {
+      back_to_top_btn.className = 'lift';
+    } else {
+      back_to_top_btn.className = '';
+    }
+  }, 16);
+}
 
 
 // _flattenDeep function
@@ -122,4 +124,9 @@ function addTocFunctionality() {
 
 }
 
-addTocFunctionality();
+
+
+if (!isMobile) {
+  addBackToTopBtnFunctionality();
+  addTocFunctionality();
+}

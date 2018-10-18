@@ -180,7 +180,7 @@ Osnovna žanra filma sta **komedija** in **drama**.
 
 ### Filmi glede na tehniko
 
-#### **Dokumentarni filmi** 
+#### Dokumentarni filmi
 - so najstarejša in ena najbolj razširjenih sodobnih filmskih zvrsti.
 - Namen dokumentarnih filmov je prikazati (pomembno) resnično dogajanje sodobnemu gledalcu, potomcem pa služi kot dokument.
 - Gre za resnične dogodke iz vsakdanjega življenja, ki so sestavljeni v zaokroženo celoto. Sedaj vanj posegajo tudi umetniške zvrsti.
