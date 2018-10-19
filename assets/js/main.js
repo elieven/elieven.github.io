@@ -1,6 +1,4 @@
-function cl(t) {
-  console.log(t)
-}
+function cl(t) {console.log(t)}
 
 //initiate as false
 var isMobile = false;
@@ -11,122 +9,112 @@ if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elain
   isMobile = true;
 }
 
-// if desktop -> activate smooth scrollbar
+// assign class to html based on device
+// used for styling the scroll divs
+if (!isMobile) {
+  document.querySelector('html').className = 'desktop';
+} else if (isMobile) {
+  document.querySelector('html').className = 'mobile';
+}
+
+// if desktop activate smooth smoothScrollbar
 if (!isMobile) {
   var Scrollbar = window.Scrollbar;
   Scrollbar.use(window.OverscrollPlugin);
   Scrollbar.init(document.querySelector("#sscon"), {
     damping: 0.3
   });
-} else if (isMobile) {
-  document.querySelector('html').className = 'mobile';
-  document.querySelector('#sscon').className = "mobile";
 }
 
 
 
-
-
 // scroll back to top function
-const back_to_top_btn = document.querySelector('#back-to-top-btn');
+const scrollTopBtn = document.querySelector('#back-to-top-btn');
 const scrollbar = Scrollbar.get(document.querySelector('#sscon'));
-const scroll_ui_show_threshold = 2000;
+const scrollTopBtnShowThreshold = 2000;
 
+function addScrollTopBtnFunctionality() {
+  if (!isMobile) {
+    // desktop part
+    scrollTopBtn.addEventListener("click", function () {
+      scrollbar.scrollTo(0, 0, 300);
+      stripToCleanURL();
+    });
+  } else {
+    // mobile part
+    scrollTopBtn.addEventListener("click", function () {
+      document.documentElement.scrollTop = 0;
+      stripToCleanURL();
+    });
+  }
+}
 
-back_to_top_btn.addEventListener("click", function () {
-  // scrolla gor
-  scrollbar.scrollTo(0, 0, 300);
-
-  // odstrani linked header
+// odstrani #id-naslova iz URLja
+function stripToCleanURL() {
   if (window.location.href.indexOf('#') > 0) {
     let pageUrl = window.location.href;
     let url = pageUrl.slice(0, pageUrl.indexOf('#'));
     history.pushState({}, "zvezek", url);
   }
-});
-
-
-function addBackToTopBtnFunctionality() {
-  window.setInterval(function () {
-    if (scrollbar.offset.y > scroll_ui_show_threshold) {
-      back_to_top_btn.className = 'lift';
-    } else {
-      back_to_top_btn.className = '';
-    }
-  }, 16);
 }
 
-
-// _flattenDeep function
-
-function _toConsumableArray(arr) {
-  if (Array.isArray(arr)) {
-    for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) {
-      arr2[i] = arr[i];
-    }
-    return arr2;
+// checks if scrollTop btn should be shown and 
+// shows it if and when needed
+function addCheckForScrolltopBtn() {
+  if (!isMobile) {
+    // desktop part
+    window.setInterval(function () {
+      if (scrollbar.offset.y > scrollTopBtnShowThreshold) {
+        scrollTopBtn.className = 'lift';
+      } else {
+        scrollTopBtn.className = '';
+      }
+    }, 16);
   } else {
-    return Array.from(arr);
+    // mobile part
+    window.setInterval(function(){
+      if (window.pageYOffset > scrollTopBtnShowThreshold) {
+        scrollTopBtn.className = 'lift';
+      } else {
+        scrollTopBtn.className = '';
+      }
+    }, 16);
   }
 }
 
-const flattenDeep = function flattenDeep(arr) {
-  return Array.isArray(arr) ? arr.reduce(function (a, b) {
-    return [].concat(_toConsumableArray(flattenDeep(a)), _toConsumableArray(flattenDeep(b)));
-  }, []) : [arr];
-};
+// TOC setup za desktop (mobile itak dela samo od sebe)
+function addDesktopTocFunctionality() {
 
+  const TOCLinks = Array.from(document.querySelectorAll('#markdown-toc a'));
 
-
-// TOC
-
-// dobi vse linke
-// onclick najde ypos od el z idejem od tega hrefa
-// scrolla na ta ypos
-
-function addTocFunctionality() {
-  // linki
-  const tocEl = Array.from(document.querySelectorAll('#markdown-toc a'));
-  // vsakemu linku
-  for (let i = 0; i < tocEl.length; i++) {
-    // da funkcijo ki se zazene ob kliku
-    tocEl[i].addEventListener('click', function(){
-      // najde id od elementa
-      const id = tocEl[i].id.slice(13);
-
+  for (let i = 0; i < TOCLinks.length; i++) {
+    TOCLinks[i].addEventListener('click', function(){
+      const id = TOCLinks[i].id.slice(13);
       const elt = document.getElementById(id);
-
       scrollbar.scrollIntoView(elt, {
         onlyScrollIfNeeded: false,
         offsetTop: 16
       });
-
     });
-
   }
 
-  // ce je nek link ze aktiviran v urlju scrolla do njega
   const pageUrl = window.location.href;
-
-  // ce je # v urlju
   if ( pageUrl.indexOf('#') > 0 ) {
-
     let linkElementId = decodeURIComponent(pageUrl.slice(pageUrl.indexOf('#')+1));
-
     let linkedEl = document.getElementById(linkElementId);
-
     scrollbar.scrollIntoView(linkedEl, {
       onlyScrollIfNeeded: false,
       offsetTop: 16
     });
-
   }
-
 }
 
 
 
+// CALL STACK & PAGE SETUP
 if (!isMobile) {
-  addBackToTopBtnFunctionality();
-  addTocFunctionality();
+  addDesktopTocFunctionality();
 }
+
+addCheckForScrolltopBtn();
+addScrollTopBtnFunctionality();
