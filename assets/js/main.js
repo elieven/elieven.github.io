@@ -44,7 +44,10 @@ function addScrollTopBtnFunctionality() {
   } else if (scrollTopBtn != null) {
     // mobile part
     scrollTopBtn.addEventListener("click", function () {
-      document.querySelector('html').scrollTop = 0;
+      document.querySelector('html').scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
       stripToCleanURL();
     });
   }
