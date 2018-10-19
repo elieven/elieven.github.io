@@ -12,7 +12,8 @@ if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elain
 // assign class to html based on device
 // used for styling the scroll divs
 if (!isMobile) {
-  document.querySelector('html').className = 'desktop';
+  // by default ma desktop da preventa scrollbar flash
+  //document.querySelector('html').className = 'desktop';
 } else if (isMobile) {
   document.querySelector('html').className = 'mobile';
 }
@@ -34,13 +35,13 @@ const scrollbar = Scrollbar.get(document.querySelector('#sscon'));
 const scrollTopBtnShowThreshold = 2000;
 
 function addScrollTopBtnFunctionality() {
-  if (!isMobile) {
+  if (!isMobile && scrollTopBtn != null) {
     // desktop part
     scrollTopBtn.addEventListener("click", function () {
       scrollbar.scrollTo(0, 0, 300);
       stripToCleanURL();
     });
-  } else {
+  } else if (scrollTopBtn != null) {
     // mobile part
     scrollTopBtn.addEventListener("click", function () {
       document.documentElement.scrollTop = 0;
@@ -61,7 +62,7 @@ function stripToCleanURL() {
 // checks if scrollTop btn should be shown and 
 // shows it if and when needed
 function addCheckForScrolltopBtn() {
-  if (!isMobile) {
+  if (!isMobile && scrollTopBtn != null) {
     // desktop part
     window.setInterval(function () {
       if (scrollbar.offset.y > scrollTopBtnShowThreshold) {
@@ -70,7 +71,7 @@ function addCheckForScrolltopBtn() {
         scrollTopBtn.className = '';
       }
     }, 16);
-  } else {
+  } else if (scrollTopBtn != null) {
     // mobile part
     window.setInterval(function(){
       if (window.pageYOffset > scrollTopBtnShowThreshold) {
