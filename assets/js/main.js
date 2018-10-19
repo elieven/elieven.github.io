@@ -46,7 +46,7 @@ function addScrollTopBtnFunctionality() {
     scrollTopBtn.addEventListener("click", function () {
       document.querySelector('html').scrollTo({
         top: 0,
-        behavior: "smooth"
+        behavior: "instant"
       });
       stripToCleanURL();
     });
