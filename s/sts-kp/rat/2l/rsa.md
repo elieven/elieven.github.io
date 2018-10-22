@@ -298,7 +298,31 @@ arr.length > 0 ? console.log('Array has items') : console.log('Array is empty');
 
 
 
-### Event Listeners
+### Metoda addEventListener()
+
+Metodo addEventListener() lahko pokličemo na kateremukoli html elementu. Sprejme dogodek katerega želimo spremljati, funkcijo ki se izvrši po temu dogodku in useCapture (več o tem kasneje). Ta metoda potem doda elementu **event handler** za določen dogodek (brez da prekine druge), kot je naprimer **click**, **keydown**, **resize**, **focus**, **blur**... Elementu lahko dodamo več event handlerjev za določen dogodek. Event handler je funkcija, ki se bo izvršila ko se zgodi določen dogodek.
+
+V spodnjem primeru dodamo elementu z idjem `warning` funkcijo, ki nam bo sporočila da smo žrtev virusa, v primeru da kliknemo na ta element.
+
+```javascript
+document.querySelector('#warning').addEventListener('click', function(){
+  window.alert('POZOR! STE ŽRTEV VIRUSA');
+})
+```
+
+Nu nujno da definiramo funkcijo ki jo želimo izvršiti znotraj parametra - uporabimo lahko tudi zunaj definirano funkcijo.
+
+```javascript
+document.querySelector('#warning').addEventListener('click', alertUser)
+```
+
+**POZOR!** v JavaScriptu funkcije, ki so dodane v parameter neke druge funkcije ne smejo imeti `()` na koncu saj se v tem primeru izvršijo takoj ko brskalnik prebere to vrstico kode.
+
+#### useCapture
+
+Use capture je boolean vrednost (true, false) ki pove brskalniku v katerem vrstnem redu naj izvrši evcent handlerje na elementih. 
+
+**ŠE ZA DODAT**
 
 > event listener za keypress - razlika med [keyCode, charCode in which](https://css-tricks.com/snippets/javascript/javascript-keycodes/)
 
