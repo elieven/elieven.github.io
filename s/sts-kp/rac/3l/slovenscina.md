@@ -3,7 +3,20 @@ layout: document
 title: Slovenščina • 3. letnik • Računalnikar • STŠ Koper
 ---
 
-# SLOVENŠČINA
+# Slovenščina
+{: .no_toc}
+
+## Vsebina:
+{: .no_toc}
+
+- TOC
+{:toc}
+
+<br><br>
+
+---
+
+<br><br>
 
 ## Ponovitev 1. letnika
 

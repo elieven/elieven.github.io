@@ -81,7 +81,7 @@ programi:
           - predmet: Sociologija
             code:    sociologija
             name:    Sociologija
-            status:  pmd
+            status:  done
 
           - predmet: UIKST
             code:    uikst

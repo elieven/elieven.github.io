@@ -23,16 +23,18 @@ Ti znaki prikazujejo **trenutno stanje** določenih elementov / dokumentov:
 
 <br>
 
+### Known bugs
+
+- Back to top button ne dela na IOS mobile
+
 ### To do
 
-- [x] delujoči breadcrumbsi
-- [x] vsem stranem dat naslov in description in mogoce keywords
+- [ ] separate stylesheets for pages so they only get what they need
+- [ ] inline critical css
+- [ ] lazyload images in documents
+- [ ] popstate updates scroll position
 - [ ] popravit linke da ko kliknes gor scrolla do naslova pravega (s custom easingom)
 - [ ] nardit da ko zlouda page preveri url če je treba scrollat kam
-- [x] dodat back to top button s custom easingom (material motion)
-- [x] popravit style za mobile
-- [x] mobile breadcrumbs nardit da so kot na stari verziji
-- [x] list name popravit da ne polomi grida in da ni tko krš z margini
 - [ ] up in down gumb za se premikat po hierarhiji naslovou da ne scrollas pac da samo
 
 

@@ -4,6 +4,43 @@ title: Slovenščina • 2. letnik • Računalniški Tehnik • STŠ Koper
 ---
 
 # Slovenščina
+{: .no_toc}
+
+## Vsebina:
+{: .no_toc}
+
+- TOC
+{:toc}
+
+<br><br>
+
+---
+
+<br><br>
+
+## Sklanjatve
+
+### Sklanjatve moških in ženskih imen
+
+
+
+<br>
+
+### Sklanjatve + posebnosti sklanjatev
+
+> (Vse sklanjatve in vse njihove posebnosti)
+
+### Sklanjatve določenih posebnih primerov
+
+> dejmo reč
+
+
+
+<br><br>
+
+---
+
+<br><br>
 
 Jezik sredstvo sporazumevanja
 

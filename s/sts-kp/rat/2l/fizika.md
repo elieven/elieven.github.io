@@ -6,8 +6,113 @@ desc: Snov fizike za 2. letnik Računalniškega tehnika (oz. 5 letnik izobražev
 ---
 
 # Fizika
+{: .no_toc}
 
-## Cheap shit
+## Vsebina:
+{: .no_toc}
+
+- TOC
+{:toc}
+
+<br><br>
+
+---
+
+<br><br>
+
+## Električni tok
+
+**Električni tok je usmerjeno gibanje električnih delcev** (npr. elektronov). V snovi je električni tok možen le, če je snov prevodnik (vsebuje proste negativne elektrone). *Primer so kovine, raztopine elektrolita, plin z ioniziranimi molekulami*.
+
+Da delci stečejo, potrebujemo sklenjen **električni krog**. Sestavljajo ga **izvir napetosti** (baterija ali generator), **vodnik** in **porabnik**. Vodnik je snov po kateri tečejo naboji (žica...). V električnem krogu je število nosilcev naboja konstantno - **Zakon o ohranitvi naboja**.
+
+> Primer: v časovnem intervalu \\(\Delta\\)**t** preteče skozi prečni prerez **S** naboj \\(\Delta\\)**e**. **Električni tok I** defniramo s kvocientom naboja \\(\Delta\\)**e** in časovnega intervala \\(\Delta\\)**t**, v katerem naboj preteče:
+
+$$ I = \frac{\Delta e}{\Delta t} $$
+
+Električni tok = električni naboj (**C**) v določenem času (**t**) - enota je **amper** (**A**).
+
+**1A = 1C/s** oz **1As = 1C**
+
+Enoto **C** imenujemo tudi **ampersekunda** (**As**).
+
+Električni tok se meri z **ampermetrom**. Ampermeter tako meri celoten tok, ki teče skozi porabnik, in ga moramo vedno vezati v električni krog s porabnikom **zaporedno**. Ampermeter pa ima tako kot vsak del električnega kroga tudi lasten upor, ki je zelo majhen.
+
+<br>
+
+### Specifična upornost
+
+Specifična upornost je fizikalna količina, določena kot sorazmerni koeficient med električnim uporom vodnika (**R**) in razmerjem med dolžino  (**l**) in presekom vodnika (**S**).
+
+$$ \rho = \frac{RS}{l} $$
+
+Enota specifične upornosti je \\( \Omega \phantom{a} mm^2/m \\), znak pa je \\(\zeta\\).
+
+<br><br>
+
+## Električna napetost
+
+Vzrok, da električni tok teče po električnem krogu, je **električna napetost**. Enota električne napetosti je volt (**V**). Napetost izvira imenujemo gonilna napetost, ker poganja električni tok.
+
+Električni tok lahko primerjamo s tokom vode. Višinska razlika med gladino vode v posodi in mestom, kjer ta izteka, povzroči, da voda steče iz posode. Večja je višinska razlika, tem hitreje voda izteka. Podobno velja tudi za električni tok. **Električni izviri** ustvarjajo tisto gonilno razliko, ki poganja električni tok po električnem krogu.
+
+> Električni viri ustvarjajo električno napetost. Ta je vzrok, da električni tok teče po električnem krogu.
+
+Električno napetost merimo z **voltmetrom**.Ta lahkko meri napetost na porabniku ali izviru. Za razliko od ampermetra, voltmeter vežemo v električni krog **vzporedno**. Vežemo ga na dveh točkah med katerima želimo meriti napetost.
+
+**Gonilna napetost** je napetost **vira**. Kadar vežemo več enakih virov električne napetosti v električni krog vzporedno, je napetost v krogu enaka napetosti posameznega vira. Ko pa jih vežemo zaporedno, je treba sešteti gonilne napetosti.
+
+<br><br>
+
+## Ohmov zakon
+
+Ohmov zakon nam pove, da sta napetost in tok premo sorazmerna. Za kolikokrat povečamo napetost, tolikokrat se poveča tok. Zapis ohmovega zakona:
+
+$$ U = R \cdot I $$
+
+**U** je napetost, **I** je tok in **R** je sorazmernostni faktor, imenovan **upor**. Enota za upor je **ohm** (\\(\Omega\\)).
+
+$$ 1\Omega = 1 \frac{V}{A} $$
+
+S povečanjem preseka upornika se upor zmanjša, s podaljševanjem upora pa se upor poveča. To se zapiše z enačbo:
+
+$$ R = \zeta \frac{l}{S} $$
+
+<br><br>
+
+## Vezava uporov
+
+### Vzporedna vezava
+
+<br>
+
+### Zaporedna vezava
+
+<br><br>
+
+## Merilni obseg ampermetra
+
+<br><br>
+
+## Merilni obseg voltmetra
+
+<br><br>
+
+## Kompenzacijsko merjenje napetosti
+
+<br><br>
+
+## Ohmov zakon za generator (notranji upor baterije)
+
+
+
+<br><br>
+
+---
+
+<br><br>
+
+## Cheat sheet
 
 | Oznaka                                                       | Enota                         |
 |--------------------------------------------------------------|-------------------------------|
@@ -15,7 +120,7 @@ desc: Snov fizike za 2. letnik Računalniškega tehnika (oz. 5 letnik izobražev
 | Upornost - \\( R \\)                                         | Ohm - \\( \Omega \\)          |
 | El. tok - \\( I \\)                                          | Amper - \\( A \\)             |
 | Moč - \\( P \\)                                              | Watt - \\( W \\)              |
-| Specifični upor materjala - \\( \zeta \\)                    | \\( \Omega \frac{mm^2}{m} \\) |
+| Specifični upor materjala - \\( \zeta \\)                    | \\( \Omega \phantom{a} mm^2/m \\) |
 | Dolžina - \\( l \\)                                          | ponavadi \\( m \\)            |
 | Presek - \\( s \\)                                           | ponavadi \\( mm^2 \\)         |
 | El. naboj - \\( e \\)                                        | \\( As \\)                    |

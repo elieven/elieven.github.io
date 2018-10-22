@@ -3,42 +3,20 @@ layout: document
 title: Sociologija • 1. letnik • Računalniški Tehnik • STŠ Koper
 ---
 
-# SOCIOLOGIJA <!-- omit in toc -->
+# Sociologija
+{: .no_toc}
 
-## Vsebina: <!-- omit in toc -->
+## Vsebina:
+{: .no_toc}
 
-- [Opredelitev in značilnosti sociologije](#opredelitev-in-značilnosti-sociologije)
-- [Tradicionalne in moderne družbe](#tradicionalne-in-moderne-družbe)
-- [Koristnost socioloških znanj](#koristnost-socioloških-znanj)
-- [Nastanek in razvoj sociologije](#nastanek-in-razvoj-sociologije)
-- [Teoretični pristop v sociologiji](#teoretični-pristop-v-sociologiji)
-- [Značilnosti kulture](#značilnosti-kulture)
-- [Posebnosti človeške vrste povezane z razvojem kulture](#posebnosti-človeške-vrste-povezane-z-razvojem-kulture)
-- [Sestavine kulture](#sestavine-kulture)
-  - [Simboli](#simboli)
-    - [Funkcije simbolov](#funkcije-simbolov)
-  - [Jezik](#jezik)
-- [Vrednote kot smernice ravnanja](#vrednote-kot-smernice-ravnanja)
-- [Kulturna raznolikost](#kulturna-raznolikost)
-  - [Kulturna raznolikost in medsebojni stiki](#kulturna-raznolikost-in-medsebojni-stiki)
-  - [Globalizacija in izginjanje kulturne raznolikosti](#globalizacija-in-izginjanje-kulturne-raznolikosti)
-  - [Etnocentrizem in kulturni relativizem](#etnocentrizem-in-kulturni-relativizem)
-  - [Subkulture - oblike znotraj kulturne raznolikosti](#subkulture---oblike-znotraj-kulturne-raznolikosti)
-    - [Mladinske subkulture](#mladinske-subkulture)
-    - [Hipijevska subkultura](#hipijevska-subkultura)
-- [Socializacija - opredelitev in pomen](#socializacija---opredelitev-in-pomen)
-  - [Različni vidiki socializacije](#različni-vidiki-socializacije)
-  - [Pomen socializacije](#pomen-socializacije)
-  - [Socializacija in življenski potek](#socializacija-in-življenski-potek)
-  - [Otroštvo in pomen primarne socializacije](#otroštvo-in-pomen-primarne-socializacije)
-  - [Sekundarna socializacija](#sekundarna-socializacija)
-  - [Prehodi v odraslost](#prehodi-v-odraslost)
-  - [Resocializacija](#resocializacija)
-  - [Spolno diferencirana socializacija](#spolno-diferencirana-socializacija)
-- [Dejavniki socializacije](#dejavniki-socializacije)
-  - [Družina](#družina)
-  - [Skupine vrstnikov](#skupine-vrstnikov)
-  - [Šola](#Šola)
+- TOC
+{:toc}
+
+<br><br>
+
+---
+
+<br><br>
 
 ## Opredelitev in značilnosti sociologije
 
@@ -65,7 +43,7 @@ Sociologija išče zakonitosti v družbenem življenju, gibanjih in razvoju. Ugo
 - globalen, ker svet postaja vse bolj povezan in soodvisen
 - objektiven, ker vzpostavlja raziskovalno razdaljo
 
-&nbsp;
+<br>
 
 ## Tradicionalne in moderne družbe
 
@@ -97,7 +75,7 @@ Za **moderne** družbe je značilno:
 - posamezniki lahko napredujejo
 - pomembna je znanost in njena povezanost z gospodarstvom
 
-&nbsp;
+<br>
 
 ## Koristnost socioloških znanj
 
@@ -112,7 +90,7 @@ Sociološko znanje:
 - pomaga pri reševanju poklicnih problemov
 - poglablja naše znanje o svetu in naši vlogi v njem
 
-&nbsp;
+<br>
 
 ## Nastanek in razvoj sociologije
 
@@ -139,7 +117,7 @@ Družbo nista razumela kot skupek egoističnih posameznikov, ki sledijo svojim i
 - **Kritično-metafizično** človek poskuša naravne pojave razložiti z naravnimi razlogi brez nadnaravnih sil.
 - **Industrijsko-znanstveno** ustreza zrelosti človeštva. Pomembno je opazovanje, merjenje in ekspreimeni.
 
-&nbsp;
+<br>
 
 ## Teoretični pristop v sociologiji
 
@@ -148,13 +126,20 @@ Družbo nista razumela kot skupek egoističnih posameznikov, ki sledijo svojim i
 
 - **KONFLIKTNA TEORIJA** predvideva, da imajo različne družbene skupine različno moč in vpliv. Tiste z večjo močjo lahko tudi s prisilo vplivajo na ostale člane družbe. Zaradi tega prihaja do konfliktov. Družbeni red se ohranja s silo ne s soglasjem. Marksizem temelji na ideji, da je družba sestavljena iz ekonomske baze in nadstavbe. [*K. Marks, R. Daherndorf*]
 
-- **INTERAKCIONIZEM** postavlja v ospredje posameznike in njihovo oblikovanje družbenega življenja. Posamezniki ustvarjajo družbo v medsebojnih interakcijah. Pomembno je njihovo razumevanje okoliščin v katerih se nahajajo in igranje
-![neki manjka](https://image.ibb.co/kp8j88/index.png)
+- **INTERAKCIONIZEM** postavlja v ospredje posameznike in njihovo oblikovanje družbenega življenja. Posamezniki ustvarjajo družbo v medsebojnih interakcijah. Pomembno je njihovo razumevanje okoliščin v katerih se nahajajo in igranje družbenih vlog. Poudarjen je človekov jaz, situacija in interpretacija. [*G.H Mead, E. Goffman, A. Shertz*].
 
-&nbsp;
+<br>
 
+## Opredelitev in pomen kulture
 
-## Značilnosti kulture
+Uporaba pojma: Kultura predstavlja različne oblike umetniškega ustvarjanja.
+
+- Razlikuje se od nekulture (npr. pitja, govora...) kar je tudi človeška posebnost.
+- V sociološkem in antropološkem smislu zajema kultura vse materialne in duhovne stvarive, ki določajo način življenja (npr. vzorce vedenja, simbole - znake, jezik, vrednote in norme, celotno področje znanj, religije, umetniškega ustvarjanja, najrazličnejše materialne objekte kot so orodja, stroji, lonci, zgradbe... ).
+
+<br>
+
+### Značilnosti kulture
 
 - Človek vse potrebe (*tudi biološke*) zadovoljuje s posredovanjem kulture (*muslimani, vegani...*) Z njo ustvarjajo tudi nove potrebe po estetskem izražanjem, po poznavanju (*religija, umetnost*...)
 - Okolje, v katerem živi, je kultururano. Človek si prisvaja, oblikuje, prilagaja.
@@ -162,10 +147,10 @@ Družbo nista razumela kot skupek egoističnih posameznikov, ki sledijo svojim i
 - Kultura se prenaša in akumulira iz roda v rod, iz generacije v generacijo (*ustvarjanje, prenašanje, sorejemanje*).
 - Kultura se spreminja (*razvija, stagnira, izumre*).
 - Vsi njeni deli so povezani in tvorijo celoto.
-- Vsebuje sistem kominikacij in simbolov s katerimi se prenašajo številne
-![neki manjka](https://image.ibb.co/kp8j88/index.png)
+- Vsebuje sistem kominikacij in simbolov s katerimi se prenašajo številne informacije.
+- Kultura je naučena. Proces spreminjanja njenih sestavin imenujemo inkulturacija.
 
-&nbsp;
+<br>
 
 ## Posebnosti človeške vrste povezane z razvojem kulture
 
@@ -177,7 +162,7 @@ Družbo nista razumela kot skupek egoističnih posameznikov, ki sledijo svojim i
 - Človek je edino bitje zmožno estetskega izražanja.
 - Z razvojem kulture je povezana tudi njegova družbenost.
 
-&nbsp;
+<br>
 
 ## Sestavine kulture
 
@@ -192,7 +177,7 @@ Samo človek daje dogajanju in stvarem pomen in tako oblikuje simbole. Simboli o
 - povezovalna
 - ločevalna (*grafiti, zastave, grbi*)
 
-&nbsp;
+<br>
 
 ### Jezik
 
@@ -211,7 +196,7 @@ Uporaba jezika je povečala možnosti človekovega preživetja.
 
 Njegova moč se je povečala z iznajdbo pisave pred približno 5000 leti kot tudi z uporabo elektronskih in informacijskih medijev.
 
-&nbsp;
+<br>
 
 ## Vrednote kot smernice ravnanja
 
@@ -233,9 +218,25 @@ Lahko se:
 
 Nekatere so si zaradi globalizacije zelo podobne npr. svoboda, demokratičnost, človekove pravice, usmerjenost k uspehu, blaginji... V družbi in pri posameznikih obstaja hierarhija vrednot.
 
-![neki manjka](https://image.ibb.co/kp8j88/index.png)
+<br>
 
-&nbsp;
+### Družbene norme
+
+Izhajajo iz vrednot. Predstavljajo družbeni dogovor o tem, kako naj ravnamo in napotke kaj moramo storiti (zapovedovalne) in česa ne smemo (prepovedovalne).
+
+**Formalne norme** so zapisane, oblikovne in sprejete v različnih državnih in drugih inštitucijah, ter so del zavestnih prizadevanju po usmerjanju družbe. 
+
+**Neformalne norme** nastanejo spontano in so rezultat neformalnih dogovorov kot so običaji, navade, moralne zahteve, tabuji...
+
+Normiranje je podprto z različnimi ukrepi - sankcijami. Te so lahko formalne in neformalne, pozitivne (nagrade) ali negativne (kazni).
+
+Delujejo kot oblika **družbenega nadzora** in so bolj zavezujoče kot vrednote. Ta je tako formalen in ga izvajajo profesionalci, sankcije so predvsem negativne, možne pa so tudi pozitivne. 
+
+Neformalni družbeni nadzor poteka med pripadniki skupnosti in je starejši. Pri njem je izražena dvosmernost: nadzorovani tudi sami nadzorujejo.
+
+Nekatere dejavnosti in odnosi so v vseh družbah normirani (npr. odnos do drugega spola, poseganje v življenje in njegovo osebnostno dostojanstvo, lastniška razmerja, odnos do avtoritete in oblasti, ogrožanje družbene in državne varnosti... ).
+
+<br>
 
 ## Kulturna raznolikost
 
@@ -253,7 +254,7 @@ Posledice kolonialne preteklosti in sodobnih migracijskih tokov so:
 - **INTERKULTURIALIZEM** tj. medsebojno vplivanje, sodelovanje, prepletanje različnih kultur in nastanek nove kulture.
 - **ASIMILACIJA** ko pripadniki razčičnih manjšin izgubijo svoje kulturne posebnosti in prevzamejo kulturo okolja.
 
-&nbsp;
+<br>
 
 ### Globalizacija in izginjanje kulturne raznolikosti
 
@@ -273,9 +274,9 @@ Posledice:
 - izenačevanje kultur, ki se vidi v arhitekturi mest, prehranskih navadah, modi, glasbi, svetovnemu turizmu, uporabi angleškega jezika...
 - kulturni pretok (*difuzija*) poteka predvsem iz razvitih držav v preostala področja (*selektivnost*).
 
-Odpor se kaže v protiglobalizacijskih **GIBANJIH VRJETNO - TREBA PREVERIT!!!!!**, ki se zavzemajo proti naraščanju globalne neenakosti, svetovne revščine, izginjanju delovnih mest, izčrpavanju naravnih bogastev, vojnam, opozarjajo na ekološke probleme...
+Odpor se kaže v protiglobalizacijskih gibanjih, ki se zavzemajo proti naraščanju globalne neenakosti, svetovne revščine, izginjanju delovnih mest, izčrpavanju naravnih bogastev, vojnam, opozarjajo na ekološke probleme...
 
-&nbsp;
+<br>
 
 ### Etnocentrizem in kulturni relativizem
 
@@ -283,7 +284,7 @@ Odpor se kaže v protiglobalizacijskih **GIBANJIH VRJETNO - TREBA PREVERIT!!!!!*
 - **KULTURNI RELATIVIZEM**: označuje presojanje drugih kultur s stališča njihovih kulturnih standardov oz. njihovega razumevanja določene kulturne značilnosti. Kulturni antropologi so pripomogli k temu, da različne kulture dojemajo na enaki ravni in jih ne ločujemo na višje in nižje. Tako kot etnocentrizem je tudi kulturni relativizem lahko problematičen, če ga razumemo dosledno (*otroško delo, obrezovanje spolnih organov*). Razumevanje kultur posameznih dežel bi morali presojati s stališča človekovih pravic in univerzalnih standardov človekovega dostojanstva.
 - **KULTURNI NIHILIZEM**: če je vse relativno in opravičljivo, saj obstaja v nekem delu sveta, se ni treba držati lokalnih dogovorov in vrednot.
 
-&nbsp;
+<br>
 
 ### Subkulture - oblike znotraj kulturne raznolikosti
 
@@ -347,7 +348,7 @@ Odpor do meščanskih vrednot se je kazal kot:
 - boj proti materialističnim vrednotam in želja po večji enakosti (*unisex moda, komune*)
 - razvijanje alternativne umetnosti (*ulično gledališče, folk, rock glasba, zbiranje na koncertih, protestna besedila, potovanja s kombiji v Indijo, Afganistan...*)
 
-&nbsp;
+<br>
 
 ## Socializacija - opredelitev in pomen
 
@@ -361,7 +362,7 @@ Socializacija je vseživljenski proces, v katerem se ljudje v interakciji z drug
 
 - Oblikujemo osebnost in indentiteto, vključno s specifičnim načinom govora, komunikacije, mišljenja, čustvovanja, vrednotenja (*samoopredeljevanje v odnosu do drugih*). V modernih družbah je teh indentitet več in se lahko spreminjajo (*skrpana identiteta ali patchwork*).
 
-&nbsp;
+<br>
 
 ### Pomen socializacije
 
@@ -370,13 +371,13 @@ Socializacija je pomembna za posameznika in družbo ker:
 - Osebnostni razvoj posameznika ni možen brez stika z drugimi; omogoča obnavljanje družbe. Ljudje se obnašajo na družbeno sprejemljiv, predvidljiv način.
 - Socializacija se spreminja glede na pričakovanja posameznikov, družbenozgodovinskih okoliščin, spola, slojevske pripadonosti...
 
-&nbsp;
+<br>
 
 ### Socializacija in življenski potek
 
 Življenski potek je okvir, v katerem se dovijajo življenski procesi. Ti niso v vseh življenskih obdobjih enako intenzivni, ne potekajo na enak način, nimajo enako vsebine in učinkov, ne potekajo v enakih družbenih okoljih. Zato razlikujemomed primarno in sekundarno socializacijo, govorimo pa tudi o socializaciji odraslih oziroma terciarni socializaciji ter resocializaciji. Meje med njimi je težko določiti.
 
-&nbsp;
+<br>
 
 ### Otroštvo in pomen primarne socializacije
 
@@ -389,7 +390,7 @@ Otroci, ki niso imeli priložnosti oblikovati stabilnih čustvenih odnosov, so k
 
 Razvoj človeka kot družabnega bitja je izredno odvisen od zgodnjega oblikovanja razmeroma trajnih, stabilnih, trdnih vezi z vsaj enim človekom.
 
-&nbsp;
+<br>
 
 ### Sekundarna socializacija
 
@@ -406,7 +407,7 @@ Mladost zajema:
 - podaljšana mladost 19 - 24 leta
 - predodraslo mladost 24 - 29 leta
 
-&nbsp;
+<br>
 
 ### Prehodi v odraslost
 
@@ -423,7 +424,7 @@ Obdobje predodraslosti (polodraslosti, mladih odraslih) nekateri imenujejo prazn
 
 Življenskih poteki posameznikov se individualizirajo in so vse bolj odvisni od strukturnih možnosti (družinsko, slojevsko poreklo, spol, etnična pripadnost...).
 
-&nbsp;
+<br>
 
 ### Resocializacija
 
@@ -439,7 +440,7 @@ Obstajajo posebne organizacije npr. zapori, psihiatrične bolnišnice, komune za
 - procesi akulturacije;
 - bolezni, nesreče;
 
-&nbsp;
+<br>
 
 ### Spolno diferencirana socializacija
 
@@ -450,7 +451,7 @@ Tudi v modernih družbah je socializacija spolno zaznamovana:
 - v otroških knjigah in učbenikih ženske nastopajo v pasivnih in stereotipnih vlogah kot matere, vile...
 - različne podobe moškosti in ženskosti se kažejo v medijih; izbira šolskih in političnih poti je spolno zaznamovana.
 
-&nbsp;
+<br>
 
 ## Dejavniki socializacije
 
@@ -475,7 +476,7 @@ Starši uporabljajo sistem nagrad in kazni za vzpodbujanje zaželenega in prepre
 
 Raziskave kažejo, da so se družinski vzgojni stili **liberalizirali**. Gre za medgeneracijsko sodelovanje, opazno je zagovorništvo otrok s strani staršev (delujejo kot skupine pritiska). Pojavlja pa se problem **infantizacije**.
 
-&nbsp;
+<br>
 
 ### Skupine vrstnikov
 
@@ -496,7 +497,7 @@ V primerjavi s prijateljstvi v drugih življenskih obdobij so čustveno bolj int
 
 Vrstniške skupine lahko predstavljajop subkulturno okolje, kjer imajo pomembno vlogo prostori združevanja.
 
-&nbsp;
+<br>
 
 ### Šola
 
