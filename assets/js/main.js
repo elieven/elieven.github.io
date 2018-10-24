@@ -136,7 +136,7 @@ function getBrowser() {
     return 'safari';
   } else if ( /*@cc_on!@*/false || !!document.documentMode ) {
     return 'ie';
-  } else if ( !isIE && !!window.StyleMedia ) {
+  } else if ( (/*@cc_on!@*/false || !!document.documentMode) && !!window.StyleMedia ) {
     return 'edge';
   } else if ( !!window.chrome && !!window.chrome.webstore ) {
     return 'chrome';
