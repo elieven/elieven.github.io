@@ -9,14 +9,6 @@ if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elain
   isMobile = true;
 }
 
-// assign class to html based on device
-// used for styling the scroll divs
-if (!isMobile) {
-  // by default ma desktop da preventa scrollbar flash
-  //document.querySelector('html').className = 'desktop';
-} else if (isMobile) {
-  document.querySelector('html').className = 'mobile';
-}
 
 // if desktop activate smooth smoothScrollbar
 if (!isMobile) {
@@ -88,12 +80,13 @@ function addCheckForScrolltopBtn() {
 
 // TOC setup za desktop (mobile itak dela samo od sebe)
 function addDesktopTocFunctionality() {
-
+  // dobi vse linke
   const TOCLinks = Array.from(document.querySelectorAll('#markdown-toc a'));
-
+  // vsem linkom da onclick function
   for (let i = 0; i < TOCLinks.length; i++) {
-    TOCLinks[i].addEventListener('click', function(){
+    TOCLinks[i].addEventListener('click', function(evt){
       const id = TOCLinks[i].id.slice(13);
+      console.log(i);
       const elt = document.getElementById(id);
       scrollbar.scrollIntoView(elt, {
         onlyScrollIfNeeded: false,
@@ -103,6 +96,7 @@ function addDesktopTocFunctionality() {
   }
 
   const pageUrl = window.location.href;
+
   if ( pageUrl.indexOf('#') > 0 ) {
     let linkElementId = decodeURIComponent(pageUrl.slice(pageUrl.indexOf('#')+1));
     let linkedEl = document.getElementById(linkElementId);
@@ -117,8 +111,60 @@ function addDesktopTocFunctionality() {
 
 // CALL STACK & PAGE SETUP
 if (!isMobile) {
+
   addDesktopTocFunctionality();
+
+} else if (isMobile) {
+
+  document.querySelector('html').className = 'mobile';
+
 }
 
 addCheckForScrolltopBtn();
 addScrollTopBtnFunctionality();
+
+function unsupportedBrowserAlert() {
+  // preveri kiri browser mas
+  // preveri ce si kliknu "pusti me na miru" za ta notification
+
+  // ce je unsupportan browser in nisi kliknu "pusti me na miru"
+    // ti priporoci da menjaj browser
+  // cne cne pa samo returna
+  console.log("wip lad");
+}
+
+function getBrowser() {
+  // Opera 8.0+
+  const isOpera = (!!window.opr && !!opr.addons) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
+  // Firefox 1.0+
+  const isFirefox = typeof InstallTrigger !== 'undefined';
+  // Safari 3.0+ "[object HTMLElementConstructor]" 
+  const isSafari = /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && safari.pushNotification));
+  // Internet Explorer 6-11
+  const isIE = /*@cc_on!@*/false || !!document.documentMode;
+  // Edge 20+
+  const isEdge = !isIE && !!window.StyleMedia;
+  // Chrome 1+
+  const isChrome = !!window.chrome && !!window.chrome.webstore;
+  // Blink engine detection
+  const isBlink = (isChrome || isOpera) && !!window.CSS;
+
+  // tell what browser it is
+  if (isOpera) {
+    return 'opera';
+  } else if (isFirefox) {
+    return 'firefox';
+  } else if (isSafari) {
+    return 'safari';
+  } else if (isIE) {
+    return 'ie';
+  } else if (isEdge) {
+    return 'edge';
+  } else if (isChrome) {
+    return 'chrome';
+  } else if (isBlink) {
+    return 'blink';
+  } else {
+    return 'unknown';
+  }
+}

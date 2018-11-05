@@ -1,0 +1,59 @@
+#notification-container {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  right: 1rem;
+  //background-color: rgba(0,0,0,0.2);
+  z-index: 10000000;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  pointer-events: none;
+}
+
+.notification {
+  display: inline-block;
+  background-color: white;
+  padding: 0.75rem;
+  border-radius: 4px;
+  background: #323232;
+  pointer-events: all;
+  box-shadow: $z1;
+
+  // za lift animation
+  opacity: 0;
+  transform: translateY(120px);
+
+  &.lift {
+    animation: snackbarLift 0.3s ease forwards;
+  }
+
+  .notification-text {
+    display: inline-block;
+    color: white;
+  }
+
+  .notification-dismiss {
+    display: inline-block;
+    border: 0;
+    outline: 0;
+    font-size: 1rem;
+    color: dodgerblue;
+    background: rgba(0,0,0,0);
+    margin-left: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700!important;
+    cursor: pointer;
+  }
+
+}
+
+@keyframes snackbarLift {
+  0% {
+    opacity: 0;
+    transform: translateY(120px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

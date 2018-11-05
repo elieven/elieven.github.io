@@ -1,9 +1,11 @@
 $headergradient: linear-gradient(to bottom right, rgb(138, 63, 205), rgb(34, 131, 201));
 $lucygradientpeach: linear-gradient(to bottom right, #F15F79, #B24592);
+
 header {
   height: $hh;
   position: relative;
   z-index: 10000;
+
   &::before {
     content: '';
     display: block;
@@ -16,6 +18,7 @@ header {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
     z-index: -1;
   }
+
   #header-logo {
     text-decoration: none;
     display: inline-block;
@@ -25,35 +28,42 @@ header {
     color: white;
     height: 100%;
     padding: 0;
+
     #header-logo-text {
       height: $hh;
       line-height: $hh;
       vertical-align: middle;
-      font-size: 16px;
-      font-weight: 500;
+      font-size: 15px;
+      font-weight: 600;
+      font-family: 'Open Sans', sans-serif;
     }
   }
+
   #header-nav {
     display: inline-block;
     float: right;
     height: $hh;
     padding: 10px 0;
+
     a {
       color: rgba(255, 255, 255, 0.9);
       font-size: 14px;
-      font-weight: 500;
+      font-weight: 600;
       display: inline-block;
       height: $hh - 20px;
       line-height: $hh - 20px;
       text-decoration: none;
       padding: 0 8px;
       border-radius: 3px;
+
       &:last-child {
         margin-right: -8px;
       }
+
       &.active {
         color: white;
       }
+
       &:hover {
         color: white;
       }

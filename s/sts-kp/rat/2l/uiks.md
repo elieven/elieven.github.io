@@ -19,15 +19,51 @@ title: UIKS • 2. letnik • Računalniški Tehnik • STŠ Koper
 
 <br><br>
 
-## Tvorjenje omrežij
+## Ustvarjanje podomrežij
 
-Če je razred omrežja prevelik, se lahko deli na podomrežja (varnost).
+Če je razred omrežja prevelik, se omrežje lahko deli na podomrežja (kar je dobro tudi za varnost). IP naslov je sestavljen iz 32 bitov in za ustvariti podomrežje vzamemo nek del bitov namenjen napravam in te bite uporabimo za zapis omrežja. S tem se poveča število omrežij in hkrati zmanjša število naprav, ki so lahko v posamičnem podomrežju.
 
-**Postopek:** del bitov za naslov naprave se prepusti naslovu omrežja, s tem se omrežje poveča (možjih je več omrežij), po drugi strani pa se zmanjša število naprav v podomrežju.
+![](http://quicklatex.com/cache3/96/ql_e12691760baa822d81e572e19993b596_l3.png)
 
-![slika]()
+$$
+\underbrace{
+  \phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_
+}_{\mathrm{biti\phantom{a}omrežja}}
 
-> Vaja
+\phantom{|}.\overbrace{\phantom{|}\_\phantom{|}\_\phantom{|}\_}^{\mathrm{b.\phantom{a}pod.}}
+
+\underbrace{\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}.
+\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}.
+\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_}_{\mathrm{biti\phantom{a}naprav}}
+$$
+
+<br>
+
+$$
+\underbrace{\color{dodgerblue}{11111111.11111111.11111111}}_{\mathrm{biti\phantom{a}omrežja}}.00000000
+$$
+
+<br><br>
+
+### Primeri
+
+Omrežje `192.168.0.0` želimo razdeliti na 2 podomrežji.
+
+Omrežje je razreda **C** torej imamo **24 bitov** za zapis omrežja in **8 bitov** za naprave (v **cidr** obliki: `192.168.0.0/24`). Število `/24` na koncu pomeni da je 24 bitov uporabljenih za **zapis omrežja**.
+
+`192.168.0` je fiksni del (*ne moremo ga spreminjat*) ker je za omrežje. Za ustvariti podomrežje moramo vzeti bite napravam. 
+
+> podčrtaji (_) so biti za zapis naprav
+
+$$
+192.168.0.\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_
+$$
+
+Ker želimo 2 podomrežji moramo vzeti dovolj bitov, da lahko zapišemo 2 različni števili. Vzamemo torej 1 bit (ima lahko **2<sup>1</sup>** različnih vrednosti - torej **2** kar je ravno prav za ta primer).
+
+$$
+192.168.0.\phantom{|}\_\phantom{|}|\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_
+$$
 
 <br>
 
@@ -140,19 +176,17 @@ Linijski sloj je implementiran v mrežni kartici. Večina storitev, ki jih linij
 
 1. **Preverjanje parnosti**
 
-Je najenostavnejša oblika napak. Obstajata soda in liha parnost. Pri **sodi parnosti** pošiljatelj vrednost dodanega bita določi tako, da je skupno število bitov z vrednostjo 1 sodo.
+Je najenostavnejša oblika napak. Obstajata soda in liha parnost. Pri **sodi parnosti** pošiljatelj vrednost dodanega bita določi tako, da je skupno število bitov z vrednostjo 1 sodo. **Zgled**:
 
-Zgled:
-
-![parnost slika 1][parnost-img-1] ![parnost slika 2][parnost-img-2]
+![Soda parnost](https://www.latex4technics.com/imgtemp/z7akdb-4.png?1541357645){: .imgc}
 
 <br>
 
-Pri **lihi parnosti** pa se vrednost dodatnega bita določi tako, da je skupno število bitov z vrednostjo 1 liho.
+Pri **lihi parnosti** pa se vrednost dodatnega bita določi tako, da je skupno število bitov z vrednostjo 1 liho. **Zgled**:
 
-Zgled:
+![Liha parnost](https://www.latex4technics.com/imgtemp/zlmkuj-1.png?1541358722){: .imgc}
 
-![liho slika 1][liho-img-1] ![liho slika 2][liho-img-2]
+<br>
 
 Prejemnik prešteje bite z vrednostjo 1 katerih vsota mora biti sodo število, v primeru sode parnosti in liho število, v primeru lihe parnosti.
 
@@ -162,13 +196,13 @@ Pri matrični oziroma dvodimenzionalni uporabi tehnike preverjanja parnosti, se 
 
 Pri tej tehniki so biti razdeljeni v I-te vrstice in J-te stolpce. Vrednost dodatnega bite se določi za vsako vrstico in vsak stolpec posebaj.
 
-Primer:
+**Primer** (napaka se je zgodila na {2,2} - označeno z rdečo):
 
-![kontrolni biti računanje][cont-biti]
+![kontrolni biti računanje][cont-biti]{: .imgc}
 
-2. **Izračun enostavne kontrolne vsote**
-3. **Izračun internetne kontrolne vsote** (izračun kontrolnih bitov na transportnem sloju)
-4. **CRC koda**
+1. **Izračun enostavne kontrolne vsote**
+2. **Izračun internetne kontrolne vsote** (izračun kontrolnih bitov na transportnem sloju)
+3. **CRC koda**
 
 
 <br><br>
@@ -352,7 +386,7 @@ V primeru preobremenitve na določeni povezavi (poškodba...) se poišče druga 
 [parnost-img-2]: https://res.cloudinary.com/solamona/image/upload/v1536877159/zvs/sts-kp/rac/5l/uiks/parnost-slika-2.svg
 [liho-img-1]: https://res.cloudinary.com/solamona/image/upload/v1536877327/zvs/sts-kp/rac/5l/uiks/liho-slika-1.svg
 [liho-img-2]: https://res.cloudinary.com/solamona/image/upload/v1536877457/zvs/sts-kp/rac/5l/uiks/liho-slika-2.svg
-[cont-biti]: https://res.cloudinary.com/solamona/image/upload/v1536918837/zvs/sts-kp/rac/5l/uiks/kontrolni-biti-diagram.svg
+[cont-biti]: https://www.latex4technics.com/imgtemp/iv369x-1.png?1541365792
 [vodilo]: https://res.cloudinary.com/solamona/image/upload/v1536939300/zvs/sts-kp/rac/5l/uiks/vodilo.gif
 [zvezda]: https://res.cloudinary.com/solamona/image/upload/v1536939433/zvs/sts-kp/rac/5l/uiks/zvezda.gif
 [obroc]: https://res.cloudinary.com/solamona/image/upload/v1536939850/zvs/sts-kp/rac/5l/uiks/obroc.gif

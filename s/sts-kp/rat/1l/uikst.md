@@ -20,7 +20,7 @@ latex: true
 
 <br><br>
 
-## OSNOVE RAČUNALNIŠKEGA OMREŽJA
+## Osnove računalniškega omrežja
 
 > Računalniško omrežje tvorita najmanj dve napravi ki sta med seboj **povezani** in **neodvisni**.
 
@@ -50,7 +50,7 @@ latex: true
 
 <br>
 
-## DOSTOP DO OMREŽJA
+## Dostop do omrežja
 
 ### Modemski dostop
 
@@ -95,7 +95,7 @@ Zanjo je značilna neposredna povezava med končnim uporabnikom in internetnim p
 
 <br>
 
-## PRENOSNA SREDSTVA
+## Prenosna sredstva
 
 ### Parica
 
@@ -118,9 +118,9 @@ Zanjo je značilna neposredna povezava med končnim uporabnikom in internetnim p
 
 <br>
 
-## VEČPLASTNA ARHITEKTURA
+## Večplastna arhitektura
 
-![diagram večplastne arhitekture][plasti-diagram]
+![diagram večplastne arhitekture][plasti-diagram]{: .imgc}
 
 Komunikacijski sloji tvorijo tako imenovane komunikacijske sklade. Vsakemu sloju je prirejen sklop opravil, vsak sloj komunicira s soležnim slojem na oddaljeni napravi. Komunikacija ni direktna in vključuje podrejene in nadrejene sloje, ki komunicirajo med sabo preko vmesnikov. Vsak sloj nudi storitev sloju nad sabo.
 
@@ -128,9 +128,11 @@ Komunikacijski sloji tvorijo tako imenovane komunikacijske sklade. Vsakemu sloju
 
 <br>
 
-### Referenčni model osi
+### Referenčni model OSI
 
-![diagram referenčnega modela osi][model-osi]
+[Kratka razlaga celotnega modela OSI](https://www.youtube.com/watch?v=vv4y_uOneC0) (pozor: težek indijski naglas).
+
+![diagram referenčnega modela osi][model-osi]{: .imgc}
 
 **PREDSTAVITVENI SLOJ**: kodiranje, šifriranje in stiskanje podatkov.
 
@@ -140,7 +142,7 @@ Komunikacijski sloji tvorijo tako imenovane komunikacijske sklade. Vsakemu sloju
 
 #### Referenčni model TCP/IP
 
-![diagram referenčnega modela TCP/IP][model-tcpip]
+![diagram referenčnega modela TCP/IP][model-tcpip]{: .imgc}
 
 <br>
 
@@ -152,7 +154,7 @@ Za aplikacije, ki so po zgradbi odjemalec - odjemalec velja, da komunikacija pot
 
 Za aplikacijo, ki je po zgradbi odjemalec - strežnik obstaja vedno dostopen računalnik, imenovan strežnik, katerega storitve uporabljajo drugi računalniki, imenovani uporabniki. Ta zgradba potreuje administratorja in zahteva visoke stroške vzdrževanja. Strežnik mora imeti statičen IP naslov. Primer: Splet, e-pošta, prenos datotek, DNS... Mrežne aplikacije (procesi, programi) med sabo komunicirajo z izmenjevanjem sporočil.
 
-![diagram izmenjave sporočil][izmenjava-sporocil]
+![diagram izmenjave sporočil][izmenjava-sporocil]{: .imgc}
 
 Procesi pošiljajo (v mrežo) in prejemajo sporočila (iz mreže) preko programskega vmesnika - poimenujemo ga "socket".
 
@@ -194,7 +196,7 @@ SMTP je osnovni protokol aplikacijskega sloja za spletno pošto. Slabost protoko
 - IMAP
 - HTTPS
 
-![diagram prenosa pošte][prenos-poste]
+![diagram prenosa pošte][prenos-poste]{: .imgc}
 
 <br>
 
@@ -219,11 +221,11 @@ Da se lahko pošlje zahteva na strežnik (sts) more uporabnik poznati IP naslov 
 
 ## Transportni sloj
 
-![diagram transportnega sloja][transportni-sloj]
+![diagram transportnega sloja][transportni-sloj]{: .imgc}
 
 Naloga transportnega sloja je zagotavljanje **logične** komunikacije med procesi. Storitev transportnega sloja: Aplikacijskemu sloju nudi logično komunikacijo med procesi. Na oddajni strani transportni sloj sporočilo (zahteva) aplikacije "pretvori" v paket transportnega sloja, imenovan **segment** in ga pošlje v mrežo.
 
-![diagram pošiljanja segmenta iz aplikacijskega v aplikacijski sloj preko transportnega][posiljanje-segmenta]
+![diagram pošiljanja segmenta iz aplikacijskega v aplikacijski sloj preko transportnega][posiljanje-segmenta]{: .imgc}
 
 Na prejemni strani transportni sloj iz segmenta "izvleče" sporočilo (zahteva) in ga preda ustreznemu procesu aplikacije.
 
@@ -252,7 +254,7 @@ Aplikacije, ki se izvajajo v realnem času (videokamere, prenos glasu) uporablja
 ### Kontrola napak
 Preveri se , da se biti tekom prenosa niso spremenili. Protokola UDP in TCP na strani pošiljatelja seštejeta bite in naredita komplement (sešteva se 16 bitne podatke, v primeru prekoračitve se višek zavrže). Dobljeni biti se vrnejo v polje kontrole.
 
-![diagram kontrolnih bitov v segmentu][kontrolni-biti]
+![diagram kontrolnih bitov v segmentu][kontrolni-biti]{: .imgc}
 
 <br>
 
@@ -338,7 +340,7 @@ $$
 
 Je eden izmed najbolj pomembnih slojev v referenčnem modelu TCP/IP.
 
-![diagram mrežnega sloja][mrezni-sloj]
+![diagram mrežnega sloja][mrezni-sloj]{: .imgc}
 
 <br>
 
@@ -354,7 +356,7 @@ IP naslov je sestavljen iz 32 bitov, kar prinese 2<sup>32</sup> možnih IP naslo
 
 > `193 . 32 . 216 . 9`
 
-![SLika omrežja][omrezje]
+![SLika omrežja][omrezje]{: .imgc}
 
 Povezava vmesnikov štirih naprav (3 računalniki 1 usmerjevalnik) tvori omrežje. Naslov omrežja je `223.1.2.0/24`, kjer je zapis `/24`, imenovan maska omrežja označuje, da prvih 24 bitov od vseh 32 bitov definira naslov omrežja.
 
@@ -383,7 +385,7 @@ Naslovi:
 
 Ti naslovi sestavljajo privatni naslovni prostor (npr. za domačo uporabo) in se jih ne usmerja iz omrežja.
 
-![Slika povezave omrežja][povezave-omrezja]
+![Slika povezave omrežja][povezave-omrezja]{: .imgc}
 
 Definicija **maske omrežja**:
 

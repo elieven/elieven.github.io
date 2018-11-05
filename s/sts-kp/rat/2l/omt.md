@@ -202,3 +202,73 @@ Osnovna žanra filma sta **komedija** in **drama**.
 - so filmi z zgodbo, ki je prikazana s pomočjo igre.
 - Igrani film predstavlja največji del svetovne filmske proizvodnje in se kaže v najrazličnejših žanrih.
 - V dobi nemega filma je igrani film temeljil na pantomimiki (igra brez besed in z gibi). Zvočni film teži k realnim oblikam izražanja. Nudi priložnost igralcem, da se lahko bolje izrazijo.
+
+<br>
+
+### Filmi glede na dolžino filmske predstave
+
+- **dolgometražni filmi** so filmi, ki so bili včasih dolgi 2000-3000 m filmskega traku, oziroma ki trajajo od ure in pol do dve uri (ali celo več).
+- **kratkometražni filmi** so filmi, ki trajajo od 10 do 20 minut, značilni so za obdobje nemega filma.
+
+<br><br>
+
+## Snovanje videoposnetkov
+
+### Osnovni filmski plani
+
+#### Bližnji plan
+
+- Prikazuje človeka od pasu navzgor, lahko zajamemo tudi dve-tri osebe. Z bližnjim planom želimo določeno osebo predstaviti od bliže, obraz je dovolj velik, da na njem razberemo človekovo razpoloženje, vidi se govorica rok, izraz na obrazu, gledalec razbere, kako se oseba počuti, reagira, kaj namerava.
+
+#### Detajl
+
+- Pokaže le del telesa, predmeta ali ambienta, gledalca opozori na podrobnost.
+
+#### Doprsni plan
+
+- Prikaže le glavo in ramena, eno osebo, pri tem izrezu pride do izraza govorica obraza.
+
+#### Splošni plan
+
+- Zanj je značilno, da prikazuje okolje dogajanja, samo dogajanje ni v ospredju. Prikazuje ambient, ulice, trge, pokrajino. Splošni plan, ki prikazuje le pokrajino ali veduto, imenujemo ***TOTAL***.
+
+#### Srednji plan
+
+- Srednji ali osnovni plan zajame vso človekovo postavo, lahko zajamemo samo enega človeka ali manjšo skupino, postave morajo biti dovolj velike, da brez težav razpoznamo obraze, vidimo, kaj počnejo in kje so. Posnetek v srednjem planu tako pove, kdo je posameznik/skupina, kakšen je, kaj počne in kakšno je njegovo razpoloženje. Posnetek opisuje stanje in dogajanje na prizorišču, je najbolj naraven izrez.
+
+<br>
+
+### Sistem kodiranja televizijskih signalov
+
++ **Sistem PAL** = kratica za *phase alternating line*
+	+ je barvni sistem kodiranja analognega televizijskega signala (standardna ločljivost - SD oz. *standard definition*), uporabljen v večjem delu sveta, vključno s Slovenijo.
+	+ uporablja 25 sličic na sekundo, frekvenco omrežne napetosti 50 Hz, slika vsebuje 720x567 (vidnih) pik v razmerju 4:3.
+	+ sistem PAL se je uporabljal do leta 1990, s pojavom digitalne televizije pa je možen ogled televizijskih programov tudi v HD ločljivosti.
++ **Sistem NTSC** = *National Television System Committee*, analogni TV sistem, ki označuje osvežitveno razmerja 29.97 fps. Vsaka slika vsebuje 720x480 pik v razmerju 4:3 pri 59.94 Hz.
+	+ uporabljamo ga v Ameriki, na Japonskem, v S Koreji, Tajvanu...
++ **Sistem SECAM** = *Sequential Couleur A Memorie*,
+	+ analogni TV sistem, ki so ga razvili v Franciji in je prvi Evropski barvni TV standard.
+
+<br>
+
+### Prepletanje 
+
+***(interlacing, oznaka "i")***
+
++ Video je lahko ***prepleten*** ali ***progresiven***.
++ Prepletanje so uvedli, da bi zagotovili dobro video kvaliteto.
++ Snop elektronov najprej osvetli lihe vrstice, nato se vrne na vrh zaslona in osvetli še sode vrstice.
++ Tako predvajanje na zaslonu televizorja ni bilo več sestavljeno iz 25 slik (sistem PAL) ampak iz 50 polslik.
++ Slabost "trepetanje" vrstic, zmanjšana ostrina slike in ločljivosti.
++ Stopnja osveževanja ali *osveževalna frekvenca* se nanaša na hitrost s katero se zaslon prebarva oz. osveži.
++ *1 Hz ustreza "enemu dogodku na sekundo"*.
+
+<br>
+
+### Progresivni način 
+
+***(progressive, oznaka "p")***
+
++ Z razvojem tehnologije pa ni bilo več potrebno prikazovanje polslik pač pa je sistem na zaslon lahko prikazal 50 polslik (vse sode in vse lihe vrstice skupaj) v sekundi.
++ Za tak način prikazovanja se je uveljavil izraz **progresivni način**.
++ Kakovost slike je v primerjavi z načinom prepletanja v tem primeru boljša, saj se v vsaki periodi osveževanja osvežujejo vse vrstice. tako dobimo občutek višje ločljivosti, slika tudi manj utripa.

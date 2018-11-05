@@ -11,6 +11,7 @@
 @import "breadcrumbs";
 @import "btnoverlay";
 @import "animationoverlay";
+@import "notifications";
 
 #logo-big {
   font-family: 'poppinsregular';
@@ -56,12 +57,18 @@
 .page-name {
   font-size: 26px;
   //font-family: $roboto;
-  font-weight: 500;
+  font-weight: 600;
   text-align: center;
   padding: 24px 0 0px 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #solamona_logo {
   margin: 48px auto;
   display: block;
+}
+
+.imgc {
+  display: block;
+  margin: 1.5rem auto;
 }
