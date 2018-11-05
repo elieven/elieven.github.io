@@ -107,7 +107,39 @@ function addDesktopTocFunctionality() {
   }
 }
 
+// kao "class" za kazanje in brisanje notificationou
+var Notification = {
 
+  create: function() {
+    console.log("meh");
+  },
+
+  show: function() {
+    console.log("nyee");
+  }
+
+}
+
+function getBrowser() {
+  // returns string that matches browser
+  if ( (!!window.opr && !!opr.addons) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0 ) {
+    return 'opera';
+  } else if ( typeof InstallTrigger !== 'undefined' ) {
+    return 'firefox';
+  } else if ( /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && safari.pushNotification)) ) {
+    return 'safari';
+  } else if ( /*@cc_on!@*/false || !!document.documentMode ) {
+    return 'ie';
+  } else if ( (/*@cc_on!@*/false || !!document.documentMode) && !!window.StyleMedia ) {
+    return 'edge';
+  } else if ( !!window.chrome && !!window.chrome.webstore ) {
+    return 'chrome';
+  } else if ( (isChrome || isOpera) && !!window.CSS ) {
+    return 'blink';
+  } else {
+    return undefined;
+  }
+}
 
 // CALL STACK & PAGE SETUP
 if (!isMobile) {
@@ -123,6 +155,7 @@ if (!isMobile) {
 addCheckForScrolltopBtn();
 addScrollTopBtnFunctionality();
 
+<<<<<<< HEAD
 function unsupportedBrowserAlert() {
   // preveri kiri browser mas
   // preveri ce si kliknu "pusti me na miru" za ta notification
@@ -168,3 +201,6 @@ function getBrowser() {
     return 'unknown';
   }
 }
+=======
+console.log(getBrowser());
+>>>>>>> e28bb1dacab77d2381cfa71b2eded552ecea0cee

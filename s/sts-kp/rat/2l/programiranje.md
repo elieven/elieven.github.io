@@ -435,7 +435,7 @@ do {
 
 ### Vaje
 
-#### Vaja 1 - množenje števk ki niso 0
+#### 1) množenje števk ki niso 0
 
 napiši program, ki bo prebral naravno število in izračunal produkt njegovih od 0 različnih števk. Torej št 1203 = 1 x 2 x 3 = 6
 
@@ -468,7 +468,7 @@ public class MnozenjeRazenNicel {
 }
 ```
 
-#### Vaja 2 - večkratniki števila 7 med dvemi števili
+#### 2) večkratniki števila 7 med dvemi števili
 
 Napiši program, ki sprejme 2 naravni števili, in nam pove koliko večkratnikov števila sedem je vmes.
 
@@ -501,7 +501,7 @@ public class VeckratnikiSedmice {
 }
 ```
 
-#### Vaja 3 - pretvorba iz desetiškega v dvojiško število
+#### 3) pretvorba iz desetiškega v dvojiško število
 
 Pretvori desetiško število v dvojiško.
 
@@ -534,7 +534,7 @@ public class DesToDv {
 }
 ```
 
-#### Vaja 4 - pretvorba iz desetiškega v osmiško število
+#### 4) pretvorba iz desetiškega v osmiško število
 
 Pretvori desetiško število v osmiško.
 
@@ -565,7 +565,7 @@ public class DesToOct {
 }
 ```
 
-#### Vaja 5 - pretvorba iz desetiškega v šestnajstiško
+#### 5) pretvorba iz desetiškega v šestnajstiško
 
 Pretvori desetiško število v šestnajstiško.
 
@@ -597,7 +597,7 @@ public class DesToHex {
 }
 ```
 
-#### Vaja 6 - večkratniki 7 z enicami večjimi kot stoticami
+#### 6) večkratniki 7 z enicami večjimi kot stoticami
 
 Izpiši vse 3 mestne večkratnike števila 7, ki imajo enice večje kot stotice. Števila naj se izpišejo po 5 v vrsto.
 
@@ -633,9 +633,104 @@ public class VeckratnikiSedemVecjeEniceKotStotice {
 }
 ```
 
-#### Vaja 7 - računanje točk in zmag v nogometu
+#### 7) računanje točk in zmag v nogometu
 
 Napiši program, ki sprejme število točk od ekipe in število odigranih tekem (nogomet). Izpišite na kakšen način je možno doseči tako število točk.
+
+```java
+```
+
+#### 8) računanje možnosti pakiranja jagod
+
+```java
+```
+
+<br><br>
+
+### Nizi
+Niz je lahko sestavljen iz znakov, presledkov, ločil.
+
+```java
+String niz = "Niz je besedilo.";
+String krneki = "E898 z72$:) )?*-_14ffw";
+```
+<br>
+
+#### OPERACIJE Z NIZI
+
+**Število znakov** v nizu dobimo z `niz.length()`.
+
+**Združevanje nizov:**
+```java
+String niz1 = "Kosa stari ";
+String niz2 = "kaj ti?";
+
+System.out.println(niz1 + niz2); // "Kosa stari kaj ti?"
+System.out.println(niz1.concat(niz2)); // "Kosa stari kaj ti?"
+```
+
+#### Zamenjava znakov v nizu
+
+V nizu **zamenjamo** znake oz. dele niza z metodo **replace()**.
+
+```java
+String zamenjano = niz.replace("del niza", "nov del niza");
+```
+
+Del niza pa **zbrišemo** tako da zamenjao želeni del niza s praznim nizom:
+
+```java
+String zamenjano = niz.replace("del niza", "");
+```
+
+#### Nekatere ostale metode za delo z nizi
+
+```java
+niz.charAt(index) // vrne znak, ki je na ideksu
+```
+
+```java
+niz.equals(niz1) // primerja niz in niz1, če sta enaka vrne true
+```
+
+```java
+niz.indexOf(niz1) // vrne indeks, kjer se niz1 prvič pojavi v nizu
+```
+
+```java
+niz.substring(a,b) // vrne del niza med indeksom a in b - če ne najde vrne -1
+```
+
+#### Cepljenje niza v tabelo
+
+```java
+String[] tabela = niz.split("lociloMedElementi")
+```
+
+Ločilo med elementi pove, kako so elementi, ki jih vpisujemo v tabelo, ločeni med sabo v nizu. Primer:
+
+```java
+String eh = "kaj je s tabo človek kaj si nor?";
+String[] = eh.splot(" "); // "kaj", "je", "s" ... "nor?"
+```
+<br>
+
+**DN:** napiši program, ki prebere niz s tipkovnice, in ga izpiše tako, da vsakoč ko naleti na `a` nadaljuje z izpisom na naslednji vrstici.
+
+```java
+"abrakadabra"
+> pomeni ena vrstica
+
+>
+>abr
+>ak
+>ad
+>ab
+>abr
+>a
+```
+
+
 
 
 [if]: https://res.cloudinary.com/solamona/image/upload/v1537456195/zvs/sts-kp/rac/5l/programiranje/if_statement.jpg
