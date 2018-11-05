@@ -13,6 +13,11 @@ self.addEventListener('install', function() {
     cache.add('https://image.ibb.co/gyCFbz/sts_logo.png'); // sts-kp
     cache.add('https://image.ibb.co/c4QRGz/gim_logo.jpg'); // gim-kp
   });
+  // caches js
+  caches.open('scripts').then(function(cache){
+    cache.add('/assets/js/fullss.js');
+    cache.add('/assets/js/main.js');
+  });
 });
 
 self.addEventListener('activate', function() {
