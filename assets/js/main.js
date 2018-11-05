@@ -155,7 +155,6 @@ if (!isMobile) {
 addCheckForScrolltopBtn();
 addScrollTopBtnFunctionality();
 
-<<<<<<< HEAD
 function unsupportedBrowserAlert() {
   // preveri kiri browser mas
   // preveri ce si kliknu "pusti me na miru" za ta notification
@@ -201,6 +200,3 @@ function getBrowser() {
     return 'unknown';
   }
 }
-=======
-console.log(getBrowser());
->>>>>>> e28bb1dacab77d2381cfa71b2eded552ecea0cee
