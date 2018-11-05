@@ -1,5 +1,5 @@
-$headergradient: linear-gradient(to bottom right, rgb(138, 63, 205), rgb(34, 131, 201));
-$lucygradientpeach: linear-gradient(to bottom right, #F15F79, #B24592);
+$headergradient: linear-gradient(to bottom, rgb(138, 63, 205), rgb(34, 131, 201));
+$lucygradientpeach: linear-gradient(to bottom, #F15F79, #B24592);
 
 header {
   height: $hh;
@@ -68,5 +68,11 @@ header {
         color: white;
       }
     }
+  }
+}
+
+@media screen and (max-width: 640px) {
+  header::before {
+    background: #2779BD!important;
   }
 }
