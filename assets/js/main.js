@@ -20,6 +20,11 @@ if (!isMobile) {
 }
 
 
+// SW registering
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/assets/js/sw.js');
+}
+
 
 // scroll back to top function
 const scrollTopBtn = document.querySelector('#back-to-top-btn');
@@ -105,19 +110,6 @@ function addDesktopTocFunctionality() {
       offsetTop: 16
     });
   }
-}
-
-// kao "class" za kazanje in brisanje notificationou
-var Notification = {
-
-  create: function() {
-    console.log("meh");
-  },
-
-  show: function() {
-    console.log("nyee");
-  }
-
 }
 
 function getBrowser() {
