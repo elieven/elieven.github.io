@@ -9,8 +9,9 @@ self.addEventListener('install', function() {
     cache.add('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
   });
   // caches styles
-  caches.open('styles').then(function(cache){
-    //cache.add('/assets/css/styles.css');
+  caches.open('images').then(function(cache){
+    cache.add('https://image.ibb.co/gyCFbz/sts_logo.png'); // sts-kp
+    cache.add('https://image.ibb.co/c4QRGz/gim_logo.jpg'); // gim-kp
   });
 });
 
