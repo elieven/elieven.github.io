@@ -694,11 +694,11 @@ niz.equals(niz1) // primerja niz in niz1, če sta enaka vrne true
 ```
 
 ```java
-niz.indexOf(niz1) // vrne indeks, kjer se niz1 prvič pojavi v nizu
+niz.indexOf(niz1) // vrne indeks, kjer se niz1 prvič pojavi v nizu, če ne najde vrne -1
 ```
 
 ```java
-niz.substring(a,b) // vrne del niza med indeksom a in b - če ne najde vrne -1
+niz.substring(a,b) // vrne del niza med indeksom a in b, če ne najde vrne -1
 ```
 
 #### Cepljenje niza v tabelo
