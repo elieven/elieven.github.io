@@ -89,9 +89,12 @@ function addDesktopTocFunctionality() {
   const TOCLinks = Array.from(document.querySelectorAll('#markdown-toc a'));
   // vsem linkom da onclick function
   for (let i = 0; i < TOCLinks.length; i++) {
+    
     TOCLinks[i].addEventListener('click', function(evt){
-      const id = TOCLinks[i].id.slice(13);
-      console.log(i);
+      // uni indexof nevem ce dela kr nimam pojma ce je this
+      // v tem primeru v vseh browserjih enaka stvar
+      const id = TOCLinks[TOCLinks.indexOf(this)].id.slice(13);
+
       const elt = document.getElementById(id);
       scrollbar.scrollIntoView(elt, {
         onlyScrollIfNeeded: false,
@@ -109,27 +112,6 @@ function addDesktopTocFunctionality() {
       onlyScrollIfNeeded: false,
       offsetTop: 16
     });
-  }
-}
-
-function getBrowser() {
-  // returns string that matches browser
-  if ( (!!window.opr && !!opr.addons) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0 ) {
-    return 'opera';
-  } else if ( typeof InstallTrigger !== 'undefined' ) {
-    return 'firefox';
-  } else if ( /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && safari.pushNotification)) ) {
-    return 'safari';
-  } else if ( /*@cc_on!@*/false || !!document.documentMode ) {
-    return 'ie';
-  } else if ( (/*@cc_on!@*/false || !!document.documentMode) && !!window.StyleMedia ) {
-    return 'edge';
-  } else if ( !!window.chrome && !!window.chrome.webstore ) {
-    return 'chrome';
-  } else if ( (isChrome || isOpera) && !!window.CSS ) {
-    return 'blink';
-  } else {
-    return undefined;
   }
 }
 

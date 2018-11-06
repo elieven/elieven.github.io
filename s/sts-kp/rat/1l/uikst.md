@@ -264,75 +264,19 @@ Začnemo s številom, ki mu želimo izračunati kontrolne bite in s številom `k
 
 V tem primeru je `št = 110110001111000` in `k = 3`. Najprej razdelimo število na dele velikosti `k` in dobimo `110 110 000 111 000`. Napišemo si jih tako, od desne proti levi in od zgoraj navzdol. Zraven si napišemo št. 2 saj bomo z njim delili vsa števila.
 
-$$
-
-\begin{matrix}
-
-0 & 0 & 0 \\
-1 & 1 & 1 \\
-0 & 0 & 1 \\
-1 & 1 & 0 \\
-1 & 1 & 0  & _2\\
-\hline\\
-
-\end{matrix}
-
-$$
+![1. korak](https://www.latex4technics.com/imgtemp/eqdo8y-1.png?1541527596){: .imgc}
 
 Seštejemo prvi stolpec (začnemo na desni in nadaljujemo levo). Seštevek delimo s št. 2 in ostanek napišemo pod stolpec, celi del rezultata pa prenesemo naprej. `2 : 2 = 1, ost. 0` torej pod stolpec napišemo 0 in 1 prenesemo naprej.
 
-$$
-
-\begin{matrix}
-
-0 & 0 & 0 \\
-1 & 1 & 1 \\
-0 & 0 & 1 \\
-1 & 1 & 0 \\
-1 & 1_{\color{red}1} & 0  & _2\\
-\hline
-& & {\color{red}0}
-
-\end{matrix}
-
-$$
+![2. korak](https://www.latex4technics.com/imgtemp/5z8z0w-1.png?1541527660){: .imgc}
 
 To ponavljamo dokler nam ne ostane nič več.
 
-$$
-
-\begin{matrix}
-
-& & 0 & 0 & 0 \\
-& & 1 & 1 & 1 \\
-& & 0 & 0 & 1 \\
-& & 1 & 1 & 0 \\
-_1 & _2 & 1_2 & 1_1 & 0 & _2\\
-\hline
-1 & 0 & \color{red}{1} & \color{red}{0} & \color{red}{0}
-
-\end{matrix}
-
-$$
+![3. korak](https://www.latex4technics.com/imgtemp/1tss0r-1.png?1541527689){: .imgc}
 
 Potem zadnje `k` bitov negiramo in jih dodamo na konec prvega števila `110 110 000 111 000 011`. Še enkrat seštejemo števila in preverimo, če so zadnji `k` biti enice, ker na strani prejemnika protokola (UDP, TCP) med sabo seštejeta bite podatkov in bite v polju kontrole. Seštevek mora vsebovati same enice. V primeru, da seštevek vsebuje ničlo, vemo, da je med prenosom prišlo do napake.
 
-$$
-
-\begin{matrix}
-
-& & 1 & 1 & 0 \\
-& & 1 & 1 & 0 \\
-& & 0 & 0 & 1 \\
-& & 1 & 1 & 1 \\
-& & 0 & 0 & 0 \\
-& & 0 & 1_1 & 1 & _2 \\
-\hline
-1 & 0 & \color{red}{1} & \color{red}{1} & \color{red}{1}
-
-\end{matrix}
-
-$$
+![4. korak](https://www.latex4technics.com/imgtemp/ytf1zl-1.png?1541527720){: .imgc}
 
 <br><br>
 
