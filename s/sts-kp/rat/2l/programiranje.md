@@ -698,7 +698,7 @@ niz.indexOf(niz1) // vrne indeks, kjer se niz1 prvič pojavi v nizu, če ne najd
 ```
 
 ```java
-niz.substring(a,b) // vrne del niza med indeksom a in b - če ne najde vrne -1
+niz.substring(a,b) // vrne del niza med indeksom a in b, če ne najde vrne -1
 ```
 
 #### Cepljenje niza v tabelo
