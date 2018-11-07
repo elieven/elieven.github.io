@@ -19,29 +19,66 @@ title: UIKS • 2. letnik • Računalniški Tehnik • STŠ Koper
 
 <br><br>
 
+## IP naslov (IPv4)
+
+> to je priporočeno vedet, da lažje razumeš delovanje / ozdelavo podomrežij
+
+IP naslov je **32 mestno binarno število**, ki se uporablja za **identifikacijo naprave v IP omrežju**. Teh 32 bitov lahko razdelimo na del za **zapis omrežja** in del za **zapis naprave**, s pomočjo **maske**. Naslov je razdeljen na 4 dele po 8 bitov (oktet). Vsak oktet je pretvorjen v decimalno število in ločen s piko (primer zapisa ip naslova: `192.168.81.77`). Vsak oktet je lahko od `0` do `255` (decimalna oblika) oziroma `00000000` do `11111111`.
+
+**Postopek pretvorbe binarnega okteta v decimalnega:** bit na skrajni desni ima vrednost 2<sup>0</sup> (torej 1), bit na njegovi levi pa 2<sup>1</sup> (2). Tako se nadaljuje do skrajnega levega bita, ki ima vrednost 2<sup>7</sup> (128). Da dobimo decimalno vrednost okteta samo seštejemo vrednosti bitov, kjer je bit 1. 
+
+```
+1   0   1  1 0 0 1 1 (binarni zapis)
+128 64 32 16 8 4 2 1 (vrednost bitov)
+128 +0 +32 +16 +0 +0 +2 +1 = 179
+```
+
+Spodaj je prikazan primer zapisa (binarni in decimalni):
+
+```
+   192  .   168  .   32   .   77    (decimalni)
+11000000.10101000.00100000.01001101 (binarni)
+
+```
+
+<br>
+
+### Razredi IP naslovov
+
+Vsak IP naslovi sodi v enega izmed 5 razredov. 
+
+> Polje **razmerje** je razmerje med koločino bitov (**b**) uporabljenih za zapis **omrežja** in **naprave**. Prikazano je tudi v bajtih (**B**). Primer: 2B:2B - 2 bajta za zapis omrežja in 2 bajta za zapis naprave.
+
+| Razred |  Razmerje omr:napr  |        Obseg IP naslova         |
+| :----: | :-----------------: | ------------------------------: |
+| **A**  | `8b:24b` - `1B:3B`  |   `1.0.0.0` - `127.255.255.255` |
+| **B**  | `16b:16b` - `2B:2B` | `128.0.0.0` - `191.255.255.255` |
+| **C**  | `24b:8b` - `3B:1B`  | `192.0.0.0` - `223.255.255.255` |
+| **D**  |    Multicasting     | `224.0.0.0` - `239.225.225.225` |
+| **E**  | Rezervirani naslovi | `240.0.0.0` - `247.255.255.255` |
+
+Razredov **D** in **E** ne uporabljamo, ker so rezervirani za posebne namene.
+
+![Obseg IP naslovov](https://proxy.duckduckgo.com/iur/?f=1&image_host=http%3A%2F%2Fslideplayer.com%2F3366086%2F12%2Fimages%2F7%2FIP%2BAddress%2BRange%2BClass%2BA%2BExtremely%2Blarge%2Bnetwork%252C%2B16%252C777.000%2Bavailable%2Bhost%2Baddress..jpg&u=http://slideplayer.com/slide/3366086/12/images/7/IP+Address+Range+Class+A+Extremely+large+network,+16,777.000+available+host+address..jpg){: .imgc}
+
+#### Dodatna snov
+
+- [Razlaga IP razredov in števila naprav in omrežij](http://www.tcpipguide.com/free/t_IPAddressClassABandCNetworkandHostCapacities.htm)
+- [IP naslovi s posebnim pomenom](http://www.tcpipguide.com/free/t_IPAddressesWithSpecialMeanings.htm)
+- [Razlaga izdelave podomrežij](https://www.cisco.com/c/en/us/support/docs/ip/routing-information-protocol-rip/13788-3.html)
+
+
+
+
+<br>
+
 ## Ustvarjanje podomrežij
 
 Če je razred omrežja prevelik, se omrežje lahko deli na podomrežja (kar je dobro tudi za varnost). IP naslov je sestavljen iz 32 bitov in za ustvariti podomrežje vzamemo nek del bitov namenjen napravam in te bite uporabimo za zapis omrežja. S tem se poveča število omrežij in hkrati zmanjša število naprav, ki so lahko v posamičnem podomrežju.
 
 ![](http://quicklatex.com/cache3/96/ql_e12691760baa822d81e572e19993b596_l3.png)
 
-$$
-\underbrace{
-  \phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_
-}_{\mathrm{biti\phantom{a}omrežja}}
-
-\phantom{|}.\overbrace{\phantom{|}\_\phantom{|}\_\phantom{|}\_}^{\mathrm{b.\phantom{a}pod.}}
-
-\underbrace{\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}.
-\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}.
-\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_}_{\mathrm{biti\phantom{a}naprav}}
-$$
-
-<br>
-
-$$
-\underbrace{\color{dodgerblue}{11111111.11111111.11111111}}_{\mathrm{biti\phantom{a}omrežja}}.00000000
-$$
+> slike od ipjev into
 
 <br><br>
 
