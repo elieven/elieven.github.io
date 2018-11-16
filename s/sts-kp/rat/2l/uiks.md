@@ -21,9 +21,9 @@ title: UIKS • 2. letnik • Računalniški Tehnik • STŠ Koper
 
 ## IP naslov (IPv4)
 
-> to je priporočeno vedet, da lažje razumeš delovanje / ozdelavo podomrežij
+IP naslov je **32 mestno binarno število**, ki se uporablja za **identifikacijo naprave v omrežju**. Sestavljata ga **omrežna predpona / identifikacija** (net ID) in **gostiteljeva identifikacija** (host ID).
 
-IP naslov je **32 mestno binarno število**, ki se uporablja za **identifikacijo naprave v IP omrežju**. Teh 32 bitov lahko razdelimo na del za **zapis omrežja** in del za **zapis naprave**, s pomočjo **maske**. Naslov je razdeljen na 4 dele po 8 bitov (oktet). Vsak oktet je pretvorjen v decimalno število in ločen s piko (primer zapisa ip naslova: `192.168.81.77`). Vsak oktet je lahko od `0` do `255` (decimalna oblika) oziroma `00000000` do `11111111`.
+
 
 **Postopek pretvorbe binarnega okteta v decimalnega:** bit na skrajni desni ima vrednost 2<sup>0</sup> (torej 1), bit na njegovi levi pa 2<sup>1</sup> (2). Tako se nadaljuje do skrajnega levega bita, ki ima vrednost 2<sup>7</sup> (128). Da dobimo decimalno vrednost okteta samo seštejemo vrednosti bitov, kjer je bit 1. 
 
@@ -33,13 +33,9 @@ IP naslov je **32 mestno binarno število**, ki se uporablja za **identifikacijo
 128 +0 +32 +16 +0 +0 +2 +1 = 179
 ```
 
-Spodaj je prikazan primer zapisa (binarni in decimalni):
+![Sestava IP naslova](https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.cnblogs.com%2Fcnblogs_com%2Fjcsu%2Fcisco%2Fcisco_icnd1_ip_address_format.PNG&f=1){: data-action="zoom"}
 
-```
-   192  .   168  .   32   .   77    (decimalni)
-11000000.10101000.00100000.01001101 (binarni)
-
-```
+Zapis naslova v **CIDR** obliki: `192.168.32.77/24` je decimalni zapis IP naslova, ki mu sledi poševnica in za njo število bitov, ki so uporabljeni za zapis omrežja (omrežnega dela).
 
 <br>
 
@@ -59,18 +55,36 @@ Vsak IP naslovi sodi v enega izmed 5 razredov.
 
 Razredov **D** in **E** ne uporabljamo, ker so rezervirani za posebne namene.
 
-![Obseg IP naslovov](https://proxy.duckduckgo.com/iur/?f=1&image_host=http%3A%2F%2Fslideplayer.com%2F3366086%2F12%2Fimages%2F7%2FIP%2BAddress%2BRange%2BClass%2BA%2BExtremely%2Blarge%2Bnetwork%252C%2B16%252C777.000%2Bavailable%2Bhost%2Baddress..jpg&u=http://slideplayer.com/slide/3366086/12/images/7/IP+Address+Range+Class+A+Extremely+large+network,+16,777.000+available+host+address..jpg){: .imgc}
+<br>
+
+| Razred | Obseg razreda (prvi oktet - *dec in bin*) | Št. omrežij | Št. naprav  |
+| :----: | ----------------------------------------: | :---------: | :---------: |
+| **A**  |           1-126 (`00000001` - `01111110`) |     126     | 16 7777 214 |
+| **B**  |         128-191 (`10000000` - `10111111`) |   16 384    |    65534    |
+| **C**  |         192-223 (`11000000` - `11011111`) |  2 097 152  |     254     |
+| **D**  |         224-239 (`11100000` - `11101111`) |      -      |      -      |
+| **E**  |         240-255 (`11110000` - `11111111`) |      -      |      -      |
+
+- Razred **A** ima lahko 16777000 možnih naprav
+- Razred **B** ima lahko 16384 omrežij z 65000 napravami
+- Razred **C** ima lahko več kot 2 miljona omrežij z 256 napravami
+
+<br>
+
+Naslov naprave v celoti sestavljen iz 0 je neveljaven, naslov v celoti sestavljen iz 1 pa je rezerviran za **broadcast** (pošlje paketek vsem v omrežju). `127.x.x.x` je rezerviran za **loopback**.
+
+
 
 #### Dodatna snov
 
-- [Razlaga IP razredov in števila naprav in omrežij](http://www.tcpipguide.com/free/t_IPAddressClassABandCNetworkandHostCapacities.htm)
+- [Razlaga IP razredov, števila naprav in omrežij](http://www.tcpipguide.com/free/t_IPAddressClassABandCNetworkandHostCapacities.htm)
 - [IP naslovi s posebnim pomenom](http://www.tcpipguide.com/free/t_IPAddressesWithSpecialMeanings.htm)
 - [Razlaga izdelave podomrežij](https://www.cisco.com/c/en/us/support/docs/ip/routing-information-protocol-rip/13788-3.html)
+- [Razlaga IP naslova (slo)](http://www.s-sers.mb.edus.si/gradiva/rac/drugo/omrezja/36_osi3/05_datoteka.html)
 
 
 
-
-<br>
+<br><br>
 
 ## Ustvarjanje podomrežij
 
@@ -101,6 +115,10 @@ Ker želimo 2 podomrežji moramo vzeti dovolj bitov, da lahko zapišemo 2 razli�
 $$
 192.168.0.\phantom{|}\_\phantom{|}|\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_
 $$
+
+<br><br>
+
+---
 
 <br>
 
