@@ -87,41 +87,47 @@ Poznamo več različnih vrst digitalne TV:
 ## Zasloni
 
 LCD - zaslon (angl. **Liqud Crystal Display**)
-+ ali zaslon s tekočimi kristali je zaslon, izdelan v tehnologiji tekočih kristalov. Najpogosteje ga srečamo v računalniških zaslonih in televizijskih sprejemnikih. Nadomestil je katodno cev (CRT - **Cathode Ray Tube**).
 
-<br>
+-   ali zaslon s tekočimi kristali je zaslon, izdelan v tehnologiji tekočih kristalov. Najpogosteje ga srečamo v računalniških zaslonih in televizijskih sprejemnikih. Nadomestil je katodno cev (CRT - **Cathode Ray Tube**).
+
+  
 
 ### Vrste tehnologij zaslonov
 
-CCFL (**Cold-Cathode Fluorescent Lamps**) LCD
-+ izvor svetlobe je običajna neonska svetilka(vgrajenih je od 6-20, odvisno od velikosti zaslona). Življenjska doba znaša okrog 60.000 delovnih ur in se izteče ko svetilnost zaslona pade na 50% prvotne.
+#### CCFL (**Cold-Cathode Fluorescent Lamps**) LCD
 
-DIRECT LED LCD
-+ izvor svetlobe so bele LED diode, nameščene enakomerno preko cele površine vgrajenega zaslona.
-+ so med seboj povezane, vedno svetijo z enako močjo, njihova svetilnost se lahko nastavlja.
-+ DIRECT LED je v primerjavi z običajnim CCFL zaslonom svetlejši, dosega dinamično kontrastno razmerje, ima daljšo življenjsko dobo (100.000 delovnih ur) in približno 40% nižjo porabo energije.
-+ svetlinos zaslona je skozi življenjsko dobo praktično konstantna.
+-   izvor svetlobe je običajna neonska svetilka(vgrajenih je od 6-20, odvisno od velikosti zaslona). Življenjska doba znaša okrog 60.000 delovnih ur in se izteče ko svetilnost zaslona pade na 50% prvotne.
 
-EDGE LED LCD
-+ izvor svetlobe so bele LED diode, anmeščene ob robovih vgrajenega zaslona.
-+ posebna struktura, v zaslonu njihovo svetlobo enakomerno porazdeli prek celotne površine.
-+ debelina zaslona znaša približno 1cm, aparata pa 4cm.
-+ EDGE LED je primerljiv z zaslonom DIRECT LED, vendar je tanjši.
+#### DIRECT LED LCD
+
+-   izvor svetlobe so bele LED diode, nameščene enakomerno preko cele površine vgrajenega zaslona.
+-   so med seboj povezane, vedno svetijo z enako močjo, njihova svetilnost se lahko nastavlja.
+-   DIRECT LED je v primerjavi z običajnim CCFL zaslonom svetlejši, dosega dinamično kontrastno razmerje, ima daljšo življenjsko dobo (100.000 delovnih ur) in približno 40% nižjo porabo energije.
+-   svetlinos zaslona je skozi življenjsko dobo praktično konstantna.
+
+#### EDGE LED LCD
+
+-   izvor svetlobe so bele LED diode, anmeščene ob robovih vgrajenega zaslona.
+-   posebna struktura, v zaslonu njihovo svetlobo enakomerno porazdeli prek celotne površine.
+-   debelina zaslona znaša približno 1cm, aparata pa 4cm.
+-   EDGE LED je primerljiv z zaslonom DIRECT LED, vendar je tanjši.
 
 Micro Dimming pri naprednejših LED LCD televizorjih omogoča lokalno nadziranje osvetljevanja in zatemnjevanja zaslona, kar izboljša kontrast, barvo in ostrino slike.
 
 Črna barva na televizorju tako ostane neosvetljena in zato res črna (pri klasičnih LED televizorjih brez lokalnega zatemnjevanja osvetli tudi čeni del slike, in tako je le-ta bolj sivkasta).
 
-Tehnologija OLED (**organic light-emitting diode**)
-+ uporablja naravno snov, ki v kombinaciji z električnim tokom zasveti in oddaja svetlobo.
-+ ta revolucionarna snov je del najnovejših TV prejemnikov, ki občutno zmanjšajo debelino in težo televizorjev.
-+ svetloba, ki potuje prek kombinacije posebnih flitrov, prikazuje sliko v izrednoi kakovostnih, visoko ločljivih barvah in kontrastih.
+#### Tehnologija OLED (**organic light-emitting diode**)
 
-Prednosti LED LCD zaslonov:
-+ bistveno zmanjša porabo električne energije, kot običajni LCD in plazma zasloni.
-+ slika na LED zaslonih je bolj realistična, naravnih barv in intenzivnejših kontrastov.
-+ LED zasloni dosegajo višje kontrastno razmerje v primerjavi z običajnimi LCD in plazma zasloni - višje kontrastno razmerje omogoča prikaz bolj intenzivne čne barve in tudi več različnih barvnih odtenkov
-+ življenjska doba LED zasalonov je približno 100.000 ur
+-   uporablja naravno snov, ki v kombinaciji z električnim tokom zasveti in oddaja svetlobo.
+-   ta revolucionarna snov je del najnovejših TV prejemnikov, ki občutno zmanjšajo debelino in težo televizorjev.
+-   svetloba, ki potuje prek kombinacije posebnih flitrov, prikazuje sliko v izrednoi kakovostnih, visoko ločljivih barvah in kontrastih.
+
+**Prednosti LED LCD zaslonov:**
+
+-   bistveno zmanjša porabo električne energije, kot običajni LCD in plazma zasloni.
+-   slika na LED zaslonih je bolj realistična, naravnih barv in intenzivnejših kontrastov.
+-   LED zasloni dosegajo višje kontrastno razmerje v primerjavi z običajnimi LCD in plazma zasloni - višje kontrastno razmerje omogoča prikaz bolj intenzivne čne barve in tudi več različnih barvnih odtenkov
+-   življenjska doba LED zasalonov je približno 100.000 ur
 
  <br><br>
  
