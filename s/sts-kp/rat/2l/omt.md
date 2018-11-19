@@ -278,3 +278,24 @@ Osnovna žanra filma sta **komedija** in **drama**.
 + Z razvojem tehnologije pa ni bilo več potrebno prikazovanje polslik pač pa je sistem na zaslon lahko prikazal 50 polslik (vse sode in vse lihe vrstice skupaj) v sekundi.
 + Za tak način prikazovanja se je uveljavil izraz **progresivni način**.
 + Kakovost slike je v primerjavi z načinom prepletanja v tem primeru boljša, saj se v vsaki periodi osveževanja osvežujejo vse vrstice. tako dobimo občutek višje ločljivosti, slika tudi manj utripa.
+
+---
+> kle umes neki mogoče manjka
+---
+
+#### Veliki plan
+- zajema samo glavo, običajno le obraz.
+- ta plan uporabimo, ko želimo pokazati ali izraziti globlja čustvena/duševna stanja posameznika.
+>
+- **Prizor** = iz različnih planov sestavljeno neko zaključeno dogajanje znotraj filma.
+- To je naloga montažerja, snemalec pa poskrbi, da so posnetki posneti v različnih planih.
+
+#### Rakurz
+- Rakurz imenujemo učinek, ki ga ponudi uporaba nagnjene kamere. Z nagnjeno kamero namreč lahko posnamemo prizor z različnega zornega kota - **rakurza**.
+>
+- **Spodnji rakurz** - imenujemo posnetek, kadar je kamera obrnjena navzgor. Motivu dajemo učinek dominantnosti, deluje samozavesten, lahko tudi nadut, vzvišen, pomemben.
+- **Zgornji rakurz** - imenujemo posnetek, ko je kamera med snemanjem obrnjena navzdol. Tako prikazan motiv deluje zgubljen, potrt, podrejen, nepomemben.
+>
+- **Nehoten rakurz** - ko snemamo z roke, pogosto snemamo v zgornjem rakurzu.
+- Ko snemalec snema objekte nižje od sebe, kamero obrne navzdol (npr. otroci, živali, cvetje, sedeči ljudje). Tako posnetki so pomanjkljivi, amaterski.
+- **Snemalec se mora spustiti na višino snemanega objekta** (lahkop počepne, postavi kamero na nizko stojalo ipd.)
