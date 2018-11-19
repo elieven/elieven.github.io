@@ -86,7 +86,7 @@ Poznamo več različnih vrst digitalne TV:
 
 ## Zasloni
 
-LCD - zaslon (angl. **Liqud Crystal Display**)
+LCD - zaslon (Liqud Crystal Display)
 
 -   ali zaslon s tekočimi kristali je zaslon, izdelan v tehnologiji tekočih kristalov. Najpogosteje ga srečamo v računalniških zaslonih in televizijskih sprejemnikih. Nadomestil je katodno cev (CRT - **Cathode Ray Tube**).
 
@@ -94,7 +94,7 @@ LCD - zaslon (angl. **Liqud Crystal Display**)
 
 ### Vrste tehnologij zaslonov
 
-#### CCFL (**Cold-Cathode Fluorescent Lamps**) LCD
+#### CCFL (Cold-Cathode Fluorescent Lamps) LCD
 
 -   izvor svetlobe je običajna neonska svetilka(vgrajenih je od 6-20, odvisno od velikosti zaslona). Življenjska doba znaša okrog 60.000 delovnih ur in se izteče ko svetilnost zaslona pade na 50% prvotne.
 
@@ -116,7 +116,7 @@ Micro Dimming pri naprednejših LED LCD televizorjih omogoča lokalno nadziranje
 
 Črna barva na televizorju tako ostane neosvetljena in zato res črna (pri klasičnih LED televizorjih brez lokalnega zatemnjevanja osvetli tudi čeni del slike, in tako je le-ta bolj sivkasta).
 
-#### Tehnologija OLED (**organic light-emitting diode**)
+#### Tehnologija OLED (organic light-emitting diode)
 
 -   uporablja naravno snov, ki v kombinaciji z električnim tokom zasveti in oddaja svetlobo.
 -   ta revolucionarna snov je del najnovejših TV prejemnikov, ki občutno zmanjšajo debelino in težo televizorjev.
