@@ -299,3 +299,21 @@ Osnovna žanra filma sta **komedija** in **drama**.
 - **Nehoten rakurz** - ko snemamo z roke, pogosto snemamo v zgornjem rakurzu.
 - Ko snemalec snema objekte nižje od sebe, kamero obrne navzdol (npr. otroci, živali, cvetje, sedeči ljudje). Tako posnetki so pomanjkljivi, amaterski.
 - **Snemalec se mora spustiti na višino snemanega objekta** (lahkop počepne, postavi kamero na nizko stojalo ipd.)
+
+
+### Svetloba
+
+- Svetloba izdvoji objekte od ozadja, posnetku daje določen karakter in atmosfero oz. vzdušje.
+- Od vrste in količine svetlobe ter od tega, pod kakšnim kotom pada na objekt, ki ga snemamo, je odvisna moč posnetka ter plastičnost objektov in prostora na posnetku.
+- Ločimo:
+	- **Naravno svetlobo**
+	- **Umetno svetlobo** 
+
+#### Dejavniki svetlobe
+- Snemalec se med snemanjem lahko sreča z različnimi vrstami svetlobe:
+	- **Trda, direktna svetloba** (npr. močno sonce, reflektor; sence so ostre)
+	- **Mehka, razpršena svetloba** (oblačno vreme, v senci, indirektna; sence so mehke, komaj opazne)
+	- **Močna, slepeča** (na snegu, v belih prostorih, močne luči)
+	- **Šibka svetloba** (mrak, v gozdi, interieri)
+	- **Topla svetloba** (prevladuje rumena ali rdeča komponenta; zvečer, ogenj, žarnica)
+	- **Hladna svetloba** (prevladuje modra komponenta; jasno nebo, v senci, pod vodo)
