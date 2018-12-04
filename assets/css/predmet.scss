@@ -95,25 +95,27 @@ $predmet_hover_border_color: rgba(0, 0, 0, 0.24);
 
       .predmet-title {
         display: block;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 600;
         text-align: center;
         text-overflow: ellipsis;
         overflow: hidden;
         white-space: nowrap;
-        font-family: 'Open Sans', sans-serif;
+        //font-family: 'Open Sans', sans-serif;
       }
       
       .predmet-subtitle {
         display: block;
-        font-size: 13px;
+        font-size: 14px;
         text-align: center;
         text-overflow: ellipsis;
         overflow: hidden;
         white-space: nowrap;
         padding-top: 4px;
         color: #535353;
-        font-family: 'Open Sans', sans-serif;
+        opacity: 0.8;
+        font-weight: 600
+        //font-family: 'Open Sans', sans-serif;
       }
     }
   }

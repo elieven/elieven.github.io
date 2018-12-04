@@ -72,3 +72,4 @@ Matematične formule so napisane v __LaTeX__ sintaksi in generirane s sistemom _
 ### Future ref
 
 - [Cool animation page](https://www.fontface.ninja/)
+- [Mathjax reference](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference)

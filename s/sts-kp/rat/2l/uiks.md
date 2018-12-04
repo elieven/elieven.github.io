@@ -33,7 +33,7 @@ IP naslov je **32 mestno binarno število**, ki se uporablja za **identifikacijo
 128 +0 +32 +16 +0 +0 +2 +1 = 179
 ```
 
-![Sestava IP naslova](https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.cnblogs.com%2Fcnblogs_com%2Fjcsu%2Fcisco%2Fcisco_icnd1_ip_address_format.PNG&f=1){: data-action="zoom"}
+![Sestava IP naslova](https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.cnblogs.com%2Fcnblogs_com%2Fjcsu%2Fcisco%2Fcisco_icnd1_ip_address_format.PNG&f=1)
 
 Zapis naslova v **CIDR** obliki: `192.168.32.77/24` je decimalni zapis IP naslova, ki mu sledi poševnica in za njo število bitov, ki so uporabljeni za zapis omrežja (omrežnega dela).
 
@@ -124,7 +124,7 @@ $$
 
 ### Dodeljevanje IP naslovov napravam
 
-Administrator mreže navadno dodeli IP naslov usmerjevalniku, medtem ko se za dodeljevanje ostalih naprav uporablja **DHCP** (Dynamic Host Configuration Plug and play protocol).
+Administrator mreže navadno dodeli IP naslov usmerjevalniku, medtem ko se za dodeljevanje ostalih naprav uporablja **DHCP** (**D**ynamic **H**ost **C**onfiguration plug and play **P**rotocol).
 
 Administrator mreže lahko nastavi DHCP tako, da naprava vedno ko se poveže v mrežo dobi isti IP oziroma lahko dobi vsakič različen IP naslov. Poleg IP naslova naprava "izve" tudi določene informacije o sebi:
 
@@ -134,7 +134,94 @@ Administrator mreže lahko nastavi DHCP tako, da naprava vedno ko se poveže v m
 
 #### Delovanje
 
-Naloga naprave, ki se želi povezati v mrežo je da poišče DHCP strežnik. To naredi z uporabo **DHCP discover message**, ki ga pošlje na port **67** s protokolom **UDP**. IP naslov pošiljatelja (svoj naslov) nastavi na `0.0.0.0`, IP naslov prejemnika pa na `255.255.255.255`. DHCP strežnik pošlje "odgovor" in pri tem IP naslov prejemnika nastavi na `255.255.255.255`, IP naslov pošiljatelja pa na svoj IP naslov. V odgovoru navede **IP naslov uporabnika**, **masko omrežja** in **čas veljavnosti IP naslova**.
+Naloga naprave, ki se želi povezati v mrežo je da poišče DHCP strežnik. To naredi z uporabo "**DHCP discover message**", ki ga pošlje na port **67** s protokolom **UDP** (ker more bit hitro). IP naslov pošiljatelja (svoj naslov) nastavi na `0.0.0.0`, IP naslov prejemnika pa na `255.255.255.255`. DHCP strežnik pošlje "odgovor" in pri tem IP naslov prejemnika nastavi na `255.255.255.255`, IP naslov pošiljatelja pa na svoj IP naslov. V odgovoru (poleg maske, default gatewaya in naslova lokalnega DNS strežnika) navede še **čas veljavnosti IP naslova**.
+
+<br>
+
+--- 
+
+<br>
+
+**Vaja:** (*ni povezana z DHCP*) Omrežje `192.168.17.0` razdeli na 5 različno velikih podomrežij in zapišite njihove naslove. 3 usmerjevalniki med seboj povezani, in 2 podomrežji ene s 30 in eno s 114 napravami.
+
+![Slika od vaja - shema](https://i.ibb.co/Wkv6QX6/vajaslikaidkwhatnumber392871.png){: .imgc}
+
+Te "*kajzerce*" oz. okrogle stvari so usmerjevalniki (router) in strela med njimi je povezava. Kvadrataste stvari bi ble stikala (switch).
+
+Ker je omrežje razreda C pomeni, da so prva tri števila fiksna (`192.168.17`). Vrednosti določamo samo tazadnjemu številu (zadnjim 8 bitom).
+
+$$
+192.168.17.\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_
+$$
+
+**Podomrežja usmerjevalnikov** potrebujejo samo 2 IP naslova za zapis naprav (poleg naslova omrežja in broadcast naslova) torej bomo uporabili 2 bita. Za izračunat koliko naslovov naprav lahko zapišemo z določenim številom bitov uporabimo enačbo:
+
+$$
+2^n - 2 = st
+$$
+
+Vrednost **n** je število bitov, **st** pa število IP naslovov, ki jih lahko zapišemo z **n** biti. Za 2 napravi nam bo torej dovolj 2 bita (2<sup>2</sup> - 2 = 2). Ker uporabimo za zapis naprav le zadnja 2 bita bo maska tega podomrežja `/30` (32 - 2).
+
+$$
+
+\underset{128}{\_\_} \phantom{a}
+\underset{64}{\_\_} \phantom{a}
+\underset{32}{\_\_} \phantom{a}
+\underset{16}{\_\_} \phantom{a}
+\underset{8}{\_\_} \phantom{a}
+\underset{\color{red}{4}}{\_\_} \phantom{a}
+\Big| \phantom{a}
+\underset{2}{\_\_} \phantom{a}
+\underset{1}{\_\_}
+
+$$
+
+Ker uporabimo 2 bita jih od teh osmih "odrežemo". Velikost blokov, ki jih lahko s temi dvemi biti naredimo je enaka številki na levi od črte s katero smo jih odrezali - v tem primeru 4. 
+
+Bloki, ki jih lahko naredimo: (0, 4, 8, 12, 16, 20...).
+
+<br>
+
+**Za omrežje s 30 napravami** potrebujemo več kot 2 bita. Na hitro izračunamo koliko bitov rabimo za zapis 30 naprav.
+
+$$
+2^3 - 2 = 6 \qquad 2^4 - 2 = 14 \qquad 2^5 - 2 = 30
+$$
+
+Ugotovimo, da rabimo 5 bitov. Odrežemo jih od tistih osmih in ugotovimo, da je velikost blokov 32. (0, 32, 64, 96...).
+
+<br>
+
+**Za omrežje s 114 napravami** potrebujemo še več bitov.
+
+$$
+2^6 - 2 = 62 \qquad 2^7 - 2 = 126
+$$
+
+Bloki so velikosti 128 (0, 128, 256).
+
+<br>
+
+Za izračunat masko omrežja `/x` moramo vedeti koliko bitov uporabimo za zapis omrežja. (ali pa 32 - št bitov za zapis naprave).
+
+Podomrežja B, C in D imajo torej masko `/30`, podomrežje A ima masko `/27` in E ima masko `/25`.
+
+IP naslove jim dodelimo tako, da začnemo z največjim podomrežjem torej podomrežjem E. Možni bloki so samo 0, 128 in 256, zato bomo uporabili 128, da pokrije od 128 do 256. Podomrežju A torej preostane od 0 do 128. Da ne pustimo lukenj oz. neizkoriščenega prostora ga damo takoj pred podomrežje E torej ga moramo zamakniti za 32 nazaj in s tem dobimo 96 (pokriva 96 - 128). Podomrežja B, C in D imajo bloke velikosti 4, zato vsakega zamaknemo za 4 nazaj pred prejšnje podomrežje in s tem dobimo 92, 88 in 84. 
+
+Končni IP naslovi podomrežij so torej:
+
+| podomrežje |      IP naslov      |
+| :--------: | :-----------------: |
+|   **A**    | `192.168.17.96/27`  |
+|   **B**    | `192.168.17.92/30`  |
+|   **C**    | `192.168.17.88/30`  |
+|   **D**    | `192.168.17.84/30`  |
+|   **E**    | `192.168.17.128/25` |
+
+
+<br>
+
+---
 
 <br>
 
