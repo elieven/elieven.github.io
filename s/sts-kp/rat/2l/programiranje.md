@@ -730,7 +730,34 @@ String[] = eh.splot(" "); // "kaj", "je", "s" ... "nor?"
 >a
 ```
 
+<br>
 
+### Tabele
+
+- spremenljivka, ki lahko vsebuje več podatkov
+- v eno spremenljivko lahko shranimo več vrednosti
+
+
+#### Enodimenzionalne tabele
+
+Deklaracija in inicializacija
+
+```java
+tip ImeTabele[] = {vrednost1, vrednost2, ..., vrednostN};
+tip[] ImeTabele = {vrednost1, vrednost2, ..., vrednostN};
+```
+Vse vrednosti so istega tipa (določen z deklaracijo).
+
+```java
+String[] sadje = {"banana", "jabolko", "hruška"};
+int stevilke[] = {1,2,3,4,5,6,7,77,420};
+```
+Dostop do vrednosti:
+```java
+System.out.println(sadje[1]); // kaki
+```
+
+`[index]` - se začne z 0. Mesto, na katerem se nahaja vrednost, je za eno večja od njegovega indexa.
 
 
 [if]: https://res.cloudinary.com/solamona/image/upload/v1537456195/zvs/sts-kp/rac/5l/programiranje/if_statement.jpg
