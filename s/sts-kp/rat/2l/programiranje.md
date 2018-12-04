@@ -759,6 +759,28 @@ System.out.println(sadje[1]); // kaki
 
 `[index]` - se začne z 0. Mesto, na katerem se nahaja vrednost, je za eno večja od njegovega indexa.
 
+<br>
+
+**Primer:**
+
+```
+String sadje[] = new String[4];
+```
+
+-tabela sadje je tipa string in ima 4 mesta
+- dokler ne določimo drugače so vse vrednosti tabele `null`
+- pri številskih tipih bi bile vrednosti `0`
+
+Določitev vrednosti v tabeli:
+
+```java
+sadje[0] = "banana";
+sadje[1] = "melona";
+sadje[2] = "kivi";
+sadje[3] = "lubenica";
+```
+
+
 
 [if]: https://res.cloudinary.com/solamona/image/upload/v1537456195/zvs/sts-kp/rac/5l/programiranje/if_statement.jpg
 [ifelse]: https://res.cloudinary.com/solamona/image/upload/v1537456152/zvs/sts-kp/rac/5l/programiranje/if_else_statement.jpg
