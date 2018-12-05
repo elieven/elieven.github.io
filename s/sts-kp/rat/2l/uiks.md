@@ -90,7 +90,7 @@ Naslov naprave v celoti sestavljen iz 0 je neveljaven, naslov v celoti sestavlje
 
 Če je razred omrežja prevelik, se omrežje lahko deli na podomrežja (kar je dobro tudi za varnost). IP naslov je sestavljen iz 32 bitov in za ustvariti podomrežje vzamemo nek del bitov namenjen napravam in te bite uporabimo za zapis omrežja. S tem se poveča število omrežij in hkrati zmanjša število naprav, ki so lahko v posamičnem podomrežju.
 
-![Biti podomrežja](https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F_DZhhZp9of5I%2FTOwVFbAZtXI%2FAAAAAAAADNQ%2FTVGYFxNum6U%2Fs400%2F06_Subnets-Answer.png&f=1)
+![Biti podomrežja](https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F_DZhhZp9of5I%2FTOwVFbAZtXI%2FAAAAAAAADNQ%2FTVGYFxNum6U%2Fs400%2F06_Subnets-Answer.png&f=1){: .imgc}
 
 > slike od ipjev into
 
