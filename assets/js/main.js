@@ -9,15 +9,37 @@ if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elain
   isMobile = true;
 }
 
+// Overlay Scrollbars options
+const scroll_top_btn = document.querySelector('#back-to-top-btn');
+const scroll_top_btn_show_threshold = 2000;
 
-// if desktop activate smooth smoothScrollbar
-if (!isMobile) {
-  var Scrollbar = window.Scrollbar;
-  Scrollbar.use(window.OverscrollPlugin);
-  Scrollbar.init(document.querySelector("#sscon"), {
-    damping: 0.3
+// init overlay scrollbars
+document.addEventListener("DOMContentLoaded", function() {
+	//The first argument are the elements to which the plugin shall be initialized
+	//The second argument has to be at least a empty object or a object with your desired options
+  OverlayScrollbars(document.querySelector("body"), { 
+    callbacks: {
+      onInitialized: function() {
+        // adds class to body that removes scroll disabling
+        document.querySelector("html").className += " scrolling-ready";
+      },
+      onScroll: function() {
+        // Showhs the back to top button if scrolled over a threshold
+        if (this.scroll().position.y > scroll_top_btn_show_threshold) {
+          scroll_top_btn.classList.add("lift");
+        } else {
+          scroll_top_btn.classList.remove("lift");
+        }
+      }
+    }
   });
-}
+});
+
+
+// Scroll back to top button functionality
+scroll_top_btn.addEventListener("click", function() {
+  OverlayScrollbars(document.querySelector("body"), {}).scroll({y: "0px"}, 320, "easeOutQuart");
+});
 
 
 // SW registering
@@ -25,109 +47,6 @@ if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/assets/js/sw.js');
 }
 
-
-// scroll back to top function
-const scrollTopBtn = document.querySelector('#back-to-top-btn');
-const scrollbar = Scrollbar.get(document.querySelector('#sscon'));
-const scrollTopBtnShowThreshold = 2000;
-
-function addScrollTopBtnFunctionality() {
-  if (!isMobile && scrollTopBtn != null) {
-    // desktop part
-    scrollTopBtn.addEventListener("click", function () {
-      scrollbar.scrollTo(0, 0, 300);
-      stripToCleanURL();
-    });
-  } else if (scrollTopBtn != null) {
-    // mobile part
-    scrollTopBtn.addEventListener("click", function () {
-      document.querySelector('html').scrollTo({
-        top: 0,
-        behavior: "instant"
-      });
-      stripToCleanURL();
-    });
-  }
-}
-
-// odstrani #id-naslova iz URLja
-function stripToCleanURL() {
-  if (window.location.href.indexOf('#') > 0) {
-    let pageUrl = window.location.href;
-    let url = pageUrl.slice(0, pageUrl.indexOf('#'));
-    history.pushState({}, "zvezek", url);
-  }
-}
-
-// checks if scrollTop btn should be shown and 
-// shows it if and when needed
-function addCheckForScrolltopBtn() {
-  if (!isMobile && scrollTopBtn != null) {
-    // desktop part
-    window.setInterval(function () {
-      if (scrollbar.offset.y > scrollTopBtnShowThreshold) {
-        scrollTopBtn.className = 'lift';
-      } else {
-        scrollTopBtn.className = '';
-      }
-    }, 16);
-  } else if (scrollTopBtn != null) {
-    // mobile part
-    window.setInterval(function(){
-      if (window.pageYOffset > scrollTopBtnShowThreshold) {
-        scrollTopBtn.className = 'lift';
-      } else {
-        scrollTopBtn.className = '';
-      }
-    }, 16);
-  }
-}
-
-// TOC setup za desktop (mobile itak dela samo od sebe)
-function addDesktopTocFunctionality() {
-  // dobi vse linke
-  const TOCLinks = Array.from(document.querySelectorAll('#markdown-toc a'));
-  // vsem linkom da onclick function
-  for (let i = 0; i < TOCLinks.length; i++) {
-    
-    TOCLinks[i].addEventListener('click', function(evt){
-      // uni indexof nevem ce dela kr nimam pojma ce je this
-      // v tem primeru v vseh browserjih enaka stvar
-      const id = TOCLinks[TOCLinks.indexOf(this)].id.slice(13);
-
-      const elt = document.getElementById(id);
-      scrollbar.scrollIntoView(elt, {
-        onlyScrollIfNeeded: false,
-        offsetTop: 16
-      });
-    });
-  }
-
-  const pageUrl = window.location.href;
-
-  if ( pageUrl.indexOf('#') > 0 ) {
-    let linkElementId = decodeURIComponent(pageUrl.slice(pageUrl.indexOf('#')+1));
-    let linkedEl = document.getElementById(linkElementId);
-    scrollbar.scrollIntoView(linkedEl, {
-      onlyScrollIfNeeded: false,
-      offsetTop: 16
-    });
-  }
-}
-
-// CALL STACK & PAGE SETUP
-if (!isMobile) {
-
-  addDesktopTocFunctionality();
-
-} else if (isMobile) {
-
-  document.querySelector('html').className = 'mobile';
-
-}
-
-addCheckForScrolltopBtn();
-addScrollTopBtnFunctionality();
 
 function unsupportedBrowserAlert() {
   // preveri kiri browser mas
@@ -138,6 +57,7 @@ function unsupportedBrowserAlert() {
   // cne cne pa samo returna
   console.log("wip lad");
 }
+
 
 function getBrowser() {
   // Opera 8.0+

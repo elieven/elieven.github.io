@@ -4,9 +4,10 @@
 
 $default-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
 
-$paragraph-font: $default-font
-$paragrafp-font-size: 17px
-$paragraph-line-height: 26px
+$paragraph-font: "Source Serif Pro", serif //$default-font
+$paragraph-font-color: #212121
+$paragrafp-font-size: 18px
+$paragraph-line-height: 26px //26px
 
 $heading-font: $default-font
 $heading-font-weight: 600
@@ -15,6 +16,7 @@ body
   -ms-text-size-adjust: 100%
   -webkit-text-size-adjust: 100%
   word-wrap: break-word
+  color: $paragraph-font-color
 
 
 .docwrap 
@@ -116,6 +118,8 @@ body
   strong
     font-weight: inherit
     font-weight: bolder
+    font-weight: 700
+    //letter-spacing: -0.2px
   h1
     font-size: 2em
     margin: 0.67em 0
@@ -432,8 +436,8 @@ body
   kbd
     display: inline-block
     padding: 3px 5px
-    font: 11px "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace
-    line-height: 10px
+    font: 12px "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace
+    line-height: 13px
     color: #444d56
     vertical-align: middle
     background-color: #fafbfc
@@ -482,7 +486,6 @@ body
       color: #041C65
     h5
       color: #70AE7D
-
 
 
 // resizing of doc holder when on small screen

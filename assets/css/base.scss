@@ -23,6 +23,7 @@ $roboto: 'Roboto', sans-serif;
   padding: 0;
   box-sizing: border-box;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
+  font-display: swap;
 }
 
 html {
@@ -43,6 +44,7 @@ body {
   max-width: $mw;
 }
 
+/*
 html {
   &.desktop {
     width: 100%;
@@ -71,7 +73,7 @@ html {
 #sscon.mobile {
   overflow-y: auto;
 }
-
+*/
 button {
   outline: none!important;
   font-weight: 500!important;

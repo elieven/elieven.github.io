@@ -27,6 +27,20 @@ IP naslov je **32 mestno binarno število**, ki se uporablja za **identifikacijo
 
 **Postopek pretvorbe binarnega okteta v decimalnega:** bit na skrajni desni ima vrednost 2<sup>0</sup> (torej 1), bit na njegovi levi pa 2<sup>1</sup> (2). Tako se nadaljuje do skrajnega levega bita, ki ima vrednost 2<sup>7</sup> (128). Da dobimo decimalno vrednost okteta samo seštejemo vrednosti bitov, kjer je bit 1. 
 
+$$
+\overset{1}{\underset{128}{\_\_}}\phantom{|}
+\overset{0}{\underset{64}{\_\_}}\phantom{|}
+\overset{1}{\underset{32}{\_\_}}\phantom{|}
+\overset{1}{\underset{16}{\_\_}}\phantom{|}
+\overset{0}{\underset{8}{\_\_}}\phantom{|}
+\overset{0}{\underset{4}{\_\_}}\phantom{|}
+\overset{1}{\underset{2}{\_\_}}\phantom{|}
+\overset{1}{\underset{1}{\_\_}}
+$$
+
+Nad črticami so števila binarnega zapisa (10110011) in pod črtami so vrednosti posamičnega bita. Ko seštejemo vrednosti vseh bitov kjer je 1 dobimo število - v tem primeru 128 +0 +32 +16 +0 +0 +2 +1 = 179.
+
+
 ```
 1   0   1  1 0 0 1 1 (binarni zapis)
 128 64 32 16 8 4 2 1 (vrednost bitov)
@@ -137,6 +151,10 @@ Administrator mreže lahko nastavi DHCP tako, da naprava vedno ko se poveže v m
 Naloga naprave, ki se želi povezati v mrežo je da poišče DHCP strežnik. To naredi z uporabo "**DHCP discover message**", ki ga pošlje na port **67** s protokolom **UDP** (ker more bit hitro). IP naslov pošiljatelja (svoj naslov) nastavi na `0.0.0.0`, IP naslov prejemnika pa na `255.255.255.255`. DHCP strežnik pošlje "odgovor" in pri tem IP naslov prejemnika nastavi na `255.255.255.255`, IP naslov pošiljatelja pa na svoj IP naslov. V odgovoru (poleg maske, default gatewaya in naslova lokalnega DNS strežnika) navede še **čas veljavnosti IP naslova**.
 
 <br>
+
+---
+
+Kle umes manjka ful vaj - je za dodat!
 
 --- 
 

@@ -134,7 +134,7 @@ document.querySelectorAll('ul li a.navlink');
 
 ### Metode na nizu (String)
 
-Na začetku definiramo niz, na kateremu potem kličemo metode in spodaj prikaženo rezultat. V vsakem primeru je uporabljen začetni string, nikoli ni uporabljen rezultat katere druge metode. Metoda console log, ki je uporabljena v spodnjih primerih samo zapiše kar je znotraj oklepajev v konzolo. V brskalniku jo lahko najdemo s klikom na gumb `F12` in potem kliknemo na zavihek console.
+Na začetku definiramo niz, na kateremu potem kličemo metode in spodaj prikaženo rezultat. V vsakem primeru je uporabljen začetni string, nikoli ni uporabljen rezultat katere druge metode. Metoda console log, ki je uporabljena v spodnjih primerih samo zapiše kar je znotraj oklepajev v konzolo. V brskalniku jo lahko najdemo s klikom na gumb <kbd>F12</kbd> in potem kliknemo na zavihek console.
 
 ```javascript
 var niz = "Ne se hojsat!";

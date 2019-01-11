@@ -90,16 +90,39 @@ Osnovna enota jezika, sestavljena iz črk / glasov, ima pomen (en ali več).
 
 #### Slogovno zaznamovane besede
 
-- čustveno zaznamovane
+- **čustveno zaznamovane**
   - ljubkovalne besede (pikica, srček, atek)
   - slabšalne besede (afna, bumbar)
   - ironične besede (ti si pa res pameten)
-- zvrstno zaznamovane
+- **zvrstno zaznamovane**
   - pogovorne in nižjepogovorne besede (punca, fejst)
   - narečne besede (katerega, kapulja)
   - slengovske besede (hudo, ful, kul)
   - žargonske besede (šraufnciger, zašvasati)
   - publicistične besede (okrogla miza, širša javnost)
-- časovno zaznamovane
+- **časovno zaznamovane**
   - nove besede ali neologizmi (zgoščenka, različica)
   - starinske besede ali arhaizmi (bukvar)
+
+
+---
+
+## Saloma
+
+Drama ima zgodovinsko osnovo - biblijska zgodba o usmrtitvi Janeza Krstnika.
+
+Osebe:
+
+- **Saloma**: perverzna, čutna, zapeljiva, za vsako ceno želi doseči svoj cilj.
+
+- **Johanaan**: pozna le duhovno ljubezen, čutno prezira in se ji upira.
+
+- **Herod**: pohoten, pokvarjen egoist.
+
+Je enodejanka z značilnostmi tragedije (konflikt med glavnima osebama pripelje do tragičnega konca - smrt obeh), upošteva načelo trojne enotnosti (dogaja se zvečer na terasi Herodove palače).
+
+Je poetična (slog je poetičen, jezik je pesniški, motivi so zgodovinski s simbolnim pomenom) dekadentna drama.
+
+Temeljni dramski konflikt predstavlja nasprotje med Salomino čutno ljubeznijo in prerokovo duhovno.
+
+Ideja: pogubnost človeških strasti in neobvladljiva čustva.

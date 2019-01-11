@@ -44,3 +44,11 @@ void loop() {
 }
 ```
 
+<br>
+
+---
+
+<br>
+
+UMN preverjanje rešitev (zna bit uporabno za test samo hoi znat kaj bo dau novega not oz kako bo zakomplicirau zadevo ... ce bo).
+

@@ -91,12 +91,12 @@ $predmet_hover_border_color: rgba(0, 0, 0, 0.24);
     }
 
     .predmet-text {
-      //font-family: $roboto;
+      font-family: $roboto;
 
       .predmet-title {
         display: block;
         font-size: 16px;
-        font-weight: 600;
+        font-weight: 500;
         text-align: center;
         text-overflow: ellipsis;
         overflow: hidden;
@@ -114,7 +114,7 @@ $predmet_hover_border_color: rgba(0, 0, 0, 0.24);
         padding-top: 4px;
         color: #535353;
         opacity: 0.8;
-        font-weight: 600
+        font-weight: 500
         //font-family: 'Open Sans', sans-serif;
       }
     }

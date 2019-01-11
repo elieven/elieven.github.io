@@ -1,5 +1,5 @@
 $headergradient: linear-gradient(to bottom, rgb(138, 63, 205), rgb(34, 131, 201));
-$lucygradientpeach: linear-gradient(to bottom, #F15F79, #B24592);
+$lucygradientpeach: linear-gradient(to bottom, #F15F79, #38B9FD);
 
 header {
   height: $hh;
@@ -14,7 +14,7 @@ header {
     left: 0;
     right: 0;
     height: 150px + $hh;
-    background: linear-gradient(to right, #5661B3, #2779BD);
+    background: linear-gradient(to right, #6069F7, #2779BD);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
     z-index: -1;
   }
