@@ -6,7 +6,7 @@ self.addEventListener('install', function() {
     cache.add('/assets/font/poppins.css');
     cache.add('/assets/font/poppins-regular-webfont.woff');
     cache.add('/assets/font/poppins-regular-webfont.woff2');
-    cache.add('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+    cache.add('https://fonts.googleapis.com/css?family=Roboto:500|Source+Serif+Pro:400,700');
   });
   // caches styles
   caches.open('images').then(function(cache){
@@ -15,7 +15,7 @@ self.addEventListener('install', function() {
   });
   // caches js
   caches.open('scripts').then(function(cache){
-    cache.add('/assets/js/fullss.js');
+    cache.add('/assets/js/OverlayScrollbars.min.js');
     cache.add('/assets/js/main.js');
   });
 });

@@ -9,9 +9,7 @@ if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elain
   isMobile = true;
 }
 
-// Overlay Scrollbars options
-const scroll_top_btn = document.querySelector('#back-to-top-btn');
-const scroll_top_btn_show_threshold = 2000;
+var scroll_top_btn = document.querySelector('#back-to-top-btn');
 
 // init overlay scrollbars
 document.addEventListener("DOMContentLoaded", function() {
@@ -24,6 +22,8 @@ document.addEventListener("DOMContentLoaded", function() {
         document.querySelector("html").className += " scrolling-ready";
       },
       onScroll: function() {
+        // settings
+        var scroll_top_btn_show_threshold = 2000;
         // Showhs the back to top button if scrolled over a threshold
         if (this.scroll().position.y > scroll_top_btn_show_threshold) {
           scroll_top_btn.classList.add("lift");
@@ -33,6 +33,10 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     }
   });
+
+  // Nardi custom scrollbare tui za code samples v documentih
+  // Trenutno disablano kr jebe prevec performance zgleda
+  //OverlayScrollbars(document.querySelectorAll("pre"), {});
 });
 
 

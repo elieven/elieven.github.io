@@ -107,6 +107,26 @@ Osnovna enota jezika, sestavljena iz črk / glasov, ima pomen (en ali več).
 
 ---
 
+## Načini razvijanja teme
+
+- **obveščanje** 
+  - Sporočevalec sporoča, da se bo nekaj zgodilo ali pa se trenutno dogaja. 
+  - *Podatki zapisani v 1 povedi*
+- **pripovedovanje** 
+  - Besedila v katerih sporočamo da se je nekaj zgodilo oz. smo nekaj doživeli
+  -  *­preteklik*
+- **razlaganje** 
+  - Besedila v katerih sporočamo o vzrokih za nastanek nečesa ali posledicah tega o čemer govorimo. 
+  - *Tridelne povedi*
+- **utemeljevanje** 
+  - Besedila v katerih dokazujemo ali zagovarjamo svoje mnenje o čem. 
+  - *Dvodelna ­- 1. mnenje 2. dokazovanje*
+- **opisovanje** 
+  - Besedila v katerih sporočamo o lastnostih, sestavi, delovanju. 
+  - *Naštevalno razmerje*
+
+---
+
 ## Saloma
 
 Drama ima zgodovinsko osnovo - biblijska zgodba o usmrtitvi Janeza Krstnika.
