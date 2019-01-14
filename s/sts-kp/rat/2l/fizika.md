@@ -20,205 +20,185 @@ desc: Snov fizike za 2. letnik Računalniškega tehnika (oz. 5 letnik izobražev
 
 <br><br>
 
-## Električni tok
+$$
+\newcommand{\RAC}[1]{ 
+\phantom{a}
+\\[0pt]
+\mathrm{
+  #1
+}
+\\[0pt]
+\phantom{a}
+}
+$$
 
-**Električni tok je usmerjeno gibanje električnih delcev** (npr. elektronov). V snovi je električni tok možen le, če je snov prevodnik (vsebuje proste negativne elektrone). *Primer so kovine, raztopine elektrolita, plin z ioniziranimi molekulami*.
+## Električni tok (I)
 
-Da delci stečejo, potrebujemo sklenjen **električni krog**. Sestavljajo ga **izvir napetosti** (baterija ali generator), **vodnik** in **porabnik**. Vodnik je snov po kateri tečejo naboji (žica...). V električnem krogu je število nosilcev naboja konstantno - **Zakon o ohranitvi naboja**.
+Električni **tok** merimo v **Amperih** (**A**). Električni **naboj** je označen s črko **e** in njegova enota je **Columb** (**C**). **Čas** je označen s črko **t**. \\(\mathbb{Z}\\) je **realno število**. \\(\mathrm{e_0}\\) je **osnovni naboj**.
 
-> Primer: v časovnem intervalu \\(\Delta\\)**t** preteče skozi prečni prerez **S** naboj \\(\Delta\\)**e**. **Električni tok I** defniramo s kvocientom naboja \\(\Delta\\)**e** in časovnega intervala \\(\Delta\\)**t**, v katerem naboj preteče:
-
-$$ I = \frac{\Delta e}{\Delta t} $$
-
-Električni tok = električni naboj (**C**) v določenem času (**t**) - enota je **amper** (**A**).
-
-**1A = 1C/s** oz **1As = 1C**
-
-Enoto **C** imenujemo tudi **ampersekunda** (**As**).
-
-Električni tok se meri z **ampermetrom**. Ampermeter tako meri celoten tok, ki teče skozi porabnik, in ga moramo vedno vezati v električni krog s porabnikom **zaporedno**. Ampermeter pa ima tako kot vsak del električnega kroga tudi lasten upor, ki je zelo majhen.
+$$
+\RAC{
+  I = \frac{e}{t} \qquad e = I \cdot t \qquad As = A \cdot s
+  \\[16pt]
+  e = \mathbb{Z} \cdot e_0 \qquad e_0 = 1,6 \cdot 10^{-19}As
+}
+$$
 
 <br>
 
-### Specifična upornost
+### Vaja 1: izračunaj čas
 
-Specifična upornost je fizikalna količina, določena kot sorazmerni koeficient med električnim uporom vodnika (**R**) in razmerjem med dolžino  (**l**) in presekom vodnika (**S**).
+$$
+\RAC{
+  I = 20mA \qquad 
+  e = 200mAh \qquad 
+  t = ?
+}
+$$
 
-$$ \rho = \frac{RS}{l} $$
+> Treba najt kaj je navodilo naloge da ni tko pusto "izračunaj čas" ...
 
-Enota specifične upornosti je \\( \Omega \phantom{a} mm^2/m \\), znak pa je \\(\zeta\\).
+$$
+\require{cancel}
+\RAC{
+  t = \frac{e}{I} \quad 
+  = \quad \frac{200\cancel{mA}h}{20\cancel{mA}} \quad 
+  = \quad 10h
+}
+$$
+
+<br>
+
+### Vaja 2: izračunaj število elektronov, ki preteče v 1s
+
+$$
+\RAC{
+  I = 20mA \qquad
+  e = 200mAh \qquad
+  t = 1s \qquad
+  \\[8pt]
+  \mathbb{Z} = ?
+}
+$$
+
+Začnemo z **enačbo za** izračunat **električni tok (I)**.
+
+$$
+\RAC{
+  I = \frac{\color{fuchsia}{e}}{t} \quad  = \quad \frac{\color{fuchsia}{\mathbb{Z} \cdot e_0 }}{t}
+}
+$$
+
+Potem jo obrnemo, da dobimo enačbo za \\(\mathbb{Z}\\)
+
+$$
+\RAC{
+  \begin{align}
+  \mathbb{Z} & = \frac{\color{#06f}{I} \cdot \color{#c0c}{t}}{ \color{#093}{e_0} } 
+  \\[12pt]
+  \mathbb{Z} & = \frac{ \color{#06f}{20 \cdot 10^{-3} A} \cdot \color{#c0c}{1s} }{ \color{#093}{1,6 \cdot 10^{-19}As} } 
+  \\[16pt]
+  \mathbb{Z} & = 0,02
+  \end{align}
+}
+$$
+
+<br>
+
+> Vaje: učbenik "Svet elektronov in atomov 3" stran 62 - naloge 1 - 8
 
 <br><br>
 
-## Električna napetost
+## Električna napetost (U)
 
-Vzrok, da električni tok teče po električnem krogu, je **električna napetost**. Enota električne napetosti je volt (**V**). Napetost izvira imenujemo gonilna napetost, ker poganja električni tok.
+$$
+\RAC{
+  A = F \cdot s \qquad F = m \cdot a
+}
+$$
 
-Električni tok lahko primerjamo s tokom vode. Višinska razlika med gladino vode v posodi in mestom, kjer ta izteka, povzroči, da voda steče iz posode. Večja je višinska razlika, tem hitreje voda izteka. Podobno velja tudi za električni tok. **Električni izviri** ustvarjajo tisto gonilno razliko, ki poganja električni tok po električnem krogu.
+**A** je **delo** (merimo ga v **Joulih** - **J**). **F** je **sila** in **s** je **pot**.
 
-> Električni viri ustvarjajo električno napetost. Ta je vzrok, da električni tok teče po električnem krogu.
+V drugi enačbi je **m = masa** in **a = pospešek** (merjen v m/s<sup>2</sup>).
 
-Električno napetost merimo z **voltmetrom**.Ta lahkko meri napetost na porabniku ali izviru. Za razliko od ampermetra, voltmeter vežemo v električni krog **vzporedno**. Vežemo ga na dveh točkah med katerima želimo meriti napetost.
+$$
+\RAC{
+  P \quad = \quad \frac{A}{t} \quad = \quad \frac{J}{R} \quad = \quad W
+}
+$$
 
-**Gonilna napetost** je napetost **vira**. Kadar vežemo več enakih virov električne napetosti v električni krog vzporedno, je napetost v krogu enaka napetosti posameznega vira. Ko pa jih vežemo zaporedno, je treba sešteti gonilne napetosti.
+**Električno delo:** 1 Volt = 1 Joul na Amper sekundo
+
+$$
+\RAC{
+  1V = \frac{J}{As} \qquad J = VAs
+}
+$$
+
+<br>
+
+### Kirchhoffova zakona
+
+> Iz Wikipedije
+
+#### 1. Kirchhoffov zakon TOKOVNEGA VOZLIŠČA
+
+Vsota tokov, ki pritekajo v neko vozlišče v električnem krogu, je enaka vsoti tokov, ki iz tega vozlišča odtekajo, ali drugače povedano, vsota tokov v vozlišču je enaka 0.
+
+Bolj strokovno povedano: I. Kirchhoffov izrek pravi, da je pri vzporedni vezavi uporov na vseh uporih napetost enaka, tok vira pa se razdeli na posamezne upore.
+
+![Prvi Kirchhoffov izrek](https://upload.wikimedia.org/wikipedia/commons/6/69/KCL.png)
+
+#### 2. Kirchhoffov zakon NAPETOSTNE ZANKE
+
+V sklenjeni tokovni zanki je vsota padcev napetosti na vseh elementih v zanki enaka vsoti napetosti na vseh izvirih napetosti, ki nastopajo v zanki, ali drugače povedano, razlika električnih potencialov v zanki pri zaporedni vezavi upornikov je enaka 0.
+
+![Drugi Kirchhoffov izrek](https://upload.wikimedia.org/wikipedia/commons/e/e3/KVL.png)
 
 <br><br>
 
 ## Ohmov zakon
 
-Ohmov zakon nam pove, da sta napetost in tok premo sorazmerna. Za kolikokrat povečamo napetost, tolikokrat se poveča tok. Zapis ohmovega zakona:
+Ohmov zakon pravi da je **tok skozi upornik** pri stalni temperaturi **premo sorazmeren** napetosti med priključkoma upornika.
 
-$$ U = R \cdot I $$
-
-**U** je napetost, **I** je tok in **R** je sorazmernostni faktor, imenovan **upor**. Enota za upor je **ohm** (\\(\Omega\\)).
-
-$$ 1\Omega = 1 \frac{V}{A} $$
-
-S povečanjem preseka upornika se upor zmanjša, s podaljševanjem upora pa se upor poveča. To se zapiše z enačbo:
-
-$$ R = \zeta \frac{l}{S} $$
+$$
+\RAC{
+  U = R \cdot I \qquad R = \frac{U}{I} \qquad I = \frac{U}{R}
+}
+$$
 
 <br><br>
 
-## Vezava uporov
-
-### Vzporedna vezava
-
-<br>
-
-### Zaporedna vezava
-
-<br><br>
-
-## Merilni obseg ampermetra
-
-<br><br>
-
-## Merilni obseg voltmetra
-
-<br><br>
-
-## Kompenzacijsko merjenje napetosti
-
-<br><br>
-
-## Ohmov zakon za generator (notranji upor baterije)
-
-
-
-<br><br>
-
----
-
-<br><br>
-
-## Cheat sheet
-
-| Oznaka                                                       | Enota                         |
-|--------------------------------------------------------------|-------------------------------|
-| Napetost - \\( U \\)                                         | Volt - \\( V \\)              |
-| Upornost - \\( R \\)                                         | Ohm - \\( \Omega \\)          |
-| El. tok - \\( I \\)                                          | Amper - \\( A \\)             |
-| Moč - \\( P \\)                                              | Watt - \\( W \\)              |
-| Specifični upor materjala - \\( \zeta \\)                    | \\( \Omega \phantom{a} mm^2/m \\) |
-| Dolžina - \\( l \\)                                          | ponavadi \\( m \\)            |
-| Presek - \\( s \\)                                           | ponavadi \\( mm^2 \\)         |
-| El. naboj - \\( e \\)                                        | \\( As \\)                    |
-| Množica števil - \\( \mathbb{N} \\) ( nasplošno je \\(n\\) ) | Število                       |
-
-> Ta fancy N naj bi biu število elektronov
-
-<br>
-
-## Osnovne formule
-
-#### Osnovni el. naboj
-
-\\( e_0 = 1,6 \cdot 10^{-19}As \\)
-
-#### Ohmov zakon
-
-\\( U = R \cdot I \\)
-
-Pri ohmovem zakonu si lahko pomagamo s tem:
-
-![Ohmov zakon - trikotnik][ohmov-trikotnik]
-
-\\( P = U \cdot I \\)
-
-Za pospešit zadevo lahko združimo te dve enačbi
-
-$$ R = \frac{U^2}{P} $$
-
-\\( P = R \cdot I^2 \\)
-
-$$ R = \zeta \frac{l}{s} $$
-
-$$ I = \frac{e}{t} $$
-
-> objasnilo od spodnje zadeve
-
-\\(e = \mathbb{N} \cdot e_0 \\)
-
-> mogoce brez cdot pa da objasnimo da je n število kirokoli
-
-$$ I = \frac{\mathbb{N} \cdot e_0}{t} $$
-
-> temp
-
-
-<br>
-
-## Zaporedna in vzporedna vezava
-
-### Zaporedna vezava
-
-![Zaporedna vezava][zaporedna-vezava]
-
-Je kadar vežemo en upor za drugim.
-
-Napetost (\\(U\\)) se razdeli na 2 dela. El. tok \\(I\\) je enak (se ne spreminja). Upor \\(R\\) se izračuna tako, da sešteješ upore skupaj.
-
-\\( U_{1,2} = U_1 + U_2 \\)
-
-\\( I = I \\)
-
-__Računanje uporov__:
-
-\\( R_{1,2,3} = R_1 + R_2 + R_3 \phantom{a} ... \\)
-
-<br>
-
-### Vzporedna vezava
-
-![Vzporedna vezava][vzporedna-vezava]
-
-Je kadar je en upor pod drugim.
-
-Pri vzporedni vezavi je napetost (\\(U\\)) enaka (se ne spreminja). El. tok \\(I\\) se razdeli na 2 dela.
-
-\\( U = U \\)
-
-\\( I_{1,2} = I_1 + I_2 \\)
-
-__Računanje uporov__:
-
-$$ \frac{1}{R} = \frac{1}{R_1} + \frac{1}{R_2} \phantom{a} ... $$
-
-<br><br>
-
-## Primeri / Vaje
-
-> Vaje so iz učbenika
-
-Izračunaj upor, tok,
-
-
----
-
-Vaja zajebana ena za dodat
-
-
-[ohmov-trikotnik]: https://image.ibb.co/fUZ48e/ohm_law_triangle.jpg
-[zaporedna-vezava]: https://www.kitronik.co.uk/wp/wp-content/uploads/2014/01/resistors_in_series_1.png
-[vzporedna-vezava]: https://www.kitronik.co.uk/wp/wp-content/uploads/2014/01/resistors_in_series_6.png
+------
+
+
+
+
+
+
+
+- električni tok (I) ✔
+- električna napetost (U) ✔
+- električno delo ✔
+- ohmov zakon
+- vezava uporov
+  - zaporedno
+  - vzporedno
+- merlini obseg ampermetra
+- merilni obseg voltmetra
+- kompenzacijsko merjenje napetosti
+- ohmov zakon za generator
+- notranji upor baterije
+- elektrostatika
+- električno polje
+- električna napetost (*spet?*)
+- kondenzator
+  - vezava kondenzatorja
+- gibanje
+  - sila
+- gibanje naelektrenih delcev v električnem polju
+  - dioda
+  - trioda
+  - elektronski top
+- sila na vodnik
+- *magnetno polje*
