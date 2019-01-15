@@ -36,6 +36,8 @@ $$
 }
 $$
 
+**Amper sekunda** in **Columb** sta enaki enoti - \\(\mathrm{1As = C}\\).
+
 <br>
 
 ### Vaja 1: izračunaj čas

@@ -26,7 +26,7 @@ html.scrolling-ready {
 }
 
 #logo-big {
-  font-family: 'poppinsregular';
+  font-family: $logo-font;
   font-weight: 400;
   font-size: 48px;
   padding: 36px 0 24px 0;
@@ -68,7 +68,6 @@ html.scrolling-ready {
 
 .page-name {
   font-size: 26px;
-  //font-family: $roboto;
   font-weight: 600;
   text-align: center;
   padding: 24px 0 0px 0;

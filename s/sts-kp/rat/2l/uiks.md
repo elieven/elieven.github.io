@@ -290,17 +290,23 @@ __[NEKI MANJKA]__
 
 > Vaja
 
+<br><br>
+
+## Mrežni sloj
+
+Naloga mrežnega sloja je **prenos paketkov** (datagramov) **od pošiljatelja k prejemniku** s pomočjo metode **posredovanje** (forwarding) in **usmerjanje** (routing).
+
+> Načeloma je "paketki" splošno ime za stvar in se paketkom na mrežnem sloju reče datagrami, nekateri pa jim še vedno pravijo paketki. To zna bit na maturi tko da treba malo pazit.
+
 <br>
 
-## Metoda usmerjanja in posredovanja
+### Metoda usmerjanja in posredovanja
 
-Naloga mrežnega sloja je prenos paketkov (datagram) od pošiljatelja k prejemniku, s pomočjo **metode posredovanja** (forwarding) in **metode usmerjanja** (routing).
-
-- **Posredovanje** je metoda, ki je vezana na dogajanje znotraj enega samega usmerjevalnika (usmerjanje paketka med vhodnimi in izhodnimi porti).
+- **Posredovanje** je metoda vezana na dogajanje znotraj enega samega usmerjevalnika (usmerjanje paketka med vhodnimi in izhodnimi porti). 
 
 - **Usmerjanje** pa je metoda, ki s pomočjo usmerjevalnih algoritmov določi pot od pošiljatelja do prejemnika.
 
-Vsak **usmerjevalnik** ima **usmerjevalno tabelo**, s pomočjo katere **usmerja podatke** na izhodne porte. Usmerjevalnik vrednosti v usmerjevalni tabeli nastavi s pomočjo sporočil (routing protocol messages), ki mu jih posreduje usmerjevalni algoritem.
+Vsak **usmerjevalnik** ima **usmerjevalno tabelo**, s pomočjo katere **usmerja podatke** na izhodne porte (*niso enaki porti kot na aplikacijskem sloju!*). Usmerjevalnik vrednosti v usmerjevalni tabeli nastavi s pomočjo sporočil (routing protocol messages), ki mu jih posreduje usmerjevalni algoritem.
 
 <br>
 

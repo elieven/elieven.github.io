@@ -33,8 +33,20 @@ header {
       height: $hh;
       line-height: $hh;
       vertical-align: middle;
-      font-size: 15px;
-      font-weight: 600;
+      font-size: 17px;
+      font-weight: 500;
+      font-family: 'poppinsmedium';
+    }
+
+    #header-logo-svg {
+      height: $hh;
+
+      svg {
+        $d: 18px;
+        width: 28px;
+        height: $d;
+        margin-top: ($hh - $d) / 2;
+      }
     }
   }
 
@@ -42,18 +54,30 @@ header {
     display: inline-block;
     float: right;
     height: $hh;
-    padding: 10px 0;
+    padding: 0px 0;
 
     a {
       color: rgba(255, 255, 255, 0.9);
-      font-size: 14px;
-      font-weight: 600;
+      font-size: 16px;
+      font-weight: 500;
       display: inline-block;
       height: $hh - 20px;
       line-height: $hh - 20px;
       text-decoration: none;
       padding: 0 8px;
-      border-radius: 3px;
+
+      &.icolink {
+        height: $hh;
+        width: 48px;
+        position: relative;
+
+        svg {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%,-50%);
+        }
+      }
 
       &:last-child {
         margin-right: -8px;

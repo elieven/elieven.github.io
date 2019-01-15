@@ -780,6 +780,8 @@ sadje[2] = "kivi";
 sadje[3] = "lubenica";
 ```
 
+<br><br>
+
 ## Metode
 
 Do sedaj:
@@ -835,52 +837,61 @@ public class Vsota {
 **Naloga**
 > napiši program ki sprejme tabelo celih stevil, jih izpise, potem jih razvrsti po velikosti in seenkrat izpise
 
-> nedokoncano
-
 ```java
 import java.io.*;
 
-public class RazvrcenIzpis {
+public class RazvrscenIzpis {
   public static void main(String[] args) throws IOException {
-    // Vnos podatkov
+    
+    // Nacin vnosa podatkov
     BufferedReader vhod = new BufferedReader(new InputStreamReader(System.in));
     
     // Navodila za uporabnika
     System.out.println("Vnesite števila, ločena z vejicami. (Primer: 1,4,2,6,5,7,3)");
     
     // Vnos shranjen kot String
-    String stevilaStr = vhod.readLine();
+    String[] vnesena_stevila = vhod.readLine().split(",");
     
-    // Vnos spremenjen v tabelo Stringov
-    String[] stevilaArr = stevilaStr.split(",");
+    // Izpis neurejenih vnesenih stevil
+    System.out.print("Vnesena stevila: ");
     
-    // Nova tabela za int verzijo stevil
-    int[] stevila = new int[stevilaArr.length];
-    
-    // Pretvorba stevil in vnos v novo tabelo
-    for (int i = 0; i < stevilaArr.length; i++) {
-      stevila[i] = Integer.parseInt(stevilaArr[i]);
+    for (int i=0; i<vnesena_stevila.length-1; i++) {
+      System.out.print(vnesena_stevila[i] + ", ");
     }
     
-    // Izpis neurejenih stevil
-    System.out.println("Vnesena stevila: " + String.join(", ", stevilaArr));
+    System.out.print(vnesena_stevila[vnesena_stevila.length-1]);
     
-    // Urejanje stevil
-    int razvrscenaStevilaArr = razvrsti(stevila);
+    System.out.println("");
     
-    for (int c = 0; c < razvrscenaStevilaArr.length; c++) {
-      System.out.print(razvrscenaStevilaArr[c] + ", ");
+    // Pretvorba vnesenih stevil v int in polnjenje stevila[]
+    int[] stevila = new int[vnesena_stevila.length];
+    
+    for (int i=0; i<vnesena_stevila.length; i++) {
+      stevila[i] = Integer.parseInt(vnesena_stevila[i]);
     }
     
-  }
+    // Uporaba razvrsti() metode za razvrstit stevila
+    int[] razvrscena_stevila = razvrsti(stevila);
+    
+    // Izpis urejenih stevil
+    System.out.print("Razvrscena stevila: ");
+    
+    for (int i=0; i<razvrscena_stevila.length-1; i++) {
+      System.out.print(razvrscena_stevila[i] + ", ");
+    }
+    
+    System.out.print(razvrscena_stevila[razvrscena_stevila.length-1]);
+    
+    System.out.println("");
+    
+  } // konec main() metode
   
   // Metoda za razvrscanje stevil v tabeli
   public static int[] razvrsti(int[] stevila) {
-    
     // Bubble sort
     for (int i = 0; i < stevila.length-1; i++) {
-      for (int j = 0; j < n-i-1; j++) {
-        if (arr[j] > arr[j+1]) {
+      for (int j = 0; j < stevila.length-i-1; j++) {
+        if (stevila[j] > stevila[j+1]) {
           // menja mesti stevil
           int temp = stevila[j];
           stevila[j] = stevila[j+1];
@@ -888,8 +899,7 @@ public class RazvrcenIzpis {
         }
       }
     }
-    
-    // vrne razvrscena stevila
+    // vrne tabelo razvrscenih stevil
     return stevila;
   }
 }
