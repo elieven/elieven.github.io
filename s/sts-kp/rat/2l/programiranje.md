@@ -780,7 +780,120 @@ sadje[2] = "kivi";
 sadje[3] = "lubenica";
 ```
 
+## Metode
 
+Do sedaj:
+
+```java
+main()
+System.out.print()
+length()
+...
+```
+
+**Uporaba:** če moramo določeno skupino ukazov večkrat **ponovit**.
+
+**Lastne metode:**
+- definiramo jih sami
+- zapisane znotraj razreda class, ne pa znotraj glavne metode main
+- lahko več lastnih metod v enem razredu
+- lahko vračajo podatke ali ne
+
+<br>
+
+### Definiranje metode
+
+```java
+public int vsota(int a, int b) {
+  int sum = a + b;
+  return sum;
+}
+```
+
+`int` je tip podatka, ki ga vrne (v primeru da ne vrne nič je `void`). Ime metode je `vsota`. Znotraj oklepaja so tipi in imena vhodnih podatkov (v primeru da ne sprejme nič je oklepaj prazen). `return` je kar nam metoda vrne (v tem primeru vrednost spremenljivke **sum**). Če metoda ne vrača podatkov, ne uporabimo ukaza `return`.
+
+### Klicanje metode
+
+```java
+public class Vsota {
+  public static void main(String[] args) {
+    int st1 = 8;
+    int st2 = 5;
+    int skupaj = vsota(st1, st2);
+  }
+  public static int vsota(int a, int b) {
+    int sestej = a + b;
+    return sestej;
+  }
+}
+
+// skupaj = 13
+```
+
+<br>
+
+**Naloga**
+> napiši program ki sprejme tabelo celih stevil, jih izpise, potem jih razvrsti po velikosti in seenkrat izpise
+
+> nedokoncano
+
+```java
+import java.io.*;
+
+public class RazvrcenIzpis {
+  public static void main(String[] args) throws IOException {
+    // Vnos podatkov
+    BufferedReader vhod = new BufferedReader(new InputStreamReader(System.in));
+    
+    // Navodila za uporabnika
+    System.out.println("Vnesite števila, ločena z vejicami. (Primer: 1,4,2,6,5,7,3)");
+    
+    // Vnos shranjen kot String
+    String stevilaStr = vhod.readLine();
+    
+    // Vnos spremenjen v tabelo Stringov
+    String[] stevilaArr = stevilaStr.split(",");
+    
+    // Nova tabela za int verzijo stevil
+    int[] stevila = new int[stevilaArr.length];
+    
+    // Pretvorba stevil in vnos v novo tabelo
+    for (int i = 0; i < stevilaArr.length; i++) {
+      stevila[i] = Integer.parseInt(stevilaArr[i]);
+    }
+    
+    // Izpis neurejenih stevil
+    System.out.println("Vnesena stevila: " + String.join(", ", stevilaArr));
+    
+    // Urejanje stevil
+    int razvrscenaStevilaArr = razvrsti(stevila);
+    
+    for (int c = 0; c < razvrscenaStevilaArr.length; c++) {
+      System.out.print(razvrscenaStevilaArr[c] + ", ");
+    }
+    
+  }
+  
+  // Metoda za razvrscanje stevil v tabeli
+  public static int[] razvrsti(int[] stevila) {
+    
+    // Bubble sort
+    for (int i = 0; i < stevila.length-1; i++) {
+      for (int j = 0; j < n-i-1; j++) {
+        if (arr[j] > arr[j+1]) {
+          // menja mesti stevil
+          int temp = stevila[j];
+          stevila[j] = stevila[j+1];
+          stevila[j+1] = temp;
+        }
+      }
+    }
+    
+    // vrne razvrscena stevila
+    return stevila;
+  }
+}
+```
 
 [if]: https://res.cloudinary.com/solamona/image/upload/v1537456195/zvs/sts-kp/rac/5l/programiranje/if_statement.jpg
 [ifelse]: https://res.cloudinary.com/solamona/image/upload/v1537456152/zvs/sts-kp/rac/5l/programiranje/if_else_statement.jpg
