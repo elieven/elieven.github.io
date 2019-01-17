@@ -6,6 +6,10 @@ header {
   position: relative;
   z-index: 10000;
 
+  .con {
+    height: 100%;
+  }
+
   &::before {
     content: '';
     display: block;
@@ -22,12 +26,14 @@ header {
   #header-logo {
     text-decoration: none;
     display: inline-block;
-    height: $hh;
+    height: $hh - 16px;
+    width: 28px;
+    position: relative;
     font-size: 14px;
     font-weight: 500;
     color: white;
     height: 100%;
-    padding: 0;
+    padding: 8px 0;
 
     #header-logo-text {
       height: $hh;
@@ -40,9 +46,13 @@ header {
 
     #header-logo-svg {
       height: $hh;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
 
       svg {
-        $d: 18px;
+        $d: 16px;
         width: 24px;
         height: $d;
         margin-top: ($hh - $d) / 2;

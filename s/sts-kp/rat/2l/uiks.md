@@ -306,7 +306,9 @@ Naloga mrežnega sloja je **prenos paketkov** (datagramov) **od pošiljatelja k 
 
 - **Usmerjanje** pa je metoda, ki s pomočjo usmerjevalnih algoritmov določi pot od pošiljatelja do prejemnika.
 
-Vsak **usmerjevalnik** ima **usmerjevalno tabelo**, s pomočjo katere **usmerja podatke** na izhodne porte (*niso enaki porti kot na aplikacijskem sloju!*). Usmerjevalnik vrednosti v usmerjevalni tabeli nastavi s pomočjo sporočil (routing protocol messages), ki mu jih posreduje usmerjevalni algoritem.
+Vsak **usmerjevalnik** ima **usmerjevalno tabelo**, s pomočjo katere **usmerja podatke** na izhodne porte (*niso enaki porti kot na aplikacijskem sloju!*). Usmerjevalnik vrednosti v usmerjevalni tabeli nastavi s pomočjo posebnih sporočil (routing protocol messages), ki mu jih posreduje usmerjevalni algoritem.
+
+> Ta sporočila so poslana preko ICMP kot tudi Ping.
 
 <br>
 

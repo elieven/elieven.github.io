@@ -83,7 +83,7 @@ programi:
             name:    Sociologija
             status:  done
 
-          - predmet: UIKST
+          - predmet: UIKSt
             code:    uikst
             name:    Upravljanje IK Sistemov
             status:  done

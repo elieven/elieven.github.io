@@ -163,7 +163,7 @@ $$
 
 <br><br>
 
-------
+---
 
 
 
@@ -196,3 +196,42 @@ $$
   - elektronski top
 - sila na vodnik
 - *magnetno polje*
+
+
+---
+
+> Strani 99, 103 in 104 vse naloge.
+
+
+$$
+\RAC{
+  \overrightarrow{F} = I \cdot \overrightarrow{\mathscr{l}} \cdot \overrightarrow{B}
+}
+$$
+
+**F** je sila, **I** je tok, **l** je dolžina žice in **B** je jakost magnetnega polja.
+
+<br>
+
+#### Vaja: elektromotor s tuljavo v magnetnem polju
+
+Imamo elektronsko tuljavo kot na skici. Stranica **a** je dolga 15 cm in **b** 8cm. Ima 50 **navojev** in skozi teče **tok** 1,2 Ampera. Gostota magnetnega polja je 0,8T. Vrti se s 1500 vrtljaji na minuto.
+
+![Slika tuljave v magnetnem polju](https://si.openprof.com/ge/images/12/navor_sile1_640_4.jpg){: .imgc}
+
+$$
+\RAC{
+  \begin{array}{ccc|c}
+    a & = & 15cm \\
+    b & = & 8cm \\
+    N & = & 50 \\
+    I & = & 1,2A \\
+    B & = & 0,8N \\
+    \nu & = & 1500/min \\
+    \hline
+    M & = & \\
+    P & = &
+  \end{array}
+}
+$$
+

@@ -125,7 +125,73 @@ Osnovna enota jezika, sestavljena iz črk / glasov, ima pomen (en ali več).
   - Besedila v katerih sporočamo o lastnostih, sestavi, delovanju. 
   - *Naštevalno razmerje*
 
+
 ---
+
+## Moderna
+
+- Ime za književne pojave, ki so po letu 1850 začeli uveljavljati težnje romantike.
+- Nasprotujejo načelom realizma/naturalizma.
+- Z razumom ni mogoče dojeti bistva življenjskih pojavov. Resničnost je iz številnih plasti, ki razumu niso dosegljive.
+- Naloga besedne umetnosti je predstavljanje nezavednega stanja resničnosti - s pomočjo lepote, ki jo človck dojema s čustvi.
+- Ni enotna smer, sestavljajo jo: nova romantika, dekadenca, simbolizem, impresionizem
+
+### Nova romantika
+
+- Obnavlja romantiko z začetka 19. stol.
+- Poudarja lepoto pesnikove duše, njegovih čustev.
+- Njen značilni motiv je hrepenenje.
+- Uporablja bogat pesniški jezik.
+
+### Dekadenca
+
+- Poudarja izjemne, bolestne, celo perverzne poteze v doživljanju sveta.
+- Bralca presenetijo, predstavljajo nasprotje povprečni meščanski stvarnosti
+- Izraža odpor do ustaljenih, tradicionalnih vrednot, izrazito poudarja čutnost.
+
+### Simbolizem
+
+- S pomočjo simbolov hoče priklicati vtis globlje resničnosti, ki je ni mogoče utemeljiti.
+
+### Impresionizem
+
+- Čim bolj neposredno želi posredovati čutne vtise, predstave, razpoloženja.
+- Pomembno je trenutno doživetje, osebni vtis, običajno v povezavi z naravo.
+- Značilni so razbiti stavki, zvočno slikanje.
+
+<br>
+
+## Evropska moderna
+
+- Začne se leta 1850 v Franciji, drugod kasneje. Vrh je dosegla po leta 1870, zlasti v 80. in 90 letih 19. stoletja.
+- Razvijejo se lirika, epika in dramatika.
+- Predstavniki: C. Baudelaire, P. Verlaine, A. Rimbaud, S. Mallarme, O. Wilde
+
+### Lirika
+- Se najbolj razvije.
+- Za izražanje globlijih duovnih pomenov uporablja zapletene metafore, podobe, simbole.
+- Motivi so skrajna čustvena in čutna stanja (čutna omama, praznost, smrt), podzavest, halucinacije.
+- Oblika: prosti verz
+- Predstavniki: Baudelaire, Verlaine, Rimbaud, Mallarme
+
+### Epika
+
+- Manj se uveljavi.
+- Nastanejo krajše pripovedne vrste: novela, črtica, pravljica, pesem v prozi.
+- Teme: dekadenčna čustvena stanja, sanjsko in fantastično dogajanje.
+- Predstavnik: Wilde
+
+### Dramatika
+
+- Nastane nova vrsta drame: lirska ali poetična drama
+- V njej izginja dramatičnost, izrazite so lirske razpoloženjske sestavine.
+- Predstavnik: Wilde
+
+<br>
+
+---
+
+<br>
 
 ## Saloma
 
@@ -146,3 +212,68 @@ Je poetična (slog je poetičen, jezik je pesniški, motivi so zgodovinski s sim
 Temeljni dramski konflikt predstavlja nasprotje med Salomino čutno ljubeznijo in prerokovo duhovno.
 
 Ideja: pogubnost človeških strasti in neobvladljiva čustva.
+
+<br>
+
+---
+
+<br>
+
+## Martin Kačur
+
+![Slika iz filma](http://gradiva.txt.si/m/slovenscina/ivan-cankar-martin-kacur/img/Kacur_blatni_dol.jpg){: .img-float-left}
+
+Povest poteka v treh krajih: **Zapolje** (kjer preživi pol leta), **Blatni dol** (11 let) in **Lazi** (8 let).
+
+V Zapolju se Kačur zaljubi v **Minko**. Ustanoviti želi **bralno društvo**, da bi **izobrazil ljudi**, a ne dobi podpore. Kazensko je premeščen v **Blatni dol**.
+
+V Blatnem dolu je župnik Martinu Kačurju sicer naklonjen, a pomembneje mu je, da otroci pomagajo na njivi, kot hodijo v šolo. Tudi tukaj želi ustanoviti bralno društvo, a mu ne uspe. Spozna **Tončko** in se z njo poroči, čeprav je **ne ljubi**. Privlači ga samo telesno. Počasi se **začne njegov propad**. Zanemarja službene dolžnosti in se vedno bolj vdaja **alkoholu**. Neštetokrat je prosil za premestitev, a so ga zavrnili. Kmalu je postal takšen, kot je želela oblast - **pokoren in ponižen**.
+
+Končno ga premestijo v Laze. Kraj je predstavljen pretirano svetlo, **optimistično**. Martin Kačur je že **izgubil energijo in moč** za svetlobo, predtem so mu **ubili vse ideale**. Postal je izčrpan, ponižen, upognjen. Tudi v ženi Tončki ni našel opore, starejša otroka ga nista marala, razumel se je le z najmlajšim, na smrt bolnim sinom **Lojzetom**. Njegova smrt ob božiču je povzročila Kačurjev **dokončni propad** (*napil se je in zunaj zmrznil*).
+
+> Učitelji ob koncu 19. stoletja niso imeli velike vloge, saj se ljudem izobrazba ni zdela pomembna. Dodobra jih je zaznamovala tudi **klerikalna** oblast, kjer je bil župnik učitelju posredno nadrejen in med preprostimi ljudmi najbolj cenjen.
+
+<br>
+
+### Ideja
+
+Idejo izraža protagonist. Martin Kačur je osebno **nemočen**, povest predstavlja **krivičnost družbe**, ki ji junak ni kos. V taki družbi nekateri ljudje vedno ostanejo na dnu, nekateri se vzpenjajo, ker so **hlapčevski** in **oportunistični**. Ko so na vrhu, izražajo lažno rodoljubje, postavljajo se za vodnike naroda. Kačur je želel neuke ljudi **izobraziti**, oni pa želje po znanju in razgledanosti niso imeli.
+
+V besedilu se pojavljajo številna **nasprotja**:
+- med **posameznikom** in **družbo**
+- med **podrejenim** in **nadrejenim**
+- med **prosveto** in **cerkvijo**
+- med **naprednim** in **zaostalim**
+
+<br>
+
+### Povzetek
+
+- Povest je iz treh delov, vsak ima tri poglavja (*simetrična zgradba*). Dogajanje poteka v časovnem zaporedju (*sintetična zgradba*), ni pa sklenjeno (*časovni presledki, dogajanje je sestavljeno iz izsekov Kačurjevega življenja*).
+- Martin Kačur: **idealist**, prepričan je, da lahko izobrazi in razsvetli ljudstvo, vztraja, toda razočarano moralno propade in **tragično konča**.
+- **Novoromantični in dekadenčni motivi**: v realistično pripoved so vključeni **novoromantični** motivi (*Kačurjevo doživljanje narave, ljubezen do Minke*) in **dekadenčni** (*Tončka in njeno ravnanje*).
+- Jezik in slog: Cankar posveča slogu posebno pozornost. Veliko je:
+  - pesniških podob (**podobe svetlobe** [*Kačur idealist in optimist*], **temno nebo** [*Kačurjeva smrt*]),
+  - simbolov (**Blatni dol** [*zaostalost, družbena beda, Kačurjev osebni propad*]),
+  - prisotna je tudi **ritmičnost** (*ponavljanja*)
+- Ideji:
+  - **Osebna nemoč** glavne osebe (*notranji konflikt med dušo in telesom*).
+  - **Krivičnost družbe** (*nekateri so vedno na dnu, vzpenjajo se klečeplazci in oportunisti, ki "vladajo", ko so na vrhu, razglašajo lažno rodoljubje*).
+
+<br><br>
+
+## Ivan Cankar
+
+Ivan Cankar je bil slovenski pisatelj, dramatik in pesnik. Rodil se je 10. maja 1876 na Vrhniki. Udejstvoval se je tudi politično, tako je imel leta 1913 v Ljubljani zelo znano predavanje z naslovom Slovenci in Jugoslovani. Umrl je 11. decembra 1918.
+
+**Njegovo ustvarnanje** delimo ga na tri obdobja:
+- **Mladostno** (poezija, proza)
+- **Zrelo** (daljša proza, dramatika)
+- **Pozno** (črtice)
+
+Ustvarjal je vse nadzvrsti književnosti:
+- **Lirika**: Erotika
+- **Epika**:
+  - Daljša proza: Tujec, Ma klancu, Hiša Marije Pomočnice, Martin Kačur, Križ na gori, Hlapec Jernej in njegova pravnica, Kurent.
+  - Krajša proza (zbirke črtic): Vinjete, Moje življenje, Podobe iz sanj
+- **Dramatika**: Romantične duše, Za narodov blagor, Kralj na Berajnovi, Hlapci, Pohujšanje v dolini šentflorjanski, Jakob Ruda.

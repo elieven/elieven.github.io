@@ -25,7 +25,7 @@ Ti znaki prikazujejo **trenutno stanje** določenih elementov / dokumentov:
 
 ### Known bugs
 
-- Back to top button ne dela na IOS mobile
+- Nothing yet :D
 
 ### To do
 
@@ -37,14 +37,6 @@ Ti znaki prikazujejo **trenutno stanje** določenih elementov / dokumentov:
 - [ ] nardit da ko zlouda page preveri url če je treba scrollat kam
 - [ ] up in down gumb za se premikat po hierarhiji naslovou da ne scrollas pac da samo
 
-
-<br>
-
-### Drugo
-
-Matematične formule so napisane v __LaTeX__ sintaksi in generirane s sistemom __CodeCogs__.
-
-<a href="http://www.codecogs.com" target="_blank"><img src="http://www.codecogs.com/images/logo.gif" border="0" title="CodeCogs - An Open Source Scientific Library" alt="CodeCogs - An Open Source Scientific Library"></a>
 
 <br>
 

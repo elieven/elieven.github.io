@@ -22,13 +22,15 @@ document.addEventListener("DOMContentLoaded", function() {
         document.querySelector("html").className += " scrolling-ready";
       },
       onScroll: function() {
-        // settings
-        var scroll_top_btn_show_threshold = 2000;
-        // Showhs the back to top button if scrolled over a threshold
-        if (this.scroll().position.y > scroll_top_btn_show_threshold) {
-          scroll_top_btn.classList.add("lift");
-        } else {
-          scroll_top_btn.classList.remove("lift");
+        if (scroll_top_btn != null) {
+          // settings
+          var scroll_top_btn_show_threshold = 2000;
+          // Showhs the back to top button if scrolled over a threshold
+          if (this.scroll().position.y > scroll_top_btn_show_threshold) {
+            scroll_top_btn.classList.add("lift");
+          } else {
+            scroll_top_btn.classList.remove("lift");
+          }
         }
       }
     }
@@ -41,9 +43,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 // Scroll back to top button functionality
-scroll_top_btn.addEventListener("click", function() {
-  OverlayScrollbars(document.querySelector("body"), {}).scroll({y: "0px"}, 320, "easeOutQuart");
-});
+if (scroll_top_btn != null) {
+  scroll_top_btn.addEventListener("click", function() {
+    OverlayScrollbars(document.querySelector("body"), {}).scroll({y: "0px"}, 320, "easeOutQuart");
+  });
+}
 
 
 // SW registering
