@@ -117,7 +117,14 @@ V drugi enačbi je **m = masa** in **a = pospešek** (merjen v m/s<sup>2</sup>).
 
 $$
 \RAC{
-  P \quad = \quad \frac{A}{t} \quad = \quad \frac{J}{R} \quad = \quad W
+  P \quad = \quad \frac{A}{t} \quad = \quad \frac{J}{s} \quad = \quad W \\[16pt]
+
+  \begin{align}
+  A & = U \cdot e \\[8pt]
+  A & = U \cdot t \cdot I \\[8pt]
+  P & = \frac{U \cdot \cancel{t} \cdot I}{\cancel{t}} \\[8pt]
+  P & = U \cdot I
+  \end{align}
 }
 $$
 
@@ -163,6 +170,9 @@ $$
 
 <br><br>
 
+
+
+
 ---
 
 
@@ -198,6 +208,14 @@ $$
 - *magnetno polje*
 
 
+
+
+
+
+
+
+
+
 ---
 
 > Strani 99, 103 in 104 vse naloge.
@@ -215,9 +233,9 @@ $$
 
 #### Vaja: elektromotor s tuljavo v magnetnem polju
 
-Imamo elektronsko tuljavo kot na skici. Stranica **a** je dolga 15 cm in **b** 8cm. Ima 50 **navojev** in skozi teče **tok** 1,2 Ampera. Gostota magnetnega polja je 0,8T. Vrti se s 1500 vrtljaji na minuto.
+![Slika tuljave v magnetnem polju](https://res.cloudinary.com/solamona/image/upload/v1547743798/zvs/sts-kp/rac/5l/fizika/navor_sile1_640_4.jpg){: .imgc}
 
-![Slika tuljave v magnetnem polju](https://si.openprof.com/ge/images/12/navor_sile1_640_4.jpg){: .imgc}
+Imamo elektronsko tuljavo kot na skici. Stranica **a** je dolga 15 cm in **b** 8cm. Ima 50 **navojev** in skozi teče **tok** 1,2 Ampera. Gostota magnetnega polja je 0,8T. Vrti se s 1500 vrtljaji na minuto.
 
 $$
 \RAC{
@@ -235,3 +253,30 @@ $$
 }
 $$
 
+Najprej izračunamo **M**. Enačba za **M** od **enega** navoja je:
+
+$$
+\RAC{
+  M_1 \quad = \quad r \cdot F \quad = \quad \frac{b}{2} \cdot F_1 + \frac{b}{2} \cdot F_2
+}
+$$
+
+Za **celoten M** od vseh **50** navojev:
+
+$$
+\RAC{
+  \begin{align}
+
+  M & = N \cdot \color{#0a0}{b} \cdot I \cdot \color{#0a0}{a} \cdot B \\[12pt]
+
+  M & = \color{#e40}{N} \cdot \color{#919}{I} \cdot \color{#0a0}{S} \cdot \color{#04f}{B} \\[8pt]
+
+  M & = \color{#e40}{50} \cdot \color{#919}{1,2\cancel{A}} \cdot \color{#0a0}{15 \cdot 8 \cdot 10^{-4}m^{\cancel{2}}} \cdot \color{#04f}{0,8\frac{N}{\cancel{A}\cancel{m}}} \\[8pt]
+
+  M & = 50 \cdot 1,2 \cdot 15 \cdot 8 \cdot 10^{-4}m \cdot 0,8N \\[16pt]
+
+  M & = 0,57Nm
+
+  \end{align}
+}
+$$
