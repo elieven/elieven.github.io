@@ -852,17 +852,6 @@ public class RazvrscenIzpis {
     // Vnos shranjen kot String
     String[] vnesena_stevila = vhod.readLine().split(",");
     
-    // Izpis neurejenih vnesenih stevil
-    System.out.print("Vnesena stevila: ");
-    
-    for (int i=0; i<vnesena_stevila.length-1; i++) {
-      System.out.print(vnesena_stevila[i] + ", ");
-    }
-    
-    System.out.print(vnesena_stevila[vnesena_stevila.length-1]);
-    
-    System.out.println("");
-    
     // Pretvorba vnesenih stevil v int in polnjenje stevila[]
     int[] stevila = new int[vnesena_stevila.length];
     
@@ -870,18 +859,17 @@ public class RazvrscenIzpis {
       stevila[i] = Integer.parseInt(vnesena_stevila[i]);
     }
     
+    // Izpis neurejenih vnesenih stevil
+    System.out.print("Vnesena stevila: ");
+    izpis(stevila);
+    System.out.println("");
+    
     // Uporaba razvrsti() metode za razvrstit stevila
     int[] razvrscena_stevila = razvrsti(stevila);
     
-    // Izpis urejenih stevil
+    // izpis razvrscenih stevil
     System.out.print("Razvrscena stevila: ");
-    
-    for (int i=0; i<razvrscena_stevila.length-1; i++) {
-      System.out.print(razvrscena_stevila[i] + ", ");
-    }
-    
-    System.out.print(razvrscena_stevila[razvrscena_stevila.length-1]);
-    
+    izpis(razvrscena_stevila);
     System.out.println("");
     
   } // konec main() metode
@@ -901,6 +889,15 @@ public class RazvrscenIzpis {
     }
     // vrne tabelo razvrscenih stevil
     return stevila;
+  }
+  
+  // Metoda za izpis tabele
+  public static void izpis(int[] stevila) {
+    System.out.print("{");
+    for (int i=0; i<stevila.length-1; i++) {
+      System.out.print(stevila[i] + ",");
+    }
+    System.out.print(stevila[stevila.length-1] + "}");
   }
 }
 ```

@@ -277,3 +277,42 @@ Ustvarjal je vse nadzvrsti književnosti:
   - Daljša proza: Tujec, Ma klancu, Hiša Marije Pomočnice, Martin Kačur, Križ na gori, Hlapec Jernej in njegova pravnica, Kurent.
   - Krajša proza (zbirke črtic): Vinjete, Moje življenje, Podobe iz sanj
 - **Dramatika**: Romantične duše, Za narodov blagor, Kralj na Berajnovi, Hlapci, Pohujšanje v dolini šentflorjanski, Jakob Ruda.
+
+<br>
+
+### Pomen
+
+Uveljavil se je kot eden najpomembnejših predstavnikov slovenske književnosti, bil je mojster črtice ter pomemben (prvi in največji) slovenski dramatik. Njegovo delo obsega vse tri nadzvrsti književnosti.
+
+<br>
+
+### Hlapci
+
+Drama v petih dejanjih s tragično in komično perspektivo (satira, karikatura, ironija).
+
+**Glavna oseba: Jerman** - izobraženec, ki želi ozaveščati neuko ljudstvo, v krivičnih družbenih razmerah je pozitivna oseba, moralno pokončna, je pa čustven in rahločuten, resen, otožen, primanjkuje mu moči za akcijo (podoben je Kačurju).
+
+**Dramski konflikt:**
+- Zunanji (nasprotje med Jermanom - napredek, upor - in župnikom - izkoriščanje, zaostalost)
+- Notranji (konflikt v Jermanovi notranjosti: moralna zahteva po sociali svobodi in vest)
+
+<br>
+
+- **Satirična realistična drama** s prvinami nove romantike in simbolizma. 
+- **Nova romantika** (Jermanova čustvenost, hrepenenje po ljubezni je duhovna vrednota, ideal)
+- **Simbolizem** (veliko simbolov: konec drame, cula je povezana, beseda je votla, pamet dvakrat zaklenjena...; *"Hlapci! Za hlapce rojeni, ustvarjeni za hlapčevanje. Gospodar se menja, bič pa ostane, in ostal bo za vekomaj; zato, ker je hrbet skrivljen, biča vajen in željan!"*)
+- **Tragičnost:** človek mora propasti zaradi svojega pomembnega stremljenja
+  - Tragični konflikt (župnik = legalno - oblast, Jerman = legitimno - moralno)
+  - Tragični junak (Jerman je razpet med mater in politično delo, kot župnikov protiigralec je premalo močan, poraženec)
+  - Tragična oseba (Jermanova mati - prizadeta zaradi sinovega delovanja, žrtev dogajanja)
+  - Tragično trpljenje
+
+<br>
+
+**Ideje:**
+- Kritika političnih razmer (volitve leta 1907, zmaga katoliške stranke)
+- Ideja o brezznačajnosti inteligence (službovanje gospodarju - vladajoči stranki)
+- Kritika neozaveščenosti in pokorščine neukega kmečkega ljudstva ("hlapci" v imenu vere)
+- Ideja nemoči posameznika, da bi spremenil razmere
+- Ideja o odrešilni moči ljubezni (ljubezen je čudežna sila, ki uravnava nasprotja in vrača izgubljeni smisel življenja)
+
