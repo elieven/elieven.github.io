@@ -902,5 +902,38 @@ public class RazvrscenIzpis {
 }
 ```
 
+<br>
+
+**Naloga**
+> Vnos: število stranic večkotnika - Izpis: število diagonal v večkotniku. Za izračuna diagonal napiši svojo metodo.
+
+```java
+import java.io.*;
+
+public class Diagonale {
+  public static void main(String[] args) throws IOException {
+    
+    // Nacin vnosa podatkov
+    BufferedReader vhod = new BufferedReader(new InputStreamReader(System.in));
+    
+    // Navodila za uporabnika
+    System.out.println("Vnesite stevilo stranic veckotnika:");
+    
+    // Vnos shranjen kot String
+    int stranice = Integer.parseInt(vhod.readLine());
+    
+    System.out.println(stranice + "-kotnik ima " + diagonale(stranice) + " diagonal.");
+    
+  } // konec main() metode
+  
+  // Metoda za izpis tabele
+  public static int diagonale(int stranice) {
+    int diagonale = (stranice * (stranice - 3)) / 2;
+    return diagonale;
+  }
+}
+```
+
+
 [if]: https://res.cloudinary.com/solamona/image/upload/v1537456195/zvs/sts-kp/rac/5l/programiranje/if_statement.jpg
 [ifelse]: https://res.cloudinary.com/solamona/image/upload/v1537456152/zvs/sts-kp/rac/5l/programiranje/if_else_statement.jpg
