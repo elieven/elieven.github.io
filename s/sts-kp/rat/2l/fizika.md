@@ -20,6 +20,14 @@ desc: Snov fizike za 2. letnik Računalniškega tehnika (oz. 5 letnik izobražev
 
 <br><br>
 
+---
+
+
+
+---
+
+<br><br>
+
 $$
 \newcommand{\RAC}[1]{\phantom{a}\\[0pt]\mathrm{#1}\\[0pt]\phantom{a}}
 $$

@@ -3,13 +3,14 @@ layout: solamona
 title: Splošna Gimnazija
 ---
 
+{% assign programDataPath = site.data.s.gim-kp.programi[0] %}
+
 <div class="con">
 
-  <h2 class="page-name">{{site.data.s.gim-kp.programi[0].program}}</h2>
+  <h2 class="page-name">{{programDataPath.program}}</h2>
 
   {% include breadcrumbs.html %}
-
-  {% assign programDataPath = site.data.s.gim-kp.programi[0] %}
+  
   {% include program-predmeti.html program=programDataPath %}
 
 </div>

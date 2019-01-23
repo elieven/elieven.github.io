@@ -1,5 +1,3 @@
-# cel file je object od šole tko da ni treba nardit posebaj objecta za šolo
-
 ime: Srednja Tehniška Šola Koper
 kratica: STŠ Koper
 code: sts-kp
@@ -108,7 +106,7 @@ programi:
           - predmet: UIKS
             code:    uiks
             name:    Upravljanje IK Sistemov
-            status:  pmd
+            status:  wip
 
           - predmet: VOS
             code:    vos
@@ -138,7 +136,7 @@ programi:
           - predmet: Slovenščina
             code:    slovenscina
             name:    Slovenščina
-            status:  nic
+            status:  wip
 
           - predmet: Italijanščina
             code:    italijanscina
