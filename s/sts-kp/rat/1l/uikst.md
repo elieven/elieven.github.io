@@ -1,10 +1,10 @@
 ---
 layout: document
-title: UIKST • 1. letnik • Računalniški Tehnik • STŠ Koper
+title: UIKSt • 1. letnik • Računalniški Tehnik • STŠ Koper
 latex: true
 ---
 
-# UIKST
+# UIKSt
 {: .no_toc}
 
 ## Vsebina:
@@ -262,21 +262,82 @@ Preveri se , da se biti tekom prenosa niso spremenili. Protokola UDP in TCP na s
 
 Začnemo s številom, ki mu želimo izračunati kontrolne bite in s številom `k`, ki nam pove na kako velike dele razdelimo število.
 
-V tem primeru je `št = 110110001111000` in `k = 3`. Najprej razdelimo število na dele velikosti `k` in dobimo `110 110 000 111 000`. Napišemo si jih tako, od desne proti levi in od zgoraj navzdol. Zraven si napišemo št. 2 saj bomo z njim delili vsa števila.
+V tem primeru je `št = 110110001111000` in `k = 3`. Najprej razdelimo število na dele velikosti `k` in dobimo `110 110 001 111 000`. Napišemo si jih tako, od desne proti levi in od zgoraj navzdol. Zraven si napišemo št. 2 saj bomo z njim delili vsa števila.
 
-![1. korak](https://www.latex4technics.com/imgtemp/eqdo8y-1.png?1541527596){: .imgc}
+$$
+\newcommand{\RAC}[1]{\phantom{a}\\[0pt]\mathrm{#1}\\[0pt]\phantom{a}}
+
+\RAC{
+\begin{array}{cccccc}
+
+& & 0 & 0 & 0 & \\
+& & 1 & 1 & 1 & \\
+& & 0 & 0 & 1 & \\
+& & 1 & 1 & 0 & \\
+& & 1 & 1 & 0 & _2 \\
+\hline
+& & & & & \\
+
+\end{array}
+}
+$$
 
 Seštejemo prvi stolpec (začnemo na desni in nadaljujemo levo). Seštevek delimo s št. 2 in ostanek napišemo pod stolpec, celi del rezultata pa prenesemo naprej. `2 : 2 = 1, ost. 0` torej pod stolpec napišemo 0 in 1 prenesemo naprej.
 
-![2. korak](https://www.latex4technics.com/imgtemp/5z8z0w-1.png?1541527660){: .imgc}
+$$
+\RAC{
+\begin{array}{cccccc}
+
+& & 0 & 0 & 0 & \\
+& & 1 & 1 & 1 & \\
+& & 0 & 0 & 1 & \\
+& & 1 & 1 & 0 & \\
+& & 1 & 1_1 & 0 & _2 \\
+\hline
+& & & & 0 & \\
+
+\end{array}
+}
+$$
 
 To ponavljamo dokler nam ne ostane nič več.
 
-![3. korak](https://www.latex4technics.com/imgtemp/1tss0r-1.png?1541527689){: .imgc}
+$$
+\RAC{
+\begin{array}{cccccc}
 
-Potem zadnje `k` bitov negiramo in jih dodamo na konec prvega števila `110 110 000 111 000 011`. Še enkrat seštejemo števila in preverimo, če so zadnji `k` biti enice, ker na strani prejemnika protokola (UDP, TCP) med sabo seštejeta bite podatkov in bite v polju kontrole. Seštevek mora vsebovati same enice. V primeru, da seštevek vsebuje ničlo, vemo, da je med prenosom prišlo do napake.
+& & 0 & 0 & 0 & \\
+& & 1 & 1 & 1 & \\
+& & 0 & 0 & 1 & \\
+& & 1 & 1 & 0 & \\
+_1 & _2 & 1_2 & 1_1 & 0 & _2 \\
+\hline
+1 & 0 & 1 & 0 & 0 & \\
 
-![4. korak](https://www.latex4technics.com/imgtemp/ytf1zl-1.png?1541527720){: .imgc}
+\end{array}
+}
+$$
+
+Potem zadnje `k` bitov **negiramo** (dobimo `011`) in jih dodamo na konec prvega števila `110 110 000 111 000 011`. Še enkrat seštejemo števila in preverimo, če so zadnji `k` biti enice, ker na strani prejemnika protokola (UDP, TCP) med sabo seštejeta bite podatkov in bite v polju kontrole. Seštevek mora vsebovati same enice. V primeru, da seštevek vsebuje ničlo, vemo, da je med prenosom prišlo do napake.
+
+$$
+\RAC{
+\begin{array}{cccccc}
+
+& & 0 & 0 & 0 & \\
+& & 1 & 1 & 1 & \\
+& & 0 & 0 & 1 & \\
+& & 1 & 1 & 0 & \\
+& & 1 & 1 & 0 & \\
+& _3 & \color{#00e}{0}_2 & \color{#00e}{1}_1 & \color{#00e}{1} & _2 \\
+\hline
+& & 1 & 1 & 1 & \\
+
+\end{array}
+}
+$$
+
+> Naprej ne rabimo računat ker nas zanima samo prvih **k** števil.
 
 <br><br>
 

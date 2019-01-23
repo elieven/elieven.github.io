@@ -26,6 +26,8 @@ $$
 
 ## Električni tok (I)
 
+![Razlaga zadev](https://www.youtube.com/watch?v=iyG9_UFJVoI)
+
 Električni **tok** merimo v **Amperih** (**A**). Električni **naboj** je označen s črko **e** in njegova enota je **Columb** (**C**). **Čas** je označen s črko **t**. \\(\mathbb{Z}\\) je **realno število**. \\(\mathrm{e_0}\\) je **osnovni naboj**.
 
 $$

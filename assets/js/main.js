@@ -35,17 +35,13 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     }
   });
-
-  // Nardi custom scrollbare tui za code samples v documentih
-  // Trenutno disablano kr jebe prevec performance zgleda
-  //OverlayScrollbars(document.querySelectorAll("pre"), {});
 });
 
 
 // Scroll back to top button functionality
 if (scroll_top_btn != null) {
   scroll_top_btn.addEventListener("click", function() {
-    OverlayScrollbars(document.querySelector("body"), {}).scroll({y: "0px"}, 320, "easeOutQuart");
+    OverlayScrollbars(document.querySelector("body"), {}).scroll({y: "0px"}, isMobile ? 0 : 320, "easeOutQuint");
   });
 }
 
@@ -53,52 +49,4 @@ if (scroll_top_btn != null) {
 // SW registering
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/assets/js/sw.js');
-}
-
-
-function unsupportedBrowserAlert() {
-  // preveri kiri browser mas
-  // preveri ce si kliknu "pusti me na miru" za ta notification
-
-  // ce je unsupportan browser in nisi kliknu "pusti me na miru"
-    // ti priporoci da menjaj browser
-  // cne cne pa samo returna
-  console.log("wip lad");
-}
-
-
-function getBrowser() {
-  // Opera 8.0+
-  const isOpera = (!!window.opr && !!opr.addons) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
-  // Firefox 1.0+
-  const isFirefox = typeof InstallTrigger !== 'undefined';
-  // Safari 3.0+ "[object HTMLElementConstructor]" 
-  const isSafari = /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && safari.pushNotification));
-  // Internet Explorer 6-11
-  const isIE = /*@cc_on!@*/false || !!document.documentMode;
-  // Edge 20+
-  const isEdge = !isIE && !!window.StyleMedia;
-  // Chrome 1+
-  const isChrome = !!window.chrome && !!window.chrome.webstore;
-  // Blink engine detection
-  const isBlink = (isChrome || isOpera) && !!window.CSS;
-
-  // tell what browser it is
-  if (isOpera) {
-    return 'opera';
-  } else if (isFirefox) {
-    return 'firefox';
-  } else if (isSafari) {
-    return 'safari';
-  } else if (isIE) {
-    return 'ie';
-  } else if (isEdge) {
-    return 'edge';
-  } else if (isChrome) {
-    return 'chrome';
-  } else if (isBlink) {
-    return 'blink';
-  } else {
-    return 'unknown';
-  }
 }
