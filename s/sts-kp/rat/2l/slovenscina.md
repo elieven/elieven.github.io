@@ -316,3 +316,43 @@ Drama v petih dejanjih s tragično in komično perspektivo (satira, karikatura, 
 - Ideja nemoči posameznika, da bi spremenil razmere
 - Ideja o odrešilni moči ljubezni (ljubezen je čudežna sila, ki uravnava nasprotja in vrača izgubljeni smisel življenja)
 
+<br><br>
+
+## Evropska književnost 20. stoletja
+
+Bolj natančno želi oblikovati psihično vsebino posameznikove zavesti, pomembne postanejo njegove zaznava, občutja, misli, doživetja. Vse to predstavlja brez olepševanja, prikrivanja tistega, kar je po družbenih merilih nenormalno in škodljivo.
+
+Dogajanje predstavljajo s pomočjo **toka zavesti**, ki ga izrazijo s pomočjo notranjega monologa in polpremega govora.
+
+Tudi jezik obravnava na nov način. Biti mora **svoboden**, neposreden, sproščen vseh vezi slovnice. Zato se pojavljajo nelogični, nesmiselni stavki.
+
+<br>
+
+**Smeri** oz. -izmi se pojavljajo vzporedno, se prepletajo med seboj.
+- Kubizem, dadaizem, futurizem, nadrealizem, eksistencializem (je izrazito miselna ideološka in filozofska smer, v ospredje postavlja teme, ki so za človeka eksistencialne: absurd, svoboda, odgovornost, nič, smrt - v obliki je razmeroma tradicionalna). Skupni izraz za ime je avantgarda (fr. avantgarde = predstraža, predhodnica).
+
+**Predstavniki**:
+- Lirika: F Garcia Lorca, R Maria Rilke, T. S. Eliot, A. Breton
+- Epika: M. Proust, J. Joyce, F. Kafka, A. Camus
+- Dramatika: B. Brecht, J. P. Sartre, E. Ionesco, S. Beckett 
+
+<br>
+
+### Preobrazba
+
+Osrednja tema je brezizhodni položaj sodobnega človeka ob razpadu moralnih vrednot, bivanjska stiska, negotovost, strah, izgubljenost posameznika. Kafka tudi sam čuti tujstvo, tesnobo (tujec med Čehi - Nemec, tujec med Nemci - Žid, tujec med dmačini, v družini...).
+
+**Glavni motiv:** preobrazba človeka v žival (mrčes) je podoba posameznikovega doživljanja sebe kot nepotrebne nadloge, ki zbuja odpor, gnus, in nečloveških odnosov.
+
+Veliko je **simbolov** (hrana - sestra jo nosi, igra violino - umetnost je edini cilj in smisel, jabolko - jabolko spoznanja, ki mu jo vrže oče, se spremeni, doživi preobrazbo - ćlovek je v svetu ujet...).
+
+**Pripovedni način**: Slog in pripovedna tema sta zelo stvarna, skoraj tradicionalna, predstavljanje resničnosti pa je skoraj nadrealistično. Pripovedovalec je vsevedni (avktorialni), besedilo je napisano v 3. osebi v preteklem času, prisotna sta predvsem pripoved in opis.
+
+**Groteska**: Besedilo je moderna pripoved groteska (spoj prvin tradicionalne groteske in modernega romana) ter izraža doživetja nesmiselne, absurdne in neskladne realnosti.
+
+**Zgradba**: je novela, sestavljena iz zapleta, vrha in hitrega razpleta.
+
+Prepleta se več **idej**:
+- Ideja o odtujenosti in medčloveških odnosih.
+- Ideja o odnosih maomeščanskega okolja do umetnosti.
+- Ideja o posameznikovem iskanju življenskega smisla. V noveli se kaže abtobiografsko ozadje (pisatelj je nemško govoreči Žid v Pragi, umetnik v družini, ki je praktično usmerjena).
