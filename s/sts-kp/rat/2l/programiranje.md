@@ -116,7 +116,7 @@ Public static void main(String[] args){
 - `//` do konca vrstice se ne upošteva kot program
 - `/* vse vrstice tu vmes se ne upoštevajo kot program */`
 
-```javascript
+```java
 //System.out.println("Danes je "lep"dan");
 System.out.println("Danes je lep dan");
 /*System.out.println(""-to je dvojni narekovaj);
@@ -468,6 +468,8 @@ public class MnozenjeRazenNicel {
 }
 ```
 
+<br>
+
 #### 2) večkratniki števila 7 med dvemi števili
 
 Napiši program, ki sprejme 2 naravni števili, in nam pove koliko večkratnikov števila sedem je vmes.
@@ -500,6 +502,8 @@ public class VeckratnikiSedmice {
   }
 }
 ```
+
+<br>
 
 #### 3) pretvorba iz desetiškega v dvojiško število
 
@@ -534,6 +538,8 @@ public class DesToDv {
 }
 ```
 
+<br>
+
 #### 4) pretvorba iz desetiškega v osmiško število
 
 Pretvori desetiško število v osmiško.
@@ -564,6 +570,8 @@ public class DesToOct {
   }
 }
 ```
+
+<br>
 
 #### 5) pretvorba iz desetiškega v šestnajstiško
 
@@ -596,6 +604,8 @@ public class DesToHex {
   }
 }
 ```
+
+<br>
 
 #### 6) večkratniki 7 z enicami večjimi kot stoticami
 
@@ -633,16 +643,22 @@ public class VeckratnikiSedemVecjeEniceKotStotice {
 }
 ```
 
+<br>
+
 #### 7) računanje točk in zmag v nogometu
 
 Napiši program, ki sprejme število točk od ekipe in število odigranih tekem (nogomet). Izpišite na kakšen način je možno doseči tako število točk.
 
 ```java
+
 ```
+
+<br>
 
 #### 8) računanje možnosti pakiranja jagod
 
 ```java
+
 ```
 
 <br><br>
@@ -669,6 +685,8 @@ System.out.println(niz1 + niz2); // "Kosa stari kaj ti?"
 System.out.println(niz1.concat(niz2)); // "Kosa stari kaj ti?"
 ```
 
+<br>
+
 #### Zamenjava znakov v nizu
 
 V nizu **zamenjamo** znake oz. dele niza z metodo **replace()**.
@@ -682,6 +700,8 @@ Del niza pa **zbrišemo** tako da zamenjao želeni del niza s praznim nizom:
 ```java
 String zamenjano = niz.replace("del niza", "");
 ```
+
+<br>
 
 #### Nekatere ostale metode za delo z nizi
 
@@ -700,6 +720,8 @@ niz.indexOf(niz1) // vrne indeks, kjer se niz1 prvič pojavi v nizu, če ne najd
 ```java
 niz.substring(a,b) // vrne del niza med indeksom a in b, če ne najde vrne -1
 ```
+
+<br>
 
 #### Cepljenje niza v tabelo
 
@@ -813,6 +835,8 @@ public int vsota(int a, int b) {
 ```
 
 `int` je tip podatka, ki ga vrne (v primeru da ne vrne nič je `void`). Ime metode je `vsota`. Znotraj oklepaja so tipi in imena vhodnih podatkov (v primeru da ne sprejme nič je oklepaj prazen). `return` je kar nam metoda vrne (v tem primeru vrednost spremenljivke **sum**). Če metoda ne vrača podatkov, ne uporabimo ukaza `return`.
+
+<br>
 
 ### Klicanje metode
 

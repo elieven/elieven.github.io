@@ -52,6 +52,8 @@ Nekatere besedne vrste so **pregibne** (samostalniška beseda, pridevniška bese
 
 Samostalniško in pridevniško besedo **sklanjamo**, glagol pa **spregamo**.
 
+<br>
+
 #### Besedne vrste so:
 
 - **samostalniška beseda**:
@@ -158,6 +160,8 @@ Samostalniško in pridevniško besedo **sklanjamo**, glagol pa **spregamo**.
 
 Samostalniki označujejo predmetnost v splošnem pomenu. Poimenujejo bitja (*mama, pes*), stvari (*svinčnik, stol*) in pojme (*ljubezen, skrivnost*).
 
+<br>
+
 #### Delijo se na:
 
 - **Lastna imena:**
@@ -198,6 +202,8 @@ Pridevnik neposredno poimenuje lastnost, vrsto, količino prvih predmetnosti.
 - **lastnostni** (označuje lastnost predmetov ⇒ težek, lesen, črn; **kakšen?**)
 - **vrstni** (označuje uvrščenost v neko skupino enakih/ podobnih prvin ⇒ prah/ stroj/ zeleni čaj/ slovenski jezik/; **kateri?**)
 - **svojilni** (označuje pripadnost skupini ⇒ stričev, mamin, Mojčin, Markov; **čigav?**)
+
+<br>
 
 #### Oblikovne lastnosti
 
@@ -297,11 +303,15 @@ Klepec je bil na začetku šibek pastirček, izpostavljen nasilju močnejših vr
 ### Protestantizem na Slovenskem (1550 - 1600)
 
 Obdobje je trajalo **od** **1550** (izid prve tiskane knige: Abecednika in Katekizma) **do** **1600** (nastopa
-protireformacije)
+protireformacije).
+
+<br>
 
 #### Pomen
 
 Obdobje je za slovensko književnost zelo pomembno, saj je **slovensčina postala knjižni jezik**. Gre za **začetke slovenske književnosti**, ki je še neumetniška, poučna, namenjena cerkvenim potrebam S tem se začne tudi **zavest o skupnosti Slovencev**, v spomin na tako spremembo imamo danes slovenski državni praznik (31. oktober, dan reformacije).
+
+<br>
 
 #### Jezikovni in kulturni pomen:
 - **Verski obredi** so potekali v **slovenščini**
@@ -310,11 +320,15 @@ Obdobje je za slovensko književnost zelo pomembno, saj je **slovensčina postal
 - Besedila protestantov so utemeljila **slovenski pravopis in knjižni jezik**. S tem se začne kazati **zavest o skupnosti vseh Slovencev**
 - Po zaslugi protestantskih piscev smo Slovenci na kulturnem področju dohiteli druge evropske narode.
 
+<br>
+
 #### Najpomembnejša dela:
 
 - P. Trubar: Abecednik, Katekizem, 1550
 - J. Dalmatin: Biblija, 1584 (prvi slovenski prevod)
 - A. Bohorič: Zimske urice, 1584 (prva slovenska slovnica)
+
+<br>
 
 #### Predstavniki:
 
@@ -351,6 +365,8 @@ Prizadevali so si za posameznikov in skupni napredek na temelju človekovega raz
 
 Za slovensko književnost je zelo pomembno obdobje, saj predstavlja **razvoj slovenske posvetne književnosti** (tj. umetniške književnosti). Slovenski jezik se je začel uveljavljati na vseh področjih javnega življenja.
 
+<br>
+
 #### Dobimo:
 
 - Prvi **pesniški zbornik** Pisanice
@@ -359,6 +375,8 @@ Za slovensko književnost je zelo pomembno obdobje, saj predstavlja **razvoj slo
 - **Veliko učbenikov, praktičnih priročnikov** (Valentin Vodnik: Kuharske bukve)
 - **Slovnico** Kranjska gramatika (Marko Pohlin)
 - Prvi **slovenski časopis** Lublanske novice
+
+<br>
 
 #### Predstavniki:
 
@@ -385,6 +403,8 @@ Opazne so različne vrste komedičnosti: telesna se na primer kaže v Budalovem 
 
 Komedija je napisana v ljudskem jeziku gorenjskega kmečko-graščinskega okolja - ta vsebuje številne narečne izraze in popačenke iz nemščine, živahne in slikovite dialoge ter pogovore (na primer "Kdor ne vaga, je brez blaga"), v katerih se kaže življenska modrost oseb. V prizoru, ko poteka sodna obravnava, se nekatere osebe izražajo v nemščini, saj je bila ta takrat na Slovenskem uradni jezik, ali celi v latinščini, takrat veljavnem strokovnem (pravniškem) jeziku. Povedi so kratke, nezapletene, kar je v skladu z družbenim položajem nekaterih oseb in s hitrostjo dogajanja - pri reševanju zapletov se namreč vsem zelo mudi.
 
+<br>
+
 #### Obnova
 
 Matiček pripravlja poroko z Nežko, ki jo zelo rad vidi tudi baron, vendar pride do zapleta saj Smrekarica, ki je Matičku posodila dvesto kron, zahteva pravico. Baron, ki hoče preprčiti poroko, dozdevno zmaga ko mu Nežka obljubi seanek v parku, hkrati pa mu vzbudi ljububosumje, saj mu namigne, da gospa rada vidi študenta Tončka. Baron res sumniči gospo in jo zalezuje: Ko že misli, da je ženo zasačil, se mu vse podre. Baron ne pozabi osramotitve pred ženo, a še vedno želi preprečiti poroko. Zdaj mu pride na pomo Smrekaričina tožba zoper Matička, vendar se izkaže, da je Smrekarica Matičkova mati, Žužek pa njegov oče. Ko se baron že vda, prejme povabilo na večerni sestanek. Baron je prepričan, da zapeljuje Nežko. Ker pa sta Nežka in gospa zamenjali vlogi, ta dvori gospe. Tej prevari Je nasedd tudi Matiček. Nezvestobo svoje neveste hoče maščevati s tem, da zapeljuje gospo. Na koncu pa pride resica na dan. Komedija se razplete tako, da se Matiček in Nežka poročita, baron se je pobotal z ženo, Žužek pa je s sinom našel tudi ženo.
@@ -394,6 +414,8 @@ Matiček pripravlja poroko z Nežko, ki jo zelo rad vidi tudi baron, vendar prid
 ## Romantika
 
 Je umetnostna smer prve polovice 19. stoletja, ki je povdarjala **subjektivnost**, **čustva**, **domišlijo**. Romantika je nastala tudi **iz odpora do razsvetljenskih idej**, zlasti tistih, ki so pretirano povdarjale **koristnost**, **uporabnost** in **vzgojnost**.
+
+<br>
 
 #### Značilnosti
 
@@ -411,15 +433,20 @@ Je umetnostna smer prve polovice 19. stoletja, ki je povdarjala **subjektivnost*
 
 Začne se leta 1820 (V Prešernovih delih prevladujejo romantične prvine, izide prvi zvezek Kranjske čbelice), vrh doseže okrog leta 1835, zamre pa leta 1848 (izide zadnji zvezek Kranjske čbelice, Prešeren neha ustvarjati, začne se uveljavljati realizem).
 
+<br>
+
 #### Predstavniki
 
 - **Jernej Kopitar:** Bil je cenzor na Dunaju, nato tudi knjižničar. Leta 1809 je v nemščini izšla njegova Slovnica slovenskega jezika na Kranjskem, Koroškem in Štajerskem.
 - **Matija Čop:** Bil je jezikoslovec ter literarni zgodovinar in teoretik. Vplival je na Prešernovo ustvarjanje, zagovarjal je, da se mora slovenska književnost zgledovati po evropski.
 - **France Prešeren**
+- <br>
 
 #### Pomen
 
 S Čopom se je začelo znanstveno proučevanje književnosti, s Prešernom pa je slovenska lirska poezija s temami in oblikami dosegla raven, ki je bila enakovredna evropski. Prešeren je bil zgled kasnejšim ustvarjalcem. Zaradi močnega vpliva romantike se na Slovenskem ne razvije pravi realizem, ampak govorimo o t.i. obdobju med romantiko in realizmom.
+
+<br>
 
 #### France Prešeren
 
@@ -449,9 +476,13 @@ Doba pokristjanjevanja na slovenskem - boj med Pegani in kristjani. Valjhun je p
 
 Je povest v verzih.
 
+<br>
+
 #### Obnova (Krst)
 
 Črtomir se po nočnem spopadu spominja prvega srečanja z Bogomilo in ločitve, ko je šel v boj. Bojeval se je, čeprav ni verjel v zmago. Premagan je bil pri Bohinjskem jezeru. Naslonjen na krvavi meč ob obali misli na samomor, ko se ponovno spomni Bogomile. Želi jo še enkrat videti. K njemu privesla ribič. Črtomiru pove, da ga Valjhun še vedno išče in ga zapelje na varno. Nato pripelje Bogomilo in duhovnika. Bogomila Čromirju pove, da se je pokristjanila. Z njim se ne more poročiti, ker ji vera to prepoveduje. Črtomirja prepriča naj se pusti krstiti pri Savici. Črtomir odide in v Akvileji postane duhovnik. Bogomila je odšla domov k očetu in nikdar več se nista videla.
+
+<br>
 
 #### Zgradba
 
@@ -459,6 +490,7 @@ Posvetilni sonet umrlemu prijatelju (Matiji Čopu) + Uvod + Krst
 
 - **Uvod:** hitro menjavanje kratkih, trivrstičnih kitic. Pripovedovanje je jedrnato. Prisotne so čustvene, subjektivne besedne zveze.
 - **Krst:** Osemvrstične kitice. Dogajanje ni tako dinamično oz. dramatično kot v Uvodu.
+- <br>
 
 #### Črtomir
 - **Uvod:** Črtomir je junak. Pogumno se odloči za bitko, za svobodo je pripravljen žrtvovati življenje. K temu spodbuja tudi prijatelje, a izbiro prepušča njim. Je demokratični vodja, ki ve, kaj hoče, ima jasne cilje.
@@ -469,6 +501,8 @@ Posvetilni sonet umrlemu prijatelju (Matiji Čopu) + Uvod + Krst
 ## Realizem
 
 Beseda izhaja iz lat. realis (stvaren). Je umetnost objektivne stvarnosti, ki **prikazuje vsakdanje dogajanje in ljudi.** Je popolno nasprotje romantike.
+
+<br>
 
 #### Značilnosti
 
@@ -505,6 +539,8 @@ Beseda izhaja iz lat. realis (stvaren). Je umetnost objektivne stvarnosti, ki **
   - Josip Jurčič: Deseti brat (1966)
 - Izhajajo literarni Časopisi (npr. Ljubljanski zvon), kjer objavjajo skoraj vsi naši pomembni ustvarjalci
 
+<br>
+
 #### Predstavniki:
 
 - Pesniki: S. Jenko, S. Gregorčič, J. Stritar, A. Aškerc
@@ -515,6 +551,8 @@ Beseda izhaja iz lat. realis (stvaren). Je umetnost objektivne stvarnosti, ki **
 ### V zemljiški knjigi
 
 **O avtorju:** Janko Kersnik je slovenski pisatelj. Njegova najbolj znana dela so: fačkova očeta, Ciklamen in Jara gospoda. Dokončal je tudi Jurčičev roman Rokovnjači.
+
+<br>
 
 #### Vsebina
 
@@ -537,6 +575,8 @@ na podlagi zemljiške knjige, uradnega dokumenta. Tragični dogodki so prikazani
 - Naloga besedne umetnosti je predstavljanje nezavednega stanja resničnosti - s pomočjo lepote, ki jo človek dojema s čustvi.
 - Ni enotna smer, sestavljajo jo: nova romantika, dekadenca, simbolizem, impresionizem.
 
+<br>
+
 #### Nova romantika
 
 - Obnavlja-romantiko z začetka 19, stol
@@ -544,15 +584,21 @@ na podlagi zemljiške knjige, uradnega dokumenta. Tragični dogodki so prikazani
 - Njen značilni motiv je hrepenenje
 - Uporablja bogat pesniški jezik
 
+<br>
+
 #### Dekandenca
 
 - Poudarja izjemne, bolestne, celo perverzne poteze v doživljanju sveta
 - Bralca presenetijo, predstavljajo nasprotje povprečni meščanski stvarnosti
 - Izraža odpor do ustaljenih, tradicionalnıh vrednot, izrazito poudarja čutnost
 
+<br>
+
 #### Simbolizem
 
 - S pomočjo simbolov hoče priklicati vtis globlje resničnosti, ki je ni mogoče utemeljiti.
+
+<br>
 
 #### Impresionizem
 
@@ -566,14 +612,20 @@ na podlagi zemljiške knjige, uradnega dokumenta. Tragični dogodki so prikazani
 
 Začne se leta 1899 (Cankarjeva in župančičeva pesniška zbirka Erotika, Čaša opojnosti) in konča leta 1918 (konec 1. svetovne vojne, Cankarjeva smrt).
 
+<br>
+
 #### Značilnosti
 
 - Izraz za obdobje, ko se na Slovenskein uveljavijo nova romantika, dekadenca, simbolizem, slogovno impresionizem.
 - Vsebina del so osebna čustva, težko življenje, hrepenenje po lepšem življenju, ljubezen do domovine.
 
+<br>
+
 #### Pomen
 
 E nakomerno se razvijejo vse tri nadzvrsti, lirika je 1. po Prešernu na evropski ravni, epika se razvija s Cankarjevimi besedili (romani, povesti, novele, črtice), Cankar razmahne dramatiko.
+
+<br>
 
 #### Predstavniki
 
@@ -581,6 +633,8 @@ E nakomerno se razvijejo vse tri nadzvrsti, lirika je 1. po Prešernu na evropsk
 - Dragotin Kette (lirika)
 - Josip Murn Aleksandrov (lirika)
 - Oton Župančič (lirika, dramatika)
+
+<br>
 
 #### Ivan Cankar
 
@@ -605,6 +659,8 @@ Ustvarjal je vse nadzvrsti književnosti
 - Je **črtica**: zelo kratka pripoved o enem samem dogodku ali drobnem doživetju. Besedilo je zelo subjektivno.
 - Simbolična je celotna črtica: sanjska podoba, za katero se skriva resničnost.
 
+<br>
+
 #### Obnova
 
 Ta kostanj je bil poseben; rasel je zunaj mesta vendar so ga ljudje vseeno hodili občudovati,saj je bil čudo narave: brstel je, ko so drugi še otopevali od mraza;pred ostalimi jeozelenel,pred njimi je tudi zacvetel.  Jeseni, ko se je bližal mraz ga to ni motilo, še vedno jenjegovo zeleno listje veselo šušljalo v vetru, medtem ko so drugi omagovali nad mrazom. Zarazliko od drugih je bil dosti boljši, pozimi zaspal je veselo,saj je vedel da naslednjo pomladse bo znova prebudil še boljši, bolj vesel. Kdor je sedel pod »čaroben« kostanj je bil mlad,pozabil je na skrbi in tegobe, preprosto je užival. Vsak njegov list je bil znamenjeljubezni,moči ter dobrote.
@@ -613,6 +669,8 @@ Babici enooki Marjeti se je neke noči sanjalo o tem hrastu, kako zlat hrošč l
 
 Sanje so Marjeto razburile zato je šla z motiko in rovnico do kostanja iskati odgovore nasvoje sanje. Skopala je pol metra globoko jamo kjer je odkrila staro pokopališče, ter kričala,da so prišli vsi, še tisti za katere so že zdavnaj mislili da so umrli. Odkrili so, od kod ljubezen,moč ter mladost kostanja.
 
+<br>
+
 #### Simboli
 
 - **Kostanj:** znamenje oz. simbol življenske moči
@@ -620,6 +678,8 @@ Sanje so Marjeto razburile zato je šla z motiko in rovnico do kostanja iskati o
 - **Zlati hrošči:** simbol bogastva
 - **Pokopališče:** simbol morije prve svetovne vojne
 - **Grozljiva podoba, ki se skriva pod kostanjem:** neskončno pokopališče je simbol morije, ki jo je prinesla prva svetovna vojna
+
+<br>
 
 #### Sporočili
 
@@ -650,6 +710,8 @@ Glavne značilnosti:
 ### Srečko Kosovel
 
 Rodil se je leta 1904 v Sežani v učiteljski družini, ki se je kmalu preselila v Tomaj. Po gimnaziji je na filozofski fakulteti v Ljubljani študiral slavistiko, romanistiko in pedagogiko. Živel je v skromnih razmerah. Zbolel je in leta 1926 umrl v Tomaju.
+
+<br>
 
 #### Njegova dela
 
@@ -749,6 +811,7 @@ samozavestni. Le tako lahko dosežejo svojcilj lepše in pravičnejše življenj
 - Glavne književne osebe so pripadniki izkoriščenega družbenega razreda, t i. mali ljudje
 - Pripovedovanje je realistično, objektivno, hkrati analitično
 
+<br>
 
 #### SAMORASTNIKI - List
 
@@ -865,6 +928,8 @@ Opazno je tudi menjavanje rim in asonanc (samoglasniških stikov).
 Pavle Zidar (1932-1992) je slovenski pesnik in pisatelj. Njegovi književni liki
 so kmetje, delavci in izobraženci, pogosto učitelji. Njegova glavna dela so:
 Sveti Pavel, Ode nas, Marija Magdalena, Barakarji.
+
+<br>
 
 #### Vsebina:
 

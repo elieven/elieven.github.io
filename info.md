@@ -37,7 +37,6 @@ Ti znaki prikazujejo **trenutno stanje** določenih elementov / dokumentov:
 - [ ] nardit da ko zlouda page preveri url če je treba scrollat kam
 - [ ] up in down gumb za se premikat po hierarhiji naslovou da ne scrollas pac da samo
 
-
 <br>
 
 <div>
@@ -65,3 +64,5 @@ Ti znaki prikazujejo **trenutno stanje** določenih elementov / dokumentov:
 
 - [Cool animation page](https://www.fontface.ninja/)
 - [Mathjax reference](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference)
+
+![Nnnnnajs](https://cdn-images-1.medium.com/max/800/1*XH673kRxGgUh5bFayjUTFg.gif){: .imgc}
