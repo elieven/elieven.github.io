@@ -4,19 +4,6 @@ title: IEKI • 1. letnik • Računalnikar • STŠ Koper
 ---
 
 # Izdelava Elektronskih Komunikacijskih Inštalacij
-{: .no_toc}
-
-## Vsebina:
-{: .no_toc}
-
-- TOC
-{:toc}
-
-<br><br>
-
----
-
-<br><br>
 
 ## Omrežja
 
@@ -30,7 +17,7 @@ title: IEKI • 1. letnik • Računalnikar • STŠ Koper
 
 ![Slika zgradbe LAN omrežja][lan]
 
-<br>
+
 
 ### WAN omrežja (Wide Area Network)
 
@@ -43,7 +30,7 @@ title: IEKI • 1. letnik • Računalnikar • STŠ Koper
 ![Slika zgradbe WLAN omrežja][wlan]
 
 
-<br><br>
+
 
 ## Prenosni mediji
 
@@ -71,7 +58,7 @@ FTP kabel je sestavljen iz **aluminijeve (in bakrene) folije okoli paric**, ki d
 
 ![FTP kabel prerez][ftp]
 
-<br>
+
 
 ### Optični kabel
 
@@ -85,7 +72,7 @@ Ker vsako stekleno vlakno prenaša signal samo v eno smer, **vsebuje kabel vsaj 
 
 ![Slika zgradbe optičnega kabla][optika]
 
-<br>
+
 
 ### Koaksialni kabel
 
@@ -105,13 +92,13 @@ Koaksialni kabel je bolj odporen proti motnjam kot sukane parice.
 
 ![Slika zgradbe koaksialnega kabla][koaksialni]
 
-<br>
+
 
 ### Tanki ethernetni kabel
 
 Tanki (angl. thin) eternetni kabel je **fleksibilen koaksialni kabel**, je debel približno **0,64 centimetrov** (četrtina palca). Običajno je črne barve. Ker je ta vrsta koaksialnih kablov fleksibilna in enostavna za uporabo, so lahko uporabljeni skoraj v vseh tipih omrežnih inštalacij. Tanki eternetni koaksialni kabel lahko prenaša signal do približno **185 metrov**.
 
-<br>
+
 
 ### Debeli ethernetni kabel
 

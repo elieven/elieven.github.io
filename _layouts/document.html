@@ -20,19 +20,41 @@ layout: default
   </div>
 </div>
 
-<div><!-- formerly #sscon-->
+<div>
+  <!-- formerly #sscon-->
 
   {% include header.html %}
 
   <div class="con">
     {% include breadcrumbs.html %}
   </div>
-  
+
+  <div class="con">
+    <div id="table-of-content" class="collapsed">
+      <button id="toc-toggle">
+        <div id="toc-toggle-icon">
+          <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+            <path fill="#899098" d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" />
+          </svg>
+        </div>
+        <span>Vsebina</span>
+        <div id="toc-toggle-indicator">
+          <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+            <path fill="#212121" d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+          </svg>
+        </div>
+      </button>
+      <div id="toc-collapsable">
+        {% include toc.html html=content h_max=3%}
+      </div>
+    </div>
+  </div>
+
   <div class="docwrap">
     <div class="doc">
-  
+
       {{ content }}
-  
+
     </div>
   </div>
 
@@ -45,14 +67,14 @@ layout: default
 <script type="text/javascript" src="/assets/js/main.js"></script>
 
 {% if page.latex %}
-  <!-- MathJax for rendering equations -->
-  <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
+<!-- MathJax for rendering equations -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
         extensions: ["tex2jax.js", "TeX/AMSmath.js"],
         jax: ["input/TeX", "output/SVG"],
         messageStyle: "none",
       tex2jax: {preview: "none"}
     })
   </script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=default"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=default"></script>
 {% endif %}

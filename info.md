@@ -1,14 +1,11 @@
 ---
 layout: document
 title: Info
-latex: true
 ---
 
 # SolaMona
 
 **SolaMona** (*začasno ime*) - je kolekcija zapiskov šolske snovi.
-
-<br>
 
 ### Legenda
 
@@ -20,8 +17,6 @@ Ti znaki prikazujejo **trenutno stanje** določenih elementov / dokumentov:
 | wip  | work in progress |
 | pmd  | Skoraj 100%      |
 | done | Dokončano        |
-
-<br>
 
 ### Known bugs
 
@@ -36,8 +31,6 @@ Ti znaki prikazujejo **trenutno stanje** določenih elementov / dokumentov:
 - [ ] popravit linke da ko kliknes gor scrolla do naslova pravega (s custom easingom)
 - [ ] nardit da ko zlouda page preveri url če je treba scrollat kam
 - [ ] up in down gumb za se premikat po hierarhiji naslovou da ne scrollas pac da samo
-
-<br>
 
 <div>
   Ikone so naredili
@@ -57,8 +50,6 @@ Ti znaki prikazujejo **trenutno stanje** določenih elementov / dokumentov:
 
   <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
 </div>
-
-<br>
 
 ### Future ref
 

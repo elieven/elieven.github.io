@@ -4,19 +4,6 @@ title: Programiranje • 2. letnik • Računalniški Tehnik • STŠ Koper
 ---
 
 # Programiranje
-{: .no_toc}
-
-## Vsebina:
-{: .no_toc}
-
-- TOC
-{:toc}
-
-<br><br>
-
----
-
-<br><br>
 
 Programer ustvarja nove programe ali sestavne dele programa po dogovorjenih pravilih. Razvijajo programsko opremo. Programiranju rečemo tudi **kodiranje**. Za reševanje določenih problemov uporabljamo **programske jezike**.
 

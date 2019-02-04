@@ -12,7 +12,7 @@ Podatki so organizirani v tabele oz. sezname vrstic in stolpcev, ki spominjajo n
 
 Zapis združuje podatke tako, da so smiselni in usklajeni medtem ko polje predstavlja le en element podatkov, npr. v tabeli `Dijak` so v vsaki vrstici (zapisu) podatki o enem dijaku. V vsakem stolpcu (polju) pa je neka vrsta podatkov o vseh dijakih npr. priimek.
 
-<br>
+
 
 **Tabela 1: Dijak**
 
@@ -24,7 +24,7 @@ Zapis združuje podatke tako, da so smiselni in usklajeni medtem ko polje predst
 | 4        | Aleksej   | Maglica | 3325 Pineview Drive   |
 
 
-<br><br>
+
 
 ## Postopek načrtovanja podatkovnih baz
 
@@ -34,7 +34,7 @@ Zapis združuje podatke tako, da so smiselni in usklajeni medtem ko polje predst
 4. **Navajanje primarnih ključev** (Vsaki tabeli je potrebno določiti primarni ključ; to je polje, ki enolično določa posamezen zapis - npr. emšo ali davčna št.
 5. **Nastavljanje relacij tabel** (Določiti je potrebno kako so podatki v eni tabeli povezani s podatki v drugih tabelah).
 
-<br>
+
 
 ### Načrtovanje tabel
 
@@ -44,7 +44,7 @@ Novo tabelo se ustvari v zavihku **Ustvari** v skupini **Tabele**, kjer se izber
 
 Vsakemu polju v tabeli se določi podatkovni tip. Pri določitvi podatkovnega tipa zbiramo iz spustnega seznama (besedilo, število, da/ne, datum, ura, valuta... ).
 
-<br><br>
+
 
 ## Uporaba lastnosti polj
 
@@ -80,7 +80,7 @@ Je besedilo, ki se izpiše v primeru napačnega / neveljavnega vnosa.
 
 > VAJA - zahteva poljubno dolžine katere imajo drugo črko e četrto a in se končajo s črko b. `Like "?e?a*b"`
 
-<br>
+
 
 ### Podatkovni tip: ŠTEVILO
 
@@ -98,7 +98,7 @@ Besedilo, ki se izpiše v primeru napačnega / neveljavnega vnosa.
 
 > VAJA - napiši vkaz ki omeji vnos št med 50 in 100 razen 60 - `>=50 And <60 Or >60 And <=100`.
 
-<br>
+
 
 ### Podatkovni tip: DATUM
 
@@ -108,7 +108,7 @@ Je izraz za omejevanje vrednosti, ki jih je mogoče vnesti v polje (`=`, `<`, `>
 
 `#1.4.2000#` - datum. `>= 1.1.2013 And <= 31.12.2018`.
 
-<br><br>
+
 
 ## Povezovanje tabel (relacije)
 

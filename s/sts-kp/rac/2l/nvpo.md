@@ -53,7 +53,7 @@ Kar se tiče `select` komand `PS3` je kar se prikaže medtem ko skripta čaka na
 
 `"opcija 1")` je definicija opcije (v `options` so samo naštete). Kar temu sledi je koda ki se izvrši v primeru da izbereš to opcijo (v tem primeru je to `echo "1"`). Na koncu je še `;;` kar pomeni konec kode od te opcije. Te tri dele lahko napišemo v eno vrsto ali v več (kot je vidno v primeru zgoraj npr. `*) echo "invalid option";;` je napisano v eni vrstici).
 
-<br><br>
+
 
 ### Razlaga primerov
 
@@ -220,7 +220,7 @@ V primeru da izberemo to opcijo `break` konča `select` loop in nas vrže iz skr
 
 To naredi da če v izbor vnesemo karkoli razen vnaprej naštetih možnosti nam izpiše `invalid option`.
 
-<br>
+
 
 ## Celotna koda
 

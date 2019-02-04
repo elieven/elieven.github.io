@@ -4,19 +4,6 @@ title: OMT • 2. letnik • Računalniški Tehnik • STŠ Koper
 ---
 
 # Oprema za Multimedijsko Tehniko
-{: .no_toc}
-
-## Vsebina:
-{: .no_toc}
-
-- TOC
-{:toc}
-
-<br><br>
-
----
-
-<br><br>
 
 ## Predstavitev Informacij z Gibljivo Sliko
 
@@ -25,7 +12,7 @@ title: OMT • 2. letnik • Računalniški Tehnik • STŠ Koper
    + z animacijo (navidezno oživljanje lutk, predmetov ali risanih figur z njihovim premikanjem),
    + z navidezno resničnistjo (z računalniki izdelamo okolje, ki uporabniku vzbudi občutek prave realnosti).
    
-<br><br>
+
 
 ## Video
 
@@ -43,7 +30,7 @@ title: OMT • 2. letnik • Računalniški Tehnik • STŠ Koper
  
  + Z iznajdbo televizije pa so morali zagotoviti potrebno frekvenčno razliko med video in avdio podatki - slednjo so zagotovili z zaokrožitvijo na 29.97 slik na sekundo.
  
-<br><br>
+
 
 ## Televizija
 
@@ -71,7 +58,7 @@ title: OMT • 2. letnik • Računalniški Tehnik • STŠ Koper
  
  + Digitalna televizija (DTV) je naslednica običajne (analogne) televizije. Najopaznejši izboljšavi DTV sta kvalitetnejša slika in možnost vpliva gledalca na program (interaktivnost).
 
-<br>
+
 
 ### Vrste digitalne televizije
 
@@ -82,7 +69,7 @@ Poznamo več različnih vrst digitalne TV:
 + Mobilna digitalna TV (DVB-H; sprejem digitalnih programov na mobilnih napravah).
 + IPTV (končni uporabnik mora biti priključen na telefonsko ali optično omrežje in mora biti naročen na internetni paket ponudnika; npr. SIOL TV).
 
-<br><br>
+
 
 ## Zasloni
 
@@ -129,7 +116,7 @@ Micro Dimming pri naprednejših LED LCD televizorjih omogoča lokalno nadziranje
 -   LED zasloni dosegajo višje kontrastno razmerje v primerjavi z običajnimi LCD in plazma zasloni - višje kontrastno razmerje omogoča prikaz bolj intenzivne čne barve in tudi več različnih barvnih odtenkov
 -   življenjska doba LED zasalonov je približno 100.000 ur
 
- <br><br>
+ 
  
 ## Osnove filmske umetnosti
 
@@ -152,7 +139,7 @@ Leta 1903 je Francoz Georges Melies že posnel prvi "igrani" film ***Potovanje n
 
 Film, ki velja za enega prvih posnetih filmov, pa tudi za prvi film, ki so ga kdaj predvajali, naj bi bil "Exiting the factory" (1895) ali "***Odhod iz tovarne***" (francozko: **La Sortie des usines Lumiere**).
 
-<br>
+
 
 ### Filmske zvrsti
 
@@ -182,7 +169,7 @@ Osnovna žanra filma sta **komedija** in **drama**.
 
 **Drama** se lahko dogaja v kateremukoli času, sem uvrščamo psihološke drame, westerne, kriminalke ipd.
 
-<br>
+
 
 ### Filmi glede na tehniko
 
@@ -209,14 +196,14 @@ Osnovna žanra filma sta **komedija** in **drama**.
 - Igrani film predstavlja največji del svetovne filmske proizvodnje in se kaže v najrazličnejših žanrih.
 - V dobi nemega filma je igrani film temeljil na pantomimiki (igra brez besed in z gibi). Zvočni film teži k realnim oblikam izražanja. Nudi priložnost igralcem, da se lahko bolje izrazijo.
 
-<br>
+
 
 ### Filmi glede na dolžino filmske predstave
 
 - **dolgometražni filmi** so filmi, ki so bili včasih dolgi 2000-3000 m filmskega traku, oziroma ki trajajo od ure in pol do dve uri (ali celo več).
 - **kratkometražni filmi** so filmi, ki trajajo od 10 do 20 minut, značilni so za obdobje nemega filma.
 
-<br><br>
+
 
 ## Snovanje videoposnetkov
 
@@ -242,7 +229,7 @@ Osnovna žanra filma sta **komedija** in **drama**.
 
 - Srednji ali osnovni plan zajame vso človekovo postavo, lahko zajamemo samo enega človeka ali manjšo skupino, postave morajo biti dovolj velike, da brez težav razpoznamo obraze, vidimo, kaj počnejo in kje so. Posnetek v srednjem planu tako pove, kdo je posameznik/skupina, kakšen je, kaj počne in kakšno je njegovo razpoloženje. Posnetek opisuje stanje in dogajanje na prizorišču, je najbolj naraven izrez.
 
-<br>
+
 
 ### Sistem kodiranja televizijskih signalov
 
@@ -255,7 +242,7 @@ Osnovna žanra filma sta **komedija** in **drama**.
 + **Sistem SECAM** = *Sequential Couleur A Memorie*,
 	+ analogni TV sistem, ki so ga razvili v Franciji in je prvi Evropski barvni TV standard.
 
-<br>
+
 
 ### Prepletanje 
 
@@ -269,7 +256,7 @@ Osnovna žanra filma sta **komedija** in **drama**.
 + Stopnja osveževanja ali *osveževalna frekvenca* se nanaša na hitrost s katero se zaslon prebarva oz. osveži.
 + *1 Hz ustreza "enemu dogodku na sekundo"*.
 
-<br>
+
 
 ### Progresivni način 
 

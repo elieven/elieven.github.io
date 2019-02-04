@@ -5,19 +5,8 @@ title: Kemija • 1. letnik • Računalniški Tehnik • STŠ Koper
 ---
 
 # KEMIJA
-{: .no_toc}
 
-## Vsebina:
-{: .no_toc}
 
-- TOC
-{:toc}
-
-<br><br>
-
----
-
-<br><br>
 
 Kemija je naravoslovna veda, ki preučuje snovi in osnovne spremembe. **Snov** je vse kar zavzema prostor in ima maso. Snovi so lahko naravne ali umetno pridobljene.
 
@@ -33,7 +22,7 @@ Tri vrste sprememb:
 - spremembe agregatnih stanj
 - kemijske reakcije (snov nastane oz. se spremeni v drugo snov)
 
-<br>
+
 
 ## Mehanske lastnosti
 
@@ -59,7 +48,7 @@ $$ \rho = \frac{m}{V} $$
 
 Gostota snovi je odvisna od temperature - z višanjem temperature se gostota zmanjšuje. Na gostoto vpliva tudi tlak - z višanjem tlaka se viša gostota (to velja predvsem za pline). Trdne snovi imajo največjo gostoto, potem so tekočine in najmanjše gostote pa imajo plini.
 
-<br><br>
+
 
 ## Metode ločevanja zmesi in čiščenja snovi
 
@@ -103,7 +92,7 @@ Za ločevanje tekočin z različnimi vrelišči v snovi. Ločevanje glicerola in
 
 Za ločevanje tekočin, ki se ne mešajo. Uporabna predvsem za čiščenje snovi v laboratoriju.
 
-<br><br>
+
 
 ## Osnove toksikologije
 
@@ -135,7 +124,7 @@ Nevarnost = strupenost lastnosti snovi
 
 Izpostavljenost = količina časa in pogostost kontakta / izpostavljenosti
 
-<br>
+
 
 ### Izpostavljenost
 
@@ -157,13 +146,13 @@ Pogosto so znaki enkratne izpostavljenosti povsem drugačni od kronične.
 | 1 kratni  | slabost, bruhanje, motnje ravnotežja... |
 | večkratni | zasvojenost, nespečnost, citoza jetr... |
 
-<br>
+
 
 ### Strupi
 
 Povzročijo smrt ob zaužitju snovi.
 
-<br>
+
 
 ### Odnos med učinkom in odmerkom
 
@@ -171,7 +160,7 @@ Kadar so toksični učinki odvisni od odmerka lahko za akutno toksičnost določ
 
 __LD50__ (lethal dose) je odmerek (mg snovi / kg mase telesa) ki povzroči __smrt__ pri __50% izpostavljenih organizmov__ (živali). Običajno se navaja še način vnosa in vrsto **???**
 
-<br>
+
 
 ### Označevanje nevarnih snovi
 
@@ -179,14 +168,14 @@ Znak za nevarnost (piktogram).
 
 **H** (hazard) in **P** (precautionary) stavki.
 
-<br>
+
 
 ### Stavki o nevarnosti
 
 - **H** (hazard) stavki o nevarnostih, opozorila na nevarnosti, izjave o nevarnostih. Opišejo nam učinek kemikalij na organizem / opremo.
 - **P** (precautionary) stavki o previdnostnih ukrepih (obvestila...). Opišejo nam kje in kako snovi hranimo, kako ravnamo ob uporabi, kako ukrepamo pri poškodbah.
 
-<br><br>
+
 
 ## Zgradba atoma
 
@@ -210,7 +199,7 @@ Vrstno ali atomsko število = število protonov / elektronov. Masno število = �
 
 > Torej element Au (zlato) z vrstnim številom 79 ima 79 elektronov in 79 protonov. Število nevtronov dobimo tako, da zaokroženemu masnemu številu (iz 196.967 zaokrožimo na 197) odštejemo vrstno število. Torej 197 - 79 = 118 nevtronov.
 
-<br>
+
 
 ### Izotopi
 
@@ -232,7 +221,7 @@ Izotopi istega elementa imajo:
 
 Umetno pridobljeni izotopi nastanejo pri jedrskih reakcijah predvidoma so radioaktivni izotopi. Od vseh jedrskih reakcij je najpomembnejša radioaktivnost. Po je spontan razpad nestabilnh jeder na bolj stabilne delce / produkte.
 
-<br><br>
+
 
 ## Jedrska energija
 
@@ -256,19 +245,19 @@ Nenadzorovana pa bi bila / je atomska bomba.
 
 Jedrska energija → uparevanje vode → turbine → el. generatorji.
 
-<br><br>
+
 
 ## Element ali prvina
 
 To je snov, ki je ne moremo razgraditi v enostavnejše delce / snovi. Izgrajen je iz ene same vrste atomov.
 
-<br>
+
 
 ### Simboli elementov
 
 Enočrkovni ali dvočrkovni simboli. Izvor imen: po zemljepisnih imenih, bogovih, mitoloških bitjih, planetih, znanstvanikih, nebesnih telesih...
 
-<br>
+
 
 ### Periodni sistem
 
@@ -307,7 +296,7 @@ Elementi, ki so pri sobni temperaturi **tekoči**:
 
 Hg, Br<sub>2</sub>.
 
-<br><br>
+
 
 ## Kovine
 
@@ -318,7 +307,7 @@ Hg, Br<sub>2</sub>.
 - Večinoma tvorijo trdne kristale.
 - V ionskih spojinah jih najdemo v obliki kationov (+).
 
-<br>
+
 
 ### Alkalijske kovine
 
@@ -367,7 +356,7 @@ Hg, Br<sub>2</sub>.
 - Trdna in lahka kovina, ki je zelo odporna na korozijo.
 - Uporabna v letalski industriji, urarski industriji in medicini (umetni kolki in kolena).
 
-<br>
+
 
 ### Zlitine ali legure
 
@@ -393,7 +382,7 @@ Zlitina je homogena zmes dveh ali več kovin. Dobimo jih z mešanjem raztaljenih
 - Zlitina živega srebra in drugih kovin (Ag, Sn, Cu, Zn).
 - Uporablja se za rekonstrukcijo poškodb zob (plombe).
 
-<br><br>
+
 
 ## Polkovine
 
@@ -404,7 +393,7 @@ Imajo nekatere lastnosi kovin in nekatere lastnosti nekovin. Vse so v trdnem agr
 - Svetleč, krhek, prevaja el. tok. Slabo prevaja toploto.
 - Uporaben v elektronskih vezjih.
 
-<br><br>
+
 
 ## Nekovine
 
@@ -437,7 +426,7 @@ Ne prevajajo električnega toka (razen grafita) in slabo prevajajo toploto. Najd
 - Zradi nizkega vrelišča je izjemno učinkovito hladilno sredstvo.
 - Tekoči dušik (-196<sup>o</sup>C), se uporablja za shranjevanje bioloških in medicinskih preparatov v industriji za hlajenje.
 
-<br><br>
+
 
 ## Halogeni elementi
 
@@ -472,7 +461,7 @@ Ne prevajajo električnega toka (razen grafita) in slabo prevajajo toploto. Najd
 - Jodovica pa je raztopina joda in kalijevega jodida.
 - **Uporaba**: tinktura v medicini za razkuževanje. Spojine joda dodajamo prehrani, pomanjkanje joda v prehrani povzroča golšavost. Pri izdelavi zdravil za rakava obolenja. Jodovico se uporablja za dokazovanje škroba v živilih.
 
-<br><br>
+
 
 ## Žlahtni plini
 
@@ -480,7 +469,7 @@ Ne prevajajo električnega toka (razen grafita) in slabo prevajajo toploto. Najd
 
 So zelo stabilni in nereaktivni plini.
 
-<br>
+
 
 ### Zrak in plini
 
@@ -525,7 +514,7 @@ $$\mathrm{ \phantom{plac} CaCo_{3\phantom{a}(s)} + CO_{2\phantom{a}(aq)} + H_2O_
 - \\(\mathrm{CO_2}\\) je suhi led (hlajenje).
 - Uporablja se ga kot sredstvo za gašenje.
 
-<br><br>
+
 
 ## Pojav tople grede
 
@@ -565,7 +554,7 @@ Večji del dončne svetlove absorbira površje in jo segreva. Segreta površina 
 - Zajem CO<sub>2</sub> in stisnjega CO<sub>3</sub> po cevovodih.
 - Skladiščenje (opuščeni rudniki, vrtnine, dno morja).
 
-<br><br>
+
 
 ## Obnovljivi viri energije
 

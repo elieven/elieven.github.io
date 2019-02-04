@@ -18,8 +18,10 @@ header {
     left: 0;
     right: 0;
     height: 150px + $hh;
-    background: linear-gradient(to right, #6069F7, #2779BD);
+    //background: linear-gradient(to right, #6069F7, #2779BD);
+    background: #4076de; //rgb(85, 133, 230);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    //box-shadow: 0 1px 0 0 #dae1e7;
     z-index: -1;
   }
 
@@ -52,7 +54,7 @@ header {
       transform: translate(-50%,-50%);
 
       svg {
-        $d: 16px;
+        $d: 15px;
         width: 24px;
         height: $d;
         margin-top: ($hh - $d) / 2;
@@ -75,6 +77,15 @@ header {
       line-height: $hh - 20px;
       text-decoration: none;
       padding: 0 8px;
+
+      &.textlink {
+        height: 100%;
+        line-height: $hh;
+        font-family: 'Roboto', sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        color: white;
+      }
 
       &.icolink {
         height: $hh;

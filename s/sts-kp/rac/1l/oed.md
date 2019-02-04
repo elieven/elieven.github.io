@@ -13,7 +13,7 @@ title: OED • 1. letnik • Računalnikar • STŠ Koper
 - __Osmiški__ (_oktalni_) {0,1,2,3,4,5,6,7}
 - __Šestnajstiški__ (_heksadecimalni_) {0,1,2...9,A,B,C,D,E,F}
 
-<br>
+
 
 ### Pretvarjanje
 
@@ -35,7 +35,7 @@ title: OED • 1. letnik • Računalnikar • STŠ Koper
 
 \$$ 300_{(10)} = 100101100_{(2)} $$
 
-<br>
+
 
 #### DVOJIŠKO v DESTIŠKO (2) → (10)
 
@@ -59,7 +59,7 @@ Na koncu samo sešteješ vse produkte.
 
 \$$ 100101100_{(2)} = 300_{(10)} $$
 
-<br>
+
 
 #### DESTIŠKO v OSMIŠKO (10) → (8)
 
@@ -73,7 +73,7 @@ Na koncu samo sešteješ vse produkte.
 
 \$$ 300_{(10)} = 454_{(8)} $$
 
-<br>
+
 
 #### OSMIŠKO v DESETIŠKO (8) → (10)
 
@@ -88,7 +88,7 @@ Na koncu samo sešteješ vse produkte.
 
 \$$ 454_{(8)} = 300_{(10)} $$
 
-<br>
+
 
 #### DESETIŠKO v ŠESTNAJSTIŠKO (10) → (16)
 
@@ -104,7 +104,7 @@ Rezultat se prebere od spodaj navzgor.
 
 \$$ 300_{(10)} = 12\mathrm{C_{(16)}} $$
 
-<br>
+
 
 #### ŠESTNAJSTIŠKO v DESETIŠKO (16) → (10)
 
@@ -118,11 +118,11 @@ Rezultat se prebere od spodaj navzgor.
 
 \$$ 12\mathrm{C_{(16)}} = 300_{(10)} $$
 
-<br>
+
 
 > bonus: 16v2, 2v16, 2v8 in 8v2
 
-<br><br>
+
 
 ## Logične funkcije
 
@@ -135,7 +135,7 @@ Rezultat se prebere od spodaj navzgor.
 | 0       | 1       |
 | 1       | 0       |
 
-<br>
+
 
 ### Konjunkcija
 
@@ -150,7 +150,7 @@ Druge možne notacije so z znakom `&` in `^`.
 | 1   0                     |            0            |
 | 1   1                     |            1            |
 
-<br>
+
 
 ### Disjunkcija
 
@@ -166,7 +166,7 @@ Druga možna notacija je z znakom `˅`.
 | 1   1                     |         1         |
 
 
-<br><br>
+
 
 ## Zakonitosti
 
@@ -176,7 +176,7 @@ Druga možna notacija je z znakom `˅`.
 
 \$$ x_1 + x_2 = x_2 + x_1 $$
 
-<br>
+
 
 ### Zakon o združevanju
 
@@ -184,20 +184,20 @@ Druga možna notacija je z znakom `˅`.
 
 ![Zakon o združevanju 2](https://cdn.rawgit.com/elieven/6295e030df19f40946939dad1b7df099/raw/74634ea9308bd2c5d30d135c4ea8f587a275bae3/zaoz2.svg)
 
-<br>
+
 
 ### Zakon o razčlenjevanju
 
 \$$ x_1 \cdot (x_2 + x_3) = x_1 \cdot x_2  + x_1 \cdot x_3 $$
 
 
-<br><br>
+
 
 ## Teoremi
 
 ![Teoremi](https://cdn.rawgit.com/elieven/fa4c76a917de3d0d99a978e762ce46a8/raw/6bd8931bafcb05d478f62b0e7e2021095a183b90/teoremi.svg)
 
-<br>
+
 
 | \$$ x_1 \phantom{a} x_2 $$  | \$$ \overline{x_1} \phantom{a} \overline{x_2} $$  |  \\(x_1 \cdot x_2\\) |  \\(\overline{x_1}\cdot\overline{x_2}\\) | \\(\overline{x_1 \cdot x_2}\\)  | \\(x_1 + x_2\\)  |  \\(\overline{x_1} + \overline{x_2}\\) | \\(\overline{x_1 + x_2}\\)  |
 |:-------:|:-------:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -213,7 +213,7 @@ __Četrti__ in __osmi__ stolpec sta si enaka, tako kot tudi __peti__ in __sedmi_
 \$$ \overline{x_1} + \overline{x_2} = \overline{ x_1 \cdot x_2 } $$
 
 
-<br><br>
+
 
 ## Antivalenca
 ### Ekskluzivna ALI vrata (EX-OR vrata)
@@ -244,7 +244,7 @@ Izhod je 1 takrat, ko sta na vhodih različni vrednosti.
 
 Ko je liho število enic je y = 1.
 
-<br><br>
+
 
 ## Ekvivalenca
 ### Ekskluzivna NE-ali vrata (EX-NOR gate)
@@ -275,7 +275,7 @@ Izhod je ena kadar sta vhodni vrednosti enaki.
 
 Ta tabela je enaka kot EX-OR.
 
-<br><br>
+
 
 ## STIKALA
 
@@ -286,7 +286,7 @@ Ta tabela je enaka kot EX-OR.
 - Vklopi = tok teče skozi
 - Izklopi = ni toka
 
-<br>
+
 
 ### Mirovno stikalo
 
@@ -295,7 +295,7 @@ Ta tabela je enaka kot EX-OR.
 - Izklopi = tok teče skozi
 - Vklopi = ni toka
 
-<br>
+
 
 ### Menjalno stikalo
 
@@ -305,7 +305,7 @@ Ta tabela je enaka kot EX-OR.
 - Izklopi = tok po drugi poti
 
 
-<br><br>
+
 
 ## LOGIČNA VRATA S STIKALI
 
@@ -345,7 +345,7 @@ $$ y = \overline{x_1} \cdot \overline{x_2} + x_1 \cdot x_2 $$
 
 ![EX-NOR vrata][exnor]
 
-<br>
+
 
 > vaje realiziranja vezij
 >
@@ -354,7 +354,7 @@ $$ y = \overline{x_1} \cdot \overline{x_2} + x_1 \cdot x_2 $$
 > diagramskih stilih
 
 
-<br><br>
+
 
 ## LOGIČNA VEZJA
 

@@ -5,19 +5,6 @@ title: UIKS • 2. letnik • Računalniški Tehnik • STŠ Koper
 ---
 
 # Upravljanje IK Sistemov
-{: .no_toc}
-
-## Vsebina:
-{: .no_toc}
-
-- TOC
-{:toc}
-
-<br><br>
-
----
-
-<br><br>
 
 ## IP naslov (IPv4)
 
@@ -51,7 +38,7 @@ Nad črticami so števila binarnega zapisa (10110011) in pod črtami so vrednost
 128 +0 +32 +16 +0 +0 +2 +1 = 179
 ```
 
-![Sestava IP naslova](https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.cnblogs.com%2Fcnblogs_com%2Fjcsu%2Fcisco%2Fcisco_icnd1_ip_address_format.PNG&f=1)
+![Sestava IP naslova](https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.cnblogs.com%2Fcnblogs_com%2Fjcsu%2Fcisco%2Fcisco_icnd1_ip_address_format.PNG&f=1){: align="center"}
 
 Zapis naslova v **CIDR** obliki: `192.168.32.77/24` je decimalni zapis IP naslova, ki mu sledi poševnica in za njo število bitov, ki so uporabljeni za zapis omrežja (omrežnega dela).
 

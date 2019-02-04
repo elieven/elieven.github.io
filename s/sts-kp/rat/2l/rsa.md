@@ -4,19 +4,6 @@ title: RSA • 2. letnik • Računalniški Tehnik • STŠ Koper
 ---
 
 # Razvoj spletnih aplikacij
-{: .no_toc}
-
-## Vsebina:
-{: .no_toc}
-
-- TOC
-{:toc}
-
-<br><br>
-
----
-
-<br><br>
 
 ## JavaScript
 

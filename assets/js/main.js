@@ -1,4 +1,6 @@
-function cl(t) {console.log(t)}
+function cl(t) {
+  console.log(t)
+}
 
 //initiate as false
 var isMobile = false;
@@ -12,19 +14,20 @@ if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elain
 var scroll_top_btn = document.querySelector('#back-to-top-btn');
 
 // init overlay scrollbars
-document.addEventListener("DOMContentLoaded", function() {
-	//The first argument are the elements to which the plugin shall be initialized
-	//The second argument has to be at least a empty object or a object with your desired options
-  OverlayScrollbars(document.querySelector("body"), { 
+document.addEventListener("DOMContentLoaded", function () {
+  // on mobile i' prefer native scrollbars
+  // settings
+  var scroll_top_btn_show_threshold = 2000;
+  //The first argument are the elements to which the plugin shall be initialized
+  //The second argument has to be at least a empty object or a object with your desired options
+  OverlayScrollbars(document.querySelector("body"), {
     callbacks: {
-      onInitialized: function() {
+      onInitialized: function () {
         // adds class to body that removes scroll disabling
         document.querySelector("html").className += " scrolling-ready";
       },
-      onScroll: function() {
+      onScroll: function () {
         if (scroll_top_btn != null) {
-          // settings
-          var scroll_top_btn_show_threshold = 2000;
           // Showhs the back to top button if scrolled over a threshold
           if (this.scroll().position.y > scroll_top_btn_show_threshold) {
             scroll_top_btn.classList.add("lift");
@@ -33,15 +36,22 @@ document.addEventListener("DOMContentLoaded", function() {
           }
         }
       }
-    }
+    },
+    scrollbars: {
+      autoHide: "scroll",
+      autoHideDelay: 800
+    },
+    className: "os-theme-minimal-dark"
   });
 });
 
 
 // Scroll back to top button functionality
 if (scroll_top_btn != null) {
-  scroll_top_btn.addEventListener("click", function() {
-    OverlayScrollbars(document.querySelector("body"), {}).scroll({y: "0px"}, isMobile ? 0 : 320, "easeOutQuint");
+  scroll_top_btn.addEventListener("click", function () {
+    OverlayScrollbars(document.querySelector("body"), {}).scroll({
+      y: "0px"
+    }, isMobile ? 0 : 320, "easeOutQuint");
   });
 }
 
@@ -50,3 +60,10 @@ if (scroll_top_btn != null) {
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/assets/js/sw.js');
 }
+
+
+
+// Table of content collapsing
+document.querySelector("#toc-toggle").addEventListener("click", function() {
+  document.querySelector("#table-of-content").classList.toggle("collapsed");
+});

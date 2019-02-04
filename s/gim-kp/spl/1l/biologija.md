@@ -4,19 +4,6 @@ title: Biologija • 1. letnik • Splošna Smer • Gimnazija Koper
 ---
 
 # BIOLOGIJA
-{: .no_toc}
-
-## Vsebina:
-{: .no_toc}
-
-- TOC
-{:toc}
-
-<br><br>
-
----
-
-<br><br>
 
 # Gradniki življenja - atomi in molekule
 
@@ -45,7 +32,6 @@ Vse okoli nas je zgrajeno iz snovi, ki pa so zgrajene iz kemijskih elementov. V 
 | Klor 0,2%                    |
 | Magnezij 0,1%                |
 
-<br>
 
 ## Voda
 
@@ -69,9 +55,6 @@ Ena molekula vode lahko tvori vodikove vezi z največ štirimi sosednjimi moleku
 
 -   **Nenavadno spreminjanje gostote** - Voda ima največjo gostoto pri 4°C. Led ima manjšo gostoto in plava na vodi. (Led deluje kot izolator in prepreči, da bi zamrznila vsa voda v jezeru).
 
-<br>
-<br>
-<br>
 
 # Organske molekule v celici
 
@@ -164,8 +147,6 @@ Majhne molekule se s kondenzacijo povezujejo v makromolekule. To je odstranitev 
 
 Amiloza se razlikuje od aminopterina, ker je amiloza bolj enakomerna se vijačnica, aminopterin pa je bolj razvejan. Amiloza je manjša. Celuloze ne moremo jesti, ker nimamo potrebnih encimov za razgradnjo celuloze. Termiti jih imajo, zato se lahko prehranjujejo z lesom. Celulozo lahko prebavijo tudi krave, ovce, jeleni, zaradi simbiotičnih mikroorganizmov ki jih imajo v prebavilih. Če bi kravi dali antibiotik, ki pobije vse simbiotske mikroorganizme, nebi mogle jesti trave, ker nebi mogle prebaviti celuloze. Zato rabimo encim **celulaza**.
 
-<br>
-<br>
 
 ## Beljakovine
 
@@ -173,9 +154,9 @@ Beljakovine opravljajo večino nalog pomembnih za vzdrževanje življenja. V čl
 
 Je to dobro ali slabo?
 
--   DOBRO - beljakovine so označevalci (celice lahko prepoznajo lastne celice). So na celični membrani. Če pride tujek v telo ga lahko prepoznajo in uničijo.
+-   [DOBRO](green) - beljakovine so označevalci (celice lahko prepoznajo lastne celice). So na celični membrani. Če pride tujek v telo ga lahko prepoznajo in uničijo.
 
--   SLABO - če želimo presaditi organe, saj je težko najti ustrezne beljakovine.
+-   [SLABO](red-light) - če želimo presaditi organe, saj je težko najti ustrezne beljakovine.
 
 Izjeme so enojajčni dvojčki, ki imajo enake beljakovine. Beljakovine sestavlja 20 aminokislin. To pomeni, da lahko imamo "neskončno" možnih kombinacij. Za številne beljakovine v celici sploh, ne vemo zakaj so potrebne za celico.
 

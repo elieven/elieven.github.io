@@ -3,23 +3,6 @@ layout: document
 title: Geografija • 1. letnik • Računalniški Tehnik • STŠ Koper
 ---
 
-# GEOGRAFIJA
-{: .no_toc}
-
-## Vsebina:
-{: .no_toc}
-
-- TOC
-{:toc}
-
-<br>
-<br>
-
----
-
-<br>
-<br>
-
 # UVOD
 
 ## Geografija kot veda in področja njenega delovanja
@@ -28,25 +11,17 @@ title: Geografija • 1. letnik • Računalniški Tehnik • STŠ Koper
 
 Ime **geografija** je grškega izvora in je sestavljeno iz dveh besed: _ge_ = zemlja, _graphen_ = pisati ali zemljepis. Z razvojem znanosti so se v 19. stoletju začele ločevati od geografije posebne vede, ki se ukvarjajo s preučevanjem posameznih pojavov na zemeljskem površju (geologija, meteorologija, biologija, podologija, zgodovina...).
 
-<br>
-
 ### Predmet geografije
 
 Geografija je **veda o zemeljskem površju** ali **geografskem prostoru**. Predmet proučevanja je lahko ves svet ali le njegovi deli (pokrajina, regija, območje). Geografijo zanimajo naravne in družbene značilnosti zemeljskega površja.
-
-<br>
 
 ### Pomen zemeljskega površja
 
 Zemeljsko površje je poleg zraka nad njim in kamninske zgradbe, ki sestavlja njegovo podlago, vsekakor eden izmed najpomembnejših elementov človekovega okolja. To je naše geografsko okolje v katerem živimo. Na njem so nastali najrazličnejši **naravni pojavi**, ki se še naprej razvijajo, na njem in pod površjem **naravna bogastva**, ki jih uporablja človek (**obča geografija**). Posamezne dele zemeljskega površja imenujemo **območje**, **predel**, najpogosteje pa **pokrajina**. Različno velike dele zemeljskega površja poimenujemo še drugače, kadar želimo poudariti eno izmed značilnosti bolj kot druge ali kadar je večje ozemlje sestavljeno iz več pokrajinskih enot. To je **regija** (**regionalna geografija**).
 
-<br>
-
 ### Sestavni deli pokrajine ali geografski elementi
 
 Elementi, iz katerih je sestavljena geografska celota so: _relief, podnebje (klima), vodovje, prst, rastlinstvo, živalstvo, prebivalstvo in naselja, promet in politične razmere_.
-
-<br>
 
 ### Geografski dejavniki in procesi
 
@@ -70,22 +45,15 @@ Med **fizičnogeografskimi** dejavniki so najpomembnejši:
 
 Spreminjanje posameznih geografskih elementov v pokrajini pod vplivom različnih dejavnikov oz. njihovega vzajemnega delovanja imenujemo **geografski procesi**. Le te delimo na fizičnogeografske in družbenogeografske.
 
-<br>
-<br>
-
 ## Zemlja kot nebesno telo
 
 ### Zemlja v osončju
 
 Planeti (Merkur, Venera, Zemlja, Mars, Jupiter, Saturn, Uran, Neptun - od 2006 se Plutona ne šteje več med planete) in njihove lune, meteorji in kometi so nebesna telesa, ki stalno spreminjajo svoj položaj glede na zvezde stalnice (Sonce, zvezde). Vsi skupaj tvorijo Osončje alo Sončev sistem, ker krožijo okoli sonca. Med vsemi 8 planeti spada Zemlja med manjše planete, vendar edina z možnostjo življenja v poznani obliki.
 
-<br>
-
 ### Oblika zemlje
 
 Zemlja ni popolna krogla, ampak je zaradi vrtenja okoli lastne osi na kvatorju malo izbočena, na tečajih pa sploščena. Ima nepravilno geometrijsko obliko, ni elipsoid, ampak **geoid**.
-
-<br>
 
 ### Gibanje zemlje
 
@@ -112,8 +80,6 @@ Z njihovo pomočjo določamo **geografsko lego**. Sestavljajo jo:
 -   **geografska širina** - merjena na vzporedniku S in J od ekvatorja - SGŠ in JGŠ
 -   **geografska dolžina** - merjena na poldnevniku, V in Z od zažetnega - VGD in ZGD
 
-<br>
-
 #### Revolucija zemlje
 
 Je en obhod Zemlje okoli Sonca po obliki elipse in traja eno leto (365 dni, 5 ur, 48 min, 46 sek). Sonce je v gorišču in ne v središču, zato je Zemlja enkrat manj drugič bolj oddaljena od Sonca. Zemljina os je nagnjena pod kotom 66°30', zatose vpadni kot sončnih žarkov stalno spreminja. Posledica je različno segrevanje Zemlje med letom in **letni časi** oz. različni podnebni tipi.
@@ -122,16 +88,11 @@ Je en obhod Zemlje okoli Sonca po obliki elipse in traja eno leto (365 dni, 5 ur
 
 > Slika: Revolucija Zemlje.
 
-<br>
-<br>
-
 ## Zemljevidi
 
 ### Zemljevidi (karte)
 
 So v določenem razmerju pomanjšana in posplošena podoba površja Zemlje. Ukrivljeno zemeljsko površje je prikazano na ravni ploskvi. Njihov nastanek je plod dolgotrajnega in zahtevnega dela, s čimer se ukvarja **kartografija**. Uporabljamo jih na potovanjih, za orientacijo v prostoru in pri številnih panogah.
-
-<br>
 
 ### Vrste zemljevidov
 
@@ -147,8 +108,6 @@ Prikazujejo enega, le redkeje več elementov pokrajine (padavinski, temperaturni
 
 Prikazujejo mesto, dele mesta, ali stanovanjske stavbe (zelo veliko merilo, npr. 1:500, 1:50).
 
-<br>
-
 ### Sestavni deli zemljevida
 
 -   naslov
@@ -156,8 +115,6 @@ Prikazujejo mesto, dele mesta, ali stanovanjske stavbe (zelo veliko merilo, npr.
 -   matematični elementi: kartigrafska projekcija in merilo
 -   topografski elementi označeni z dogovorjenimi znaki (pomembne **izohipse** (**plastnice**) za prikazovanje reliefa in povezujejo točke iste nadmorske višine - površje strmo so bolj skupaj, površje uravnano bolj narazen)...
 -   ostalo: oznaka strani neba, letnica izdelave karte...
-
-<br>
 
 ### Merilo zemljevida
 
@@ -169,8 +126,6 @@ Pove nam, kolikokrat so resnične razdalje s površja Zemlje na karti pomanjšan
     -   1:100000 = 1cm = 1000m = 1km
 -   **grafično** - je dodano zemljevidu v obliki daljice, na kateri so v km označene ustrezne dolžine iz narave.
 -   **opisno** - pove, da je npr. 1cm na karti enak 10km v naraci; _Primer_: Na zemljevidu v merilu 1:25000 je razdalja med krajema A in B 8,2cm. Zanima nas, kolikšna je razdalja v naravi! 1:25000 -- 25000 x 8,2 = 205000cm = 2050m = 2,05km.
-
-<br>
 
 ### Kartografska projekcija
 
@@ -188,9 +143,9 @@ Uporablja se za upodobitev zemeljske krogle na ravni ploskvi. Pri tem ne gre bre
 
 Pomeni določitilego neke točke ali smer gibanja glede na strani neba in objekte v pokrajini.
 
-<br>
-<br>
-<br>
+
+
+
 
 # ZEMLJINO POVRŠJE
 
@@ -219,7 +174,7 @@ Na spodnjem, staljenem delu plašča, "plava" zgornji, trši del našega planeta
 
 Je gosta krogla, ki jo sestavljata predvsem železo in nikelj. Zaradi velikega pritiska in visoke temperature (prek 5000°C) je v **zunanjem jedru** kovina staljena. V **notranjem jedru** pa je pritisk tako velik, da se kovina kljub visoki temperaturi ne more staliti, zato je v trdnem stanju.
 
-<br>
+
 
 ### Vrste kamnin
 
@@ -246,8 +201,8 @@ Nastale so z usedanjem. ki je potekalo na več načinov:
 -   **kemične** - nastale so v morju s kemičnim usedanjem oz. z neposrednim izločanjem mineralnih snovi iz vodnih raztopin; najbolj znani _apnenec_, _dolomit_, _siga_ (_jame_).
 -   **biokemične** - nastale so iz odmrlih skeletov živali in rastlin v morju; _apnenci s fosili_.
 
-<br>
-<br>
+
+
 
 ## Geološki razvoj površja
 
@@ -273,7 +228,7 @@ obdobjih, ki segajo daleč v preteklost, so spoznanja manj natančna, o njih je 
     -   **kvartar** zadnja 2 milijona let; podnebje se je močno ohladilo (do 6°C) in nastala je ledena doba - **pleistocen**;
     -   današnji čas (**holocen**) se je pričel pred pribl. 10,000 leti; za ta čas so značilne velike **spremembe v okolju**, ki jih je povzročil človek;
 
-<br>
+
 
 ### Notranji in zunanji oblikovalni dejavniki in procesi
 
@@ -284,8 +239,8 @@ Zakaj je površje Zemlje tako različno? Predvsem zato, ker so površje vse od n
 
 Notranje in zunanje sile in procesi delujejo v medsebojni povezanosti - notranje sile relief dvigujejo, zunanje pa ga znižujejo in uravnavajo.
 
-<br>
-<br>
+
+
 
 ## Notranji oblikovalni procesi
 
@@ -314,7 +269,7 @@ Litosferske (tektonske) plošče se premikajo na različne načine, počasi in v
     drgneta« Tihooceanska in Severnoameriška plošča (sproščajo se velike energije, ki se kažejo v
     močnih potresih);
 
-<br>
+
 
 ### Vulkanizem
 
@@ -367,7 +322,7 @@ Vulkani so lahko **živi** (**aktivni**) ali **ugasli** (**neaktivni**) Danes je
 -   sprožajo potrese in cunamije (podmorski izbruhi)
 -   veliko materiaine škode in človeških žrtev
 
-<br>
+
 
 ### Potresi
 
@@ -408,8 +363,8 @@ Močnejši potresi povzročajo:
 -   spremenijo smer vodnih tokov, podzemnih voda, vrelcev...
 -   tsunamije;
 
-<br>
-<br>
+
+
 
 ## Zunanji oblikovalni procesi
 
@@ -456,7 +411,7 @@ Je dolbenje, razjedanje in izpiranje zemeljske površine, zaradi delovanja teko�
 Je proces, nasproten eroziji. Je proces odlaganja in kopičenja različno velikega
 kamninskega gradiva. Tudi to delo opravljajo tekoče vode, morja, veter in ledeniki in ustvarjajo različne vrste zemeljskega površja (reliefa) - **rečno, kraško, obalno, ledeniško in vetrno površje.**
 
-<br>
+
 
 ### Rečno površje
 
@@ -470,7 +425,7 @@ Rečno delovanje je sestavljeno iz treh stopenj: 1. erozija, 2. transport, 3. ak
 
 3.  **spodnji tok** - strmec reke je majhen, zato teče počasi, vijuga in akumulira, ustvarja mrtve rokave (mrtvice); lahko zasipava lastno strugo, čigar posledica je dvig vode in poplave; ob izlivih v morje reka lahko ustvarja _delte_ (pahljačasti tip obale);
 
-<br>
+
 
 ### Kraško površje
 
@@ -485,7 +440,7 @@ Vrste krasa: globoki ali popolni, plitvi ali nepopolni, nižinski, visokogorski,
 
 Gospodarski pomen krasa: _delane vrtače_, pašna območja, velika gozdnatost (_slabše kvalitete_), veliko vode v podzemlju, (_problem onesnaževanja zaradi podzemnega pretakanja_), pomen za turizem...
 
-<br>
+
 
 ### Ledeniško površje
 
@@ -502,7 +457,7 @@ Nekatere _posledice poledenitve_: **priostreni vrhovi gora**, **ledeniške U dol
 
 Gospodarski pomen ledeniškega površja je bil nekoč zelo majhen (pašniki), danes pa je zaradi turizma vedno bolj privlačen.
 
-<br>
+
 
 ### Obalno površje
 
@@ -556,7 +511,7 @@ Značilne morske obale:
 -   **deltasti tip obale**: izliv reke v več rokavih v morje, kjer odlaga ogromne količine materiala
     podaljšek kopnega v morje; delta reke Pad, Nil, Amazonke.
 
-<br>
+
 
 ### Puščavsko (vetrno) površje
 
@@ -577,9 +532,9 @@ Vrste puščav:
 
 Puščave obsegajo približno eno tretjino kopnega na svetu in se še širijo (**dezertifikacija**) zaradi pretiranje paše, povečane erozije, izsekavanja, požiganja...
 
-<br>
-<br>
-<br>
+
+
+
 
 # PODNEBJE
 
@@ -593,8 +548,8 @@ Povečan delež CO2 v ozračju je vzrok za pojav **tople grede**. Nekateri plini
 
 **Ozonska plast** v stratosferi (25-50 km nad Zemljo) je pogoj za življenje na Zemlji, saj nas ščiti pred nevanimi UV-žarki, ki škodujejo vsem živim bitjem, pri ljudeh pa povzročajo poškodbe oči, povečajo tveganje za kožnega raka. V zadnjih desctletjih se je začela ta plast razkrajati, nastale so t.i. **ozonske luknje** (največje nad Antarktiko in Arktiko). Krivdo za to nosi človek, ki v ozračje spušča pline - **freone**, ki ozon razkrajajo.
 
-<br>
-<br>
+
+
 
 ## Vreme, podnebje in podnebni dejavniki
 
@@ -612,8 +567,8 @@ Na podnebne elemente (temperatura, vlaga, zračni tlak) vplivajo **podnebni deja
 -   **morski tokovi**: lahko prinašajo toplejšo vodo v hladne kraje in jim s tem otoplijo podnebje Severnoatlantski tok ob obali Velike Britanije in Norveške); tokovi lahko prinašajo tudi hladnejšo vodo in zato je ob teh obalah podnebje bolj sušno (puščave tik ob morjih);
 -   **delovanje odklonske sile** pri vrtenju zemlje: zaradi nje se vetrovi in morski tokovi na S poluti odklanjajo desno (glede na smer gibanja), na J poluti pa levo.
 
-<br>
-<br>
+
+
 
 ## Podnebni elementi
 
@@ -627,7 +582,7 @@ T zraka **merimo** s termometrom v senci, približno 2m nad tlemi, najboljše v 
 
 Vertikalni **temperaturni gradient** z višino temperatura pada - na 100 m za **povprečno** **0,65°C**. To ne velja vedno, saj lahko nastane **temperaturni obrat** ali **inverzija**. Pogosta je v kotlinah in dolinah v hladni polovici leta, kjer se težji hladen zrak usede na dno kotline in od tam izpodrine toplejšega. Ker se vlaga pri nižjih T kondenzira, nastane na dnu kotline megla (če je veliko onesnaženje tudi **smog**), v višjih legah pa je bolj toplo in sončno. Meglo in mraz dvigne iz dna šele veter.
 
-<br>
+
 
 ### Vlaga v zraku in padavine
 
@@ -647,7 +602,7 @@ Vrste padavin na nastanek:
 - **Konvekcijske padavine** -  ko se zrak zelo segreva, je lažji in se dviga v ozračje, pri tem se vlaga kondenzira; npr. poletne nevihte, vsakodnevni popoldanski dež ob ekvatorju.
 - **Ciklonske padavine** - nastajajo ob stiku tople in hladne zračne fronte, ko se mora topli zrak, ki je lažji, dvigniti nad hladnega oz. ga ta izpodrine; to povzroča kondenzacijo in padavine; tipične so za zmerno topli pas;
 
-<br>
+
 
 ### Zračni pritisk in vetrovi
 
@@ -672,8 +627,8 @@ Je stik mrzlega in toplega zraka, ki se v valovih premika okoli 60. vzporednika.
 
 > Slika: Shematski prikaz visokega in nizkega pritiska ter nastanek polarne fronte
 
-<br>
-<br>
+
+
 
 ## Podnebni pasovi
 
@@ -681,7 +636,7 @@ Podlaga za delitev podnebij v posamezne skupine in vrste so **toplotni pasovi**.
 
 Znotraj toplotnih pasov razlikujemo različne **podnebne tipe** ali na kratko **podnebja**. Za njihovo določitev je pomembna temperatura, količina padavin ter njihvoa razporeditev preko leta. Grafično jih prikazujemo s **klimogrami**.
 
-<br>
+
 
 ### Podnebni in rastlinski pasovi
 
@@ -693,7 +648,7 @@ Znotraj toplotnih pasov razlikujemo različne **podnebne tipe** ali na kratko **
 
 - **PUŠČAVSKO / POLPUŠČAVSKO**: malo P (250 - 500mm), visoke T, velika dnevna nihanja T (tudi do 50°C), jasno vreme; **puščavsko rastje** prilagojeno suši, **oaze** (podtalna voda); marsikje **nahajališča nafte in zemeljskega plina; puščavske prsti**;
 
-<br>
+
 
 #### Subtropska podnebja
 
@@ -701,7 +656,7 @@ Znotraj toplotnih pasov razlikujemo različne **podnebne tipe** ali na kratko **
 
 - **MONSUNSKO**: vpliv monsunskih vetrov, ki nastanejo kot posledica različnega segrevanja morja in kopnega in s tem različnega zračnega pritiska; **poletni vlažni monsun** (vetrovi iz morja, veliko P, poplave), **zimski suhi monsun** (vetrovi iz kopnega, suho in hladno); veliko prebivalstva Azije, znana kulturna rastlina **riž**; naravno je **monsunsko gozd** (odvrže liste v času suše); **prsti izprane, slabo rodovitne, razen ob rečnih naplavinah**;
 
-<br>
+
 
 #### Zmerno topla podnebja
 
@@ -711,7 +666,7 @@ Znotraj toplotnih pasov razlikujemo različne **podnebne tipe** ali na kratko **
 
 - **ZMERNO HLADNO**: kratka poletja in mrzle, dolge zime, malo P; prevladuje **iglasti gozd - tajga** z edinim listavcem brezo; **gozd in les** pomembni gospodarski dejavnosti, zlasti končni izdelki (Finska, Švedska, Rusija-Sibirija, Kanada); za primerjavo gre tropski les v izvoz le kot surovina - nižja cena; **sive sprane prsti**;
 
-<br>
+
 
 #### Mrzla podnebja
 
@@ -719,9 +674,9 @@ Znotraj toplotnih pasov razlikujemo različne **podnebne tipe** ali na kratko **
 
 - **POLARNO**: velni sneg in led; polarni dan / noč; povprečna letna T -20°C; P zelo malo (do 150mm), ker ni izhlapevanja; **ni rastlinstva**, preko Arktike potekajo letalske poti; številni **naravni viri prihodnosti** (odkrivajo nahajališča premoga, nafte, drugih rud), v polarnih morjih veliko planktona (osnovna hrana ogromno živalskim vrstam); **prsti ni**;
 
-<br>
-<br>
-<br>
+
+
+
 
 # VODOVJE
 
@@ -739,8 +694,8 @@ Količina vode na Zemlji je stalna in nenehno kroži - **svetovni vodni obtok**.
 
 > Slika: Svetovni vodni obtok
 
-<br>
-<br>
+
+
 
 ## Podzemeljska voda
 
@@ -763,8 +718,8 @@ Podzemeljska voda, ki se nabira v razpokah in votlinah v (apnencu), na površje 
 
 > Slika:  Območja s podtalnico v Sloveniji
 
-<br>
-<br>
+
+
 
 ## Tekoče vode
 
@@ -774,7 +729,7 @@ Med tekoče vode prištevamo potoke in reke različnih velikosti.
 - **porečje**: celotna površina, s katere vse tekoče vode odtekajo v isto reko, npr. Posočje, Podravje... (največje ima Amazonka, polovico manjše Kongo, Mississipi...); velikost porečja meriko v km<sup>2</sup>; **razvodnica**: črta, ki razmejuje dve porečji;
 - **povodje**: celotna površina, s katere se reke stekajo v isto morje; Slovenija ima veliko porečij, a le dve povodji - *jadransko in črnomorsko*;
 
-<br>
+
 
 ### Rečni režim
 
@@ -796,14 +751,14 @@ Velike reke dobijo vodo iz različnih klimatskih območij.
 
 > Slika: Slovenske reke in njihovi rečni režimi
 
-<br>
+
 
 ### Pomen tekoče vode za ljudi
 
 Dejavnik naselitve in vir pitne vode in hrane.,vir energije in tehnološke vode, vir za namakanje, prometna pot, nudijo možnosti za rekreacijo in turizem. Onesnažbvanje rek se je **močno povečalo** z razvojem industrije, kmetijstva, poselitve, prometa, višjega življenskega standarda.
 
-<br>
-<br>
+
+
 
 ## Jezera
 
@@ -813,8 +768,8 @@ Poznamo več vrst jezer: **ledeniška** (Bohinjsko, Blejsko, Gardsko, Velika jez
 
 Voda v jezerih se počasi obnavlja, zato je še bolj občutljiva na onesnaževanje. Največje nevarnosti: industrijske odpadne vode, neurejeno odvajanje komunalnih voda, spiranje pesticidov s kmetijskih površin...
 
-<br>
-<br>
+
+
 
 ## Morje
 
@@ -828,7 +783,7 @@ Voda v jezerih se počasi obnavlja, zato je še bolj občutljiva na onesnaževan
 
 Pomembno vlogo pri povezovanju oceanov, morij in zalivov med seboj imajo **morske ožine** naravnega nastanka Bospor, Dardanele, Gibraltlar...) in **morski prekopi** (umetno zgrajeni za potrebe ladijskega prometa - Sueški, Panamski, Korintski prekop...)
 
-<br>
+
 
 ### Fizikalne in kemične lastnosti morske vode
 
@@ -844,7 +799,7 @@ Je najpomembnejša kemična lastnost. Podaja količino raztopljenih soli v morsk
 
 Barva je odvisna od osončenosti, globine morja, barve kamnin in poraščenosti morskega dna; prozomost tudi od osončenosti, zlasti pa od količine planktona (hladna in manj slana morja imajo več planktona, zato so manj prozona).
 
-<br>
+
 
 ### Gibanje morske vode
 
@@ -860,7 +815,7 @@ Plimovanje (**bibavica**) je izmenično dviganje in upadanje gladine morja zarad
 
 Z njimi se prestavljajo ogromne količine morske vode; premikajo se različno hitro; nastajajo zaradi stalnih vetrov, razlik v temperaturi in slanosti morske vode...; na S polobli se vodne mase zaradi rotacije Zemlje premikajo večinoma v smeri urinega kazalca, na južni pa obratno; ločimo **tople in hladne morske tokove**: pomembno vplivajo na podnebje, velik vpliv imajo tudi na ribolov;
 
-<br>
+
 
 ![Smeri glavnih morskih tokov ter stalnih vetrov][slika-smeri-glavnih-tokov-in-vetrov]
 

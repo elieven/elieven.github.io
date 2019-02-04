@@ -3,20 +3,11 @@ layout: document
 title: Slovenščina • 2. letnik • Računalniški Tehnik • STŠ Koper
 ---
 
-# Slovenščina
-{: .no_toc}
 
-## Vsebina:
-{: .no_toc}
-
-- TOC
-{:toc}
 
 <br><br>
 
----
-
-<br><br>
+# JEZIK
 
 ## Sklanjatve
 
@@ -104,8 +95,9 @@ Osnovna enota jezika, sestavljena iz črk / glasov, ima pomen (en ali več).
   - nove besede ali neologizmi (zgoščenka, različica)
   - starinske besede ali arhaizmi (bukvar)
 
-
 ---
+
+# KNJIŽEVNOST
 
 ## Načini razvijanja teme
 
@@ -124,7 +116,6 @@ Osnovna enota jezika, sestavljena iz črk / glasov, ima pomen (en ali več).
 - **opisovanje** 
   - Besedila v katerih sporočamo o lastnostih, sestavi, delovanju. 
   - *Naštevalno razmerje*
-
 
 ---
 
@@ -356,3 +347,58 @@ Prepleta se več **idej**:
 - Ideja o odtujenosti in medčloveških odnosih.
 - Ideja o odnosih maomeščanskega okolja do umetnosti.
 - Ideja o posameznikovem iskanju življenskega smisla. V noveli se kaže abtobiografsko ozadje (pisatelj je nemško govoreči Žid v Pragi, umetnik v družini, ki je praktično usmerjena).
+
+
+
+## Moderni roman
+
+Je besedilo, ki je nasprotje lastnostim tradicionalnega romana iz 18. in 19. stoletja (od razsvetljenstva do naturalizma).
+
+| Tradicionalni roman                                          | Moderni roman                                                |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Jurčič: *Deseti brat*, Tavčar: *Visoška kronika*, Dostojevski: *Zločin in kazen*. | Joyce: *Ulikses*, Camus: *Tujec.*                            |
+| Praviloma je zelo obsežen s sklenjeno podobo stvarnega sveta, družbe in posameznih človekovih podob. | Nova pripovedna struktura, zgradba je razbita, nejasna, nepomembna, v posameznih pripovedih je v središču tok zavesti. |
+| Zgradba je zaokrožena z začetkom in koncem, z razumljivimi socialnimi, psihološkimi in moralnimi problemi. | Zgradba je "razpršena".                                      |
+| Je poučen, berljiv in zabaven. Namenjen je preprostejšim bralcem. | V središču je tok zavesti posameznih oseb, njihove zaznave in misli. Namenjen je zahtevnejšim bralcem. |
+| Junaki so celoviti, del sveta, vanj posegajo in ga spremenijo. | "Junak" je v ospredju s tokom zavesti (predstavljen je z notranjim monologom, refleksijo, menjavo časovnih perspektiv, principom asociativnosti). |
+| Pripovedovalec je vsevedni (avktorialni).                    | Pripovedovalec je prvoosebni (personalni).                   |
+| Ima globlja moralna sporočila.                               | Je brez globljih sporočil.                                   |
+
+
+
+### Camus: Tujec
+
+1. **Predstavite Mersaultov odnos so matere. S katerimi besedami to izrazi?**
+2. **Zakaj ubije Arabca? Kako se ob tem počuti?**
+3. **Kako se počuti ob tem, da je obsojen na smrt? Kakšen odnos ima do boga?**
+4. **Določite ubeseditveno stališče v naslednji povedi.** Ko je bila mama doma, je prebiljala svoj čas tako, da me je brez besed vsepovsod spremljala z očmi.
+5. **Določite besedne vrste v naslednji povedi, nato določite glagolski naklon v obeh stavkih**. Menda je vaša mati pogosto izrazila svojim tovarišem željo, da bi bila pokopana cerkveno.
+
+### Tujec
+
+Zunanje dogajanje:
+
+- [16 dni](indigo): med pogrebom in ubojem, materina smrt, razmerje z Marijo, znanstvo z Raymondom, umor.
+- [11 mesecev v zaporu](indigo): obtožnica, zadna obravnava, obsodba na smrt, zavedanje absurdnosti položaja, vdanost, vztrajanje v tej situaciji.
+
+Glavna oseba: Mersault je **"absurdni človek"** - vseeno mu je, kaj se dogaja okoli njega, kaj si mislijo ljudlje, nima ciljev, idealov.
+
+Moderni roman: Dogodki niso trdno povezani, med njimi ni logične vzročno-posledične razvidnosti, prvoosebni pripovedovalec gradi pripoved iz spomina, iz toka zavesti (dnevniški zapisi).
+
+Eksistencializem: Besedilo je slogovno realistično, idejno pa je eksistencialistični roman.
+
+**Eksistencializem** je filozofski nauk, ki govori, da je [človek](red-light) v svojem bistvu [svoboden](orange), zato je [za svoja dejanja odgovoren](orange) sam. Te odgovornosti ga je strah. Čuti se osamljenega, vrženega v [svet](green-light), ki mu je tuj in [se mu kaže kot nekaj absurdnega](green-light), nesmiselnega, a [v njem mora vstrajati](purple).
+
+**Filozofija absurda**: Camus v romanu uresniči svojo filozofijo absurda (teoretično v eseju Mit o Sizifu).
+
+> Književnost absurda ta <u>nesmisel sprejema</u>, hkrati pa govori o <u>uporu proti njem</u>. Rešitev ni samomor, ampak saj prav <u>z življenjem se človek upira proti nesmislu</u>, v tem je "smisel nesmisla".
+
+
+
+## Gledališče in dramatika absurda
+
+Absurdno gledališče se začne razvijati okoli 1950. Izhaja iz prepričanja, da je obstoječi družbeni, moralni in politični svet nesmiseln.
+
+Oblikovati začne dramsko dogajanje, junake, dialog in jezik kot nekaj absurdnega, da bi s tem postala opazna nesmiselnost realnega življenja.
+
+Zgodbe ni ali je zelo fragmentarna. Dialog je pogosto nelogičen in nepovezan, stavki se spreminajjo v nesmiselne besedne zveze.

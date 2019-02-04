@@ -4,29 +4,13 @@ title: UIKSt • 1. letnik • Računalniški Tehnik • STŠ Koper
 latex: true
 ---
 
-# UIKSt
-{: .no_toc}
-
-## Vsebina:
-{: .no_toc}
-
-- TOC
-{:toc}
-
-
-<br><br>
-
----
-
-<br><br>
+# Upravljanje IK Sistemov
 
 ## Osnove računalniškega omrežja
 
-> Računalniško omrežje tvorita najmanj dve napravi ki sta med seboj **povezani** in **neodvisni**.
+Računalniško omrežje tvorita najmanj dve napravi ki sta med seboj **povezani** in **neodvisni**
 
-<br>
-
-#### Elementi rač. omrežja:
+### Elementi rač. omrežja:
 
 - **Naprave** (telefon, računalnik, tablica)
 - **Ruter** (usmerjevalnik - rabimo ga za internet)
@@ -38,8 +22,6 @@ latex: true
 - **Protokol TCP/IP**
 - **RFC dokumenti**
 
-<br>
-
 ### Delitev omrežja glede na geografski obseg
 
 - **Osebno omrežje (PAN)** je vezano na en prostor (stream, povezava mobilnih naprav na računalnik)
@@ -48,40 +30,35 @@ latex: true
 - **Širokopodročno omrežje (WAN)**
 - **Globalno omrežje (Internet)**
 
-<br>
-
 ## Dostop do omrežja
 
 ### Modemski dostop
 
-- Je iz 90-ih let, zastarel, ponekod še vedno uporabljen. Ima hitrost 56kbps (Kilobitov na sekundo)
-
-<br>
+Je iz 90-ih let, zastarel, ponekod še vedno uporabljen. Ima hitrost 56kbps (Kilobitov na sekundo)
 
 ### Širokopasovni dostop
 
 #### Tehnologija DSL
 
 - To je tehnologija, ki omogoča dostop do interneta preko telefonskih žic.
+
 - **Delovanje:** Komunikacijski kanal je razdeljen na 3 frekvenčne obsege (kanal za prevzem podatkov oz. download, kanal za oddajo podatkov oz. upload in navaden dvosmerni telefonski kanal).
-Zanjo je značilna neposredna povezava med končnim uporabnikom in internetnim ponudnikom, zato hitrost ostane stalna.
+
+- Zanjo je značilna neposredna povezava med končnim uporabnikom in internetnim ponudnikom, zato hitrost ostane stalna.
 
 #### Tehnologija HFC (hibridno omrežje)
 
 - Kombinacija optičnega in koaksialnega kabla. To je tehnologija, ki omogoča dostop do interneta preko kabelskega omrežja.
+
 - **Delovanje:** Tri točke (glavna postaja, razdelilne postaje in hiše). Razdelilne postaje so postavljene ob večjih naseljih. Na vsako je lahko povezano od 500 do 5000 hiš. Optični kabel povezuje glavno postajo in razdelilne postaje, hiše pa so z razdelilnimi postajami povezane s koaksialnimi kabli.
 
 #### Tehnologija FTTH (Optika do doma - Fiber To The Home)
 
 - Optično vlakno poteka direktno od ponudnika do uporabnika.
 
-<br>
-
 ### Dostop preko satelitske povezave
 
 - (do 1 Mbps)
-
-<br>
 
 ### Brezžični dostop
 
@@ -93,30 +70,25 @@ Zanjo je značilna neposredna povezava med končnim uporabnikom in internetnim p
 
 - Podatki se prenašajo po mobilni infrastrukturi, pri čemer bazno postajo nadzoruje posrednik za telekomunikacijske storitve. To omrežje se uporablja "zunaj". Domet je nekaj 10km.
 
-<br>
-
 ## Prenosna sredstva
 
 ### Parica
 
-- Najenostavnejša oblika parice sta dve izolirani bakreni žici, ki sta med seboj prepleteni. Dve vzporedni žici tvorita anteno, s prepletom pa se možnost oddajanja signalov zmanjša.
-- Parice se povezujejo v snope. Najpogosteje se parice uporabljajo v telefonskih omrežjih in za LAN. Parice so lahko dolge do 16Km in za prenos podatkov niso potrebni ojačevalniki / obnavljalniki. Hitrost prenosa je odvisna od razdalje.
+Najenostavnejša oblika parice sta dve izolirani bakreni žici, ki sta med seboj prepleteni. Dve vzporedni žici tvorita anteno, s prepletom pa se možnost oddajanja signalov zmanjša.
 
-<br>
+Parice se povezujejo v snope. Najpogosteje se parice uporabljajo v telefonskih omrežjih in za LAN. Parice so lahko dolge do 16Km in za prenos podatkov niso potrebni ojačevalniki / obnavljalniki. Hitrost prenosa je odvisna od razdalje.
 
 ### Koaksialni kabel
 
-- **Zgradba:** Na sredini poteka bakrena žica, ki je ovita z izolacijo. Temu sledi sloj prepletene kovine ter ovojna zaščita. Bakreni žici potekata koncentrično (isto središče, različni polmer) kar omogoča velike hitrosti prenosa. Funkcija prepletene mreže je absorpcija šuma., ta pa se nato ne prenaša na podatke, ki potekajo po bakreni žici. Izolacija med bakreno žico in slojem pletene kovine je potrebna, da ne pride do kratkega stika.
-- Najpogosteje se uporabljajo v kabelskih sistemih (TV, Internet). Obstajata 2 tipa koaksialnih kablov (tanek in debel). Za katerega se odločimo je odvisno odpotreb konkretne mreže.
+**Zgradba:** Na sredini poteka bakrena žica, ki je ovita z izolacijo. Temu sledi sloj prepletene kovine ter ovojna zaščita. Bakreni žici potekata koncentrično (isto središče, različni polmer) kar omogoča velike hitrosti prenosa. Funkcija prepletene mreže je absorpcija šuma., ta pa se nato ne prenaša na podatke, ki potekajo po bakreni žici. Izolacija med bakreno žico in slojem pletene kovine je potrebna, da ne pride do kratkega stika.
 
-<br>
+Najpogosteje se uporabljajo v kabelskih sistemih (TV, Internet). Obstajata 2 tipa koaksialnih kablov (tanek in debel). Za katerega se odločimo je odvisno odpotreb konkretne mreže.
 
 ### Optični kabel
 
-- **Zgradba:** sestavljen je iz optičnih vlaken. Optična vlakna so sestavljena iz jedra in stržena (tanko stekleno središče vlakna), obloge ki obdaja jedro in svetlobo odbija nazaj v njega, zunanja plastna zaščita, ki ščiti optično vlakno pred poškodbami in vlago.
-- Optična vlakna uporabljajo za vodenje svatlobe (pojav popolnega notranjega odboja) zato so konstruirani tako, da imajo valjasto obliko.Omogočajo prenos podatkov na veliko razdaljo in z visoko hitrostjo.
+**Zgradba:** sestavljen je iz optičnih vlaken. Optična vlakna so sestavljena iz jedra in stržena (tanko stekleno središče vlakna), obloge ki obdaja jedro in svetlobo odbija nazaj v njega, zunanja plastna zaščita, ki ščiti optično vlakno pred poškodbami in vlago.
 
-<br>
+Optična vlakna uporabljajo za vodenje svatlobe (pojav popolnega notranjega odboja) zato so konstruirani tako, da imajo valjasto obliko.Omogočajo prenos podatkov na veliko razdaljo in z visoko hitrostjo.
 
 ## Večplastna arhitektura
 
@@ -126,25 +98,19 @@ Komunikacijski sloji tvorijo tako imenovane komunikacijske sklade. Vsakemu sloju
 
 > Zaporedje se vedno gleda od spodaj navzgor - tako je tudi v maturi.
 
-<br>
-
 ### Referenčni model OSI
 
 [Kratka razlaga celotnega modela OSI](https://www.youtube.com/watch?v=vv4y_uOneC0) (pozor: težek indijski naglas).
 
 ![diagram referenčnega modela osi][model-osi]{: .imgc}
 
-**PREDSTAVITVENI SLOJ**: kodiranje, šifriranje in stiskanje podatkov.
+**[Predstavitveni sloj](pink)**: kodiranje, šifriranje in stiskanje podatkov.
 
-**SEJNI SLOJ**: sinhronizacija in ločevanje podatkov z uporabo določenih znakov.
-
-<br>
+**[Sejni sloj](pink)**: sinhronizacija in ločevanje podatkov z uporabo določenih znakov.
 
 #### Referenčni model TCP/IP
 
 ![diagram referenčnega modela TCP/IP][model-tcpip]{: .imgc}
-
-<br>
 
 ## Aplikacijski sloj
 
@@ -160,15 +126,11 @@ Procesi pošiljajo (v mrežo) in prejemajo sporočila (iz mreže) preko programs
 
 Protokoli aplikacijskega sloja definirajo kako si procesi neke mrežne aplikacije izmenjujeta sporočila (ali gre za zahtevo ali za odgovor, zapis zahteve ali odgovora, pravila kako in gdaj nek proces pošlje sporočilo oz. odgovori). Vsa ta pravila (protokoli) so zapisana v FRC dokumentih.
 
-<br>
-
 ### Splet (Aplikacija Web)
 
 Je aplikacija **odjemalec - strežnik** ki uporabnikom omogoča dostop do podatkov na zahtevo. Komponente, ki sestavljajo aplikacijo so: HTML, spletni brskalnik, spletni strežniki (apache), MS serverji in protokol aplikacijskega sloja (HTTP).
 
 Protokol HTTP definira obliko in zaporedje sporočil, ki si jih med sabo izmenjujeta spletni brskalnik in spletni strežnik. Definiran je v RFC dokumentu št. 1945 in 2616. Spletna stran je zgrajena iz objektov, ki jih je mogoče znotraj dokumenta nasloviti z URL naslovi. URL naslov je sestavljen iz imena strežnika in poti do dokumenta.
-
-<br>
 
 ### Piškotki
 
@@ -176,13 +138,9 @@ Uporabljajo se za identifikacijo uporabnika na spletu (omeji dostop, ponuja vseb
 
 **Delovanje**: ko zahteva (po neki spletni strani) pride do strežnika, ta izdela ID uporabnika (shrani se v bazi podatkov na strežniku), ki jo v odgovoru na zahtevo pošlje uporabniku (`set-cookie: 1678`). Brskalnik podatek shrani v posebno datoteko. V primeru obiska iste spletne strani brskalnik v zahtevo doda podatek o uporabniku (`cookie: 1678`). Na ta način strežnik lahko sledi kaj uporabnik "počne". V primeru da uporabnik na spletni strani vnese še svoje osebne podatke, strežnik te podatke vnese v svojo bazo in jih poveže z ID številko.
 
-<br>
-
 ### Proxy strežnik
 
 Je sestavni del mreže, ki odgovarja na HTTP zahteve (namesto / v imenu spletnega strežnika). Proxy strežnik ima lastne diske za shranjevanje **kopij** pogosto obiskanih objektov. Spletni iskalnik se konfigurira tako, da gredo vse HTTP zahteve najprej do proxy strežnika. V primeru, da se kopija objekta ne nahaja na strežniku (proxy strežniku), le-ta vzpostavi povezavo z izvornim strežnikom. Pomembno pri temu je, da je proxy strežnik tako strežnik kot odjemalec (uporabnik). Razloga za uporabo proxy strežnika sta čas in zmanjšanje intenzivnosti prometa na povezavi do interneta (varnost).
-
-<br>
 
 ### Eleketronska pošta
 
@@ -198,13 +156,9 @@ SMTP je osnovni protokol aplikacijskega sloja za spletno pošto. Slabost protoko
 
 ![diagram prenosa pošte][prenos-poste]{: .imgc}
 
-<br>
-
 ### Aplikacija prenos datotek
 
 Po zgradbi je odjemalec - strežnik. Protokol FTP prenaša datoteko od oddaljenega računalnika oz. "nalaga" datoteko na oddaljen računalnik. Pri prenosu aplikacija uporabi dve vzporedni povezavi, kontolno in podatkovno. Kontrolna povezava se uporablja za prenos uporabniškega imena, gesla in ukazov (`PUT`, `DELETE`, `GET`...). Podatkovna povezava pa se uporablja za prenos datotek.
-
-<br>
 
 ### Aplikacija DNS
 
@@ -216,8 +170,6 @@ Računalniki se na mreži identificirajo z imenom in IP naslovom. Delovanje na p
 > `http://www.sts.si/mat/vaje.doc`
 
 Da se lahko pošlje zahteva na strežnik (sts) more uporabnik poznati IP naslov strežnika. Spletni brskalnik iz URL naslova "razbere" ime strežnika in ga "preda" procesu aplikacije DNS, ki se izvaja na računalniku uporabnika. Proces aplikacije DNS pošlje zahtevo na DNS strežnik  (zahteva po IP naslovu) in v odgovoru dobi IP naslov.
-
-<br>
 
 ## Transportni sloj
 
@@ -249,14 +201,10 @@ Aplikacije, ki se izvajajo v realnem času (videokamere, prenos glasu) uporablja
 |  `53`   |   DNS    | DNS                                                     |
 |  `443`  |   SSL    | Nadgradnja TCP (vidna na aplikacijskem sloju kot HTTPS) |
 
-<br>
-
 ### Kontrola napak
 Preveri se , da se biti tekom prenosa niso spremenili. Protokola UDP in TCP na strani pošiljatelja seštejeta bite in naredita komplement (sešteva se 16 bitne podatke, v primeru prekoračitve se višek zavrže). Dobljeni biti se vrnejo v polje kontrole.
 
 ![diagram kontrolnih bitov v segmentu][kontrolni-biti]{: .imgc}
-
-<br>
 
 #### Postopek računanja kontrolnih bitov
 
@@ -339,15 +287,11 @@ $$
 
 > Naprej ne rabimo računat ker nas zanima samo prvih **k** števil.
 
-<br><br>
-
 ## Mrežni sloj
 
 Je eden izmed najbolj pomembnih slojev v referenčnem modelu TCP/IP.
 
 ![diagram mrežnega sloja][mrezni-sloj]{: .imgc}
-
-<br>
 
 ### Naslavljanje IPv4
 
@@ -400,8 +344,8 @@ Dolžina maske je enako dolga kot dolžina IP-naslova (32 bitov). Enice (1) so n
 
 Masko omrežij lahko napišemo na 3 različne načine:
 
-|   Zapis   |               Primer                |
-| --------- | ----------------------------------- |
+|   Zapis   |                Primer                 |
+| --------- | ------------------------------------- |
 | dvojiški  | `11111111.00000000.00000000.00000000` |
 | desetiški | `255.0.0.0`                           |
 | CIDR      | `10.0.0.0/8`                          |

@@ -31,7 +31,7 @@ title: Angleščina • 1. letnik • Računalniški Tehnik • STŠ Koper
 
 **Haze** (_light mist, usually caused by heat_)
 
-<br>
+
 
 ### Types of rain
 
@@ -51,7 +51,7 @@ title: Angleščina • 1. letnik • Računalniški Tehnik • STŠ Koper
 
 **Flood** (_become covered in water usually due to heavy rain_)
 
-<br>
+
 
 ### Cold stuff
 
