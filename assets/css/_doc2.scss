@@ -55,7 +55,6 @@ header::before {
     cursor: pointer;
     vertical-align: middle;
     width: 100%;
-    margin-bottom: 12px;
 
     * {
       pointer-events: none;
@@ -102,7 +101,7 @@ header::before {
     &:active,
     &:focus,
     &:focus-within {
-      outline: rgb(77, 144, 254) auto 2px !important;
+      //outline: rgb(77, 144, 254) auto 2px !important;
     }
   }
 
@@ -110,6 +109,7 @@ header::before {
     padding-right: 16px;
     padding-left: 4px;
     padding-bottom: 12px;
+    padding-top: 12px;
 
     ul,
     ol {
@@ -274,6 +274,7 @@ header::before {
         font-weight: 600;
         padding: 6px 13px;
         border: 1px solid #dfe2e5;
+        border-bottom-width: 2px;
       }
 
       td {

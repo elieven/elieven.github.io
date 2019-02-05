@@ -17,7 +17,11 @@ title: Slovenščina • 1. letnik • Računalniški Tehnik • STŠ Koper
   - **Literarna zgodovina**: književnost skozi čas = literarna obdobja
   - **Literarna teorija**: nadzvrsti in zvrsti književnosti, žanri književnosti (mladinska, potopisna, znanstveno fantastična, kriminalna...)
 
-> Tabela
+| Zvrst Nadzvrsti | Lirika (izpoveduje)        | Epika / pripovedništvo (pripoveduje)                         | Dramatika (prikazuje)      |
+| --------------- | -------------------------- | ------------------------------------------------------------ | -------------------------- |
+| Zvrsti / vrste  | sonet, oda, elegija, himna | [v verzih](purple) (ep, balada, romanca), [v prozi](purple) (črtica, povest, pravljica, bajka, pripovedka, roman) | komedija, tragedija, drama |
+
+
 
 
 ## Žanrska književnost
@@ -165,21 +169,141 @@ Trojanska vojna je trajala deset let. Bojna sreča je bila zdaj na grški, zdaj 
 
 Grški mit govori še o Odisejevem vračanju domov na otok Itako, o Enejevih dogodovščinah pa pripoveduje rimski pesnik Vergil v junaškem epu, ki ima po glavni osebi naslov Eneida.
 
-**Odiseja** je poleg Iliade najstarejša znana grška pesnitev.
+Odiseja je poleg Iliade najstarejša znana grška pesnitev.
 
+[Vsebina](pink): Čas trajanja je 40 dni. Pripoveduje o potovanju Odiseja iz Troje domov na Itako, kjer ga čaka zvesta žena, Penelopa. Na poti doživlja veliko dogodivščin in pustolovščin (Otok Fajakov - tu sreča kraljično Navzikao, pripoveduje o svojih dogodivščinah: Kiklop- velik Polifem; Kirkin otok - pošasti Skila in Karibda...). Vse uspešno premaga ter prispe na domači dvor. Spremenjen v berača zmaga na tekmi z lokom, obračuna s snubci, po spravi srečno zaživi s svojo ženo.
 
+[Zvrst](pink): pustolovski - junaški ep. **Ep** = pesnitev velikega obsega, zapisana v verzih, ki zajema snov z verstva, zgodovine in mitologije. Pripoveduje o junaških dejanjih in bojih. Odiseja je postolovski ep, ker pripoveduje o pustolovščinah glavne osebe, junaški pa, ker je Odisej junak.
+
+Glavna oseba Odisej = idealiziran junak, popoln v moči in lepoti, vendar umrljiv.
+
+[Zgradba](pink): 
+
+- 24 spevov, več kot 12000 verzov (heksameter).
+- 3 motivni sklopi (potovanje Odisejevega sina Telemaha, Odisejeve pustolovščine, Odisejeva vrnitev domov) so povezani in prepleteni tako, da tvorijo premišljeno zgrajeno pripovedno celoto.
+- Okvirna pripoved. ??
+- Slog: glavna slogovna značilnost je epska širina.
 
 ### Antična dramatika
 
+Grki in Rimljani so postavili temelje evropski dramatiki in gledališču, razvijeta se tragedija in komedija.
+
+[Značilnosti](pink):
+
+- Nastanek povezan z verstvom (obredi v čast bogu Dionizu).
+- Uprizarjali na prostem, številčno občinstvo.
+- Pomembno vlogo ima zbor (pel in plesal).
+- Grki gojijo tragedijo, Rimljani pa komedijo.
+
+[Tragedija](blue):
+
+- Resnobna igra o mitičnih junakih nekdanjih časov (iz bajk, pripovedk, epov).
+- Na oder so postavljali pretresljive dogodke, z žalostnim izidom, junakova vsoda se preobrne v nesrečno smrt.
+- Gledalec ob tem občuti notranje očiščenje / katarzo, pretresenost, nato pomiritev ob neizbežni vsodi.
+- Pomembno vlogo imajo bogovi.
+- Avtorji: Ajshil, Sofokles, Evripid...
+
 #### Sofokles: Kralj Ojdip
+
+Avtor: Sofokles (okoli 496 - 406 pr.n.št.).
+
+Velja za najpomembnejšega grškega dramatika, napisal je 123 iger, v celoti phranjenih 7, najbolj znani tragediji Kralj Ojdip in Antigona.
+
+[Kralj Ojdip](pink):
+
+- S tragedijo Antigona predstavlja enega od vrhov antične dramatike - književnost, besedilo je nastalo na podlagi mita o tebanski kraljevi hiši.
+
+[Mit](green) o [tebanski kraljevi hiši](green) je podlaga Sofoklovih tragedij Kralj Ojdip in Antigona. 
+
+Tebanskemu kralju Laju in njegovi ženi Jokasti je bilo prerokovano: če se ne bosta izognila rojstvu sina, bo ta ubil očeta in se poročil z materjo. Otrok se je kljub opozorilu rodil in kralj se je poskušal rešiti napovedane usode tako, da je dal dečku prebosti kite ob gležnjih in ga izročil služabniku; ta naj bi nemočnega otroka pustil na planini Kitajron, da bi ga požrle zveri. A služabniku se je deček smilil, zato ga je izročil pastirju korintskega kralja Poliba. Kralj ni imel svojih otrok, zato je fanta posvojil in mu dal ime Ojdip (ojdipus v grščini pomeni oteklonog). Ker je nekoč pijan gost Ojdipu dejal, da ni Polibov sin, je odšel v Delfe, kjer naj bi mu v preročišču povedali, čigav otrok je. Preročišče pa mu v zvezi s tem ni dalo neposrednega odgovora, ampak le strašno napoved, da bo ubil očeta in se poročil z materjo. Ojdip je bil prepričan, da sta kralj Polib in njegova žena Meropa njegova starša, zato se ni upal vrniti v Korint, da se prerokba ne bi uresničila. Med tem je tudi tebanski kralj Laj potoval v Delfe. Ker se neki popotnik ni hotel umakniti z ozke poti, ga je voznik udaril z bičem in prišlo je do pretepa, v katerem je popotnik ubil kralja Laja in vse njegovo spremstvo. Rešil se je en sam mož, ki mu je uspelo pobegniti. Neznani popotnik pa ni bil nihče drug kot Ojdip, ki je tako nevede uresničil prvi del prerokbe.
+
+Kmalu po kraljevi smrti je prišla na Tebe druga nesreča v podobi Sfinge. Ta ljudožerska
+
+> Kle manjka ampak uglaunem ja stvar se uresniči in se poroči z matero. Treba še nabavit ta list.....
+
+[Vsebina](pink): Kralj Ojdip v Teban obljubi ljudstvu, da bo našel morilca prejšnjega kralja in bo mesto tako rešil kuge. Izve, da je morilec sam, tako se je uresničila vsoda, ki so mu jo že pred rojstvom določili bogovi. Ojdip je nevede ubil svojega očeta, tebanskega kralja Laja in se poročil z lastno materjo Jokasto. Imela sta 4 otroke: sinova Eteokla in Polinejka, ter hčeri Abtigono in Ismeno. Ko je izvedel za svojo krivdo, se je oslepil in odšel na goro Kitajron, Jokasta pa je storila samomor. Oblast prevzame Kreon, Jokastin brat.
+
+[Zgradba](pink): Dogodki se hitro zapletajo in razpletajo = dogajanje je dinamično, napeto, <u>zgradba dramskega trikotnika</u>.
+
+![Dramski trikotnik](https://res.cloudinary.com/solamona/image/upload/v1549381436/zvs/sts-kp/rac/4l/slovenscina/dramski-trikotnik.png){: width="420px" align="center"}
+
+- Načelo trojne enotnosti = enotnosti kraja, časa in dogajanja.
+- Analitična drama = sedanje dogodke pojasnjuje s pogledom v preteklost.
+
+[Osebe](pink): V osredju je človek, čeprav bogovi določijo vsodo = volja bogov. Pomembno vlogo ima zbor, ki posega v dogajanje, ustvarja vzdušje, sporoča življenska spoznanja, modrosti.
+
+[Ojdipova tragičnost](pink): Ojdip je >>kriv brez krivde<< - zagrešil je dvojni umor, to so mu med rojstvom določili bogovi, ni imel druge možnosti.
 
 ## Srednji vek pri slovencih
 
+V času od 10. do 14. stoletja se v slovenski književnosti razvija ljudsko slovstvo in polliteraturna besedila za cerkveno rabo (pismenstvo).
+
+[Pismenstvo](pink): 
+
+- Izraz za začetke slovenske književnosti v srednjem veku.
+- Besedila so nastala od 10. do začetka 16. stoletja na Koroškem, Gorenjskem, Dolenjskem, Goriškem.
+- Besedila so cerkvenega značaja, malo posvetnih besedil (slovenska imena, meseci, števniki, prisege).
+- Kraške molitve, nagovori in pesmi, zapisali so jih tuji duhovniki.
+- Najpomembnejši zapis:
+  - Brižinski spomeniki,
+  - Celoviški ali rateški rokopis,
+  - Stiški rokopis.
+
 ### Brižinski spomeniki
+
+Nastali so okoli leta 1000 (prepis starejših besedil iz 9.st. - napisal nemški duhovnik) na Koroškem. Najdeni so v Freisingu (Brižini) v 19.st. (v latinskem zborniku) danes shranjeni v munchenski knjižnici.
+
+[Zgradba](pink) (3 deli):
+
+1. Brižinski spomenik - **obrazec splošne spovedi**
+2. Brižinski spomenik - **pridiga o grehu in pokori**
+3. Brižinski spomenik - **obrazec splošne spovedi**
+
+> neki mi je čudno kako se ponovijo 1. in 3. ma se mi ne da poguglat
+
+Pisani so v latinici, črkopis je karolinška minuskula. Jezik je slovenščina v zgodnjem obdobju, brez narečnih posebnosti in tujk. 
+
+[Pomen](pink): so prvi slovenski zapis, imajo velik kulturni in jezikovni pomen.
+
+#### 2. Brižinski spomenik: pridiga o grehu in pokori
+
+Je pridiga - polliteralno besedilo. Poučno in vzgojno pridiga preprostejšim, zato vsebuje besedilo ponazoritve - zglede / eksemple iz življenja.
+
+[Vsebina](pink): Nagovor duhovnika, ki v kratki nazorni in pregledni obliki podaja krščanski nauk o grehu in zveličanju. Zaradi Adamovega greha (negativen zgled) je prišlo nad človeštvo veliko nesreč (skrbi, bolezni, smrt). Treba se je odpovedati pregreham (tatvine, umori), da bi dosegli zveličanje - zgled so krščanski mučenci in svetniki (pozitiven zgled). Na koncu poziv h kesanju, zveličan bo ...**[missing]**
 
 ## Humanizem in renesansa
 
+Traja od 14. do 16. stoletja.
+
+[Humanizem](pink): Iz latinščine *homo* = človek, *humanic* = človeški. Je znanstvena in literarna dejavnost po letu 1350, v osredju je človek, ne bog.
+
+[Renesansa](pink): Iz Francoščine *renaissance* = ponovno rojstvo. Je kulturno obdobje od 14. do 16. stoletja. Odkritje sveta in človeka, človek je s svojim razumom, čutnostjo in zmožnostmi najvišja vrednota (uživanje, življenje, narava, razum, moč, lepota).
+
+Razvila je vse [nadzvrsti književnosti](green):
+- **Lirika**: Tremi k spojitvi čutne in duhovne lepote - pesniški slog je okrašen s prispodobami in metaforiko, eleganten. Osrednja zvrst je sonet. Glavni predstavnik je Francesco Petrarca.
+- **Pripovedništvo**: Razvije predvsem novelo in roman. Novela je pripoved krajšega obsega, snov je iz stvarnega življenja, zgradba je zaokrožena okoli enega dogodka, oseb je manj, zaplet in razplet sta presenetljiva, včasih ima glavno vlogo predmet. Mojster Giovanini Boccaccio. Roman - srednjeveški in novi tipi (pastirski, potepuški, ljubezenski) - mojster Cervantes.
+- **Dramatika**: Po antičnih vzorcih, novost so snovi in ideje, ki jih je zajemala iz sodobnega življenja. Mojster William.
+
 ### Renesančno gledališče
+
+[Značilnosti](indigo): 
+
+- Bilo je leseno, delno nepokrito gledališče.
+- Prostor je bil osmerokotne ali okrogle oblike s tremi vrstami balkonskih sedežev. 
+- Oder so gledalci obkrožali s treh strani.
+- Preprosta scena.
+- Odrski rekviziti in kulisa so bili skromni, vendar izraziti nad zadnjim delom odra je bil balkon, ki je občasno služil igralcem za prizore, ki so se dogajali na balkonih (npr. Romeo in Julija) ali na grajskem obzidju (npr. Hamlet).
+- Vse vloge v gledališču so igrali moški.
+- Gledališče je bilo odprtega tipa.
+
+[Posebnosti renesančne dramatike](indigo):
+
+- Po zgledu antičnih tragedij in komedij je hotela ustvariti nove oblike, vendar se je kasneje odmaknila od njih.
+- Snovno je začela posegati v sodobno življenje, in to v vse sloje - v osredju je človek, ne bogovi.
+- Prepletala je tragično in komično, kar je bilo v antiki strogo prepovedano.
+- Rušila je trojno enotnost (to pomeni, da se je drama dogajala na enem samem prostoru v zelo kratkem času, obravnavala pa je en sam temeljni dogodek).
+- Dogajanje je razširila, obravnavala je več dogodkov v daljšem časovnem razmiku, menjala je prizorišče.
+- Zgradba drame je pogosto sintetično - analitična, kar pomeni, da je vzroke za dogajanje potrebno iskati že v preddogajalnem času.
 
 #### William Shakespeare: Romeo in Julija
 

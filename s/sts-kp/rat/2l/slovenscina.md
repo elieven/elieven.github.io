@@ -5,7 +5,7 @@ title: Slovenščina • 2. letnik • Računalniški Tehnik • STŠ Koper
 
 
 
-<br><br>
+
 
 # JEZIK
 
@@ -15,7 +15,7 @@ title: Slovenščina • 2. letnik • Računalniški Tehnik • STŠ Koper
 
 
 
-<br>
+
 
 ### Sklanjatve + posebnosti sklanjatev
 
@@ -27,11 +27,11 @@ title: Slovenščina • 2. letnik • Računalniški Tehnik • STŠ Koper
 
 
 
-<br><br>
+
 
 ---
 
-<br><br>
+
 
 Jezik sredstvo sporazumevanja
 
@@ -64,7 +64,7 @@ Prostorske zvrsti
 
 > primorska, koroška, štajerska, rovtarska, panonska, dolenjska
 
-<br>
+
 
 ## Beseda
 
@@ -150,7 +150,7 @@ Osnovna enota jezika, sestavljena iz črk / glasov, ima pomen (en ali več).
 - Pomembno je trenutno doživetje, osebni vtis, običajno v povezavi z naravo.
 - Značilni so razbiti stavki, zvočno slikanje.
 
-<br>
+
 
 ## Evropska moderna
 
@@ -178,11 +178,11 @@ Osnovna enota jezika, sestavljena iz črk / glasov, ima pomen (en ali več).
 - V njej izginja dramatičnost, izrazite so lirske razpoloženjske sestavine.
 - Predstavnik: Wilde
 
-<br>
+
 
 ---
 
-<br>
+
 
 ## Saloma
 
@@ -204,11 +204,11 @@ Temeljni dramski konflikt predstavlja nasprotje med Salomino čutno ljubeznijo i
 
 Ideja: pogubnost človeških strasti in neobvladljiva čustva.
 
-<br>
+
 
 ---
 
-<br>
+
 
 ## Martin Kačur
 
@@ -224,7 +224,7 @@ Končno ga premestijo v Laze. Kraj je predstavljen pretirano svetlo, **optimisti
 
 > Učitelji ob koncu 19. stoletja niso imeli velike vloge, saj se ljudem izobrazba ni zdela pomembna. Dodobra jih je zaznamovala tudi **klerikalna** oblast, kjer je bil župnik učitelju posredno nadrejen in med preprostimi ljudmi najbolj cenjen.
 
-<br>
+
 
 ### Ideja
 
@@ -236,7 +236,7 @@ V besedilu se pojavljajo številna **nasprotja**:
 - med **prosveto** in **cerkvijo**
 - med **naprednim** in **zaostalim**
 
-<br>
+
 
 ### Povzetek
 
@@ -251,7 +251,7 @@ V besedilu se pojavljajo številna **nasprotja**:
   - **Osebna nemoč** glavne osebe (*notranji konflikt med dušo in telesom*).
   - **Krivičnost družbe** (*nekateri so vedno na dnu, vzpenjajo se klečeplazci in oportunisti, ki "vladajo", ko so na vrhu, razglašajo lažno rodoljubje*).
 
-<br><br>
+
 
 ## Ivan Cankar
 
@@ -269,13 +269,13 @@ Ustvarjal je vse nadzvrsti književnosti:
   - Krajša proza (zbirke črtic): Vinjete, Moje življenje, Podobe iz sanj
 - **Dramatika**: Romantične duše, Za narodov blagor, Kralj na Berajnovi, Hlapci, Pohujšanje v dolini šentflorjanski, Jakob Ruda.
 
-<br>
+
 
 ### Pomen
 
 Uveljavil se je kot eden najpomembnejših predstavnikov slovenske književnosti, bil je mojster črtice ter pomemben (prvi in največji) slovenski dramatik. Njegovo delo obsega vse tri nadzvrsti književnosti.
 
-<br>
+
 
 ### Hlapci
 
@@ -287,7 +287,7 @@ Drama v petih dejanjih s tragično in komično perspektivo (satira, karikatura, 
 - Zunanji (nasprotje med Jermanom - napredek, upor - in župnikom - izkoriščanje, zaostalost)
 - Notranji (konflikt v Jermanovi notranjosti: moralna zahteva po sociali svobodi in vest)
 
-<br>
+
 
 - **Satirična realistična drama** s prvinami nove romantike in simbolizma. 
 - **Nova romantika** (Jermanova čustvenost, hrepenenje po ljubezni je duhovna vrednota, ideal)
@@ -298,7 +298,7 @@ Drama v petih dejanjih s tragično in komično perspektivo (satira, karikatura, 
   - Tragična oseba (Jermanova mati - prizadeta zaradi sinovega delovanja, žrtev dogajanja)
   - Tragično trpljenje
 
-<br>
+
 
 **Ideje:**
 - Kritika političnih razmer (volitve leta 1907, zmaga katoliške stranke)
@@ -307,7 +307,7 @@ Drama v petih dejanjih s tragično in komično perspektivo (satira, karikatura, 
 - Ideja nemoči posameznika, da bi spremenil razmere
 - Ideja o odrešilni moči ljubezni (ljubezen je čudežna sila, ki uravnava nasprotja in vrača izgubljeni smisel življenja)
 
-<br><br>
+
 
 ## Evropska književnost 20. stoletja
 
@@ -317,7 +317,7 @@ Dogajanje predstavljajo s pomočjo **toka zavesti**, ki ga izrazijo s pomočjo n
 
 Tudi jezik obravnava na nov način. Biti mora **svoboden**, neposreden, sproščen vseh vezi slovnice. Zato se pojavljajo nelogični, nesmiselni stavki.
 
-<br>
+
 
 **Smeri** oz. -izmi se pojavljajo vzporedno, se prepletajo med seboj.
 - Kubizem, dadaizem, futurizem, nadrealizem, eksistencializem (je izrazito miselna ideološka in filozofska smer, v ospredje postavlja teme, ki so za človeka eksistencialne: absurd, svoboda, odgovornost, nič, smrt - v obliki je razmeroma tradicionalna). Skupni izraz za ime je avantgarda (fr. avantgarde = predstraža, predhodnica).
@@ -327,7 +327,7 @@ Tudi jezik obravnava na nov način. Biti mora **svoboden**, neposreden, sprošč
 - Epika: M. Proust, J. Joyce, F. Kafka, A. Camus
 - Dramatika: B. Brecht, J. P. Sartre, E. Ionesco, S. Beckett 
 
-<br>
+
 
 ### Preobrazba
 
@@ -402,3 +402,34 @@ Absurdno gledališče se začne razvijati okoli 1950. Izhaja iz prepričanja, da
 Oblikovati začne dramsko dogajanje, junake, dialog in jezik kot nekaj absurdnega, da bi s tem postala opazna nesmiselnost realnega življenja.
 
 Zgodbe ni ali je zelo fragmentarna. Dialog je pogosto nelogičen in nepovezan, stavki se spreminajjo v nesmiselne besedne zveze.
+
+### Čakajoč Godota
+
+Besedilo je najbolj znana Beckettova drama in eden glavnih primerov **dramatike absurda**.
+
+[Metaforika](pink): Godot je metafora za odrešitev v brezciljnem svetu. Vse je absurdno, človek v življenju, v samoti, na razpotju čaka. Gre za temeljno eksistencialno problematiko - osebe iščejo smisel v svetu, ki ga dojemajo kot popolnoma absurdnega. Življenje je čista pasivnost, čakanje na konec, smrt.
+
+[Groteska](pink): V besedilu se prepletata grotesknost in črni humor - tragične komične sestavine. V igri je veliko smešnih situacij, vendar ima smeh znak tesnobe, pusti vtis tragičnega, saj se junaka ves čas gibljeta na robu smrti. Nepremagljivo sta ujeta v svoje čakanje kot edino možnost svojega obstoja.
+
+## Ekspresionizem v slovenski književnosti
+
+Traja od leta 1918 do 1930.
+
+Ekspresionizem je umetniška smer, ki se pojavi kot nasprotje impresionizmu. Pojavi se po 1.sv. vojni. Umetniki so pisali o stiski človeka v nečloveškem svetu, iskali so rešitev iz mrtve civilizacije. Upirali so se kapitalistični družbi, izražali so misel, da le revolucija vodi v boljšo prihodnost.
+
+Izraz izhaja iz lat. expressio (iztis, izraz). Iz sebe stiska duševnost, svojo notranjo podobo s pomočjo jezika, ki izraža notranja napeta čustva (tudi s pomočjo krikov ali klicev). Izraža svet, kot ga dojema razbolela duša.
+
+[Glavne značilnosti](blue):
+
+- Gre za iztis notranjega umetnokovega doživetja.
+- Zanikanje zakonov surovega sveta.
+- Teme: osamljenost, smrt, usoda, svoboda, konec civilizacije, začetek / rojstvo novega človeka.
+- Značilne besede: duh, duša, katastrofa, konec, vstaja, revolucija.
+
+[Zvrsti ali vrste](blue): Najbolj se uveljavi lirska poezija (lirika), manj dramatika, najmanj pa pripovedna proza (epika).
+
+[Predstavniki](blue):
+
+- Lirika: S. Kosovel, T. Seliškar, M. Jarc
+- Epika: S. Grum
+- Dramatika: I. Pregelj
