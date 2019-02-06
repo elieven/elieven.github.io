@@ -607,7 +607,7 @@ header::before {
 
 @media screen and (max-width: $xs) {
   body {
-    background-color: white !important;
+    //background-color: white !important;
   }
 
   #table-of-content {
@@ -620,6 +620,9 @@ header::before {
   }
 
   .docwrap {
+    background-color: white;
+    border-top: 1px solid #eaecf0;
+
     .doc {
       padding: 0px !important;
       border: 0;

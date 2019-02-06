@@ -1,5 +1,11 @@
 function cl(t) {
-  console.log(t)
+  if (typeof t == "object") {
+    for (i = 0; i < t.length; i++) {
+      console.log(t[i]);
+    }
+  } else {
+    console.log(t);
+  }
 }
 
 //initiate as false
@@ -11,16 +17,17 @@ if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elain
   isMobile = true;
 }
 
-var scroll_top_btn = document.querySelector('#back-to-top-btn');
+
 
 // init overlay scrollbars
 document.addEventListener("DOMContentLoaded", function () {
   // on mobile i' prefer native scrollbars
   // settings
+  var scroll_top_btn = document.querySelector('#back-to-top-btn');
   var scroll_top_btn_show_threshold = 2000;
   //The first argument are the elements to which the plugin shall be initialized
   //The second argument has to be at least a empty object or a object with your desired options
-  OverlayScrollbars(document.querySelector("body"), {
+  var scrollbar = OverlayScrollbars(document.querySelector("body"), {
     callbacks: {
       onInitialized: function () {
         // adds class to body that removes scroll disabling
@@ -43,17 +50,25 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     className: "os-theme-minimal-dark"
   });
+
+  // Scroll back to top button functionality
+  if (scroll_top_btn != null) {
+    scroll_top_btn.addEventListener("click", function () {
+      OverlayScrollbars(document.querySelector("body"), {}).scroll({
+        y: "0px"
+      }, isMobile ? 0 : 320, "easeOutQuint");
+    });
+  }
+
+  // Table of content collapsing
+  document.querySelector("#toc-toggle").addEventListener("click", function() {
+    document.querySelector("#table-of-content").classList.toggle("collapsed");
+  });
+
 });
 
 
-// Scroll back to top button functionality
-if (scroll_top_btn != null) {
-  scroll_top_btn.addEventListener("click", function () {
-    OverlayScrollbars(document.querySelector("body"), {}).scroll({
-      y: "0px"
-    }, isMobile ? 0 : 320, "easeOutQuint");
-  });
-}
+
 
 
 // SW registering
@@ -63,7 +78,4 @@ if ('serviceWorker' in navigator) {
 
 
 
-// Table of content collapsing
-document.querySelector("#toc-toggle").addEventListener("click", function() {
-  document.querySelector("#table-of-content").classList.toggle("collapsed");
-});
+

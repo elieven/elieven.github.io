@@ -24,17 +24,24 @@ title: Slovenščina • 1. letnik • Računalniški Tehnik • STŠ Koper
 
 
 
+
+
+
 ## Žanrska književnost
 
 ### Mladinska književnost
 
 Namenjena je otrokom in mladostnikom, le-tem pripadajo tudi glavne osebe, delimo jo na **otroško** in [mladostniško](indigo) književnost.
 
+
+
 #### Mladostniška pripovedna proza
 
 - Glavne osebe so mladostniki od pribl. 12 do 18 let.
 - V vsebinah gre za soočanje odraščajočega posameznika z okoljem, družbenimi vrednotami in pravili, mladostnik pride pogosto v konflikt z njimi ali s samim seboj - posledica je **uporništvo** in **kritičnost do družbenih in družinskih pojavov**, ki mladim otežujejo življenje.
 - Značilna vrsta besedila je [realistična mladinska zgodba](indigo), ki pripoveduje o dogodkih iz življenja mladih (težave v dozorevanju, ljubezen, prijateljstvo...).
+
+
 
 #### Mladostniški romani
 
@@ -50,6 +57,8 @@ Glede na prevladujočo temo jih delimo na:
 
 
 
+
+
 ## Potopis
 
 [Potopis](indigo) je poročilo o potovanju - predstavlja dežele, pokrajine, mesta, prebivalstvo, običaje ... ima praktično (izobraževalno) vlogo.
@@ -59,6 +68,8 @@ Glede na prevladujočo temo jih delimo na:
 Razvijati se je začel že v srednjem veku (Marco Polo o potovanju v Mongolijo), v slovenski književnosti se je uveljavil v drugi polovici 19. stoletja (Fran Levsitk: *Popotovanje iz Lilije do Čateža*, 1858). V sodobni književnosti so Tomo Križnar, Evald Flisar, Branko Grašnik...
 
 Potopis se pogosto pojavlja kot element znotraj drugih literarnih vrst, zlasti epa in romana (Homer: *Odiseja*, Cervantes: *Don Kihot*, Swift: *Gullierjeva potovanja* ...)
+
+
 
 ### Tomo Križnar: Nuba, Čisti Ljudje
 
@@ -70,6 +81,10 @@ Avtor predstavlja značilnosti nubijskega življenja. Njegova pot je nevarna, a 
 
 
 
+
+
+
+
 ## Orientalska književnost 
 
 ### Biblija (Sveto pismo)
@@ -77,6 +92,8 @@ Avtor predstavlja značilnosti nubijskega življenja. Njegova pot je nevarna, a 
 V njem je ohranjena starojudovska (hebrejska) književnost - ena izmed književnosti starega orienta. Ime izhaja iz gr. ta biblia = knjiga knjig. Je temelj judovske krščanske religije.
 
 Zgradba:
+
+
 
 #### Stara zaveza
 
@@ -87,6 +104,8 @@ Zgradba:
 - Zgradba: 3 deli (Postava, Preroki, Hagiografi / spici)
 
 > To nism lih fix
+
+
 
 #### Nova zaveza
 
@@ -101,9 +120,13 @@ Sestavljajo jo besedila verskega in posvetnega značaja - poezija in proza. Ni l
 
 Najbolj razširjena knjiga na svetu, prevajana v svetovne jezike - prvi slovenski prevod: Jurij Dalmatin: Biblija, 1584.
 
+
+
 ### Prilika o izgubljenem sinu
 
 Besedilo je del Nove zaveze - Lukovega evangelija.
+
+
 
 #### Vsebina
 
@@ -119,9 +142,13 @@ Prilika / parabola? = besedilo, v katerem je sporočilo ponazorjeno s prispodobo
 
 
 
+
+
 ## Antika, Antična Književnost
 
 Obdobje v Evropi, pred srednjim vekom, ki se razvija od 8.st.pr.n.št. do 5.st.pr.n.št. Razvijeta se prvi evropski književnosti: [stara grška književnost](green) in [stara rimska književnost](green).
+
+
 
 #### Stara grška književnost:
 
@@ -140,6 +167,8 @@ Predstavniki: Homer, Sofokles, Ajshil, Evripid...
 
 Pomen: vplivala na evropske književnosti različnih obdobij.
 
+
+
 #### Stara rimska književnost
 
 Od 3.st.pr.n.št. (ko je ujeti grk Livij Andronik prevedel Odisejo v latinščino) do 5.st.n.št.
@@ -152,6 +181,8 @@ Nastala je in se razvijala v močni odvisnosti od grške, prevzeli so vse pomemb
 - Obdobje poznega cesarstva
 
 Predstavniki: Vergil, Plavt idr.
+
+
 
 ### Homer: Odiseja
 
@@ -184,6 +215,8 @@ Glavna oseba Odisej = idealiziran junak, popoln v moči in lepoti, vendar umrlji
 - Okvirna pripoved. ??
 - Slog: glavna slogovna značilnost je epska širina.
 
+
+
 ### Antična dramatika
 
 Grki in Rimljani so postavili temelje evropski dramatiki in gledališču, razvijeta se tragedija in komedija.
@@ -202,6 +235,8 @@ Grki in Rimljani so postavili temelje evropski dramatiki in gledališču, razvij
 - Gledalec ob tem občuti notranje očiščenje / katarzo, pretresenost, nato pomiritev ob neizbežni vsodi.
 - Pomembno vlogo imajo bogovi.
 - Avtorji: Ajshil, Sofokles, Evripid...
+
+
 
 #### Sofokles: Kralj Ojdip
 
@@ -234,6 +269,10 @@ Kmalu po kraljevi smrti je prišla na Tebe druga nesreča v podobi Sfinge. Ta lj
 
 [Ojdipova tragičnost](pink): Ojdip je >>kriv brez krivde<< - zagrešil je dvojni umor, to so mu med rojstvom določili bogovi, ni imel druge možnosti.
 
+
+
+
+
 ## Srednji vek pri slovencih
 
 V času od 10. do 14. stoletja se v slovenski književnosti razvija ljudsko slovstvo in polliteraturna besedila za cerkveno rabo (pismenstvo).
@@ -248,6 +287,8 @@ V času od 10. do 14. stoletja se v slovenski književnosti razvija ljudsko slov
   - Brižinski spomeniki,
   - Celoviški ali rateški rokopis,
   - Stiški rokopis.
+
+
 
 ### Brižinski spomeniki
 
@@ -265,11 +306,17 @@ Pisani so v latinici, črkopis je karolinška minuskula. Jezik je slovenščina 
 
 [Pomen](pink): so prvi slovenski zapis, imajo velik kulturni in jezikovni pomen.
 
+
+
 #### 2. Brižinski spomenik: pridiga o grehu in pokori
 
 Je pridiga - polliteralno besedilo. Poučno in vzgojno pridiga preprostejšim, zato vsebuje besedilo ponazoritve - zglede / eksemple iz življenja.
 
 [Vsebina](pink): Nagovor duhovnika, ki v kratki nazorni in pregledni obliki podaja krščanski nauk o grehu in zveličanju. Zaradi Adamovega greha (negativen zgled) je prišlo nad človeštvo veliko nesreč (skrbi, bolezni, smrt). Treba se je odpovedati pregreham (tatvine, umori), da bi dosegli zveličanje - zgled so krščanski mučenci in svetniki (pozitiven zgled). Na koncu poziv h kesanju, zveličan bo ...**[missing]**
+
+
+
+
 
 ## Humanizem in renesansa
 
@@ -283,6 +330,8 @@ Razvila je vse [nadzvrsti književnosti](green):
 - **Lirika**: Tremi k spojitvi čutne in duhovne lepote - pesniški slog je okrašen s prispodobami in metaforiko, eleganten. Osrednja zvrst je sonet. Glavni predstavnik je Francesco Petrarca.
 - **Pripovedništvo**: Razvije predvsem novelo in roman. Novela je pripoved krajšega obsega, snov je iz stvarnega življenja, zgradba je zaokrožena okoli enega dogodka, oseb je manj, zaplet in razplet sta presenetljiva, včasih ima glavno vlogo predmet. Mojster Giovanini Boccaccio. Roman - srednjeveški in novi tipi (pastirski, potepuški, ljubezenski) - mojster Cervantes.
 - **Dramatika**: Po antičnih vzorcih, novost so snovi in ideje, ki jih je zajemala iz sodobnega življenja. Mojster William.
+
+
 
 ### Renesančno gledališče
 
@@ -305,19 +354,145 @@ Razvila je vse [nadzvrsti književnosti](green):
 - Dogajanje je razširila, obravnavala je več dogodkov v daljšem časovnem razmiku, menjala je prizorišče.
 - Zgradba drame je pogosto sintetično - analitična, kar pomeni, da je vzroke za dogajanje potrebno iskati že v preddogajalnem času.
 
+
+
 #### William Shakespeare: Romeo in Julija
+
+Avtor [William Shakespeare](pink) (1564 - 1616), angleški pesnik in dramatik, velja za enega največjih besednih umetnikov vseh časov. Bil je igralec in režiser, solastnik gledališč. Pisal je tragedije (Hamlet, ROmeo in Julija, Othello, Kralj Lear...), komedije (Komedije zmešnjav, Mnogo hrupa za nič, Uročena trmoglavka, Sen kresne noči...), kraljevske drame (Kralj Ivan, Richard II, Henrik IV...)
+
+Romeo in Julija je tragedija v petih dejanjih.
+
+[Vsebina](pink): 
+
+V veroni živita sprti družini Capuleti in Montegi. Mladi Monteg Romeo se na plesu pri Capoletovih zaljubi v domačo hčer Julijo - gre za veliko ljubezen na prvi pogled, ki pripelje do skrivne poroke. 
+
+Romeo je nato izgnan iz mesta, starši pa hočejo Julijo poročiti s Parisom. Da bi se tega rešila, s pomočjo prijatelja meniha Lorenza spije čarobni napoj, s katerim zgleda navidezno mrtva. Julijo "pokolpjejo" v grobnico. Lorenzo skuša obvestiti Romea o resnici, vendar do Romea pride le novica, da je Julija mrtva.
+
+Obupan se vrne v mesto, v dvoboju ubije Parisa. Nesrečen spije strup in ob Juliji umre. Ona se nato zbudi, zagleda Romea in se nesrečna zabode z mečem. Po njuni smrti se družini pobotata.
+
+[Dramski konflikt](pink): Temeljni dramski konflikt je nasprotje med pozitivnimi in negativnimi čustvi, med ljubeznijo in sovraštvom. 
+
+![Dramski trikotnik](https://res.cloudinary.com/solamona/image/upload/v1549381436/zvs/sts-kp/rac/4l/slovenscina/dramski-trikotnik.png){: width="380px" align="center"}
+
+Pomembno vlogo imajo vsoda in naključja, osebe so prikazane romantično, slutijo nesrečo, z njimi se poigrava kruta vsoda, njihova čustva so silovita, tragičnost pa se kaže predvsem v tem, da sta Romeo in Julija nemočna pred sovražnim svetom, ki ju obkroža. Propadeta zaradi ljubezni, ki jima pomeni največji ideal in sta zaradi nje pripravljena umreti.
+
+[Ideja](pink): Ljubezen je globoko pozitivno čustvo, je močnejša in bolj pomembna od sovraštva.
+
+Primerjava med [antično](green) in [renesančno](green) dramatiko:
+
+| Antična (Sofokles: Kralj Ojdip)                    | Renesančna (Shakespeare: Romeo in Julija)                    |
+| -------------------------------------------------- | ------------------------------------------------------------ |
+| Človekov propad in nemoč so posledica volje bogov. | Tragičen razplet je posledica volje, čustev, ravnanj, okolja - junak je konkretna individualnost. |
+| Analitična drama.                                  | Sintetična drama.                                            |
+| Pravilo treh enotnosti.                            | Ne upošteva pravila treh enotnosti (besedilo daljše, več prizorišč in oseb). |
+
+
 
 #### Cervantes: Don Kihot
 
+Avtor Miguel de Cervantes Saavedra (1547 - 1616) je eden najbolj znanih španskih pisateljev, pisal je tudi poezijo in dramatiko, zaslovel je z romanom Don Kihot.
+
+Don Kihot je prvi novoveški roman. Je **parodija** na vitežke romane. *Parodija* je književno delo, ki posnema ideje, dogodke in junake drugih literarnih del, vendar se jim posmehuje, jih sprevrača v nasprotje.
+
+Zgrajen je iz dveh delov (1605, 1615).
+
+[Vsebina](pink): Revnemu vaškemu plemiču Kihani se ob branju viteških romanov "zmeša", kot vitez Don Kihot iz Manče se odpravi pustolovščinam naproti s plemenitimi cilji: ščititi slabotne pred nasilnimi, boriti se za dobro, pravico in resnico. Spremlja ga oproda Sančo Pansa, njegova izbrana dama (sicer kmečko dekle) je Dulsineja Toboška. Po mnogih prigodah (kmet in pastirček, boj z mlini na vater) se vrne domov, razočaran, "spametovan in streznjen" umre.
+
+**Boj z mlini na veter**: Don Kihot si ob pogledu na mline na veter zamisli, da so to velikani z velikimi rokami, ki jih mora napasti. Sančo Pansa ga prepričuje, da to ni res, a njegov gospodar vstraja, s konjem in sulico se zagati na mline , njihove vetrnice se zaradi vetra premaknejo in s seboj potegnejo DOn Kihota in odvrši in pade z Rosinantom vred na tla. Ko Sančo Pansa pomaga, da vstane, Don Kihot vztraja pri tem, da so to veliki velikani, ki jih je začaral nek čarovnik.
+
+[Tema](pink): Nasprotje med [idealizmom](green) in [realizmom](green).
+
+| Idealizem (Don Kihot)                                        | Realizem (Sančo Pansa)                                       |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Obubožan plemič, nesebičen, poduhovljen. <br>(idealizem, nadzemeljsko) | Preprost, naiven kmet brez domišlije. <br> (Realizem, prakticizem) |
+
+[Ideja](pink): Kritika srednjeveških vitežkih romanov. Človek ima pravico, da svobodno izbira svojo življensko pot, človek brez idealov ne more živeti.
+
+[Renesančne značilnosti](pink):
+
+- Človekova samozavest,
+- ponos, raumskot??
+- človekova svobodna izbira poti
+
+[Tragikomičnost](pink): Don Kihot je bolj [tragičen](green) kot [komičen](green) lik - dobre misli in dela se mi največkrat sprevržejo v zlo zanj ali za druge. Sanjskega sveta ni našel, izgubil je iluzije in ideale.
+
+
+
+
+
 ## Reformacija in Protestantizem
+
+Traja od 1550 do 1600.
+
+- **1550** - izide prva tiskana knjiga: Abecednik in Katekizem.
+- **1600** - nastopi protireformacija.
+
+[Značilnosti](pink): 
+
+- [Reformacija](green): (lat. *Reformare* - preoblikovati, preurediti) - versko gibanje v Evropi v 16. stoletju. Zahtevala je spremembe cerkva (plačevanje odpustkov, razkošje, nemoralnost duhovščine...).
+- [Protestantizem](green): gibanje, ki nasprotuje cerkvenemu razkošju - borili so se proti praznoverju vernikov, odpravili celibat...
+
+Je obdobje, ki temelji na zahtevi po spremembi cerkve, pristopa proti napakam (npr. odpustki), zahteva branje svetega pisma v materinem jeziku.
+
+[Pomen](pink): Obdobje je za književnost zelo pomembno, saj je slovenščina postala knjižni jezik, gre za začetke slovenske književnosti, ki je še neumetniška, poučna, namenjena cerkvenim potrebam. 
+
+Najpomembnejša dela so:
+
+- Primož Trubar: **Abecednik in Katekizem** (1550).
+- Jurij Dalmatin: **Biblija** (1584) - prvi slovenski prevod.
+- Adam Bohorič: **Zimske urice** (1584) - prva slovenska slovnica.
+
+S tem se začne širiti tudi zavest o skupnosti slovencev, za spomin na tako pomembno obdobje imamo danes slovenski državni praznik - dan reformacije (31. oktober).
+
+[Predstavniki](pink): Primož Trubar, Jurij Dalmatin, Sebastijan Krelj, Adam Bohorič.
+
+
 
 ### Primož Trubar: Proti zidavi cerkva
 
+Avtor Primož Trubar (1508 - 1586) se je uveljavil kot začetnik in glavni **???** protestantizma in reformacije v slovenski književnosti. Je avtor prvih tiskanih knjig (22 v slovenščini) in s tem utemeljitelj slovenskega knjižnega jezika. 
+
+Njegova najbolj znana dela so:
+
+- Abecednik in Katekizem, 1550
+- Cerkvena ordininga (cerkveni red), 1564
+- Evangelij svetega Matevža, 1555
+
+[Proti zidavi cerkva](pink): 
+
+Pred oseminudvajseti lejti, tedaj, kedar sem v Loki per Radočaju farmošter bil, je bila gori nad Kompolom v vinogradih ena baba; ta se je svetila inu pravila, de s. Sebastijan inu s. Roh vsako nuč k ni prideta, ž nogovorita inu velita, da se nima na tim hribu nad Kompolom inu Šemačino eno cerkiv sturi inu sezida; akutiga ne dejo, taku hočta čez te ludi inu čez živino tak pomor inu žlize poslati, de malo ludi inu živine živeostane; onadva tudi hočta vse vinograde inu pole s točo pobiti. Takim babskim hudičevim marinem so tipreprosti ludje verovali, inu zdajci od lesa inu iz desak sture eno kapelico inu začno undu mašovati, živino inu drugu blagu ofrovati inu perpravlati kamine h timu zidanu. Ampak jest sem takimu zidanu inu ofrovanumočnu zuper pridigal inu govuril; za tiga volo so mene hoteli ti farmani na Šemačini biti, de sem od nihmoral pobegniti. Natu pošlem mujga vikarja, gospud Jerneja Rugelna, h ti babi inu pustim vprašati, v kateriuri inu v kakovi štalti ta dva svetnika k ni hodita; natu je ona djala, ob pulnoči vselej dva lipa črna moža k niprideta. H timu je gospud Jernej rekel, nekar ne pravi, de sta črna, temuč de sta bela, zakaj ti zludji so črni,svetniki so beli. Ona odguvori: “Ja, gospud, jest hočo reči, de sta bela.” Glih taku ena druga baba je hotela imejti, de bi se bila ta tretja cerkov gori na Bruniki per tih Trijeh kralihzidala. Blizi mujga rojeniga domu per Rastčici je ena cerkov divice Marije, kir se pravi na Silevici. Undu seje tudi ena vsem ludem vejdeča kurba, tej so djeli Šavleča Katerina, inu ena vduva Margeta Hudakončevka inu en muj stric Gregor Trubar malinar — le­ti tri so se tudi veden svetili inu pravili, koku se nim divicaMarija perkazuje inu hoče imejti, de se na Silevici ni en nunski klošter sezida. S tejm pravlenem so tudi h ticerkvi dosti gvanta inu živine perpravili. Od tiga so farji inu cehmojstri dobru lebali inu per tim hud konecvzeli: farmošter te iste cerkvij od sujga svaka ubijen, cehmoštre so Turki ujeli, mujga strica Gregorja je enudrivu ubilu, Hudakončevka je v Ah hodejoč — nišče ne vej, kej oli koku — umrla. Glih taku ta cerkov na Sveti gori per Gorici je tudi od ene zludjeve babe gori prišla inu te druge cerkve na gorah skoraj vse. H timufarji, škofi inu nekateri gospudje melče, za volo kir od tacih malikovih ofrov imajo dosti mesa h kuhanu. Olizludi nje, kir h taki pergrehi inu golufiji melče, zuper ne pridigujo inu ne branijo, bode tudi kuhal v tim pekluvekoma, aku prave pokure inu per pravim času ne dejo.
+
+
+
+To besedilo je Trubarjevo [izvirno besedilo](green), v katerem po lastni izkušnji opisuje praznoverje vernikov in bogatenje duhovščine na njihov račun. Pripoveduje po spominu, zato gre za [spomine ali memoarje](green).
+
+[Vsebina](pink): Trubar pripoveduje o dogodku, ko je neka ženska širila govorice, da se ji prikazujeta 2 svetnika, ki zahtevata, naj zgradijo cerkev, če tega ne naredijo, bosta toča in kuga uničila pridelke, živino in ljudi. Ljudje nasedejo, Trubar jih hoče prepričati, da je to laž, zato ga izženejo, njegov pomočnik pa dokaže, da ženska laže (*ženska trdi da sta svetnika oblečena v črno kar ni mogoče ker so tej oblečeni v belo*). Tudi v nadaljevanju besedila Trubar našteva primere izkoriščanja preprostih vernikov, ob tem pa ugotavlja, da duhovniki to spodbujajo, saj imajo samo korist.
+
+[Jezik in slog](pink): V jezikovnih značilnostih se kažejo [dolenjske narečne oblike](green) besed, [popačenke iz nemščine](green), ponavljanje veznika inu, besede uporabi v prvotnem pomenu, stavki so preprosti.
+
+[Sporočilo](pink): Trubar svari ljudi pred praznoverjem, "štiftarstvom", in jih opozarja na koristoljubje katoliške duhovščine.
+
+
+
 ## Protireformacija
+
+1558 leta je bil izdan ukaz o prepovedi delovanja vseh protestantskih dejavnostih. Tako so pod vodstvom škofa Tomaža Hrena porušili in uničili vse, kar so reformatorji ustvarili (zažgali vse knjige, razen Biblije).
+
+Ta književnost je skromna, manj pomembna. Govorimo o t.i. knjižnem zastoju. Med zvrstmi in vrstami se najbolj razširijo pridige, nabožne pripovedi, cerkvene pesmi, duhovne igre.
+
+
 
 ## Barok
 
+Barok (iz portugalske besede *barocco* - nepravilno, zavito) - pretirano, prepolno, izumetrično, okrašeno, izrazno zapleteno.
+
+Za književnost je značilna slikovito, dogajalna raznovrstnost, bogata metaforika, v temah pogosta nasprotja in razklanost, npr. med čutnimi užitki in minljivostjo življenja, med tostranstvom in onostranstvom... jezik je izumetričen, preobložen, besedni pomeni nejasni, prispodobe zapletene.
+
+Slovenska baročna književnost je pomembna, ker je prekinila obdobje literarnega zastoja (protireformacije), začelo se je t.i. [obnovljeno književno delovanje](green), ki je v slovensko književnost prineslo polliterarne vrste cerkvenega slovstva - besedila so namenjena cerkveni rabi.
+
 ### Janez Svetokriški: Na novega lejta dan
+
+to be continued...
 
 ## Razsvetljenstvo
 

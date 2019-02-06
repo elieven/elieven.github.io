@@ -12,23 +12,23 @@ Računalniško omrežje tvorita najmanj dve napravi ki sta med seboj **povezani*
 
 ### Elementi rač. omrežja:
 
-- **Naprave** (telefon, računalnik, tablica)
-- **Ruter** (usmerjevalnik - rabimo ga za internet)
-- **Switch** (stikalo)
-- **Modem** (pretvori signal iz digitalnega v analogni in obratno, komunikacijski kanal razdeli na dva dela -  upload in download)
-- **Prenosna sredstva** (parica, koaksialni kabel, optika)
-- **Internetni ponudnik**
-- **Paketki**
-- **Protokol TCP/IP**
-- **RFC dokumenti**
+- [Naprave](pink) (telefon, računalnik, tablica)
+- [Ruter](pink) (usmerjevalnik - rabimo ga za internet)
+- [Switch](pink) (stikalo)
+- [Modem](pink) (pretvori signal iz digitalnega v analogni in obratno, komunikacijski kanal razdeli na dva dela -  upload in download)
+- [Prenosna sredstva](blue) (parica, koaksialni kabel, optika)
+- [Internetni ponudnik](blue)
+- [Paketki](green)
+- [Protokol TCP/IP](green)
+- [RFC dokumenti](green)
 
 ### Delitev omrežja glede na geografski obseg
 
-- **Osebno omrežje (PAN)** je vezano na en prostor (stream, povezava mobilnih naprav na računalnik)
-- **Lokalno omrežje (LAN)** je osnovni gradnik vsakega rač. omrežja. (doma, šolsko omrežje, mobilno omrežje...) To so zasebna omrežja, ki se nahajajo znotraj neke stavbe ali območja na razdalji nekaj metrov.
-- **Mestno omrežje (MAN)** primer je kabelska TV
-- **Širokopodročno omrežje (WAN)**
-- **Globalno omrežje (Internet)**
+- [Osebno omrežje (PAN)](pink) je vezano na en prostor (stream, povezava mobilnih naprav na računalnik)
+- [Lokalno omrežje (LAN)](pink) je osnovni gradnik vsakega rač. omrežja. (doma, šolsko omrežje, mobilno omrežje...) To so zasebna omrežja, ki se nahajajo znotraj neke stavbe ali območja na razdalji nekaj metrov.
+- [Mestno omrežje (MAN)](pink) primer je kabelska TV
+- [Širokopodročno omrežje (WAN)](pink)
+- [Globalno omrežje (Internet)](pink)
 
 ## Dostop do omrežja
 
@@ -207,6 +207,8 @@ Preveri se , da se biti tekom prenosa niso spremenili. Protokola UDP in TCP na s
 ![diagram kontrolnih bitov v segmentu][kontrolni-biti]{: .imgc}
 
 #### Postopek računanja kontrolnih bitov
+
+[Celotna razlaga v angleščini - TCP & UDP checksum](https://www.slashroot.in/how-is-tcp-and-udp-checksum-calculated)
 
 Začnemo s številom, ki mu želimo izračunati kontrolne bite in s številom `k`, ki nam pove na kako velike dele razdelimo število.
 
