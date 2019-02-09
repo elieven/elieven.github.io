@@ -492,15 +492,160 @@ Slovenska baročna književnost je pomembna, ker je prekinila obdobje literarneg
 
 ### Janez Svetokriški: Na novega lejta dan
 
-to be continued...
+Avtor Janez Svetokriški (1647 - 1714) je bil duhovnik in znan baročni pridigar.
+
+[Na noviga lejta dan](pink) je primer govorniške / retorske proze slovenske baročne cerkvene književnosti, izšla je v zbirki pridig sveti priročnik. Je pridiga z versko-moralnim naukom, ki je oprt na nazorne primere.
+
+[Zgradba](pink): Kot vsak verski govor ima tudi to besedilo 4 dele (tema, uvod, jedro, zaključek).
+
+[Vsebina](pink): Svetokriški 1697. kot voščilo ob novem letu nagovarja vernike, naj ne nasedajo skušnjavam, naj ne bredejo v greh, od žena zahteva potrpežljivost, od možev pa zgledno življenje. Nauki so podani v podobi "faconetlnov" (robčkov). Ob širjenju verskih resnic ponuja poslušalcu zglede / eksemple za ponazoritev verskih naukov (anekdota o cesarici Liviji, anekdota o Sokratu in njegovi ženi, šaljivka o kosih in drozgih = *variranje motiva*).
+
+[Baročne prvine](pink): nagovarjanje, kopičenje opozoril, razlaganje, zgled, prispodobe, imenitnost in blišč (veliko latinskih citatov), nasprotja (stroga moralistika - živopisne zgodbice).
+
+[Alegorično moraliziranje](pink): iz variiranja motiva zakonske prepirljivosti in pomirljivosti izpelje vzgojne nauke o strpnosti.
+
+[Pomen](pink): Janez Svetokriški se s to pridigo uveljavlja kot začetnika slovenskega pripovedništva.
+
+[Povzetek prve zgodbe](green): zgodba govori o ženinu in nevesti iz Rima: ženin pošljenevesti robček s podobo rimske  cesarice  Livije  in napisom: »Taka  bodi« torej naj bo strpna  in muzvesta, kot je bila Livija svojemu možu. Nevesta je razumela sporočilo in tudi sama izvezla robček sSokratovo   podobo   in   napisom:   »Tudi   ti   bodi   tak.«,   tudi   Sokrat   je   bil   namreč  pokoren   svoji  ženi.Svetokriški poziva zakonce, naj se ravnajo po tem paru iz Rima.
+
+[Povzetek druge zgodbe](green): zgodba govori o ženi, ki je hotela vedno imeti zadnjo besedo: mož je za večerjo prineseldrozge, za katere je žena trdila, da so kosi. Sprla sta se in mož je  ženo  pretepel. Naslednje leto istega dne žena moža spomni na lanskoletni pripetljaj in znova se spreta. Prisoten je tudi prodajalec. Ko izve za vzrok prepira, se o tem posvetuje s svojo ženo. Tudi onadva se spreta in kmalu celo mesto. Ženske so dale prav ženi, moški možu.
+
+[Povzetek tretje zgodbe](green): zgodba govori o moški  nesposobnosti:  žena  je  morala  po  opravkih,  možu  pa je  zaupala pi ščeta. Moža je na straži premagal spanec, jastreb pa mu je medtem ukradel pišče. Ko se je ženavrnila, je opazila, da eno pišče manjka in moža zaradi nepazljivosti pretepla. Naslednji dan je moralmož spet paziti perjad, žena pa mu je še naročila, naj pusti pri miru lonec »strupa«, v katerem je bil vresnici med. Mož je piščeta zvezal skupaj, da jih ne bi odnesel jastreb, ker pa se je to zgodilo, je vstrahu pred ženo pojedel ves »strup«. Žena je obupana spoznala, da si je zastonj razbijati glavo, čemož ni za nobeno rabo. Pridigar se vrne k uvodni zgodbi in roti žene, naj se zgledujejo po Liviji, moški pa naj se ravnajo po Sokratu.
+
+
+
+
 
 ## Razsvetljenstvo
 
+Trajalo je od 1768 do 1819. Pouhin: Kranjska Gramatika. Umreta Zois in Vodnik.
+
+[Značilnosti](pink): (*razsvetljevati* = preganjati temo) razsvetljenci so s svobodnim razumom razmišljaji o človeku, kritizirali so praznoverje, zaostalost, verski fanatizem, neukost, predsodke, nestrpnost, nasilje, zastarele državne in družbene oblike - tudi verske, fevdalizem, plemiški privilegij, značilen je razsvetljenski optimizem. Poudarjajo razum človeka, njegove potrebe in koristi, srečo. Za ideje uporabljajo književnost, ki je idejna, tendenčna, angažirana.
+
+[Pomen](pink): Za slovensko književnost je zelo pomembno obdobje, pomeni razvoj slovenske posvetne književnosti (umetniške književnosti).
+
+[Dobimo](pink):  
+
+- prvi pesniški zbornik Pisane  
+- prvega slovenskega pesnika - Valentin Vodnik: Pesme za pokušino  
+- prvega slovenskega dramatika - A. T. Linhart: Županova Micka, Matiček se ženi.  
+- veliko učbenikov, praktičnih priročnikov (kuharske bukve)  
+- slovnico Kranjska gramatika  
+- prvi slovenski časopis (Lublanske novice)  
+
+[Predstavniki](pink): Žiga Zois, Anton Tomaž Linhart, Valentin Vodnik, Marko Pohlin.
+
+
+
 ### Anton Tomaž Linhart: Ta veseli dan - ali - Matiček se ženi
+
+Avtor Anton Tomaž Linhart (1756 - 1795) je pomemben predstavnik slovenskega razsvetljenstva, velja za prvega slovenskega dramatika - napisal je prvi dramatski besedili v slovenskem jeziku, ki sta bili enakovredni evropski dramatiki tistega časa (Županova Micka, Ta veseli dan - ali - Matiček se ženi).
+
+[Vsebina](pink): 
+
+Matiček in Neža delati pri baronu Naletelu in načrtujeta poroko. Nežka zaupa baronovi ženi Rozali, da jo baron zapeljuje, zato se Matiček, baronica in Nežka odločijo, da bodo baronu nastavili past. V graščiškem uradu pripravijo sojenje Matičku, ker ni vrnil denarja Smrekarici, pogodba pa ga zavezuje, da se mora z njo poročiti. Glavni sodnik je baron, sodelujejo ša še baronov pomočnik žužek, advokat Zmešnjava in podeželjski pisar Budala. Sredi sojenja se razkrije, da je Smrekarica pravzaprav Matičkova mati, žužek pa oče, tako je Matiček oproščen. Pripravlja se poroka Matička in Nežke, baronica in Nežka pa zvečer izpeljeta načrt in osmešita barona Naletela. Gospa in Nežka si izmenjata obleke, baron dvori svoji ženi, prepričan, da je Nežka, ko godci z baklami osvetlijo prostor, pa vsi spoznajo resnico. Baron je osramočen, a se kesa, zato mu je oproščeno, Nežka in Matiček se poročita, dobita trikratno doto, poročita se tudi Žužek in Smrekarica - Matičkova starša.
+
+[Osebe](pink):
+
+- **Matiček**: vrtnar, pameten, pogumen, spreten, iznajdljiv, zvit.
+- **Baron Naletel**: predstavnik moralno pokvarjenega plemstva, sebičen, nezvest, ljubosumen.
+- **Nežka**: barončina hišna, pametna, zaljubljena v Matička.
+- **Baronica Rosala**: z možem nesrečna, spretna v spletkah.
+- **Zmešnjava**: tipičen, brezdušen, advokat, povdarja navidezno učenost.
+- **Budalo**: karikatura podeželskega pisarja, obnaša se bedasto, nima mnenja.
+- **Brezsrčna in omejena birokrata** = satira na kranjske deželne stanove.
+
+[Priredba](pink): Komedija ni izvirna, naslonil se je na Beaumarchaisovo (bomaršejevo) Figarovo svatbo, naredil priredbo (predelal, dopolnil, ponašil).
+
+[Literarna vrsta](pink): Je satirična komedija = v kritični luči predstavlja življenje in moralo plemstva, grajsko oblast in vernike, zlasti v odnosu do kmetov in preprostih ljudi.
+
+[Vrste komičnosti](pink):
+
+- **Situacijska** - veliko komičnih situacij (baron proti Matičku).
+- **Besedna** - nenavadna in smešna imena oseb, karakterizirajo osebe in omogočijo besedne igre.
+
+[Ideja](pink): 
+
+- Prikazuje nasprotja med lahkoživim, pokvarjenim plemstvom.
+- Linhart kritizira baronov svet, ki je obsojen na propad (sklicuje se na Fevdalne pravice, krši moralne vrednote, deluje omejeno do nižjih slojev).
+- Matiček je nosilec razsvetljenskih idej in vrednot (pamet, pogum, samozavest, poštenost, naravnost, preprosta sreča). Pripadnika nižjega sloja (slovenca) premagata gospoda.
+
+[Razsvetljenstvo](green) je pogled na človeka, njegovo srečo in potrebe. Linhart je dokazal, da je tudi slovenski jezik primeren za oder, je tudi jezik umetnikov, ne samo hlapcev.
+
+
+
+## Romantika
+
+Romantika je umetnostna smer v polovici 19. stoletja, ki je poudarjala subjektivnost, čustva in domišlijo. Ime izhaja iz besede roman (romantično pomeni "tako kot v romanih" - prispodoba za nekaj lepega, nestvarnega, čustvenega).
+
+Glavna književna vrednota postane [lepota](green) - ne le čutna, predvsem duhovna.
+
+[Osrednje značilnosti](pink):
+
+- usmerjenost v [človekovo notranjost](green), [čustva](green) (ljubezen)
+- močna [domišlija](green) (izmišljen svet, nenavadnost)
+- razočaranje nad stvarnostjo, beg iz starega sveta v idealizirano pretelost ali prihodnost.
+- zanimanje za [narodovo preteklost](green) in ljudsko pesništvo
+- izpovedovanje čustev ([lirika](green) v prednosti pred epiko, poezija pred prozo)
+- privzdignjenost jezika [čustveno obarvan slog](green)
+
+
 
 ## Evropska Romantična književnost
 
+Začne se okoli leta **1800** (Anglija, Francija), ostale evropske dežele nekaj kasneje, vrh doseže okoli leta **1820**, konec **1830** (Francija, Anglija, Nemčija), druge dežele okoli **1850**.
+
+
+
+### Nadzvrsti in vrste
+
+[Lirika](pink):
+
+- Najpomembnejša za neposredno [ponazoritev človekovega notranjega življenja](green), idealnih teženj, neskladnosti s stvarnim svetom.
+- Prevladuje [čustvena in razpoloženjska lirika](green), pa tudi miselno pesništvo.
+- Teme: idealna ljubezen, hrepenenje po drugačnem življenju, neskončnost, smrt, spomini na mladost, osamljenost, nasprotje med lepoto posameznika in povprečnostjo sveta, žalost, nesreča, svoboda...
+- Lirske vrste: sonet, gazela, glosa, tercina.
+
+[Epika](pink):
+
+- [Pripovedna poezija](green): Priljubljena tema je usoda romantičnega junaka in njegov spor s stvarnostjo. Balada in romanca z izrazitimi lirskimi prvinami, povesti v verzih, roman v verzih (**Byron**: Romanje grofiča Harolda, Parizina??, **Puškin**: Jevgenij Onjegin).
+
+- [Pripovedna proza](green): (pripovedke, novesti, novele romani). Epika se prepleta z mičnimi sestavinami lirike, razvije se več vrst romanov: pisemski (Goethe: Trpljenje mladega Wertherja), psihološki, zgodovinski...
+
+[Dramatika](pink):
+
+- Najmanj razvita, le zgodovinske drame.
+- Predstavniki:
+  - Rusija: M. J. Lermontov, A. S. Puškin
+  - Nemčija: J. W. Goethe
+  - Anglija: G. G. Byron
+  - Francija: V. Hugo
+  - Italija: G. Leopardi
+
+
+
 ### A. S. Puškin: Jevgenij Onjegin
+
+Avtor **Aleksander Sergejevič Puškin** (1799 - 1837) velja za najpomembnejšega predstavnika ruske romantike, ustvarjal je liriko, epiko in dramatiko.
+
+[Jevgenij Onjegin](pink) je [roman v verzih](green).
+
+[Zgradba](pink): ima 8 poglavij, ki se delijo na kitične sklope. Vsaka kitica ima 14 verzov (vseh 5275), vsak verz ima 4 jambe (U-) = [onjeginska](green) kitica razgibana, pestrost vnašajo predvsem raznovrstne rime.
+
+[Vsebina](pink): 
+
+Plemič Jevgenij Onjegin se naveliča velemestnega življenja polnega zabav, zato se umakne na podeželje, kjer  je podedoval veliko premoženje (odp okojnega strica). Tu se spoprijatelji z Lenskim, spozna tudi njegovo zaročenko Olgo in njeno sestro Tatjano, ki se vanj zaljubi in mu ljubezen izpove v pismu. Jevgenij jo zavrne. Na plesu zdolgočaseni Onjegin dvori Olgi, razburjeneni Lenski ga zato izzove na dvoboj in v njem pade. Onjegina to pretrese, odide iz vasi, potuje po Evropi, in ko se vrne v Peterburg, na nekem plesu sreča že poročeno Tatjano. Izpove ji ljubezen, a zdaj ona zavrne njega, čeprav ga še ljubi.
+
+[Osebe](pink): 
+
+- **Jevgenij Onjegin**: Mlad izobraženec, nezadovoljen z okoljem, v katerem živi. Na družbeni lestvici je visoko. Je pameten in privlačen, a zdolgočasen in notranje prazen (svetobolje), razočaran v osebnem življenju in družbi (trpeči egoist, odvečni človek).
+- **Puškin**: Onjeginov znanec (občutek junakove življenskosti) dogajanje povezuje in ob tem odkriva svoje ppoglede na življenje, ljubezen, usodo.
+- **Tatajana**: Preprosto deklez veliko notranjo lepoto, čuti odgovornost za svoja dejanja, zaupa v ljudi in vrednost življenja.
+- **Lenski**: Romantičen pesnik razmišlja o smislu življenja, čustva in medčloveške odnose idealizma. 
+
+[Tatjanina pisma](green): V njem Jevgeniju neposredno izpove ljubezen. Njeno doživljanje ljubezni je tipično romantično - ljubezen je usojena, vnaprej določena, zgodi se na prvi pogled, je zelo močno čustvo, ki se ne ozira na okoliščine, povezana je s sanjarjenjem in domišlijo.
+
+
 
 ## Slovenska Romantična književnost
 
@@ -520,10 +665,97 @@ to be continued...
 
 ## Naturalizem
 
-## Realizem v Slovenski književnosti (obdobje med romantiko in realizmom)
+[Naturalizem](green) je umetnostna smer, skrajna oblika realizma. Je neke vrste fotografiranje resničnosti. Avtorji so težili k skoraj znanstvenemu opisovanju realnosti, ki s svojimi biološkimi in socialnimi zakoni obvladuje človeka in njegovo življenje. Držali so se načela, da je človek del narave in ga je mogoče raziskovati predvsem kot posledico treh temeljnih naravnih faktorjev, ki so: *dednost*, *okolje* in *doba* oz. *zgodovinski trenutek*.
+
+Smer se v slovenski književnosti ni povsem razvila. Imamo le nekaj poskusov; Rado Murnik in Fran Govekar sta bila zdravnika. Fran Govekar je napisal zelo znan roman z naslovom V krvi. S tem je želel povedati da je naša narava, to kdo smo in to kar bomo, zapisano v našem DNA. Romane pa je pisala tudi naša prva slovenska pisateljica Zofka Kveder. Napisala je roman Vladka, Mitka, Mirica (to so bile njene hčerke), roman z naslovom Njeno življenje in Potovalci. Njeni romani so imeli veliko vrednost zaradi tematike položaja in zatiranja žensk, Potovalci pa je roman ki opisuje odseljevanje ljudi v Ameriko.
+
+> Iz wikipedije
+
+
+
+[Čas](pink): Okoli leta 1880; 1870 - 1900 (Francija, Norveška).
+
+[Snov](pink): Opisovanje ljudi z družbenega dna (delavci, rudarji, kmetje, prostitutke...), opisovanje pojavov v zvezi s temi ljudmi (zločin, fizične in psihične bolezni, seksualnost...).
+
+[Nadzvrst in vrste](pink): Najbolj se uveljavi epika (eksperimentalni roman in novela), manj dramatika.
+
+[Predstavniki](pink) so Zola, Strindberg, Ibsen, Čehov...
+
+
 
 ### Henrik Ibsen: Nora ali Hiša lutk
+
+Avtor Henrik Ibsen (1826 - 1906) se je uveljavil kot največji norveški in evropski dramatik. V svojih delih je kritično prikazoval sodobno meščansko družbo, zlasti njeno moralno podobo, položaj ženske v družini in družbi, odnose in družinsko moralo. Njegova najbolj znana dela so *Nora ali Hiša lutk*, *Stebri družbe*...
+
+[Nora ali Hiša lutk](pink)
+
+[Glavna tema](green) je meščanski zakon in položaj ženske v njem (zakon v smislu kot poroka).
+
+[Vsebina](pink):
+
+V družini advokata Torvalda Helmerja praznujejo njegovo napredovanje v direktorja banke, sa si je s tem dvignil ugled vse družine. Njegovo ženo Noro skrivaj obišče notar Krogstad, ki se boji za svojo službo (sam preživlja tri otroke), zato od Nore pričakuje, da se bo pri možu zavzela zanj. Izsiljuje jo z zadolžnico, s katero si je izposodila denar za moževo zdravljenje in ponaredila podpis. Nora moža res prosi, naj notarja obdrži v službi, a neuspešno. Krogstad ostane brez službe, zato direktorju pošlje pismo, v katerem mu razkrije ženino dejanje, njej pa zadolžnico, ki je obremenitveni dokaz. Helmer je na ženo jezen, očita ji, da mu je uničila življenje, prijaznejši je, ko ugotovi, da ima dokaz ona, a se njun zakon, ki je bil očitno le navzven, konča.
+
+> Opis konca zadeve manjka
+
+[Osebe](pink): Tipični predstavniki meščanskega sloja:
+
+- **Nora** - na začetku podobna otroku - nesamostojna in nezrela, popolnoma podrejena možu (le lutka), na koncu se zave svoje moči, samostojnosti, zapusti moža.
+- **Helmer** - navidezno vzoren mož in oče, pomembnejši mu je videz od resničnih vrednot, tipičen predstavnik meščanske družbe.
+
+[Tezna drama](pink): Vsebuje jasno izraženo stališče do problema, nakazana je možna rešitev: **problem** - meščanski zakon in neenakovreden položaj ženske v njem, **rešitev** - ženska se mora osvoboditi.
+
+[Dramska tehnika](pink): **Analitična tehnika** - retrospektiva. Upošteva **načelo treh enotnosti** - kraja (v vseh treh dejanjih nespremenjen - dnevna soba meščanske družine), časa (tri dni okrog božiča), dogajanja.
+
+[Ideja](pink): Konflikt med posameznikom, ki išče svojo duhovno vrednost (Nora) in zatiralsko družbo (Helmer).
+
+
+
+## Realizem v Slovenski književnosti (obdobje med romantiko in realizmom)
+
+Traja okoli leta 1848 / 1854 - 1899.
+
+[Značilnosti](pink):
+
+- Slovenska književnost izgublja romantične značilnosti, približuje se realizmu.
+- Različni izrazi za to obdobje: Romantični realizem, poetični realizem, prevlada *obdobje med romantiko in realizmom*.
+
+[Nadzvrsti in vrste](pink):
+
+- [Epika](green): Najbolj razvita, razvije skoraj vse prozne vrste (črtica, načajevka, obraz, novela, roman, povest - najbolj priljubljena), tudi epsko pesništvo (balade in romance).
+- [Lirika](green): Še vedno močno zastopana (domoljubne, refleksivne, ljubezenske pesmi), preprost slog, jezik, oblika.
+- [Dramatika](green): Najmanj razvita.
+
+[Pomen](pink): Obdobje je za slovensko književnost pomembno: prvič se razvije kratka proza (novela, značajevka), nastane prvi slovenski roman (J. Jurčič: Deseti brat, 1866), prva pomembnejša dela književne kritike in esejistike - literarni program (F. Levstik: Popotovanje iz Litije do Čateža, 1858). Uveljavi se lirska in epska poezija. Poskus prve izvirne tragedije.
+
+[Predstavniki](pink):
+
+- **Pesniki**: Simon Jenko, Simon Gregorčič, Josip Stritar, Anton Aškerc...
+- **Pisatelji**: Fran Levstik, Josip Jurčič, Ivan Tavčar, Janko Kresnik...
+
+
 
 ### Anton Aškerc: Mejnik
 
 ### Ivan Tavčar: Visoška Kronika
+
+[Značilnosti](pink):
+
+[Zgodovinski roman](green) v [kronikalni](green) obliki. Napisati je nameraval trilogijo o visoškemu rodu, vendar je izšel samo ta roman. Dogajanje je postavljeno v Škofjo Loko in okolico (Visoko), v konec 17. stoletja, pripoveduje o življenju družine Khallan, pripoveduje Izidor, v obliki [družinske kronike](green).
+
+[Vsebina](pink):
+
+Polikarp Khallan se je boril v 30-letni vojni (vojna med protestanti in katoličani predvsem v Nemčiji med 1628 in 1648). V boju za vojni plen je ubil Jošta Schwarzkoblerja, vojnega tovariša. Ko se je vrnil, je na posestvu Visoko živel z ženo Barbaro, imel pa tudi dva sinova: Izidorja in Jurija.
+
+Polikarp s trdo roko gospodari na Visokem, pred smrtjo ša skuša popraviti svojo krivdo in Izidorju ukaže, naj gre v Nemčijo iskat Joštovo vnukinjo Agato ter naj se z njo poroči ali pa ji izroči polovico posestva. Izidor res pripelje Agato, toda njej je bolj všeč Jurij, vanjo se zaljubi tudi brat nekdanje Izidorje neveste - Maks Wulfling, vendar ga ona zavrne. Maks se ji maščuje tako, da jo obtoži čarovništva. Agati pri sodbi določijo preizkus z vodo: če bo kakorkoli prišla iz vode, je nedolžna. Reši jo Jurij. Izidor nato prepusti posestvo bratu in njegovi ženi Agati, sam pa odide v vojsko. Po 11-ih letih se ranjen vrne in poroči s prejšnjo nevesto Margareto Wulfing.
+
+[Zgradba](pink): 2 dela: 7 poglavij (pripoved o Polikarpu, njegovem življenju) + 7 poglavij (pripoved o sinu Izidorju). Je **sintetično-analitična**: sintetična (Izidorjevo življenje), analitična (razlogi za surovost njegovega očeta Polikarpa).
+
+[Osrednja oseba](pink): Izidor - povprečen, neodločen moški, ne znajde se v preizkušnjah, ki ga zadenejo, je nedejaven, nemočen, neodločen, zato se mora odpovedati dekletu in domači zemlji.
+
+[Vrsta romana](pink): **Zgodovinski roman** (zgodovinska snov iz časa protireformacije, 30-letne vojne, preganjanja čarovnic), **psihološki roman** (predstavlja Izidorjev značaj, njegovo razdvojenost).
+
+[Pripovedovalec](pink): **prvoosebna pripoved**, pripovedovalec je glavna oseba, iz današnje perspektive pripoveduje o preteklih doživetjih.
+
+[Slog](pink): Avtor posnema **slog starinske kronike**.
+
+[Realizem](pink): Kaže se v povprečnih značajih, orisi socialnih, političnih razmer, **romantika**: izjemne skrivnostne osebnosti, magične zgodbe, strasti, maščevanja, usodne ljubezni.

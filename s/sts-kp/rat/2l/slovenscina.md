@@ -433,3 +433,52 @@ Izraz izhaja iz lat. expressio (iztis, izraz). Iz sebe stiska duševnost, svojo 
 - Lirika: S. Kosovel, T. Seliškar, M. Jarc
 - Epika: S. Grum
 - Dramatika: I. Pregelj
+
+---
+
+### Kons 5
+
+Je značilno konstruktivistična pesem, nastala leta 1925, izšla v zbirki Integrali leta 1967.
+
+**Zgradba**: Sestavljena je iz štirih motivnih sklopov, brez razvidne logične povezave, na asociativnem principu tvorijo logično celoto. To ustvarja videz zmede, kaosa, besedilo učinkuje kot montaža. Bralec mora besedilo najprej razstavit na motivne sklope, nato mora sam odkriti zvezo med njimi. Končne ugotovitve v idejo pesmi ni - številne interpretacije.
+
+![Kons 5](https://res.cloudinary.com/solamona/image/upload/v1549550139/zvs/sts-kp/rac/4l/slovenscina/kons5.min.png){: align="center" width="210px"}
+
+[Prvi sklop](green): (prvih 5 vrstic) Iz naslova brošure, v kateri agronom razlaga pomen gnoja za uspešno kmečko gospodarjanje. Zato je gnoj inverzija prve ugotovitve. Kapitalistična slepa moč - zlato, denar, dobiček - je pesniku gnoj, smrad, razkrajanje, nič. Oboje = 0. 0 = ∞, ∞ = 0. Tako gnoj kot zlato dobita enako vrednost, neskončno vrednost.
+
+[Drugi sklop](red-light): (šesta in sedma vrstica) A B = začetek abecede, civilizacije, umetniškega ustvarjanja... 1, 2, 3 = preštevanje, računanje. Umetniško ustvarjanje je v kapitalistični družbi manj vredno kot praktično štetje in merjenje materialnih dobrin.
+
+[Tretji sklop](orange-dark): (od osme do predzadnje vrstice) Brezdušni ljudje - kapitalisti ne potrebujejo zlata, ki je škodljivo, kvari ljudi, brezdeležni pa so že pokvarjeni, zato ga ne potrebujejo. Človek z dušo - dobri človek pa ne potrebuje bogastva (materialnega), ker je bogat v sebi. To je tudi tisti etnični človek, ki bo temelj nove, bolj humane civilizacije.
+
+[Četrti sklop](purple): (zadnja vrstica) Ironično, posmehljivo oslovo oglašanjep rejšnjemu tuhtanju, vrednotenju, je pot človeka še dolga?
+
+<br>
+
+**Prvine moderne lirike**: odsotnost pesniškega subjekta, večpomenskost posamičnih besed, definicij in sklepov, svobodni oz. razbiti vers, nejasen konec.
+
+**Ideja**: Kosovel izraža moralno ogorčenje nad zgolj dobičkonosnim duhom kapitalizma, ki ga on zavrača (umetniško ustvarjanje je v kapitalistični družbi majvredno kot merjenje materialnih dobrin).
+
+
+
+### Matkova Tina
+
+Je novela z zgodovinsko snovjo (tolminski kmečki upor), nadaljevanje romana Tolminci.
+
+[Osebe](pink):
+
+- množica brez imen, "romarji" (imenovan le upornik Matko),
+- glavna oseba je Tina (tragična, nemočna, v brezizhodnem položaju).
+
+[Dogajalna zgradba](pink): Prepletata se dve zgodbi:
+
+- kolektivna, zgodovinska: usmrtitev kmečkih upornikov, odziv na dogodek,
+- osebna: Tinino težavno, mučno potovanje in smrt.
+
+[Slog](pink): je **baročen** (v podobah slikovit, v ritmu stavkov sunkovit in dinamičen, v rabi glagolov na poseben način izumetričen) in **ekspresionističen** (deformirana resničnost, besedilo je bolj ekspresija kot stvarna podoba sveta, v ospredju je nemir, napetost, deformiranost stvarnega sveta).
+
+[Ekspresionizem](pink): V noveli je veliko izrazitih ekspresionističnih prvin, ki se kažejo v:
+
+- tematiki (strah, tesnoba, stiska),
+- v jeziku in slogu (pogosta raba pridevnika *strašen*),
+- kontrastih (*strašna tihota* in glasna pesem pijanega Matka, Tinino umiranje in cvetoče pomladno drevo),
+- vzklikih in krikih (Matko v jezi zatuli *zadnje besede svoje pesmi*, Tina v stiski kliče svojega fanta ali Marijo...)

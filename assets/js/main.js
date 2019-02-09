@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
       autoHide: "scroll",
       autoHideDelay: 800
     },
-    className: "os-theme-minimal-dark"
+    className: isMobile ? "os-theme-minimal-dark" : "os-theme-dark"
   });
 
   // Scroll back to top button functionality
