@@ -649,19 +649,152 @@ Plemič Jevgenij Onjegin se naveliča velemestnega življenja polnega zabav, zat
 
 ## Slovenska Romantična književnost
 
+Trajala je od leta 1830, ko so v Prešernovem ustvarjanju prevladovale romantične prvine, izšel prvi od petih zvezkov Kranjske čbelce, do leta 1848, ko se je začel uveljavljati realizem (vpliv romantike je velik v obdobju realizma, zato romantični realizem / obdobje od romantike k realizmu). Vrh je doseglo okoli 1835. 
+
+[Značilnosti](pink): čustva, izpovedovanje, lirika.
+
+[Zvrsti, vrste](pink): prevladovala je lirika, nekatera besedila so epska. S Prešernovo poezijo se uveljavljajo pesniška besedila: romantična, ljubezenska pesem, elegija, refleksivna pesem, balada, romanca, povest.
+
+[Predstavniki](pink):
+
+- **Jernej Kopitar**: Na dunaju cesar, nato dvorni knjižničar, leta 1809 je v nemščini izšla njegova Slovnica slovenskega knjižnega jezika na Kranjskem, Koroškem, Štajerskem.
+- **Matija Čop**: ... ?
+- **France Prešeren**: Uveljavil se je kot glavni predstavnik romantike.
+
+
+
 ### France Prešeren
+
+Rodil se je leta 1800 v Vrbi na Gorenjskem. Doštudiral je pravo, a se je že od mladosti posvečal tudi pesnjenju, njegovo delo in življenje je zaznamovala neuslišana ljubezen do Julije Primic in prijateljstvo z Matijo Čopom. Umrl je 8. februarja leta 1849 v Kranju.
+
+S poezijo se je uveljavil kot  pomemben predstavnik klasične slovenske književnosti.
+
+[Delo](pink):
+
+Pisal je:
+
+- Ljubezenske pesmi (sonet)
+- Miselne pesmi (zdravljica)
+- Balade (povodni mož)
+- Romance (Turjaška Rozamunda)
+- Povesti (Krst pri Savici)
+
+Pesmi so napisane v različnih pesniških oblikah (sonet...).
+
+Prešernov pesniški razvoj delimo na 3 dele:
+
+1. **Mladostno**: Lahkotne ljubezenske pesmi, namenjene vsem dekletom, ustvarja pod vplivom predromantike (Povodni mož, Zvezdogledom, Dekletom).
+2. **Zrelo**: prehod v romantiko, ljubezen do Julije, prijateljstvo s Čopom, prevladuje osebna tematika (Slovo od mladosti, Sonetje nesreče, Sonetni venec, Gazele, Glosa, Krst pri Savici, Pevcu). Uvedel je več novih pesniških oblik (tercino, stanco, sonet, gazelo, gloso), pisal balade in romance.
+3. **Pozno**: obračun z življenjem, razočaranje, pesimizem (Zgubljena vera, Neiztrohnjeno srce, Zdravljica)  Pesmi so bolj umirjene in manj osebne kot prej, po obliki preproste, v slogu in motiviki se je naslonil na ljudsko pesništvo.
+
+[Pomen](pink): Zelo pomemben predstavnik slovenske književnosti. Uveljavil se je kot začetnik in glavni predstavnik romantike. S svojo poezijo je razvil slovenski pesniški jezik, vpeljal je nove oblike lirike, ter slovensko književnost postavil na raven evropske.
+
+
 
 ### Krst pri savici
 
+Povest v verzih. Je vrh Prešernovega romantičnega pojmovanja življenja in ljubezni, besedilo je sinteza značilnosti njegovega zrelega obdobja (ljubezen. domoljubje, romantični življenski nazor).
+
+[Zgradba](pink): Sestavljen iz **Uvoda** in [Krsta](red), pred tem pa še posvetilni sonet **Matiju Čopu**.
+
+[Matiju Čopu](green) je posvetilni sonet umrlemu prijatelju. Razloži, da je pesnitev žalostinka, saj se je tudi on (tako kot Črtomir) zaradi ljubezni odpovedal ljubezenski sreči.
+
+|             | UVOD                                                         | [KRST](red)                                                  |
+| ----------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **Tema**    | Zadnji boj za staro vero, vsiljevanje nove.                  | Črtomirjeva krst, osebna junakova vsoda.                     |
+| **Zgradba** | Simetrična; tercine, epski slog.                             | Simetrična; stance, lirski in dramski slog.                  |
+| **Črtomir** | Zagrizen, odločen in optimističen junak ter vodja, bil je zunanji boj, notranje skladna oseba z jasnim ciljem, ve, kaj hoče, je vodja. | Razočaran in obupan človek, bije notranji boj, notranje razdvojena oseba, nesrečen - značilen lik romantične književnosti. |
+|             |                                                              | Razlog za krst: Več interpretacij - Črtomirjeva ljubezen do Bogomile, zaradi malodušja in otopelosti, vseeno mu je, kaj se dogaja. |
+| **Ideja**   | Nacionalna in svobodoljubna.                                 | Človekova osebna problematika, krivična usoda.               |
+| **Vsebina** | Črtomir se s svojo vojsko bojuje proti močnejši Valjhunovi, upirajo se nasilnemu pokristjanjevanju; zatečejo se v Ajdovski gradec, ko jim zmanjka hrane, izkoristijo viharno noč za pobeg, a jih Valjhun napade, umrejo vsi poganski vojaki razen Črtomirja. | Črtomir se obupan zateče k Bohinjskemu jezeru, pomisli na samomor, reši ga misel na Bogomilo; sreča jo, a mu ona pove, da je postala kristjanka - zanj je trepetala in molila, prosi ga, naj tudi on sprejme novo vero. Črtomir se krsti, a se z Bogomilo ne more poročiti, saj se je ona zaobljubila Bogu - postane nuna, zato Črtomir postane duhovnih, upa na večno življenje z Bogomilo po smrti. |
+
+
+
 ### Sonetni venec
+
+Sonetni venec je vezanje posameznih sonetov v smiselno in zaokroženo celoto.
+
+[Vsebina](pink): Prešeren je povezal in združil v celoto tri teme:
+
+- romantična ljubezen (do Julije) - prvih in zadnjih pet sonetov
+- ljubezen do domovine (ideja slovenstva) - osrednji štirje soneti
+- ideja poezije (orfejev mit) povezuje obe temi
+
+V prvem sonetu izpoveduje spoznanje, da je ljubezen navdih, navdih njegovim pesmim, tudi Sonetnemu vencu, razloži zgradbo venca; v naslednjih sonetih poveže tri teme, v zadnjem, 15. (magistrale), ponovi vse, kar izpove v sonetih, hkrati nedvoumno razkrije, komu je pesnitev namenjena - s posvetilom Primicovi Juliji.
+
+[Zgradba](pink):
+
+- **Zunanja**: sestavljen je iz 14 sonetov + magistrale (15. sonet), v enoto so povezani s pomočjo prvih in zadnjih verzov, vsi ti verzi se ponovijo v magistralu, prve črke tvorijo posvetilo / akrotiki Primicovi Juliji.
+
+> neka slika ma pusti stat
+
+- **Notranja**: simetrična (5 sonetov + 4 sonetov + 5 sonetov), tri teme so povezane z idejo besedila.
+- **Metaforika**: v vseh sonetih je zelo veliko značilne metaforike (ran mojih, mokrocveteče rožce, utrjene skale, viharjev jeznih, mrzle domačije, ur temnih...), med figurami veliko nasprotij in stopnjevanj, nagovorov...
+- **Ideja**: Prešeren sporoča, da bo njegova razcvetela-se razmahnila, ko bo Julija uslišala ljubezen in mu jo bo vračala, on pa bo s tako poezijo osveščal slovenstvo.
+- **Pomen**: Sonetni venec je ljubezenski nagovor Juliji, velja pa za eno najpomembnejših Prešernovih stvaritev in mojstrovino evropske romantike.
+
+
 
 ### Zdravljica
 
+Je najpomembnejša Prešernova [narodono-politična](green) pesem. Napisana je bila leta 1844, v celoti objavljena šele 1848 (ko je bila odpravljena cenzura).
+
+[Motivi](pink): nazdravljanje enakosti, bratstvu, svobodi, dobroti, spravi, strpnosti, prijateljstvu.
+
+[Ideja](pink): glavni cilj narodov in posameznikov, slovencev, slovakov, človeštva nasploh, je doseči svobodo in samostojnost, enakopravnost, spore in vojne naj zamenjata povezanost in prijateljstvo med narodi = poziv k miroljubnemu sožitju vsega človeštva.
+
+[Vsebina](pink): Pesem je presegla zgolj veselje ob novem vinu, h prijetnem druženju, njen optimizem je prerasel v takrat drzno politično pesem. V njej je Prešeren združil misel o prijateljstvu z željo po enakosti, svobodi, bratstvu in medsebojnem spoštovanju vseh ljudi. Tako je poleg zasebnega nagovora prijateljem prerasla v domovinsko pesem, ki spregovori o slovenskem narodu, njegovi usodi in željah vseh narodov in vseh ljudi.
+
+[Oblika](pink): pesem je napitnica, vsaka kitica je v obliki čaše ([carmen figuratum](green)).
+
+[Pomen](pink): ob razglasitvi samostojne slovenije je postala državna himna (himna / hvalnica = pesem z domovinsko / domoljubno vsebino).
+
+
+
 ## Realizem
+
+Je umetnost objektivne stvarnosti, prikazuje vsakdanje dogajanje in ljudi, je očitno nasprotje romantike.
+
+| Romantika            | Realizem           |
+| -------------------- | ------------------ |
+| čustvo - poezija     | razum - proza      |
+| subjektivno - lirika | ebjektivno - epika |
+| individualno         | vsakdanje          |
+| izjemno              | tipično            |
+| odmik iz preteklost  | premik v sedanjost |
+
+Potekal je v 2. polovici 19. stoletja.
+
+
 
 ## Evropski Realizem
 
+Trajal je od 1830 - 1870 (Drancija, Anglija, Rusija).
+
+[Značilnosti](pink): snov je vsakdanje življenje v sodobni družbi (meščani, delavci, kmetje).
+
+[Vrste realizma](pink):
+
+- **romantični**: preplet realističnih prvin z romantičnimi (Balzac, Gogolj).
+- **objektivni**: nepristransko, objektivno, neprizadeto prikazovanje resničnosti (Tolstoj).
+- **socialni**: prikaz socialno ogroženih ljudi (Dickens).
+- **poetični**: preplet realističnih prvin z idiličnimi, moralno / zgojnimi.
+- **psihološki**: prikaz subjektivne resničnosti človekove duševnosti (Dostojevski).
+- **kritični**: kritika sodobne meščanske družbe (Balzac, Tolstoj).
+
+[Zvrsti in vrste](pink):
+
+- **Pripovedništvo / epika** (najbolj razvito): uveljavi se pripovedna proza (roman in novela, večkrat nastajajo cikli romanov), nove vrste romanov (socialni, proletarski, kmečki, vojni), pripovedovalec se razvije od vsevednega do personalnega.
+- **Dramatika**: uveljavijo se nove dramske zvrsti (tezna drama s socialno problematiko, socialna, meščanska, psihološka drama), osebe so povprečni ljudje iz meščanskega delavskega razreda.
+- **Lirika**: najmanj razvita. Predstavniki - Francija (Balzac, Flaubert), Anglija (Dickens), Rusija (Golgoj, Tolstoj, Dostojevski).
+
+
+
 ### F. M. Dostojevski: Zločin in kazen
+
+
+
+
 
 ## Naturalizem
 
@@ -735,6 +868,8 @@ Traja okoli leta 1848 / 1854 - 1899.
 
 
 ### Anton Aškerc: Mejnik
+
+> Slikat spet
 
 ### Ivan Tavčar: Visoška Kronika
 
