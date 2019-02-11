@@ -5,7 +5,23 @@ title: Slovenščina • 1. letnik • Računalniški Tehnik • STŠ Koper
 
 # Jezik
 
-> To be added
+[Jezik](pink) je temeljno sredstvo sporazumevanja. Z njim tvorimo sporočila, sprejemamo in razumemo.
+
+
+
+## Socialne zvrsti slovenskega jezika
+
+### Knjižni jezik
+
+### Nekjnižni jezik
+
+
+
+
+
+---
+
+
 
 # Književnost
 
@@ -747,6 +763,8 @@ Je najpomembnejša Prešernova [narodono-politična](green) pesem. Napisana je b
 
 [Oblika](pink): pesem je napitnica, vsaka kitica je v obliki čaše ([carmen figuratum](green)).
 
+![Oblika zdravljice](https://res.cloudinary.com/solamona/image/upload/v1549907744/zvs/sts-kp/rac/4l/slovenscina/zdravljica.png){: .imgc align="center"}
+
 [Pomen](pink): ob razglasitvi samostojne slovenije je postala državna himna (himna / hvalnica = pesem z domovinsko / domoljubno vsebino).
 
 
@@ -792,7 +810,25 @@ Trajal je od 1830 - 1870 (Drancija, Anglija, Rusija).
 
 ### F. M. Dostojevski: Zločin in kazen
 
+[Vsebina](pink): Pisatelj je pripoved zgradil na časopisnem poročilu. Revni študent Raskolnikov se pripravlja na umor Aljone Ivanovne, ki je zanj le stara oderuhinja. Umori jo s sekiro, takoj za tem pa se doma nepričakovano pojavi starkina sestra, zato umori tudi njo. Zaradi storjenega zločina njegova notranja stiska narašča, zboli, zateče se k Sonji (hči umrlega pijanca Marmeladova, ki preživlja družino s prostitucijo). On je ubil ženski, in s tem svojo dušo, ona je s prostitucijo ubijala svoje telo. Sonja mu svetuje, naj prizna zločin in sprejme trpljenje kot kazen, s katero se bo odkupil. On to res stori, obsojen je na 8 let prisilnega dela v Sibiriji. Tja ga spremlja Sonja, ljubezen med njima mu pomeni možnost novega življenja, vrnitev iz duševne smrti v življenje.
 
+[Osebe](pink):
+
+- **Raskolnikov**: Reven študent, skrbi zareveže, trpeče in ponižane - misel na umor se mu porodi iz ideje o socialni pravičnosti. Vest mu pravi, da je vsak umor zločin, ženski kljub temu umori, a to zanj pomeni "razčlovečenje". Na koncu ga razklanosti lahko reši ljubezen.
+- **Sonja Marmeladova**: Dobro, a v družbi ponižano dekle - denar, s katerim skrbi za celo družino, služi s prostitucijo, žrtvuje se za ljudi, čuti, da je vsako življenje sveto.
+- **Marmeladov**: Nekdanji uradnik, vdaja se pijači, družina trpi, Razkolnikov se z obiskom na njegovem domu prepriča, v kakšni bedi živi ta družina.
+- **Profirij Petrovič**: Preiskovalni sodnik, dober psiholog.
+
+[Dogajalni prostor in čas](pink): Dogaja se v Peterburgu, traja le nekaj vročih poletnih dni.
+
+[Psihološki realizem](pink): Pripovedna tehnika je realistična, vendar je v ospredju človekova duševnost, izjemna in protislovna, notranje razklana.
+
+[Pripovedna tehnika](pink): Pripovedovalec ne izreka svojih stališč, dogajanje je prikazano tako, kot ga doživljajo književne osebe - videnje stvarnosti z očmi ene od oseb, pojavlja se tudi monolog, dialog, izpoved.
+
+[Ideja](pink): Z razklano osebnostjo glavne osebe se povezujeta dve, nasprotujoči si ideji:
+
+1. nadčloveku vse dovoljeno, celo umor
+2. ideja o ljubezni do ljudi
 
 
 
@@ -869,7 +905,52 @@ Traja okoli leta 1848 / 1854 - 1899.
 
 ### Anton Aškerc: Mejnik
 
-> Slikat spet
+Avtor Anton Aškerc (1856 - 1912) je bil glavni pesnik balad in romanc slovenskega realizma.
+
+[Mejnik](pink): (je balada)
+
+[Realistična balada](green) = pripovedna pesem, z dramskimi sestavinami, posredovanje nadnaravnih sil je realistično motivirano, temačno vzdušje, opis je sklop, jedrnat, zgoščen.
+
+[Vsebina](pink): Martin se vrača s sejma v pozni, temni noči. Na cesti se pojavi sosed Vid, ki nosi mejni kamen na prvotni prostor. Zjutraj Martin izve, da je sosed ponoči umrl.
+
+[Motivi](pink): v pesmi najdemo 3 motive:
+
+1. nočno vračanje s sejma
+2. Martinov privid umrlega soseda
+3. pokora in greh
+
+[Razpoloženje](pink): Mračno vzdušje, ki vzbuja strah, menjavanje tretje osebne pripovedi (epskega), monologa in dialoga (dramatskega), ustvarja značilno baladno napetost.
+
+[Jezik in slog](pink): Zgoščen, pripovedni slog (kratki stavki) = realizem, jezikovno - slogovna sredstva ustvarjajo tudi napetost (vzklični stavki, premori ...).
+
+
+
+### Simon Jenko: Tilka
+
+Avtor Simon Jenko (1835 - 1869) se je uveljavil kot najpomembnejši pesnik slovenskega realizma, čeprav je izdal samo eno pesniško zbirko *Pesmi*, 1865. Pisal je tudi prozna besedila.
+
+[Tilka](pink):
+
+Tilka je 25-letni kmečki fant, telesno in umsko nerazvit. Živi pri starših, oče ga nekega večera preseneti z novico, da je čas za poroko. Dolgo v noč razmišlja o snubitvi in ženitvi, zmeden je in nezadovoljen, neveste ne pozna, saj jo je izbral oče. Zjutraj mora na pot, obleče si preveliko očetovo obleko, s težavo se odpravi, a se na poti otrese strahu, imenitno se mu celo zdi, da se gre ženit in da, lahko kadi. Ko pride do nevestine (Pahovčeve) hiše, se ne upa stopiti na dvorišče. Ona (sama že kar priletna in nič lepa) ga zagleda in se mu posmehuje zaradi njegove mahedrave postave. Tilka osramočen zbeži domov, pozneje pa še večkrat zadovoljno ugotavlja, da mu je bilo prizaneseno z ženitvijo.
+
+[Zgradba](pink): 3 deli:
+
+1. pisatelj predstavi Tilko, njegove telesne in duševne posebnosti,
+2. Tilka si predstavlja svojo snubitev (starši mu izberejo ženo),
+3. Tilkova ponesrečena snubitev.
+
+[Osrednja oseba](pink): **Tilka** - nesamostojen, sramežljiv, plah, duševno omejen mladenič, posmeh ga prizadene, a si tega noče priznati.
+
+[Pripovedna vrsta](pink):
+
+- **Novela** (ena osrednja oseba, osrednji dogodek, snov iz različnega življenja, dramatsko stpnjevanje).
+- **Značajevka/obraz** ali **slika** - kratka zgodba, prikazan je značaj osrednje osebe, ki je poseben, čudaški, tako se dogajanje zaplete in razplete okoli posebne usode te osebe.
+
+[Realistične značilnosti](pink): Osnova zgodbe je oris junakove duševnosti (Tilkove misli in čustva) - psihološki realizem, realistični so opisi; romantične značilnosti pa se kažejo v tem, da je Tilka posebnež, ni tipičen za okolje, v katerem živi.
+
+[Pomen](pink): Besedilo je eden prvih poskusov izoblikovanja slovenske umetniške pripovedi.
+
+
 
 ### Ivan Tavčar: Visoška Kronika
 
