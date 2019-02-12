@@ -57,13 +57,33 @@ document.addEventListener("DOMContentLoaded", function () {
       OverlayScrollbars(document.querySelector("body"), {}).scroll({
         y: "0px"
       }, isMobile ? 0 : 320, "easeOutQuint");
+      // removing anchor from url
+      //location.hash = "";
     });
   }
 
   // Table of content collapsing
-  document.querySelector("#toc-toggle").addEventListener("click", function() {
-    document.querySelector("#table-of-content").classList.toggle("collapsed");
-  });
+  var toc_toggle = document.querySelector("#toc-toggle");
+
+  if (toc_toggle != null) {
+    toc_toggle.addEventListener("click", function () {
+      document.querySelector("#table-of-content").classList.toggle("collapsed");
+    });
+  }
+
+  // Link to page nachor scrolling
+  if (window.location.hash != "") {
+    document.querySelector(decodeURIComponent(window.location.hash)).scrollIntoView();
+  }
+
+  // popstate url site scroll handling
+  window.onpopstate = function () {
+    if (window.location.hash != "") {
+      document.querySelector(decodeURIComponent(window.location.hash)).scrollIntoView();
+    } else {
+      scrollbar.scroll({y: "0px"});
+    }
+  };
 
 });
 
@@ -75,7 +95,3 @@ document.addEventListener("DOMContentLoaded", function () {
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/assets/js/sw.js');
 }
-
-
-
-

@@ -20,16 +20,16 @@ Ti znaki prikazujejo **trenutno stanje** določenih elementov / dokumentov:
 
 ### Known bugs
 
-- Nothing yet :D
+- toc on info page
 
 ### To do
 
 - [ ] separate stylesheets for pages so they only get what they need
 - [ ] inline critical css
 - [ ] lazyload images in documents
-- [ ] popstate updates scroll position
-- [ ] popravit linke da ko kliknes gor scrolla do naslova pravega (s custom easingom)
-- [ ] nardit da ko zlouda page preveri url če je treba scrollat kam
+- [x] popstate updates scroll position
+- [x] popravit linke da ko kliknes gor scrolla do naslova pravega (s custom easingom)
+- [x] nardit da ko zlouda page preveri url če je treba scrollat kam
 - [ ] up in down gumb za se premikat po hierarhiji naslovou da ne scrollas pac da samo
 
 <div>

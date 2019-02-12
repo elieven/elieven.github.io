@@ -11,9 +11,43 @@ title: Slovenščina • 1. letnik • Računalniški Tehnik • STŠ Koper
 
 ## Socialne zvrsti slovenskega jezika
 
+| Knjižna zvrst           | Neknjižna zvrst                             |
+| ----------------------- | ------------------------------------------- |
+| Knjižni zborni jezik    | Prostorska (narečje, pokrajinsko pogovorni) |
+| Knjižni pogovorni jezik | Interesne (sleng, žargon, argo)             |
+
 ### Knjižni jezik
 
-### Nekjnižni jezik
+Je pravilna zvrst jezika, skupen za vse slovence. Ima dve različici:
+
+- **Zborni jezik** - najbolj pravilna oblika knjižnega jezika, uporabljamo ga predvsem pri pisanju in branju ali pri pripravljenih govornih nastopih, pravila so zbrana v jezikovnih priročnikih (slovnica, slovar, pravopis).
+- **Knjižni pogovorni** - sproščena oblika knjižnega jezika, uporabljamo ga samo v govornem sporočanju.
+
+### Neknjižni jezik
+
+Uporabljamo ga samo v govornem sporočanju, loči se po pokrajinah in skupinah.
+
+Delitev:
+
+- **prostorske zvrsti** - ločijo se po pokrajinah in delih slovenije
+- **narečje / dialekt** - govorica, omejena na manjše zemljepisno območje; slovenščina je narečno zelo razčlenjena (okoli 50 narečij, ki so po podobnosti združena v 7 narečnih skupin - uporabljamo jih predvsem v govornem sporočanju)
+- pokrajinsko pogovorni jezik
+- **interesne zvrsti** - govorijo jih ljudje v skupinah, nastalih zaradi skupnih interesov
+  - [sleng](green) - jezik ljudi iste starosti, najbolj znan je najstniški sleng - besede iz tujih jezikov, čustveno zaznamovane besede, hitro se spreminja, delno je pokrajinsko obarvan (ful, žur...).
+  - [žargon](green) - jezik ljudi istega poklica, dela ali konjička, besede so neuradni strokovni izrazi posamezne stroke (šraufnciger, špricanje...)
+  -  [argo](green) - jezik skrivnih združb skupin na obrobju družbe, "zaprt", drugim nerazumljiv.
+
+![Slovenske narečne skupine](https://res.cloudinary.com/solamona/image/upload/v1549925721/zvs/sts-kp/rac/4l/slovenscina/slovenske_narecne_skupine.jpg){: .imgc align="center"}
+
+> Slika: Slovenske narečne skupine
+
+
+
+## Glasovne prvine jezika - glasovanje
+
+Besede izgovarjamo z glasovi. V slovenskem knjižnem jeziku je 29 glasnikov (Fonemov), glasov, ki v okviru besed razločujejo pomen. O njih nas uči glasovanje (Fonetika).
+
+
 
 
 
@@ -278,6 +312,8 @@ Kmalu po kraljevi smrti je prišla na Tebe druga nesreča v podobi Sfinge. Ta lj
 
 ![Dramski trikotnik](https://res.cloudinary.com/solamona/image/upload/v1549381436/zvs/sts-kp/rac/4l/slovenscina/dramski-trikotnik.png){: width="420px" align="center"}
 
+> Slika: Načelo trojne enotnosti
+
 - Načelo trojne enotnosti = enotnosti kraja, časa in dogajanja.
 - Analitična drama = sedanje dogodke pojasnjuje s pogledom v preteklost.
 
@@ -389,6 +425,8 @@ Obupan se vrne v mesto, v dvoboju ubije Parisa. Nesrečen spije strup in ob Juli
 [Dramski konflikt](pink): Temeljni dramski konflikt je nasprotje med pozitivnimi in negativnimi čustvi, med ljubeznijo in sovraštvom. 
 
 ![Dramski trikotnik](https://res.cloudinary.com/solamona/image/upload/v1549381436/zvs/sts-kp/rac/4l/slovenscina/dramski-trikotnik.png){: width="380px" align="center"}
+
+> Slika: Načelo trojne enotnosti
 
 Pomembno vlogo imajo vsoda in naključja, osebe so prikazane romantično, slutijo nesrečo, z njimi se poigrava kruta vsoda, njihova čustva so silovita, tragičnost pa se kaže predvsem v tem, da sta Romeo in Julija nemočna pred sovražnim svetom, ki ju obkroža. Propadeta zaradi ljubezni, ki jima pomeni največji ideal in sta zaradi nje pripravljena umreti.
 
@@ -764,6 +802,8 @@ Je najpomembnejša Prešernova [narodono-politična](green) pesem. Napisana je b
 [Oblika](pink): pesem je napitnica, vsaka kitica je v obliki čaše ([carmen figuratum](green)).
 
 ![Oblika zdravljice](https://res.cloudinary.com/solamona/image/upload/v1549907744/zvs/sts-kp/rac/4l/slovenscina/zdravljica.png){: .imgc align="center"}
+
+> Slika: Zgradba kitic Zdravljice
 
 [Pomen](pink): ob razglasitvi samostojne slovenije je postala državna himna (himna / hvalnica = pesem z domovinsko / domoljubno vsebino).
 
