@@ -1,7 +1,7 @@
 $default-font: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 $p-line-height: 24px; // 26px
-$p-font: "Verdana"; // "Source Serif Pro", serif;
-$p-font-size: 16px;
+$p-font: $default-font;//"Verdana"; // "Source Serif Pro", serif;
+$p-font-size: 18px;
 $bold-weight: 600;
 
 // HEADING STYLES
@@ -36,10 +36,8 @@ header::before {
 
 #table-of-content {
   $bg: #fff;
-
   display: inline-block;
   border: solid 1px hsl(208, 21%, 88%);
-  //background-color: #F8F9FA;
   background-color: $bg;
   margin-top: 16px * 2;
   margin-bottom: 16px;
@@ -61,19 +59,12 @@ header::before {
     }
 
     #toc-toggle-icon {
-      display: inline-block;
-      width: $d - 2px;
-      height: $d - 2px;
-      position: absolute;
-      top: 1px;
-      left: 1px;
+      padding: ($d - 24px) / 2 - 1px;
 
       svg {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        fill: rgb(130, 138, 146);
+      width: 24px;
+        height: 24px;
+        display: block;
       }
     }
 
@@ -81,27 +72,24 @@ header::before {
       font-family: Helvetica;
       font-size: 16px;
       font-weight: 600;
-      vertical-align: middle;
-      display: inline-block;
-      padding-left: $d + 6px;
-      padding-right: 16px;
       height: 100%;
       line-height: $d + 2px;
-      margin-right: 28px;
-      text-align: left;
+      padding: 0 8px;
     }
 
     #toc-toggle-indicator {
-      position: absolute;
-      top: 50%;
-      right: 8px;
-      transform: translateY(-54%) rotate(180deg);
+      padding: ($d - 24px) / 2;
+      transform: rotate(180deg);
+      float: right;
+
+      svg {
+        display: block;
+      }
     }
 
-    &:active,
-    &:focus,
-    &:focus-within {
-      //outline: rgb(77, 144, 254) auto 2px !important;
+    #toc-toggle-icon, span, #toc-toggle-indicator {
+      display: inline-block;
+      vertical-align: middle;
     }
   }
 
@@ -154,7 +142,7 @@ header::before {
       margin-bottom: 0px;
 
       #toc-toggle-indicator {
-        transform: translateY(-38%) rotate(0deg);
+        transform: rotate(0deg);
       }
     }
 
@@ -291,7 +279,6 @@ header::before {
         font-weight: 600;
         padding: 6px 13px;
         border: 1px solid #dfe2e5;
-        border-bottom-width: 2px;
       }
 
       td {
@@ -663,7 +650,7 @@ header::before {
     background-color: #85F8CA !important;
     color: #000 !important;
     pointer-events: none;
-    padding: 2px 3px;
+    padding: 1px 3px;
     border-radius: 3px;
   }
 

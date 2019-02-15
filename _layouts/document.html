@@ -15,7 +15,12 @@ layout: default
 <div id="buttons-overlay">
   <div id="buttons-overlay-wrap">
 
-    <button id="back-to-top-btn" aria-hidden="true"></button>
+    <button id="back-to-top-btn" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+        <path d="M0 0h24v24H0z" fill="none" />
+        <path fill="#607D8B" d="M5 4v2h14V4H5zm0 10h4v6h6v-6h4l-7-7-7 7z" />
+      </svg>
+    </button>
 
   </div>
 </div>
@@ -33,14 +38,13 @@ layout: default
     <div id="table-of-content" class="collapsed">
       <button id="toc-toggle">
         <div id="toc-toggle-icon">
-          <svg style="width:24px;height:24px" viewBox="0 0 24 24">
-            <path fill="#899098" d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" />
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path fill="none" d="M0 0h24v24H0V0z" />
+            <path fill="#828282" d="M21 11.01L3 11v2h18zM3 16h12v2H3zM21 6H3v2.01L21 8z" />
           </svg>
-        </div>
-        <span>Vsebina</span>
-        <div id="toc-toggle-indicator">
+        </div><span>Vsebina</span><div id="toc-toggle-indicator">
           <svg style="width:24px;height:24px" viewBox="0 0 24 24">
-            <path fill="#212121" d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+            <path fill="#828282" d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
           </svg>
         </div>
       </button>
