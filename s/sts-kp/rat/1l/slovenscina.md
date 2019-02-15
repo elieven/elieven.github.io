@@ -29,13 +29,13 @@ Uporabljamo ga samo v govornem sporočanju, loči se po pokrajinah in skupinah.
 
 Delitev:
 
-- **prostorske zvrsti** - ločijo se po pokrajinah in delih slovenije
-- **narečje / dialekt** - govorica, omejena na manjše zemljepisno območje; slovenščina je narečno zelo razčlenjena (okoli 50 narečij, ki so po podobnosti združena v 7 narečnih skupin - uporabljamo jih predvsem v govornem sporočanju)
+- [prostorske zvrsti](blue-dark) - ločijo se po pokrajinah in delih slovenije
+- [narečje / dialekt](blue-dark) - govorica, omejena na manjše zemljepisno območje; slovenščina je narečno zelo razčlenjena (okoli 50 narečij, ki so po podobnosti združena v 7 narečnih skupin - uporabljamo jih predvsem v govornem sporočanju)
 - pokrajinsko pogovorni jezik
-- **interesne zvrsti** - govorijo jih ljudje v skupinah, nastalih zaradi skupnih interesov
-  - [sleng](green) - jezik ljudi iste starosti, najbolj znan je najstniški sleng - besede iz tujih jezikov, čustveno zaznamovane besede, hitro se spreminja, delno je pokrajinsko obarvan (ful, žur...).
-  - [žargon](green) - jezik ljudi istega poklica, dela ali konjička, besede so neuradni strokovni izrazi posamezne stroke (šraufnciger, špricanje...)
-  -  [argo](green) - jezik skrivnih združb skupin na obrobju družbe, "zaprt", drugim nerazumljiv.
+- [interesne zvrsti](blue-dark) - govorijo jih ljudje v skupinah, nastalih zaradi skupnih interesov
+  - **sleng** - jezik ljudi iste starosti, najbolj znan je najstniški sleng - besede iz tujih jezikov, čustveno zaznamovane besede, hitro se spreminja, delno je pokrajinsko obarvan (ful, žur...).
+  - **žargon** - jezik ljudi istega poklica, dela ali konjička, besede so neuradni strokovni izrazi posamezne stroke (šraufnciger, špricanje...)
+  -  **argo** - jezik skrivnih združb skupin na obrobju družbe, "zaprt", drugim nerazumljiv.
 
 ![Slovenske narečne skupine](https://res.cloudinary.com/solamona/image/upload/v1549925721/zvs/sts-kp/rac/4l/slovenscina/slovenske_narecne_skupine.jpg){: .imgc align="center"}
 
@@ -43,9 +43,120 @@ Delitev:
 
 
 
+### Besedni in nebesedni jezik
+
+[Besedni jezik](green) je besedilo, način sporočanja je z besedami. [Nebesedni jezik](green) so slike, odebeljeni naslovi, obarvan tekst...
+
+
+
 ## Glasovne prvine jezika - glasovanje
 
 Besede izgovarjamo z glasovi. V slovenskem knjižnem jeziku je 29 glasnikov (Fonemov), glasov, ki v okviru besed razločujejo pomen. O njih nas uči glasovanje (Fonetika).
+
+
+
+### Samoglasniki
+
+Samoglasniki so **i**, **e** (ozki e), **ε** (široki e), **a**, **∂**, **ɔ** (široki o), **o** (ozki o) in **u**.
+
+![Samoglasniški trikotnik](http://2.bp.blogspot.com/-wJ5BqbVE7Fs/UtooNVRVctI/AAAAAAAACG8/WEY1ZR4MlrA/s1600/Samoglasni%C5%A1ki+trikotnik.jpg){: .imgc align="center"}
+
+> Slika: Samoglasniški trikotnik
+
+So nosilci zlogov - beseda ima toliko zlogov, kolikor ima samoglasnikov.
+
+[Naglas](pink): Izgovarjamo jih različno močno - nekateri so izgovorjeni glasneje (naglašeni samoglasniki), drugi pa tiše (nenaglašeni samoglasniki).
+
+Glede na število naglasov ločimo:
+
+- **breznaglasnice / noslonke** (na, in, ter, sem, si, ga...)
+- **naglasnice**
+  - enoglasnice (m<u>a</u>ma, p<u>r</u>t, l<u>a</u>dja)
+  - večglasnice (<u>a</u>vtoc<u>e</u>sta, pr<u>a</u>slov<u>a</u>nščina)
+
+Naglasno mesto je preprosto, naučimo se ga z besedami.
+
+[Naglasna znamenja](green):
+
+- `´`: zaznamuje mesto naglasa in dolžino, pri E in O tudi ožino (m**í**za, p**é**ti, m**ó**rali)
+- `` ` `` kreativec: zaznamuje mesto naglasa in kračino (p**è**s, nast**ò**p)
+- `^` strešica: zaznamuje mesto naglasa in dolžino. Stoji samo nad črkama E in O, ko zaznamujeta širok Fonem (p**ê**ti, m**ô**ra, m**ê**dved)
+
+
+
+### Soglasniki
+
+Delimo jih na zvočnike (6) in nezvočnike (15).
+
+[Zvočniki](pink): delimo jih na ustne in nosne
+
+| nosni | ustni      |
+| ----- | ---------- |
+| m, n  | r, l, v, j |
+
+Vsi so zveneči Fonemi. Največ različic ima pri goverjenju zvočnik V, ker se prilagaja glasovnemu okolju (vreme, vsak, vem). Pomagamo si z <u>ML</u>I<u>N</u>A<u>RJ</u>E<u>V</u>.
+
+[Nezvočniki](pink):
+
+| Zveneči           | Nezveneči                    |
+| ----------------- | ---------------------------- |
+| g, d, z, b, ž, dž | t, s, h, š, k, f, c, p, š, č |
+
+Zveneči: GAD ZBEŽI + "Đ"
+
+Nezveneči: TA SUHI ŠKAFEC PUŠČA
+
+
+
+[Pozor](red-light): 
+
+- Predlog S/Z - vedno pišemo predlog S razen pred besedami, ki se začnejo na nezveneče predloge.
+- Predlog H/K - vedno pišemo predlog H, razen pred besedami, ki se začnejo na K in G.
+
+
+
+## Beseda
+
+Beseda je dogovorjeno ime nečesa, ima svoj namen in dogovorjeno tvorno stran (sestavljen je iz črk / glasov).
+
+
+
+### Enopomenke / večpomenke
+
+Glede na število pomenov ločimo [enopomenke](green) in [večpomenke](green):
+
+- **Enopomenke** - Beseda ima samo en pomen. Gre predvsem za strokovne izraze / termine (etimologija).
+- **Večpomenke** - Beseda ima dva ali več pomenov. Prvemu pravimo osnovni, drugi pa so preneseni pomeni.
+
+
+
+> nekje 3 dlji
+
+
+
+### Sopomenke, protipomenke, nadpomenke, podpomenke, enakozvočnice
+
+Glede na [pomenske odnose](green) med besedami ločimo:
+
+- **Sopomenka** - beseda, ki imajo enak pomen kot neka druga beseda (*letalo* - *avion*, *kamjon* - *tovornjak*)
+- **Protipomenka** - beseda, ki ima nasproten pomen (*lep* - *grd*, *sreča* - *žalost*)
+- **Nadpomenka** - beseda, ki ima širši pomen v primerjavi s podpomenko (*vozilo* - kamjon, avtomobil)
+- **Podpomenka** - beseda, ki ima ožji pomen v odnosu z nadpomenko (trgovec, učitelj, frizer - *poklic*)
+- **Enakozvočnica** - beseda, ki se enako piše in izgovarja kot druga beseda, ima pa drugačen pomen (*biti* - *biti*, *hotel* - *hotel*)
+
+
+
+### Besedna družina, tematsko polje
+
+Glede na [sorodnost](green) ali [tematsko povezanost](green) besede družimo v besedne družine in tematska polja.
+
+[Besedna družina](pink): skupina besed z istim korenom in sorodnim pomenom (učenje, učitelj, učenci, poučevati, naučiti...)
+
+[Tematsko polje](pink): skupina besed, povezanih s skupno (enako) temo (učenje, šola, napor, ocene, učitelji, kreda, pouk...)
+
+
+
+### Izvor besed, prevzemanje besed
 
 
 

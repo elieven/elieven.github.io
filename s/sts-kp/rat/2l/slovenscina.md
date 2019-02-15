@@ -482,3 +482,19 @@ Je novela z zgodovinsko snovjo (tolminski kmečki upor), nadaljevanje romana Tol
 - v jeziku in slogu (pogosta raba pridevnika *strašen*),
 - kontrastih (*strašna tihota* in glasna pesem pijanega Matka, Tinino umiranje in cvetoče pomladno drevo),
 - vzklikih in krikih (Matko v jezi zatuli *zadnje besede svoje pesmi*, Tina v stiski kliče svojega fanta ali Marijo...)
+
+
+
+### Dogodek v mestu Gogi
+
+Je kratka dvodejanka. Prikazuje življenje v provincialnem mestecu, kjer se nič ne zgodi. 
+
+Osebe so popačene, grotesko izmaličene, trpijo zaradi zatrte ali napačno usmerjene jubezenske sle. Razlog za to je izrazito malomestno, konzervativno, pasivno življenje.
+
+Celotno Gogo bi lahko razumali kot simbol - pomeni popačene, izkrivljeno človekovo duševnost in ujetost v življenje, v katerem se nič ne zgodi.
+
+[Dramska tehnika](pink): Je izrazito moderna. Zgradba je mozaična, sestavljajo jo posamezne zgodbe oseb, ki živijo druga ob drugi, povezuje pa jih skupen prostor - Goga in isto grozljivo ozračje. Zelo značilne so obsežne didaskalije - Grumove "scenične opombe".
+
+[Ekspresionizem](pink): Besediio ni le mozaik motivov, ampak tudi stilov. V njem se prepletajo sestavine ekspresionizma, simbolizma in nadrealizma. Ekspresionizemse kaže bolj v pesnških podobah (čaka ga z raztrganimi očmi v belo grozo spačeno obličje), v duhovni stiski, krizi vrednot, izgubljenosti, negotovosti.
+
+[Groteska](pink): Pojavlja se v sceni (hiše so smešne in grozljive, podobni so tudi predmeti v njih), vzdušju (skrajno in tesnobno), osebah (vse so psihično popačene, deformirane) in motivih.

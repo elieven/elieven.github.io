@@ -11,6 +11,8 @@ title: RSA • 2. letnik • Računalniški Tehnik • STŠ Koper
 
 Operatorji v JavaScriptu nam omogočajo primerjanje vrednosti. JavaScript ima __ operatorjev.
 
+
+
 #### Aritmetični operatorji
 
 Uporabi se jih za vršenje računskih / aritmetičnih operacij na vrednostih oz. spremenljivkah.
@@ -25,6 +27,8 @@ Uporabi se jih za vršenje računskih / aritmetičnih operacij na vrednostih oz.
 |    `++`    | Zvišanje    | `3++ = 4`     |
 |    `--`    | Znižanje    | `3-- = 2`     |
 
+
+
 #### Dodelitveni operatorji
 
 Uporabi se jih za dodelit spremenljivkam vrednost. Če za primer vzamemo **x = 10** in **y = 15** nam spodnja tabela razloži uporabo teh operatorjev.
@@ -38,6 +42,8 @@ Uporabi se jih za dodelit spremenljivkam vrednost. Če za primer vzamemo **x = 1
 |   `/=`   | `x /= y` | `x = x / y` | `x = 2	`    |
 |   `%=`   | `x %= y` | `x = x % y` | `x = 0`    |
 
+
+
 #### Operatorji nizov
 
 Operator `x` in operator `+=` se lahko tudi uporabi za združevanje nizov.
@@ -46,6 +52,8 @@ Operator `x` in operator `+=` se lahko tudi uporabi za združevanje nizov.
 | :------: | ------------------ | :--------: | :-----: | :--------: |
 |   `+`    | `niz3 = niz1 + niz2` |   `"Ja "`    | `"fino!"` | `"Ja fino!"` |
 |   `+=`   | `niz1 += niz2`       | `"Ja fino!"` | `"fino!"` |     `""`     |
+
+
 
 #### Primerjalni operatorji
 
@@ -62,6 +70,8 @@ Operator `x` in operator `+=` se lahko tudi uporabi za združevanje nizov.
 |   `>=`   | Večje ali enako                | `x >= 8`                   | `false`             |
 |   `<=`   | Manjše ali enako               | `x <= 8`                   | `true`              |
 
+
+
 #### Logični operatorji
 
 Za primer vzamemo **x = 6** in **y = 3**.
@@ -74,13 +84,15 @@ Za primer vzamemo **x = 6** in **y = 3**.
 
 Obstaja še operatorjev, kot so bitni operatorji, typeof operatorji, delete operator...
 
-<br><br>
+
 
 
 
 ### Selektorji
 
 Štirje osnovni selektorji, ki nam vrnejo HTML elemente so `getElementById`, `getElementsByClassName`, `querySelector` in `querySelectorAll`. So metode na document elementu, zato jih pokličemo tako: `document.querySelector('a');`
+
+
 
 #### getElementById()
 
@@ -90,6 +102,8 @@ Sprejme String ki je id od elementa ki ga želimo najti.
 document.getElementById('ime'); // vrne: element z id="ime"
 ```
 
+
+
 #### getElementsByClassName()
 
 Sprejme String ki je razred oz class od elementov, ki jih želimo najti. Vrne nam HTMLCollection objekt, ki je tabeli (array) podobna zbirka HTML elementov. Naprimer prvi element v HTMLCollection objektu lahko dostopamo enako kot v tabeli (array).
@@ -97,6 +111,8 @@ Sprejme String ki je razred oz class od elementov, ki jih želimo najti. Vrne na
 ```javascript
 document.getElementsByClassName('gumb'); // vrne: HTMLCollection elementov s class="gumb"
 ```
+
+
 
 #### querySelector()
 
@@ -107,6 +123,8 @@ document.querySelector('ul li a.navlink');
 // vrne prvi linke s class="navlink" ki so v li elementu, ki je v ul elementu
 ```
 
+
+
 #### querySelectorAll()
 
 Sprejme String ki je kakeršenkoli CSS selektor, vrne **vse** elemente ki ustrezajo temu selektorju.
@@ -116,7 +134,11 @@ document.querySelectorAll('ul li a.navlink');
 // vrne vse linke s class="navlink" ki so v li elementu, ki je v ul elementu
 ```
 
-<br><br>
+
+
+
+
+
 
 
 ### Metode na nizu (String)
@@ -126,6 +148,7 @@ Na začetku definiramo niz, na kateremu potem kličemo metode in spodaj prikaže
 ```javascript
 var niz = "Ne se hojsat!";
 ```
+
 
 
 #### length
@@ -139,6 +162,7 @@ console.log( niz.length ); // rezultat: 13
 [English documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/length)
 
 
+
 #### charAt()
 
 Vrne črko ki je na n-1 mestu. To zato ker se kot v večini drugih programskih jezikih šteti začne od 0.
@@ -148,6 +172,7 @@ console.log( niz.charAt(1) ); // rezultat: "e"
 ```
 
 [English documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt)
+
 
 
 #### indexOf()
@@ -167,6 +192,7 @@ console.log( niz.indexOf("e", 2) ); // rezultat: 4
 [English documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf)
 
 
+
 #### toUpperCase()
 
 To je metoda, ki pretvori vse znake v nizu v velike črke če obstajajo.
@@ -174,6 +200,7 @@ To je metoda, ki pretvori vse znake v nizu v velike črke če obstajajo.
 ```javascript
 console.log( niz.toUpperCase() ); // rezultat: "NE SE HOJSAT!"
 ```
+
 
 
 #### toLowerCase()
@@ -185,6 +212,7 @@ console.log( niz.toLowerCase() ); // rezultat: "ne se hojsat!"
 ```
 
 
+
 #### replace()
 
 Je metoda, ki vrne enak niz kot tisti na katerem je bil klican, s tem da je beseda oz kombinacija znakov w1 zamenjana s kombinacijo znakov w2. Zamenja kjerkoli se pojavi ta kombinacija ne samo prvi pojav.
@@ -192,6 +220,7 @@ Je metoda, ki vrne enak niz kot tisti na katerem je bil klican, s tem da je bese
 ```javascript
 console.log( niz.replace("hojsat", "guncat") ); // rezultat: "ne se guncat!"
 ```
+
 
 
 #### slice()
@@ -207,9 +236,12 @@ console.log( niz.slice(1,5) ); // rezultat: "e se"
 ```
 
 
+
 #### substring()
 
 Zelo podobno metodi slice. Podrobne razlike so razložene [tukaj](https://stackoverflow.com/questions/2243824/what-is-the-difference-between-string-slice-and-string-substring). V zgornjih primerih bi substring deloval enako kot slice.
+
+
 
 
 #### substr()
@@ -223,7 +255,9 @@ console.log( niz.substr(4,8) );    // rezultat: "e hojsat"
 
 Drugi argument metode `substr` je koliko znakov po začetnem naj vzame, od `substring` pa na katerem znaku naj se ustavi.
 
-<br><br>
+
+
+
 
 ### Vaje s nizi (stringi)
 
@@ -244,8 +278,6 @@ console.log( deliImena.join(" ") ); // rezultat: "Janez Vajkard Valvasor"
 ```
 
 Metoda `forEach()` ni podprta v vseh verzijah brskalnikov - naprimer internet explorer je ne podpira razen v tazadnji verziji. Podobno rešitev se da naredit s tem da namesto `forEach()` uporabimo zanko `for`. Razlika je v vrstici kode ali dveh.
-
-<br><br>
 
 
 
@@ -281,13 +313,13 @@ Primer realne uporabe:
 arr.length > 0 ? console.log('Array has items') : console.log('Array is empty');
 ```
 
-<br><br>
+
 
 
 
 ### Metoda addEventListener()
 
-Metodo addEventListener() lahko pokličemo na kateremukoli html elementu. Sprejme dogodek katerega želimo spremljati, funkcijo ki se izvrši po temu dogodku in useCapture (več o tem kasneje). Ta metoda potem doda elementu **event handler** za določen dogodek (brez da prekine druge), kot je naprimer **click**, **keydown**, **resize**, **focus**, **blur**... Elementu lahko dodamo več event handlerjev za določen dogodek. Event handler je funkcija, ki se bo izvršila ko se zgodi določen dogodek.
+Metodo addEventListener() lahko pokličemo na kateremukoli html elementu. Sprejme dogodek katerega želimo spremljati, funkcijo ki se izvrši po temu dogodku in useCapture (več o tem kasneje). Ta metoda potem doda elementu **event handler** za določen dogodek (brez da prekine druge), kot je naprimer **click**, **keydown**, **resize**, **focus**, **blur**... Elementu lahko dodamo več event handlerjev za določen dogodek. [Event handler je funkcija, ki se bo izvršila ko se zgodi določen dogodek](green).
 
 V spodnjem primeru dodamo elementu z idjem `warning` funkcijo, ki nam bo sporočila da smo žrtev virusa, v primeru da kliknemo na ta element.
 
@@ -303,26 +335,41 @@ Nu nujno da definiramo funkcijo ki jo želimo izvršiti znotraj parametra - upor
 document.querySelector('#warning').addEventListener('click', alertUser)
 ```
 
-**POZOR!** v JavaScriptu funkcije, ki so dodane v parameter neke druge funkcije ne smejo imeti `()` na koncu saj se v tem primeru izvršijo takoj ko brskalnik prebere to vrstico kode.
+[POZOR!](red-light) v JavaScriptu funkcije, ki so dodane v parameter neke druge funkcije ne smejo imeti `()` na koncu saj se v tem primeru izvršijo takoj ko brskalnik prebere to vrstico kode.
+
+
 
 #### useCapture
 
-Use capture je boolean vrednost (true, false) ki pove brskalniku v katerem vrstnem redu naj izvrši evcent handlerje na elementih. 
+Kot zanimivost in če bo komu gdaj rablo si lahko pogledaste `useCapture` (drugi parameter `addEventListener` funkcije). Na kratko povedano odloča o vrsnemu redu izvrševanja event handlerjev.
+
+[Mozilla MDN dokumentacija](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener), [vprašanje na StackOverflow](https://stackoverflow.com/questions/7398290/unable-to-understand-usecapture-parameter-in-addeventlistener).
+
+<br>
 
 **ŠE ZA DODAT**
 
 > event listener za keypress - razlika med [keyCode, charCode in which](https://css-tricks.com/snippets/javascript/javascript-keycodes/)
 
-### Dodani z js
-
-avejs
-
-### Dodani inline v HTML
 
 
-## Misc functions / methods
+
+### Misc functions / methods
 
 - click
-
 - value (bol property)
 - innerHTML
+
+
+
+---
+
+
+
+## PHP
+
+### XAMPP
+
+### Povezava z bazo
+
+> finally
