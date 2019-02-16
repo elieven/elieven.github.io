@@ -39,6 +39,11 @@ body {
   color: $ghblack;
 }
 
+html, body {
+  overflow: scroll;
+  overflow-scrolling: touch;
+}
+
 .con {
   padding: 0 16px;
   margin: 0 auto;
