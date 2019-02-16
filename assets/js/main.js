@@ -27,29 +27,35 @@ document.addEventListener("DOMContentLoaded", function () {
   var scroll_top_btn_show_threshold = 2000;
   //The first argument are the elements to which the plugin shall be initialized
   //The second argument has to be at least a empty object or a object with your desired options
-  var scrollbar = OverlayScrollbars(document.querySelector("body"), {
-    callbacks: {
-      onInitialized: function () {
-        // adds class to body that removes scroll disabling
-        document.querySelector("html").className += " scrolling-ready";
-      },
-      onScroll: function () {
-        if (scroll_top_btn != null) {
-          // Showhs the back to top button if scrolled over a threshold
-          if (this.scroll().position.y > scroll_top_btn_show_threshold) {
-            scroll_top_btn.classList.add("lift");
-          } else {
-            scroll_top_btn.classList.remove("lift");
+  var scrollbar;
+
+  if (!isMobile) {
+    OverlayScrollbars(document.querySelector("body"), {
+      callbacks: {
+        onInitialized: function () {
+          // adds class to body that removes scroll disabling
+          document.querySelector("html").className += " scrolling-ready";
+        },
+        onScroll: function () {
+          if (scroll_top_btn != null) {
+            // Showhs the back to top button if scrolled over a threshold
+            if (this.scroll().position.y > scroll_top_btn_show_threshold) {
+              scroll_top_btn.classList.add("lift");
+            } else {
+              scroll_top_btn.classList.remove("lift");
+            }
           }
         }
-      }
-    },
-    scrollbars: {
-      autoHide: "scroll",
-      autoHideDelay: 800
-    },
-    className: isMobile ? "os-theme-minimal-dark" : "os-theme-dark"
-  });
+      },
+      scrollbars: {
+        autoHide: "scroll",
+        autoHideDelay: 800
+      },
+      className: isMobile ? "os-theme-minimal-dark" : "os-theme-dark"
+    });
+  } else {
+    document.querySelector("html").className += " scrolling-ready";
+  }
 
   // Scroll back to top button functionality
   if (scroll_top_btn != null) {
@@ -81,7 +87,9 @@ document.addEventListener("DOMContentLoaded", function () {
     if (window.location.hash != "") {
       document.querySelector(decodeURIComponent(window.location.hash)).scrollIntoView();
     } else {
-      scrollbar.scroll({y: "0px"});
+      scrollbar.scroll({
+        y: "0px"
+      });
     }
   };
 
