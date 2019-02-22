@@ -498,3 +498,91 @@ Celotno Gogo bi lahko razumali kot simbol - pomeni popačene, izkrivljeno člove
 [Ekspresionizem](pink): Besediio ni le mozaik motivov, ampak tudi stilov. V njem se prepletajo sestavine ekspresionizma, simbolizma in nadrealizma. Ekspresionizemse kaže bolj v pesnških podobah (čaka ga z raztrganimi očmi v belo grozo spačeno obličje), v duhovni stiski, krizi vrednot, izgubljenosti, negotovosti.
 
 [Groteska](pink): Pojavlja se v sceni (hiše so smešne in grozljive, podobni so tudi predmeti v njih), vzdušju (skrajno in tesnobno), osebah (vse so psihično popačene, deformirane) in motivih.
+
+
+
+
+
+## Sodobna slovenska književnost
+
+Traja od leta **1950 dalje**.
+
+[Značilnosti](pink):
+
+- Splošna oznaka za književnost, ki pripada času, v katerem živimo - sodobnost. Motive, teme in ideje povezuje z osrednjimi duhovnimi, morlanimi in družbenimi vprašanji časa, v katerem nastaja.
+- Uporablja tradicionalne oblike, vendar jih prilagaja novi vsebini. Uvaja tudi nove.
+- Prepleta se več različnih smeri: socialni realizem, ekspresionizem, intimizem, eksistencializem, modernizem, postmodernizem... Meje med njimi niso določene, zato govorimo o **književnem pluralizmu** (množičnosti stilov).
+- Predstavnike uvrščamo v različne **generacije**: predvojna generacija, 1. povojna generacija, 2. povojna generacija, 3. povojna generacija, 4. povojna generacija.
+
+[Pomen](pink): Pomembna je, ker enakomerno razvije vse nadzvrsti književnosti. V njih ustvarja veliko nadarjenih in uspešnih avtorjev, med katerimi ni prevladujoče osebnosti.
+
+[Predstavniki](pink):
+
+- **Lirika**: Kajetan Kovič, Janez Menart, Dane Zajc, Tone Pavček, Tomaž Šalamun, Svetlana Makarovič...
+- **Epika**: Ciril Kosmač, Lojze Kovačič, Vitomil Zupan, Marjan Tomšič...
+- **Dramatika**: Gregor Strniša, Drago Jančar, Dominik Smole.
+
+
+
+### Južni otok
+
+Pesem je izšla v zbirki Labrador, 1976. Je [izpovedovalna pesem](green): pesnik skozi podobo južnega otoka izpoveduje upanje o uresničitvi idealov, upanje, da obstaja tudi nekaj boljšega - južni otok.
+
+[Metaforika](pink):
+
+- Južni otok je metafora, prispodoba lepega, mesto hrepenenja.
+  - Otok vhzaja, traja, gre: neizmerno trajanje govori o tem, da obstaja ne glede na to, kako se kaže skritemu subjektu.
+  - Otok obdaja morje: ovira za dostop do otoka, del njegove lepote (človekovo okolje).
+  - Zvezda: simbol jasnega, zanesljivega vodenja, kaže pot.
+  - Nova ladja: nova možnost, nova priložnost, novo upanje.
+- Cela pesem deluje kot razširjena metafora, značilno je nasprotje svetlobe in teme.
+
+
+
+### Črni deček
+
+Pesem je izšla v zbirki Jezik iz zemlje (1961).
+
+[Tematika](pink): Bivanjska (podobe iz narave in podobe ljudi nakazujejo stisko človeka - osamljenost, odtujenost in nesmiselnost bivanja).
+
+[Simboli](pink):
+
+- **Deček**: simbol pesnika, črni deček - simbol osamljenega in ogroženega človeka.
+- **Starci**: simboli skupnosti, v katerem živi.
+- **Sonce, zvezde, puščava**: simbol uničevalnega sveta, v katerem živi človek.
+- **Ptice**: simbol želja, idealov, hrepenenj, nasprotje vsemu negativnemu (pesmi).
+
+[Sporočilo](pink): Človek vstraja v absurdnem položaju, ker ima svoje želje in ideale (*ptice*). Vztrajati pomeni odločiti se za življenje takšno kakor je, kljubovati nesmiselnosti.
+
+[Slog in verz](pink): Slog je ekspresionističen, svoboden, bliža se ???
+
+
+
+### Tantadruj
+
+[Okvirna novela](pink):
+
+- Okvir: pisatelj v 1. osebi, pripoveduje o sprehodu po Piranu
+- vložena zgodba: avtor v 3. osebi pripoveduje o norčkih in njihovih prigodah.
+
+[Osebe](pink):
+
+- **Tantadruj** - glavna oseba, vaški norček z nenavadnim (ozvočenim) imenom. Želi si umreti, a ga svet, v katerem živi, ne jemlje resno, ker je norček in hoče nekaj, česar se vsi normalni ljudje bojijo - je upornik proti redu sveta.
+- **Luka Božorno-boserna** - kot zidar se je poškodoval in si pretresel možgane.
+- **Rusepatacis** - star Furlan, ki je služil kot hlapec pri kmetu, kjer so jedli samo repo in krompir. Od tega se mu je zmešalo.
+- **Hotejčev Matic / enaka palica** - lomi palice, a nobena ni "na vseh koncih enaka".
+
+[Slog](pink): V objektivni pripovedi so subjektivne pesniške podobe, besede s simboličnim pomenom (*zvonci* - bujenje, oznanjanje; *vrtiljak* - živost, življenje; *svetloba* - optimizem, vrednote...) in zvočni učinki (Tantadrujevo ponavljanje, pesem...).
+
+[Realistične, fantastične in eksistencialistične prvine](pink):
+
+- **Realizem**: Kaže se v avtorjevih podrobnih poročilih, dialogih književnih oseb, podrobnih opisih prizorišč (sejmišče, pokopališče).
+- **Fantastika**: Privid uničenja, ki se pisatelju pokaže podobno kot Tantadruju.
+- **Eksistencializem**: Povezan je z bivanjskim položajem glavne osebe, ki ves čas živi na robu življenja in smrti. Osnovno določilo je, da svet ni smiseln, občutek tesnobe in želje po smrti, vprašanje svobode bivanja oz. lastnega odločanja o smrti.
+
+[Ideja](pink):
+
+- **Temeljna ideja**: Zemljo (svet) lahko ogrejejo le topli medčloveški odnosi (človek se mora približati človeku).
+- **Druge ideje**: Človek ne more svobodno odločati o življenju in smrti. Drugačni (norčki) so obsojeni na osamljenost. Spoznanje o bivanju ne izhaja samo iz razuma, ampak tudi čustev in čutov.
+
+[Sporočilo](pink): Tantadruj s svojo usodo sporoča, da je življenje kljub trpljenju, krivicam in "hladni zemljici" lepo in da ga je vredno živeti, da je človekova dolžnost delati dobra dela (nabirati zvonce), da lahko vsak misli po svoje in da imajo tudi "božji otroci" svoje kvalitete.

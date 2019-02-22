@@ -15,7 +15,7 @@ $h2-font-size: 30px; //28px;
 $h2-font-weight: 500;
 $h2-color: #111;
 
-$h3-font: "Helvetica";
+$h3-font: "Arial";
 $h3-font-size: 22px;
 $h3-font-weight: 600;
 $h3-color: #212121;
@@ -32,6 +32,11 @@ body {
 
 header::before {
   box-shadow: 0 !important;
+}
+
+#word_count {
+  font-size: 14px;
+  padding: 12px 2px;
 }
 
 #table-of-content {

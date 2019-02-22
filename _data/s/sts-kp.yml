@@ -56,11 +56,6 @@ programi:
     letniki:
       - letnik: 1
         predmeti:
-          - predmet: Angleščina
-            code:    anglescina
-            name:    Angleščina
-            status:  wip
-
           - predmet: Geografija
             code:    geografija
             name:    Geografija
@@ -85,6 +80,11 @@ programi:
             code:    uikst
             name:    Upravljanje IK Sistemov
             status:  done
+
+          - predmet: Angleščina
+            code:    anglescina
+            name:    Angleščina
+            status:  wip
 
       - letnik: 2
         predmeti:

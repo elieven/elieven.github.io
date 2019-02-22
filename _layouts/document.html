@@ -60,6 +60,9 @@ layout: default
       {{ content }}
 
     </div>
+
+    <p id="word_count">{{ page.content | strip_html | number_of_words }} words</p>
+
   </div>
 
 </div>
