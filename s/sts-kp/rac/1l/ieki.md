@@ -15,7 +15,7 @@ title: IEKI • 1. letnik • Računalnikar • STŠ Koper
 - omogočajo izmenjavo velikih količin informacij z visoko hitrostjo
 - so relativno poceni
 
-![Slika zgradbe LAN omrežja][lan]
+![Slika zgradbe LAN omrežja][lan]{: align="center" .imgc}
 
 
 
@@ -27,7 +27,7 @@ title: IEKI • 1. letnik • Računalnikar • STŠ Koper
 - omogočajo izmenjavo velikih količin informacij z visoko hitrostjo
 - WAN omrežja pogosto povezujejo **več LAN omrežij v eno** samo
 
-![Slika zgradbe WLAN omrežja][wlan]
+![Slika zgradbe WLAN omrežja][wlan]{: align="center" .imgc}
 
 
 
@@ -44,19 +44,19 @@ Je najbolj uporabljen tip paričnih kablov in je postal najbolj popularen v loka
 
 Ena izmed možnih težav vseh vrst paričnih kablov je **presluh**. UTP je zelo občutljiv na presluh. **Več kot je zavojev na meter žice, manjša je možnost presluha**. Pri kablih FTP in STP z oklopi dodatno zmanjšamo možnost presluha.
 
-![Slika zgradbe UTP kabla][utp]
+![Slika zgradbe UTP kabla][utp]{: align="center" .imgc}
 
 #### STP kabel
 
 STP kabel je sestavljen iz **bakrenega opleta**, ki da večjo **zaščito** in višjo kvaliteto kot ovoj kabla pri UTP. STP uporablja folijo za zaščito med paricami in oplet pred zunanjimi motnjami. To da STP odlično zaščito prenesenim podatkom pred zunanjimi motnjami, kar omogoča, da lahko z STP prenašamo **višje hitrosti na daljšo razdaljo kot pri UTP**.
 
-![Slika zgradbe STP kabla][stp]
+![Slika zgradbe STP kabla][stp]{: align="center" .imgc}
 
 #### FTP kabel
 
 FTP kabel je sestavljen iz **aluminijeve (in bakrene) folije okoli paric**, ki da večjo zaščito in višjo kvaliteto kot ovoj kabla pri UTP. FTP **ne uporablja folije za zaščito med paricami**. FTP dovolj dobro ščiti prenesene podatke pred zunanjimi motnjami. Sama zgradba je preprostejša in posledično zato tudi montaža. To je tudi razlog, da se pogosteje uporabljajo kot STP.
 
-![FTP kabel prerez][ftp]
+![FTP kabel prerez][ftp]{: align="center" .imgc}
 
 
 
@@ -70,7 +70,7 @@ Vsa optična vlakna izkoriščajo za vodenje svetlobe prav **pojav popolnega not
 
 Ker vsako stekleno vlakno prenaša signal samo v eno smer, **vsebuje kabel vsaj dve vlakni**. Eno vlakno se uporablja za sprejem, drugo za oddajo. Ovoj okoli vsakega steklenega vlakna je kevlar, ki zagotavlja trdnost. **Vlakna so povezana v svežnje**, ki jih imenujemo optični kabli in jih uporabljamo za prenos svetlobnih signalov na velike razdalje.
 
-![Slika zgradbe optičnega kabla][optika]
+![Slika zgradbe optičnega kabla][optika]{: align="center" .imgc}
 
 
 
@@ -90,7 +90,7 @@ Jedro obdaja električno neprevodni sloj, ki loči jedro od mrežne žice. Prepl
 
 Koaksialni kabel je bolj odporen proti motnjam kot sukane parice.
 
-![Slika zgradbe koaksialnega kabla][koaksialni]
+![Slika zgradbe koaksialnega kabla][koaksialni]{: align="center" .imgc}
 
 
 

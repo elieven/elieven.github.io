@@ -123,10 +123,11 @@ Samostalniško in pridevniško besedo **sklanjamo**, glagol pa **spregamo**.
 
 ## Samostalniška beseda
 
-- **Samostalniška beseda**
-  - Samostalnik
-  - Samostalniški zaimek
-  - Posamostavljeni pridevnik
+[Samostalniška beseda](pink)
+
+- Samostalnik
+- Samostalniški zaimek
+- Posamostavljeni pridevnik
 
 ### Samostalnik
 
@@ -134,20 +135,23 @@ Samostalniki označujejo predmetnost v splošnem pomenu. Poimenujejo bitja (*mam
 
 #### Delijo se na:
 
-- **Lastna imena:**
-  - osebna lastna imena (*Minka, Novak*)
-  - stvarna lastna imena (*Primorske novice, Zdravljica*)
-  - zemljepisna lastna imena (**naselbinska** [*Nova Gorica*], **nenaselbinska** [*Bohinjsko jezero*])
-- **Občna imena:**
-  - števna (muzej, trg)
-  - neštevna (**v ednini** [*ljubezen. mleko*], **v množini** [*škarje, hlače*])
+[Lastna imena](pink):
+
+- osebna lastna imena (*Minka, Novak*)
+- stvarna lastna imena (*Primorske novice, Zdravljica*)
+- zemljepisna lastna imena (**naselbinska** [*Nova Gorica*], **nenaselbinska** [*Bohinjsko jezero*])
+
+[Občna imena](pink):
+
+- števna (muzej, trg)
+- neštevna (**v ednini** [*ljubezen. mleko*], **v množini** [*škarje, hlače*])
 
 #### Določamo jim:
 
-- spol (**moški** [*nos*], **ženski** [*miza*], **srednji** [*stol*])
-- število (**ednina** [*mačka*], **dvojina** [*mački*], **množina** [*mačke*])
-- sklon (imenovalnik, rodilnik, dajalnik, tožilnik, mestnik, orodnik)
-- sklanjatev
+- [spol](green) (**moški** [*nos*], **ženski** [*miza*], **srednji** [*stol*])
+- [število](green) (**ednina** [*mačka*], **dvojina** [*mački*], **množina** [*mačke*])
+- [sklon](green) (imenovalnik, rodilnik, dajalnik, tožilnik, mestnik, orodnik)
+- [sklanjatev](green)
 
 ## Pridevniška beseda
 
@@ -162,16 +166,16 @@ Pridevnik neposredno poimenuje lastnost, vrsto, količino prvih predmetnosti.
 
 #### Vrste pridevnikov
 
-- **lastnostni** (označuje lastnost predmetov ⇒ težek, lesen, črn; **kakšen?**)
-- **vrstni** (označuje uvrščenost v neko skupino enakih/ podobnih prvin ⇒ prah/ stroj/ zeleni čaj/ slovenski jezik/; **kateri?**)
-- **svojilni** (označuje pripadnost skupini ⇒ stričev, mamin, Mojčin, Markov; **čigav?**)
+- [lastnostni](pink) (označuje lastnost predmetov ⇒ težek, lesen, črn; **kakšen?**)
+- [vrstni](pink) (označuje uvrščenost v neko skupino enakih/ podobnih prvin ⇒ prah/ stroj/ zeleni čaj/ slovenski jezik/; **kateri?**)
+- [svojilni](pink) (označuje pripadnost skupini ⇒ stričev, mamin, Mojčin, Markov; **čigav?**)
 
 #### Oblikovne lastnosti
 
-- **spol** (**moški** [lep], **ženski** [lepa], **srednji** [lepo])
-- **število** (**ednina** [nov stol], **dvojina** [nova stola], **množina** [novi stoli])
-- **sklon** (imenovalnik, rodilnik, dajalnik, tožilnik, mestnik, orodnik)
-- **stopnjevanje:**
+- [spol](green) (**moški** [lep], **ženski** [lepa], **srednji** [lepo])
+- [število](green) (**ednina** [nov stol], **dvojina** [nova stola], **množina** [novi stoli])
+- [sklon](green) (imenovalnik, rodilnik, dajalnik, tožilnik, mestnik, orodnik)
+- [stopnjevanje](green):
   - dvostopensjko (lep, prelep)
   - tristopenjsko
     - z obrazili (star, starejši, najstarejši)
@@ -181,11 +185,11 @@ Pridevnik neposredno poimenuje lastnost, vrsto, količino prvih predmetnosti.
 
 #### Vrste števnikov
 
-- **Glavni** (povedo nam število nečesa ⇒ pet otrok, osmim učencem; **Koliko?**)
+- [Glavni](pink) (povedo nam število nečesa ⇒ pet otrok, osmim učencem; **Koliko?**)
   - Števila od 0 do 99 in stotice pišemo skupaj
   - Ostalo narazen
   - Če pišemo s števkami na koncu ni pike (npr. `2543` - `dva miljona tristo pet`...)
-- **Vrstilni** (povedo nam zaporedje nečesa ⇒ peti dijak, osma stran; **kateri?**)
+- [Vrstilni](pink) (povedo nam zaporedje nečesa ⇒ peti dijak, osma stran; **kateri?**)
   - Pišemo jih skupaj oz. s piko na koncu (npr `3421.` - `tritisočpetstoenaindvajseti`)
 
 ## Glagoli
@@ -210,25 +214,25 @@ Glagoli poimenujejo dejanje (pišem), dogajanje (sneži), zaznamovanje (slišim)
 
 #### Oblikovne lastnosti
 
-- **oseba**
+- [oseba](pink)
   - Ⅰ oseba (delam)
   - Ⅱ oseba (delaš)
   - Ⅲ oseba (dela)
-- **čas**
+- [čas](pink)
   - preteklik (sem delal)
   - sedanjik (delam)
   - prihodnjik (bom delal)
-- **število**
+- [število](pink)
   - ednina (delam)
   - dvojina (delava)
   - množina (delamo)
-- **glagolski vid**
+- [glagolski vid](pink)
   - dovršni (Zjutraj vstanem ob 7:00)
   - nedovršni (Zjutraj vstanem zgodaj)
-- **glagolski način**
+- [glagolski način](pink)
   - trpnik (Vaza se je razbila. Vaza je razbita)
   - tvornik (Peter je razbil vazo)
-- **glagolski naklon**
+- [glagolski naklon](pink)
   - povedni (Kdaj greš domov? Peter nikoli ne pospravi sobe.)
   - velelni (Pojdi domov! Zapri okno! Pospravi sobo!)
   - pogojni (Jutri bi šel na izlet)
@@ -247,9 +251,9 @@ Klepec je bil na začetku šibek pastirček, izpostavljen nasilju močnejših vr
 
 ## Reformacija in protestantizem
 
-**Reformacija:** (lat. reformare preoblikovati, preurediti): je versko gibanje v Evropi v 16. st. Zahtevala je spremembe cerkve (plačevanje odpustkov, razkošje, nemoralnost duhovščine..)
+[Reformacija](pink): (lat. reformare preoblikovati, preurediti): je versko gibanje v Evropi v 16. st. Zahtevala je spremembe cerkve (plačevanje odpustkov, razkošje, nemoralnost duhovščine..)
 
-**Protestantizem:** skupno ime za krščanske veroizpovedi, ki so se v reformaciji odcepile od Katoliške cerkve. Nasprotujcjo cerkvenemu razkošju. Borili so se proti praznoverju vernikov, odpravili so celibat.
+[Protestantizem](pink): skupno ime za krščanske veroizpovedi, ki so se v reformaciji odcepile od Katoliške cerkve. Nasprotujcjo cerkvenemu razkošju. Borili so se proti praznoverju vernikov, odpravili so celibat.
 
 
 
@@ -296,11 +300,11 @@ Obdobje je za slovensko književnost zelo pomembno, saj je **slovensčina postal
 
 Trubar po lastni izkušnji opisuje praznoverje vernikov in bogatenje duhovščine na njihov račun. Pripoveduje po spominu, zato gre za spomine.
 
-**Vsebina:** Trubar pripoveduje o tem, kako je neka ženska širila govorice, da se ji prikazujeta dva svetnika, ki zahtevata, naj zgradijo cerkev. Če tega ne bodo naredili, bosta namreč toča in kuga uničila pridelek, živino in ljudi. Ljudje so ji nasedli, Trubar pa jih želi prepričati, da je to laž, a ga izženejo, njegov pomočnik pa dokaže, da ženska laže. Tudi v nadaljevanju besedila Trubar našteva primere izkoriščanja preprostih vernikov, ob tem pa ugotavlja, da duhovniki to spodbujajo, ker imajo od tega korist.
+[Vsebina](pink): Trubar pripoveduje o tem, kako je neka ženska širila govorice, da se ji prikazujeta dva svetnika, ki zahtevata, naj zgradijo cerkev. Če tega ne bodo naredili, bosta namreč toča in kuga uničila pridelek, živino in ljudi. Ljudje so ji nasedli, Trubar pa jih želi prepričati, da je to laž, a ga izženejo, njegov pomočnik pa dokaže, da ženska laže. Tudi v nadaljevanju besedila Trubar našteva primere izkoriščanja preprostih vernikov, ob tem pa ugotavlja, da duhovniki to spodbujajo, ker imajo od tega korist.
 
-**Jezik in slog:** V jeziku se kažejo dolenjske oblike (nuč, taku), nemške popačenke (famošter, lebali), besedni red je po nemškem zgledu, ponavlja se veznik "inu". Besede uporabi v prvotnem pomenu, stavki so preprosti.
+[Jezik in slog](pink): V jeziku se kažejo dolenjske oblike (nuč, taku), nemške popačenke (famošter, lebali), besedni red je po nemškem zgledu, ponavlja se veznik "inu". Besede uporabi v prvotnem pomenu, stavki so preprosti.
 
-**Sporočilo:** Protestanti so nasprotovali pretirani gradnji cerkva in njihovi razkošni opremljenosti, ker so menili, da to nimerilo vernosti. Zanje je najpomembnejše, da ljudje sami berejo Sveto pismo. Razna prikazovanja so imeli za praznoverje, opozarjali pa so tudi, da si duhovščina pridobiva lastne koristi.
+[Sporočilo](pink): Protestanti so nasprotovali pretirani gradnji cerkva in njihovi razkošni opremljenosti, ker so menili, da to nimerilo vernosti. Zanje je najpomembnejše, da ljudje sami berejo Sveto pismo. Razna prikazovanja so imeli za praznoverje, opozarjali pa so tudi, da si duhovščina pridobiva lastne koristi.
 
 
 

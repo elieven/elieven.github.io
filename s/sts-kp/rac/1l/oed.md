@@ -9,17 +9,15 @@ title: OED • 1. letnik • Računalnikar • STŠ Koper
 ## Številski sistemi
 
 - __Dvojiški__ (_binarni_) {0,1}
-- __Desetiški__ (_decimalni_, _dekadni_) {0,1,2,3...9}
+- __Desetiški__ (_decimalni_, _dekadni_) {0,1,2,3,4,5,6,7,8,9}
 - __Osmiški__ (_oktalni_) {0,1,2,3,4,5,6,7}
-- __Šestnajstiški__ (_heksadecimalni_) {0,1,2...9,A,B,C,D,E,F}
+- __Šestnajstiški__ (_heksadecimalni_) {0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F}
 
 
 
-### Pretvarjanje
+### Desetiško v Dvojiško (10) → (2)
 
-#### DESTIŠKO v DVOJIŠKO (10) → (2)
-
-\$$ 300_{(10)} = $$
+[300<sub>(10)</sub> =](pink)
 
 ```
 300:2  = 150  ostanek	0
@@ -33,13 +31,13 @@ title: OED • 1. letnik • Računalnikar • STŠ Koper
 1:2    = 0    ostanek	1
 ```
 
-\$$ 300_{(10)} = 100101100_{(2)} $$
+[300<sub>(10)</sub> = 100101100<sub>(2)</sub>](green)
 
 
 
-#### DVOJIŠKO v DESTIŠKO (2) → (10)
+### Dvojiško v Desetiško (2) → (10)
 
-\$$ 100101100_{(2)} = $$
+[100101100<sub>(2)</sub> =](pink)
 
 Začneš s številko na desni, ki je \\(2^0\\), naslednja je \\(2^1\\), potem \\(2^3\\) in tako naprej.
 
@@ -57,13 +55,13 @@ Začneš s številko na desni, ki je \\(2^0\\), naslednja je \\(2^1\\), potem \\
 
 Na koncu samo sešteješ vse produkte.
 
-\$$ 100101100_{(2)} = 300_{(10)} $$
+[100101100<sub>(2)</sub> = 300<sub>(10)</sub>](green)
 
 
 
-#### DESTIŠKO v OSMIŠKO (10) → (8)
+### Desetiško v Osmiško (10) → (8)
 
-\$$ 300_{(10)} = $$
+[300<sub>(10)</sub> =](pink)
 
 ```
 300:8 = 37   ostanek = 4
@@ -71,13 +69,13 @@ Na koncu samo sešteješ vse produkte.
 4:8   = 0    ostanek = 4
 ```
 
-\$$ 300_{(10)} = 454_{(8)} $$
+[300<sub>(10)</sub> = 454<sub>(8)</sub>](green)
 
 
 
-#### OSMIŠKO v DESETIŠKO (8) → (10)
+### Osmiško v Desetiško (8) → (10)
 
-\$$ 454_{(8)} = $$
+[454<sub>(8)</sub> =](pink)
 
 ```
   4 * 8^2 + 5 * 8^1 + 4 * 8^0 =
@@ -86,13 +84,13 @@ Na koncu samo sešteješ vse produkte.
 = 300
 ```
 
-\$$ 454_{(8)} = 300_{(10)} $$
+[454<sub>(8)</sub> = 300<sub>(10)</sub>](green)
 
 
 
-#### DESETIŠKO v ŠESTNAJSTIŠKO (10) → (16)
+### Desetiško v Šestnajstiško (10) → (16)
 
-\$$ 300_{(10)} = $$
+[300<sub>(10)</sub> =](pink)
 
 ```
 300:16 =  18 ostanek 12   = C
@@ -102,13 +100,13 @@ Na koncu samo sešteješ vse produkte.
 
 Rezultat se prebere od spodaj navzgor.
 
-\$$ 300_{(10)} = 12\mathrm{C_{(16)}} $$
+[300<sub>(10)</sub> = 12C<sub>(16)</sub>](green)
 
 
 
-#### ŠESTNAJSTIŠKO v DESETIŠKO (16) → (10)
+### Šestnajstiško v Desetiško (16) → (10)
 
-\$$ 12\mathrm{C_{(16)}} = $$
+[12C<sub>(16)</sub> =](pink)
 
 ```
   1 * 16^2 + 2 * 16^1 + 12 * 16^0
@@ -116,7 +114,7 @@ Rezultat se prebere od spodaj navzgor.
 = 300
 ```
 
-\$$ 12\mathrm{C_{(16)}} = 300_{(10)} $$
+[12C<sub>(16)</sub> = 300<sub>(10)</sub>](green)
 
 
 

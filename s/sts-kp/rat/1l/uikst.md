@@ -8,7 +8,7 @@ latex: true
 
 ## Osnove računalniškega omrežja
 
-Računalniško omrežje tvorita najmanj dve napravi ki sta med seboj **povezani** in **neodvisni**
+[Računalniško omrežje tvorita najmanj dve napravi ki sta med seboj **povezani** in **neodvisni**](highlight)
 
 ### Elementi rač. omrežja:
 
