@@ -22,14 +22,22 @@ $predmet_hover_border_color: rgba(0, 0, 0, 0.24);
   padding: 13px;
   background-color: #FFF;
   border: 1px solid $predmet_border_color;
-  box-shadow: 0 1px 0 0 $predmet_shadow_color;
+  //box-shadow: 0 1px 0 0 $predmet_shadow_color;
   text-decoration: none;
   color: $ghblack;
 
+  transition: all 150ms ease-out 0s;
+
   &:hover {
-    box-shadow: 0 0 0 1px $predmet_hover_shadow_color, inset 0 0 0 1px $predmet_hover_shadow_color;
-    border-color: $predmet_hover_border_color;
+    transform: translate3d(0px, -2px, 0px);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 5px 15px 0px;
+    //box-shadow: 0 0 0 1px $predmet_hover_shadow_color, inset 0 0 0 1px $predmet_hover_shadow_color;
+    //border-color: $predmet_hover_border_color;
     z-index: 10;
+  }
+
+  &:active {
+    transform: translate3d(0px, 0px, 0px);
   }
 
   .predmet-content {
