@@ -1,5 +1,5 @@
 // base color
-$predmet_all_color: #dae1e7;
+$predmet_all_color: rgb(217, 224, 230);
 //rgba(0,0,0,0.16)
 // border and shadow on rest
 $predmet_border_color: $predmet_all_color;
@@ -30,7 +30,7 @@ $predmet_hover_border_color: rgba(0, 0, 0, 0.24);
 
   &:hover {
     transform: translate3d(0px, -2px, 0px);
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 5px 15px 0px;
+    box-shadow: rgba(217, 224, 230, 0.7) 0px 1px 3px 0px, rgba(217, 224, 230, 0.7) 0px 5px 15px 0px;
     //box-shadow: 0 0 0 1px $predmet_hover_shadow_color, inset 0 0 0 1px $predmet_hover_shadow_color;
     //border-color: $predmet_hover_border_color;
     z-index: 10;
