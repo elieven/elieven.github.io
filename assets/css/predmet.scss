@@ -27,9 +27,11 @@ $predmet_hover_border_color: rgba(0, 0, 0, 0.24);
   color: $ghblack;
 
   transition: all 150ms ease-out 0s;
+  will-change: transform;
 
   &:hover {
-    transform: translate3d(0px, -2px, 0px);
+    //transform: translate3d(0px, -2px, 0px);
+    transform: translateY(-2px);
     box-shadow: rgba(217, 224, 230, 0.7) 0px 1px 3px 0px, rgba(217, 224, 230, 0.7) 0px 5px 15px 0px;
     //box-shadow: 0 0 0 1px $predmet_hover_shadow_color, inset 0 0 0 1px $predmet_hover_shadow_color;
     //border-color: $predmet_hover_border_color;
@@ -37,7 +39,8 @@ $predmet_hover_border_color: rgba(0, 0, 0, 0.24);
   }
 
   &:active {
-    transform: translate3d(0px, 0px, 0px);
+    //transform: translate3d(0px, 0px, 0px);
+    transform: translateY(0px);
   }
 
   .predmet-content {
