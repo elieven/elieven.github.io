@@ -46,10 +46,11 @@ header::before {
   background-color: $bg;
   margin-top: 16px * 2;
   margin-bottom: 16px;
+  border-radius: 6px;
 
   #toc-toggle {
     $d: 44px;
-    background-color: $bg;
+    background-color: rgba(0,0,0,0);
     border: none;
     display: inline-block;
     text-align: left;
@@ -170,6 +171,7 @@ header::before {
     background-color: white;
     border: 1px solid #dae1e7;
     font-family: $p-font;
+    border-radius: 6px;
 
     svg {
       max-width: 100%;
@@ -615,16 +617,27 @@ header::before {
 
 
 @media screen and (max-width: $xs) {
+
   body {
     //background-color: white !important;
+    .docwrap .doc p, 
+    .docwrap .doc blockquote, 
+    .docwrap .doc ul, 
+    .docwrap .doc ol, 
+    .docwrap .doc dl, 
+    .docwrap .doc table, 
+    .docwrap .doc pre {
+      font-size: 16px;
+      line-height: 22px;
+    }
   }
 
   #table-of-content {
-    background-color: #F8F9FA !important;
+    //background-color: #F8F9FA !important;
     width: 100%;
 
     #toc-toggle {
-      background-color: #F8F9FA !important;
+      //background-color: #F8F9FA !important;
     }
   }
 

@@ -122,3 +122,46 @@ $$
 \end{array}
 }
 $$
+
+
+
+## Obrestni račun
+
+| Spremenljivka               | Kaj pomeni                              |
+| --------------------------- | --------------------------------------- |
+| **G** - glavnica            | Znesek, ki se nam obrestuje             |
+| **o** - obresti             | Znesek, za kateregase glavnica poveča   |
+| **p** - obrestna mera       | V %, banke računajo letno obrestno mero |
+| **r** - obrestovalni faktor | \\( \mathrm{r} = 1 + \frac{p}{100} \\)  |
+| **n** - obrestovalna doba   |                                         |
+
+
+
+### Navadno obrestovanje
+
+Glavnica ostaja enaka, obresti so enake.
+
+
+$$
+\RAC{
+    o = \frac{G \cdot p}{100} \qquad o_n = \frac{G \cdot p \cdot n}{100} = \text{obresti po n letih}
+}
+$$
+
+> Primer: Miha si od banke sposodi...
+
+
+
+### Obrestno obrestovanje
+
+Glavnica se po računanju obresti veča, zato se tudi obresti s časom večajo.
+
+
+$$
+\RAC{
+    G_0 = 1000 \\
+    G_1 = 1030 \\
+    G_2 = 1060,9 \\
+    G_3 = 1090,73
+}
+$$
