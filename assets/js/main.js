@@ -53,19 +53,38 @@ document.addEventListener("DOMContentLoaded", function () {
       },
       className: isMobile ? "os-theme-minimal-dark" : "os-theme-dark"
     });
+
+    // Scroll back to top button functionality
+    if (scroll_top_btn != null) {
+      scroll_top_btn.addEventListener("click", function () {
+        OverlayScrollbars(document.querySelector("body"), {}).scroll({
+          y: "0px"
+        }, isMobile ? 0 : 320, "easeOutQuart");
+        // removing anchor from url
+        //location.hash = "";
+      });
+    }
+
   } else {
     document.querySelector("html").className += " scrolling-ready";
-  }
+    // ScrollTop button show event listener
+    window.setInterval(function(){
+      var doc = document.documentElement;
+      var top = (window.pageYOffset || doc.scrollTop)  - (doc.clientTop || 0);
+      if (top > scroll_top_btn_show_threshold) {
+        scroll_top_btn.classList.add("lift");
+      } else {
+        scroll_top_btn.classList.remove("lift");
+      }
+      cl(top);
+    }, 16);
 
-  // Scroll back to top button functionality
-  if (scroll_top_btn != null) {
-    scroll_top_btn.addEventListener("click", function () {
-      OverlayScrollbars(document.querySelector("body"), {}).scroll({
-        y: "0px"
-      }, isMobile ? 0 : 320, "easeOutQuint");
-      // removing anchor from url
-      //location.hash = "";
-    });
+    // ScrollTop button functionality for mobile
+    if (scroll_top_btn != null) {
+      scroll_top_btn.addEventListener("click", function () {
+        document.documentElement.scrollTop = 0;
+      });
+    }
   }
 
   // Table of content collapsing
