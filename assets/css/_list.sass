@@ -1,5 +1,5 @@
 // base color
-$list-item_all_color: #dae1e7
+$list-item_all_color: #d9e0e6 //#dae1e7
 //rgba(0,0,0,0.16)
 // border and shadow on rest
 $list-item_border_color: $list-item_all_color
@@ -26,13 +26,14 @@ $list-item_hover_border_color: rgba(0,0,0,0.24)
     .list-item
       background-color: #FFF
       border: 1px solid $list-item_border_color
-      box-shadow: 0 1px 0 0 $list-item_shadow_color
+      //box-shadow: 0 1px 0 0 $list-item_shadow_color
       padding: 12px
       display: block
       color: $ghblack
       //font-family: $roboto
       text-decoration: none
       position: relative
+      border-radius: 6px
 
       &:hover
         border-color: $list-item_hover_border_color

@@ -628,7 +628,7 @@ header::before {
     .docwrap .doc table, 
     .docwrap .doc pre {
       font-size: 16px;
-      line-height: 22px;
+      line-height: 23px;
     }
   }
 
@@ -648,6 +648,10 @@ header::before {
     .doc {
       padding: 0px !important;
       border: 0;
+
+      ul, ol {
+        padding-left: 1.2em;
+      }
     }
   }
 }
