@@ -337,7 +337,11 @@ document.querySelector('#warning').addEventListener('click', alertUser)
 
 [POZOR!](red-light) v JavaScriptu funkcije, ki so dodane v parameter neke druge funkcije ne smejo imeti `()` na koncu saj se v tem primeru izvršijo takoj ko brskalnik prebere to vrstico kode.
 
+#### POVEZAVE
 
+- [seznam vseh eventov in kdaj so sproženi](https://developer.mozilla.org/en-US/docs/Web/Events)
+- [dokumentacija metode addEventListener()](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
+- [razlaga tretjega parametra (useCapture) in tega koncepta](https://stackoverflow.com/questions/7398290/unable-to-understand-usecapture-parameter-in-addeventlistener)
 
 #### useCapture
 

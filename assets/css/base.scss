@@ -1,23 +1,4 @@
-$hh: 56px;
-$mw: 980px;
-
-$xs: 576px;
-$sm: 786px;
-$md: 992px;
-$lg: 1200px;
-
-$z1: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-$z2: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-
-$ghblack: #24292e;
-$selection-color: #ccff00;
-$border-color: #eaecef;
-$border-color-2: rgba(0,0,0,0.125);
-
-$logo-font: 'poppinsregular';
-$roboto: 'Roboto', sans-serif;
-
-
+@import 'variables';
 
 * {
   margin: 0;
@@ -51,36 +32,6 @@ html, body {
   max-width: $mw;
 }
 
-/*
-html {
-  &.desktop {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-
-    body, 
-    #sscon {
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-    }
-  }
-}
-
-#sscon.mobile {
-  overflow-y: auto;
-}
-*/
 button {
   outline: none!important;
   font-weight: 500!important;

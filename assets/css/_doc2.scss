@@ -1,29 +1,4 @@
-$default-font: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-$p-line-height: 24px; // 26px
-$p-font: $default-font;//"Verdana"; // "Source Serif Pro", serif;
-$p-font-size: 1rem; // 18px
-$bold-weight: 600;
-
-// HEADING STYLES
-$h1-font: "Verdana";
-$h1-font-size: 2rem; // 36px
-$h1-font-weight: 600;
-$h1-color: #111;
-
-$h2-font: "Georgia";
-$h2-font-size: 1.6666666666666667rem; // 30px;
-$h2-font-weight: 500;
-$h2-color: #111;
-
-$h3-font: "Arial";
-$h3-font-size: 1.2222222222222223rem; // 22px
-$h3-font-weight: 600;
-$h3-color: #212121;
-
-$h4-font: "Helvetica";
-$h4-font-size: 1rem;
-$h4-font-weight: 600;
-$h4-color: #333;
+@import 'variables';
 
 html {
   font-size: 18px;
@@ -103,7 +78,7 @@ header::before {
   }
 
   #toc-collapsable {
-    padding-right: 16px;
+    padding-right: 20px;
     padding-left: 4px;
     padding-bottom: 12px;
     padding-top: 12px;

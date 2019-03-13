@@ -17,77 +17,64 @@ if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elain
   isMobile = true;
 }
 
+var ScrollTopBtnOptions = {
+  scrollTopBtnElement: document.querySelector('#back-to-top-btn'),
+  showThreshold: 2000
+}
 
+var OverlayScrollbarsOptions = {
+  callbacks: {
+    onInitialized: function () {
+      // adds class to body that removes scroll disabling
+      document.querySelector("html").className += " scrolling-ready";
+    },
+    onScroll: function () {
+      if (ScrollTopBtnOptions.scrollTopBtnElement != null) {
+        // Showhs the back to top button if scrolled over a threshold
+        if (this.scroll().position.y > ScrollTopBtnOptions.showThreshold) {
+          ScrollTopBtnOptions.scrollTopBtnElement.classList.add("lift");
+        } else {
+          ScrollTopBtnOptions.scrollTopBtnElement.classList.remove("lift");
+        }
+      }
+    }
+  },
+  scrollbars: {
+    autoHide: "scroll",
+    autoHideDelay: 800
+  },
+  className: isMobile ? "os-theme-minimal-dark" : "os-theme-dark"
+}
 
 // init overlay scrollbars
 document.addEventListener("DOMContentLoaded", function () {
   // on mobile i' prefer native scrollbars
-  // settings
-  var scroll_top_btn = document.querySelector('#back-to-top-btn');
-  var scroll_top_btn_show_threshold = 2000;
-  //The first argument are the elements to which the plugin shall be initialized
-  //The second argument has to be at least a empty object or a object with your desired options
-  var scrollbar;
-
   if (!isMobile) {
-    OverlayScrollbars(document.querySelector("body"), {
-      callbacks: {
-        onInitialized: function () {
-          // adds class to body that removes scroll disabling
-          document.querySelector("html").className += " scrolling-ready";
-        },
-        onScroll: function () {
-          if (scroll_top_btn != null) {
-            // Showhs the back to top button if scrolled over a threshold
-            if (this.scroll().position.y > scroll_top_btn_show_threshold) {
-              scroll_top_btn.classList.add("lift");
-            } else {
-              scroll_top_btn.classList.remove("lift");
-            }
-          }
-        }
-      },
-      scrollbars: {
-        autoHide: "scroll",
-        autoHideDelay: 800
-      },
-      className: isMobile ? "os-theme-minimal-dark" : "os-theme-dark"
-    });
-
+    // OverlayScrollbars scrollbar instance
+    var desktopScrollbar = OverlayScrollbars(document.querySelector("body"), OverlayScrollbarsOptions);
     // Scroll back to top button functionality
-    if (scroll_top_btn != null) {
-      scroll_top_btn.addEventListener("click", function () {
-        OverlayScrollbars(document.querySelector("body"), {}).scroll({
-          y: "0px"
-        }, isMobile ? 0 : 320, "easeOutQuart");
-        // removing anchor from url
-        //location.hash = "";
-      });
-    }
+    desktopScrollBackToTopBtnHandler(desktopScrollbar);
+    // Popstate handler
+    window.onpopstate = function(){desktopPopStateHandler(desktopScrollbar)};
 
   } else {
+    // Enable scrolling - disable overflow hidden
     document.querySelector("html").className += " scrolling-ready";
     // ScrollTop button show event listener
-    window.setInterval(function(){
-      var doc = document.documentElement;
-      var top = (window.pageYOffset || doc.scrollTop)  - (doc.clientTop || 0);
-      if (top > scroll_top_btn_show_threshold) {
-        scroll_top_btn.classList.add("lift");
-      } else {
-        scroll_top_btn.classList.remove("lift");
-      }
-      cl(top);
-    }, 16);
-
+    mobileScrollBackToTopBtnShowHandler(ScrollTopBtnOptions.scrollTopBtnElement, ScrollTopBtnOptions.showThreshold);
     // ScrollTop button functionality for mobile
-    if (scroll_top_btn != null) {
-      scroll_top_btn.addEventListener("click", function () {
-        document.documentElement.scrollTop = 0;
-      });
-    }
+    mobileScrollBackToTopBtnHandler(ScrollTopBtnOptions.scrollTopBtnElement);
+    // Popstate handler
+    window.onpopstate = mobilePopStateHandler;
   }
 
-  // Table of content collapsing
+  alignPageToAnchor();
+
+  tableOfContentInit();
+
+});
+
+function tableOfContentInit() {
   var toc_toggle = document.querySelector("#toc-toggle");
 
   if (toc_toggle != null) {
@@ -95,27 +82,65 @@ document.addEventListener("DOMContentLoaded", function () {
       document.querySelector("#table-of-content").classList.toggle("collapsed");
     });
   }
+}
 
-  // Link to page nachor scrolling
-  if (window.location.hash != "") {
-    document.querySelector(decodeURIComponent(window.location.hash)).scrollIntoView();
+function alignPageToAnchor() {
+  if (window.location.hash.includes("#")) {
+    scrollToAnchorElement(window.location.hash);
+  } else {
+    document.documentElement.scrollTop = 0;
   }
+}
 
-  // popstate url site scroll handling
-  window.onpopstate = function () {
-    if (window.location.hash != "") {
-      document.querySelector(decodeURIComponent(window.location.hash)).scrollIntoView();
+function scrollToAnchorElement(anchor) {
+  document.querySelector(decodeURIComponent(anchor)).scrollIntoView();
+}
+
+function mobileScrollBackToTopBtnShowHandler() {
+  window.setInterval(function(){
+    var doc = document.documentElement;
+    var top = (window.pageYOffset || doc.scrollTop)  - (doc.clientTop || 0);
+    if (top > ScrollTopBtnOptions.showThreshold) {
+      ScrollTopBtnOptions.scrollTopBtnElement.classList.add("lift");
     } else {
-      scrollbar.scroll({
-        y: "0px"
-      });
+      ScrollTopBtnOptions.scrollTopBtnElement.classList.remove("lift");
     }
-  };
+  }, 16);
+}
 
-});
+function desktopScrollBackToTopBtnHandler(desktopScrollbar) {
+  if (ScrollTopBtnOptions.scrollTopBtnElement != null) {
+    ScrollTopBtnOptions.scrollTopBtnElement.addEventListener("click", function () {
+      desktopScrollbar.scroll({ y: "0px" }, 320, "easeOutQuart");
+    });
+  }
+}
 
+function mobileScrollBackToTopBtnHandler(scroll_top_btn) {
+  if (scroll_top_btn != null) {
+    scroll_top_btn.addEventListener("click", function () {
+      document.documentElement.scrollTop = 0;
+    });
+  }
+}
 
+function desktopPopStateHandler(desktopScrollbar) {
+  if (window.location.hash.includes("#")) {
+    scrollToAnchorElement(window.location.hash);
+  } else {
+    desktopScrollbar.scroll({y: 0});
+  }
+}
 
+function mobilePopStateHandler() {
+  if (window.location.hash.includes("#")) {
+    scrollToAnchorElement(window.location.hash);
+  } else {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+    window.scrollY = 0;
+  }
+}
 
 
 // SW registering

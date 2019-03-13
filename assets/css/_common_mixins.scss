@@ -1,0 +1,15 @@
+@import 'variables';
+
+@mixin list-grid-item-border-hover() {
+  transition: all 60ms ease-out 0s;
+  will-change: transform;
+  border: 1px solid $item-border-color;
+  background-color: white;
+
+  &:hover {
+    box-shadow: 0 0 0 1px $item-border-color, inset 0 0 0 1px $item-border-color;
+    z-index: 100;
+  }
+
+  // Za dodat style ko je mobile ko so usi itak list itemi
+}

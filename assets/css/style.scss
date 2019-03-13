@@ -88,11 +88,17 @@ html.scrolling-ready {
 #savetheinternet {
   padding: 6px 12px;
   background-color: #1cb15b;
-  border-bottom: 3px solid #14793f;
+  box-shadow: 0 3px 0 0 #14793f;
   display: inline-block;
   margin: 24px 0;
   color: white;
   text-decoration: none;
   border-radius: 4px;
   font-weight: 500;
+  transition: all 150ms ease-out;
+
+  &:active {
+    box-shadow: 0 1px 0 0 #14793f;
+    transform: translateY(2px);
+  }
 }
