@@ -26,6 +26,10 @@ html.scrolling-ready {
   overflow: auto;
 }
 
+body {
+  padding-bottom: 64px !important;
+}
+
 #logo-big {
   font-family: $logo-font;
   font-weight: 400;

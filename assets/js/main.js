@@ -97,15 +97,17 @@ function scrollToAnchorElement(anchor) {
 }
 
 function mobileScrollBackToTopBtnShowHandler() {
-  window.setInterval(function(){
-    var doc = document.documentElement;
-    var top = (window.pageYOffset || doc.scrollTop)  - (doc.clientTop || 0);
-    if (top > ScrollTopBtnOptions.showThreshold) {
-      ScrollTopBtnOptions.scrollTopBtnElement.classList.add("lift");
-    } else {
-      ScrollTopBtnOptions.scrollTopBtnElement.classList.remove("lift");
-    }
-  }, 16);
+  if (ScrollTopBtnOptions.scrollTopBtnElement) {
+    window.setInterval(function(){
+      var doc = document.documentElement;
+      var top = (window.pageYOffset || doc.scrollTop)  - (doc.clientTop || 0);
+      if (top > ScrollTopBtnOptions.showThreshold) {
+        ScrollTopBtnOptions.scrollTopBtnElement.classList.add("lift");
+      } else {
+        ScrollTopBtnOptions.scrollTopBtnElement.classList.remove("lift");
+      }
+    }, 16);
+  }
 }
 
 function desktopScrollBackToTopBtnHandler(desktopScrollbar) {

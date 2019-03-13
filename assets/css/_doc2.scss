@@ -1,4 +1,5 @@
 @import 'variables';
+@import 'common_mixins';
 
 html {
   font-size: 18px;
@@ -37,6 +38,8 @@ header::before {
     cursor: pointer;
     vertical-align: middle;
     width: 100%;
+
+    @include no-select();
 
     * {
       pointer-events: none;

@@ -1,5 +1,14 @@
 @import 'variables';
 
+@mixin no-select() {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
 @mixin list-grid-item-border-hover() {
   transition: all 60ms ease-out 0s;
   will-change: transform;
@@ -7,16 +16,12 @@
   background-color: white;
   box-shadow: 0 1px 0 0 $item-border-color;
 
-  user-drag: none;
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-drag: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
+  @include no-select();
 
   &:hover {
     //box-shadow: 0 0 0 1px $item-border-color, inset 0 0 0 1px $item-border-color;
     z-index: 100;
+    background-color: #FAFBFD
   }
 
   &:active {
