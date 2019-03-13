@@ -51,7 +51,7 @@ $h4-font-weight: 600;
 $h4-color: #333;
 
 // List item and grid item styles
-$item-border-color: #d9e0e6;
+$item-border-color: rgba(217, 224, 230, 1);
 
 // Predmet styles
 $predmet_all_color: $item-border-color;
@@ -59,5 +59,5 @@ $predmet_all_color: $item-border-color;
 $predmet_border_color: $predmet_all_color;
 $predmet_hover_shadow_color: $predmet_all_color;
 
-$list-item_all_color: #d9e0e6;
+$list-item_all_color: $item-border-color;
 $list-item_border_color: $list-item_all_color;

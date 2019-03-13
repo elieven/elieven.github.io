@@ -5,10 +5,17 @@
   will-change: transform;
   border: 1px solid $item-border-color;
   background-color: white;
+  box-shadow: 0 1px 0 0 $item-border-color;
 
   &:hover {
-    box-shadow: 0 0 0 1px $item-border-color, inset 0 0 0 1px $item-border-color;
+    //box-shadow: 0 0 0 1px $item-border-color, inset 0 0 0 1px $item-border-color;
     z-index: 100;
+  }
+
+  &:active {
+    transform: translateY(1px);
+    box-shadow: 0 0 0 0 $item-border-color;
+
   }
 
   // Za dodat style ko je mobile ko so usi itak list itemi
