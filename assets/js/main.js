@@ -48,6 +48,8 @@ var OverlayScrollbarsOptions = {
 
 // init overlay scrollbars
 document.addEventListener("DOMContentLoaded", function () {
+  // Ce je sheran link al neki te da na naslov v urlju
+  alignPageToAnchor();
   // on mobile i' prefer native scrollbars
   if (!isMobile) {
     // OverlayScrollbars scrollbar instance
@@ -67,8 +69,6 @@ document.addEventListener("DOMContentLoaded", function () {
     // Popstate handler
     window.onpopstate = mobilePopStateHandler;
   }
-
-  alignPageToAnchor();
 
   tableOfContentInit();
 
