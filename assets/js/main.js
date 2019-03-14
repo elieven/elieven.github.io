@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   } else {
     // Enable scrolling - disable overflow hidden
-    document.querySelector("html").className = " scrolling-ready";
+    document.querySelector("html").className += " scrolling-ready";
     // ScrollTop button show event listener
     mobileScrollBackToTopBtnShowHandler(ScrollTopBtnOptions.scrollTopBtnElement, ScrollTopBtnOptions.showThreshold);
     // ScrollTop button functionality for mobile
@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   tableOfContentInit();
 
-  document.querySelector("html").className = " scrolling-ready";
+  document.querySelector("html").className += " scrolling-ready";
 
 });
 
