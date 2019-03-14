@@ -16,6 +16,8 @@
   background-color: white;
   box-shadow: 0 1px 0 0 $item-border-color;
 
+  outline: 0;
+
   @include no-select();
 
   &:hover {

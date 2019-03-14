@@ -2,6 +2,8 @@
 # front matter for compiling 
 --- 
 
+@import 'common_mixins';
+
 @import "base";
 @import "header";
 @import "doc2";
@@ -103,6 +105,8 @@ body {
   border-radius: 4px;
   font-weight: 500;
   transition: all 150ms ease-out;
+
+  @include no-select();
 
   &:active {
     box-shadow: 0 1px 0 0 #14793f;
