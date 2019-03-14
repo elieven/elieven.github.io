@@ -52,6 +52,8 @@ document.addEventListener("DOMContentLoaded", function () {
   alignPageToAnchor();
   // on mobile i' prefer native scrollbars
   if (!isMobile) {
+
+    cl("Detected desktop device");
     // OverlayScrollbars scrollbar instance
     var desktopScrollbar = OverlayScrollbars(document.querySelector("body"), OverlayScrollbarsOptions);
     // Scroll back to top button functionality
@@ -60,6 +62,8 @@ document.addEventListener("DOMContentLoaded", function () {
     window.onpopstate = function(){desktopPopStateHandler(desktopScrollbar)};
 
   } else {
+
+    cl("Detected desktop device");
     // Enable scrolling - disable overflow hidden
     document.querySelector("html").className += " scrolling-ready";
     // ScrollTop button show event listener
@@ -87,15 +91,15 @@ function tableOfContentInit() {
 }
 
 function alignPageToAnchor() {
-  if (window.location.hash.includes("#")) {
+  if (window.location.hash.indexOf("#") > -1) {
     scrollToAnchorElement(window.location.hash);
   } else {
     document.documentElement.scrollTop = 0;
   }
 }
 
-function scrollToAnchorElement(anchor) {
-  document.querySelector(decodeURIComponent(anchor)).scrollIntoView();
+function scrollToAnchorElement(element) {
+  document.querySelector(decodeURIComponent(element)).scrollIntoView();
 }
 
 function mobileScrollBackToTopBtnShowHandler() {
@@ -129,7 +133,7 @@ function mobileScrollBackToTopBtnHandler(scroll_top_btn) {
 }
 
 function desktopPopStateHandler(desktopScrollbar) {
-  if (window.location.hash.includes("#")) {
+  if (window.location.hash.indexOf("#") > -1) {
     scrollToAnchorElement(window.location.hash);
   } else {
     desktopScrollbar.scroll({y: 0});
@@ -137,7 +141,7 @@ function desktopPopStateHandler(desktopScrollbar) {
 }
 
 function mobilePopStateHandler() {
-  if (window.location.hash.includes("#")) {
+  if (window.location.hash.indexOf("#") > -1) {
     scrollToAnchorElement(window.location.hash);
   } else {
     document.body.scrollTop = 0;

@@ -54,15 +54,15 @@ Vsakemu polju v tabeli se določi podatkovni tip. Pri določitvi podatkovnega ti
 - **Oblika:** znak manjše (`<`) besedilo zapiše z malimi črkami, znak (`>`) pa z velikimi.
 - **Vnosna maska:** s pomočjo vnosne maske lahko sami oblikujemo vzorec na podlagi katerega, se bojo podatki vnašali v polje. Pri izdelavi se uporablja posebne znake:
 
-| Znak | Pomen znaka                                  | Obvezen vnos |
-|:----:|----------------------------------------------|:------------:|
-| `0`  | cifra med 0 in 9 (0 - 9)                     |      ✔️      |
-| `9`  | cifra ali presledek                          |      ❌      |
-| `L`  | črka med A in Z                              |      ✔️      |
-| `?`  | črka med A in Z                              |      ❌      |
-| `A`  | črka ali cifra                               |      ✔️      |
-| `A`  | črka ali cifra                               |      ❌      |
-| `\`  | na tem mestu se samodejno vnese sledeči znak |      ✔️      |
+| Znak  |                 Pomen znaka                  | Obvezen vnos |
+| :---: | -------------------------------------------- | :----------: |
+|  `0`  | cifra med 0 in 9 (0 - 9)                     |      ✓       |
+|  `9`  | cifra ali presledek                          |              |
+|  `L`  | črka med A in Z                              |      ✓       |
+|  `?`  | črka med A in Z                              |              |
+|  `A`  | črka ali cifra                               |      ✓       |
+|  `A`  | črka ali cifra                               |              |
+|  `\`  | na tem mestu se samodejno vnese sledeči znak |      ✓       |
 
 #### Privzeta vrednost
 
