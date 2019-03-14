@@ -4,9 +4,7 @@
 
 @import "base";
 @import "header";
-//@import "doc2";
 @import "doc2";
-//@import "scrollbar";
 @import "predmet";
 @import "list";
 @import "breadcrumbs";
@@ -24,6 +22,11 @@ html.scrolling-ready {
   width: auto;
   height: auto;
   overflow: auto;
+}
+
+button::-moz-focus-inner,
+a::-moz-focus-inner {
+  border: 0;
 }
 
 body {
