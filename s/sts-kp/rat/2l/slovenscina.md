@@ -598,9 +598,32 @@ Prepletata se **dve zgodbi**:
 - **Vložena zgodba**: govori o dogajanju med 2. sv. vojno (1943-1945)
 - **Okvirna zgodba**: govori o pisateljevem turističnem potovanju po Španiji leta 1973
 
-[Glavna oseba](pink): Berk je intelektualec. Ideal mu pomeni svobodo v osebnem in družbenem življenju. Je kritičen
+[Glavna oseba](pink): Berk je intelektualec. Ideal mu pomeni svobodo v osebnem in družbenem življenju. Je kritičen, prave ljubezni ni zmožen, je netipičen partizan. Dvomi o vsem, je neprilagojen posebnež. Noče biti komunist, je pogumen vojak. Kot osebnost raste - individualist spozna vrednost tovarištva.
+
+[Modernizem](pink): Izraža se v menjavanju različnih pripovednih postopkov: jedrnata poročila, obsežni notranji monologi, zapleteni dialogi, subjektivno opisovanje, pestro gradivo (pesmi, časopisne novice, citati...).
+
+[Ideja](pink): Kritika vojne in kritika sodobne, tehnološke razvite družve (ljudje so v miru in obilju bolj tuji in prazni kot med vojno). Spoznanja o vojni in človeškem bivanju izrekajo Berk, Anton in Bitter:
+
+- Nič v življenju ni takšno kot je videti. Vojna je nedopustljivo nasilje, daje pa tudi nekaj pozitivnega - razvija tovarištvo. Človek začne ceniti lastno življenje.
+- Človek si življenja ne izbere sam, nosi pa odgovornost za to, kar je.
 
 
 
 ### Veliki briljantni valček
 
+[Značilnosti](pink): Gre za politično problematiko, in sicer nasilje nad človekom, nad upornikom, ideološko neprilagojenim posameznikom v totalitarnem režimu. Problem je nadčasen (vedno aktualen), upor in spopad posameznika s to višjo silo je tragičen. Interes sistema je nad interesom posameznika, zato nas kontrolira, poskuša podrediti - upornika je treba preobraziti.
+
+[Glavne osebe](pink): 
+
+ - **Doktor**: Je psihiater in zdravnik zavoda ter alkoholik. Je nesamozavesten, ne sprejema odgovornosti za svoja dejanja, posluša ukaze politične oblasti.
+ - **Volodja**: Primitiven in neizobražen bolničar, do pacientov je nasilen, samozavesten, z voljo do moči. Predstavlja izvršno in formalno oblast, ki temelji na fizičnem in psihičnem nasilju.
+ - **Simon Veber**: Znanstveni zgodovinar, za oblast je upornik. Svoboda mu je odvzeta, ker je raziskoval življenje poljskega upornika, s katerim se na koncu identificira.
+
+[Moderna absurdna in groteska drama](pink): Je tridejanka. Po zunanji zgradbi ter enotnosti kraja, časa in dogajanja je podobna klasičnim dramskim besedilom. Prevladujejo pa prvine moderne drame (malo dogajanja, položaj oseb je določen že na začetku, ni tradicionalnih vrednot, prevladuje absurd in grotesknost).
+
+[Jezikovno-slogovne značilnosti](pink): Ključna prvina je metafora Svoboda osvobaja (ime psihiatričnega zavoda -
+podobno nacističnemu geslu v nemških taboriščih), veliki briljantni valček (metafora za nasilni družbeni
+sistem).
+
+[Ideja](pink): Drama je izraz družbeno-političnih razmer v 80. letih, je kritika socialističnega totalitarizma. Vsak
+totalitarni režim omejuje svobodo posameznika z nasiljem in kaznuje upornike. Absurdno je, da je svet ukrojen po meri primitivnih dialogov in norih voditeljev. Odnos totalitarnega sistema do umetnosti je zanič jiv. Umetnosti ne ceni, umetnost pa prerašča nesmisel sveta in mu na ta način kljubuje.
