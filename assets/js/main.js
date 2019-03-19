@@ -93,13 +93,15 @@ function tableOfContentInit() {
 function alignPageToAnchor() {
   if (window.location.hash.indexOf("#") > -1) {
     scrollToAnchorElement(window.location.hash);
+    cl("Aligned page to anchor element");
   } else {
     document.documentElement.scrollTop = 0;
   }
 }
 
-function scrollToAnchorElement(element) {
-  document.querySelector(decodeURIComponent(element)).scrollIntoView();
+function scrollToAnchorElement(anchor) {
+  document.querySelector(decodeURIComponent(anchor)).scrollIntoView();
+  cl("Scrolled to anchor element");
 }
 
 function mobileScrollBackToTopBtnShowHandler() {

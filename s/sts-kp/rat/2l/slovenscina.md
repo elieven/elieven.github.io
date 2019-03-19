@@ -586,3 +586,21 @@ Pesem je izšla v zbirki Jezik iz zemlje (1961).
 - **Druge ideje**: Človek ne more svobodno odločati o življenju in smrti. Drugačni (norčki) so obsojeni na osamljenost. Spoznanje o bivanju ne izhaja samo iz razuma, ampak tudi čustev in čutov.
 
 [Sporočilo](pink): Tantadruj s svojo usodo sporoča, da je življenje kljub trpljenju, krivicam in "hladni zemljici" lepo in da ga je vredno živeti, da je človekova dolžnost delati dobra dela (nabirati zvonce), da lahko vsak misli po svoje in da imajo tudi "božji otroci" svoje kvalitete.
+
+
+
+### Manuet za kitaro
+
+Je sodoben slovenski roman (1975) - vojni (2. sv. vojna) in zgodovinski roman (resničen zgodovinski dogodek). 
+
+Prepletata se **dve zgodbi**: 
+
+- **Vložena zgodba**: govori o dogajanju med 2. sv. vojno (1943-1945)
+- **Okvirna zgodba**: govori o pisateljevem turističnem potovanju po Španiji leta 1973
+
+[Glavna oseba](pink): Berk je intelektualec. Ideal mu pomeni svobodo v osebnem in družbenem življenju. Je kritičen
+
+
+
+### Veliki briljantni valček
+

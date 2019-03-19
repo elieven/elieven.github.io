@@ -311,9 +311,9 @@ Primer usmerjevalnega algoritma: Dijksta?
 
 ### Algoritem Dijksta
 
-1. **korak:** Začetno vozlišče nastavimo na 0, vsa ostala vozlišča nastavimo na neskončno
-
 ![Djiksta diagram 1][djiksta-1]
+
+1. **korak:** Začetno vozlišče nastavimo na 0, vsa ostala vozlišča nastavimo na neskončno
 
 2. **korak:** Na vsakem koraku pogledamo vse poti iz začetnega vozlišča
 
