@@ -626,4 +626,4 @@ podobno nacističnemu geslu v nemških taboriščih), veliki briljantni valček 
 sistem).
 
 [Ideja](pink): Drama je izraz družbeno-političnih razmer v 80. letih, je kritika socialističnega totalitarizma. Vsak
-totalitarni režim omejuje svobodo posameznika z nasiljem in kaznuje upornike. Absurdno je, da je svet ukrojen po meri primitivnih dialogov in norih voditeljev. Odnos totalitarnega sistema do umetnosti je zanič jiv. Umetnosti ne ceni, umetnost pa prerašča nesmisel sveta in mu na ta način kljubuje.
+totalitarni režim omejuje svobodo posameznika z nasiljem in kaznuje upornike. Absurdno je, da je svet ukrojen po meri primitivnih dialogov in norih voditeljev. Odnos totalitarnega sistema do umetnosti je zanič jiv. Umetnosti ne ceni, **umetnost pa prerašča nesmisel sveta in mu na ta način kljubuje**.
