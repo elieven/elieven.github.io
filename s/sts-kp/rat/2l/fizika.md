@@ -267,3 +267,30 @@ $$
   \end{align}
 }
 $$
+
+---
+
+## Transformator
+
+Uporablja se za prenos elektrike na velike razdalje.
+
+
+$$
+\RAC{
+    \phi_1 = B_0 \cdot N_1 \cdot \cos{\omega t} \qquad \phi_2 = B_0 \cdot N_2 \cdot \cos{\omega t}
+}
+$$
+
+
+$$
+\RAC{
+    U_1 = \frac{- \Delta \phi_1}{\Delta t} \qquad U_2 = \frac{- \Delta \phi_2}{\Delta t}
+}
+$$
+
+$$
+\RAC{
+    \frac{U_1}{U_2} = \frac{N_1}{N_2} \qquad P_1 = P_2
+}
+$$
+

@@ -945,6 +945,120 @@ public class Diagonale {
 }
 ```
 
+---
+
+manjka se in se vaj
+
+---
+
+
+
+## Objektno programiranje
+
+Objekt je skupek podatkov in metod za delat z njimi. Izdelan po nekem načrtu, ki je zapisan v svojem
+razredu. Lahko je več objektov istega tipa kar pomeni da so izdelani v istem razredu vsak ima pa svoje
+stanje, to je vrednosti spremenljivk. Dva objekta istega razreda z enakimi podatki se obnašata enako.
+Če je več tipov objektov, mora bit vsak izdelan v svojem razredu. Osnove karakeristike objektov so
+stanje in obnašanje. Stanje določajo atributi (spemenljivke) obnašanje pa metode.
+
+[Klasično programiranje](pink): `f(x)` (**f** - kličemo metodo, **x** - podamo podatke ki naj jih obdela)
+
+[Objektno programiranje](pink): `x.f()` (naročimo objektu **x**, da izvede metodo **f**)
+
+Zgradba objektnega razreda
+
+```java
+Class Razred {
+  atributi,
+  konstruktorji,
+  metode: 
+    - nastavljanje atributov
+    - vračanje atributov
+    - uporabne metode
+}
+```
+
+
+
+#### Primeri
+
+Razred **Osebe**.
+
+```java
+public class Osebe {
+    
+  private String ime, priimek, datumRojstva;
+    
+  public Osebe() {}
+    
+  public Osebe(String ime) {
+    this.ime = ime;
+  }
+    
+  public Osebe(String ime, String priimek, String datumRojstva) {
+    this.ime = ime;
+    this.priimek = priimek;
+    this.datumRojstva = datumRojstva;
+  }
+    
+  public void spremeniIme(String ime) {
+    this.ime = ime;
+  }
+    
+  public void spremeniPriimek(String priimek) {
+    this.priimek = priimek;
+  }
+    
+  public void spremeniDatumrojstva(String datumRojstva) {
+    this.datumRojstva = datumRojstva;
+  }
+    
+  public String vrniIme() {
+    return ime;
+  }
+    
+  public String vrniPriimek() {
+    return priimek;
+  }
+    
+  public String vrniDatumrojstva() {
+    return datumRojstva;
+  }
+    
+  public int vrniStarost(int letnica) {
+    int letnicaRojstva = Integer.parseInt(datumRojstva.substring(6));
+    return letnica - letnicaRojstva;
+  }
+}
+```
+
+
+
+Testiramo razred Osebe:
+
+```javascript
+public class TestOsebe {
+  public static void main(String[] args) {
+      
+    Osebe oseba1 = new Osebe();
+    Osebe oseba2 = new Osebe("Matej");
+    Osebe oseba3 = new Osebe("Janez", "Novak", "24.12.1980");
+      
+    System.out.println(oseba1.vrniIme() + " " + oseba2.vrniIme() + " " + oseba3.vrniIme());
+    System.out.println(oseba3.vrniIme() + " " + oseba3.vrniPriimek() + " " + oseba3.vrniDatumrojstva());
+    oseba1.spremeniIme("Franc");
+    System.out.println(oseba1.vrniIme());
+    System.out.println(oseba3.vrniStarost(2019));
+  }
+}
+```
+
+
+
+
+
+
+
 
 [if]: https://res.cloudinary.com/solamona/image/upload/v1537456195/zvs/sts-kp/rac/5l/programiranje/if_statement.jpg
 [ifelse]: https://res.cloudinary.com/solamona/image/upload/v1537456152/zvs/sts-kp/rac/5l/programiranje/if_else_statement.jpg

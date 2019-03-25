@@ -71,7 +71,7 @@
     }
 
     .predmet-text {
-      font-family: $roboto;
+      font-family: $default-font;
 
       .predmet-title {
         display: block;
@@ -81,7 +81,6 @@
         text-overflow: ellipsis;
         overflow: hidden;
         white-space: nowrap;
-        //font-family: 'Open Sans', sans-serif;
       }
       
       .predmet-subtitle {
@@ -94,8 +93,7 @@
         padding-top: 4px;
         color: #535353;
         opacity: 0.8;
-        font-weight: 500
-        //font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
       }
     }
   }
