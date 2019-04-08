@@ -165,3 +165,101 @@ $$
     G_3 = 1090,73
 }
 $$
+
+
+
+## Kombinatorika
+
+Kombinatorika je področje matematike, ki se ukvarja s tem, na koliko načinov je možno razporediti neko množico elementov ali na koliko načinov je možno izbrati elemente iz neke množice.
+
+
+
+### Kombinatorično drevo
+
+S kombinatoričnim drevesom grafično prikažemo proces
+
+ izbiranja odločitev. Drevo vseh možnosti narišemo tako, da vsako vozlišče razvejimo na toliko vozlišč, kolikor izbir imamo na voljo v danem koraku.
+
+![Kombinatorično drevo](https://res.cloudinary.com/solamona/image/upload/v1554756069/zvs/sts-kp/rac/5l/matematika/kombinatorika_drevo.png)
+
+[Pravilo produkta](pink) ali [osnovni izrek kombinatorike](pink): Če imamo na voljo ***m*** možnosti iz prve skupine in ***n*** možnosti iz druge skupine, izbrati pa želimo eno možnost iz prve **in hkrati** eno iz druge skupine, potem imamo na izbiro skupno **m · n** možnosti.
+
+**Primer**:  Pripravljamo darilo za rojstni dan. Najprej izberemo eno od daril (čokolada, igrača, knjiga, darilni bon), potem darilo zavijemo v eno od možnosti (škatla, darilna vrečka, darilni papir) in na koncu dodamo pentljo ene izmed barv (rdeča, modra, rumena). Koliko različnih daril imamo na voljo?
+
+> Rešitev: N = 4 · 3 · 3 = 36
+
+<br>
+
+[Pravilo vsote](pink): Če imamo na voljo ***m*** možnosti iz prve skupine in ***n*** možnosti iz druge skupine, izbrati pa želimo točno eno možnost iz prve **ali** iz druge skupine, potem imamo na izbiro skupaj **m + n** možnosti.
+
+**Primer**: Na kosilo gremo lahko picerijo, ki ponuja 5 vrst pic, v mehiško restavracijo ki ponuja 3 vrste tortilj ali v italijansko restavracijo ki ponuja 4 vrste testenin. Koliko različnih kosilo imamo na voljo?
+
+> Rešitev: N = 5 + 3 + 4 = 12
+
+
+
+### Permutacije
+
+Permutacije so razporeditve danih n elementov na n prostih mest. Če so vsi elementi med seboj različni, so to **permutacije brez ponavljanja**. Število permutacij brez ponavljanja izračunamo po formuli:
+
+
+$$
+\RAC{
+    P_n = n \cdot (n - 1) \cdot (n - 2) \cdot \dots \cdot 3 \cdot 2 \cdot 1 = n!
+}
+$$
+
+
+To računsko operacijo imenujemo **n fakulteta** ali **n faktorsko**.
+
+Primer: Koliko različnih petmestnih števil lahok zapišemo iz števk 1, 2, 3, 4, 5?
+
+> Rešitev: P<sub>5</sub> = 5! = 120
+
+
+
+### Variacije
+
+**Variacije brez ponavljanja** so razporeditve n različnih elementov na r prostih mest. Pri tem je r < n, zato ostane nekaj elementov nerazporejenih. Število variacije brez ponavljanja izračunamo po formuli:
+
+
+$$
+\RAC {
+    V^r_n = \frac{n!}{(n - r)!}
+}
+$$
+
+
+Primer: Koliko različnih trimestnih števil lahko sestaviš iz števk 1, 2, 3, 4, 5?
+
+> Rešitev: V<sup>3</sup><sub>5</sub> = 5! : 3! = 20
+
+
+
+### Kombinacije
+
+Če pri variacijah zanemarimo vrstni red in opazujemo samo, kateri elementi so izbrani, dobimo **kombinacije**. **Kombinacije brez ponavljanja** so izbire ***r*** (različnih) elementov izmen ***n*** različnih elementov, ki so na voljo. Število kombinacij brez ponavljanja izračunamo po formuli:
+
+
+$$
+\RAC {
+    C^r_n = \frac{n!}{r! \cdot (n - r)!}
+}
+$$
+
+
+Izraz, ki nastopa na desni strani zgornje formule, lahko označimo tudi z binomskim simbolom:
+
+
+$$
+\RAC {
+    \binom{n}{r} = C^r_n = \frac{n!}{r! \cdot (n - r)!}
+}
+$$
+
+
+Primer: Na koliko načinov lahko izberem iz razreda z 20 dijaki 3 predstavnike?
+
+> Rešitev: C<sup>3</sup><sub>20</sub> = 20! / 3! · 17! = 1140
+
+ 

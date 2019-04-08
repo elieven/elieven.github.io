@@ -627,3 +627,29 @@ sistem).
 
 [Ideja](pink): Drama je izraz družbeno-političnih razmer v 80. letih, je kritika socialističnega totalitarizma. Vsak
 totalitarni režim omejuje svobodo posameznika z nasiljem in kaznuje upornike. Absurdno je, da je svet ukrojen po meri primitivnih dialogov in norih voditeljev. Odnos totalitarnega sistema do umetnosti je zanič jiv. Umetnosti ne ceni, **umetnost pa prerašča nesmisel sveta in mu na ta način kljubuje**.
+
+
+
+## Jezik (spet?)
+
+### Predmetni odvisnik
+
+- Odvisnik, ki dopolnjuje glavni stavek s podatkom o vsebini njegovega dejanja, je predmetni odvisnik.
+- Po njem se vprašamo z vprašalnico **koga ali kaj** + povedek glavnega stavka, možne pa so tudi vprašalnice **koga ali česa**, **komu ali čemu**, **o kom ali čem**, **s kom ali čim**.
+
+
+
+### Časovni odvisnik
+
+- Časovni odvisnik dopolnjuje povedek glavnega stavka s podatkom o času njegovega dejanja.
+- Po njem se lahko vprašamo (**od**/**do**) **kdaj**, **koliko časa** + povedek glavnega stavka.
+- Podčrtamo ga s poševnimi črticami in označimo, da gre za časovni odvisnik.
+
+
+
+### Krajevni odvisnik
+
+### Načinovni odvisnik
+
+### Vzročni odvisnik
+

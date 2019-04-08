@@ -29,7 +29,7 @@ header::before {
 
   #toc-toggle {
     $d: 44px;
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0, 0, 0, 0);
     border: none;
     display: inline-block;
     text-align: left;
@@ -49,7 +49,7 @@ header::before {
       padding: ($d - 24px) / 2 - 1px;
 
       svg {
-      width: 24px;
+        width: 24px;
         height: 24px;
         display: block;
       }
@@ -74,7 +74,9 @@ header::before {
       }
     }
 
-    #toc-toggle-icon, span, #toc-toggle-indicator {
+    #toc-toggle-icon,
+    span,
+    #toc-toggle-indicator {
       display: inline-block;
       vertical-align: middle;
     }
@@ -185,7 +187,7 @@ header::before {
     .task-list-item {
       list-style-type: none;
 
-      + .task-list-item {
+      +.task-list-item {
         margin-top: 3px;
       }
 
@@ -194,6 +196,7 @@ header::before {
         vertical-align: middle;
       }
     }
+
     strong {
       font-weight: inherit;
       font-weight: $bold-weight;
@@ -349,11 +352,12 @@ header::before {
     blockquote {
       margin: 0;
       padding: 0 1em;
-      color:#6a737d;
+      color: #6a737d;
       border-left: 0.25em solid #dfe2e5;
-      font-family: Georgia;
-      font-style: italic;
-      font-size: 0.9444444444444444rem; // 17px
+      //font-family: Georgia;
+      //font-style: italic;
+      //font-size: 0.9444444444444444rem; // 17px
+      font-size: 16px;
 
       > {
         \:first-child {
@@ -605,13 +609,14 @@ header::before {
   }
 
   body {
+
     //background-color: white !important;
-    .docwrap .doc p, 
-    .docwrap .doc blockquote, 
-    .docwrap .doc ul, 
-    .docwrap .doc ol, 
-    .docwrap .doc dl, 
-    .docwrap .doc table, 
+    .docwrap .doc p,
+    .docwrap .doc blockquote,
+    .docwrap .doc ul,
+    .docwrap .doc ol,
+    .docwrap .doc dl,
+    .docwrap .doc table,
     .docwrap .doc pre {
       //font-size: 16px;
       line-height: 23px;
@@ -635,7 +640,8 @@ header::before {
       padding: 0px !important;
       border: 0;
 
-      ul, ol {
+      ul,
+      ol {
         padding-left: 1.2em;
       }
     }
@@ -725,11 +731,13 @@ header::before {
     pointer-events: none;
     font-weight: 600;
   }
+
   [href=orange] {
     color: #F6993F !important;
     pointer-events: none;
     font-weight: 600;
   }
+
   [href=orange-light] {
     color: #FAAD63 !important;
     pointer-events: none;
@@ -742,11 +750,13 @@ header::before {
     pointer-events: none;
     font-weight: 600;
   }
+
   [href=indigo] {
     color: #6574CD !important;
     pointer-events: none;
     font-weight: 600;
   }
+
   [href=indigo-light] {
     color: #7886D7 !important;
     pointer-events: none;
@@ -759,11 +769,13 @@ header::before {
     pointer-events: none;
     font-weight: 600;
   }
+
   [href=purple] {
     color: #9561E2 !important;
     pointer-events: none;
     font-weight: 600;
   }
+
   [href=purple-light] {
     color: #A779E9 !important;
     pointer-events: none;
