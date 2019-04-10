@@ -20,8 +20,6 @@ Vključujejo tudi interdisciplinarna območja kot:
 
 **Program** = izvorna koda določenega programskega jezika. Preveden program je zaporedje ukazov v strojni kodi. Prevajalnik program ki prevede izvorno kodo nekega programskega jezika v strojno kodo. **Strojno kodo** razume računalnik. En ukaz izvorne kode lahko pomeni več ukazov v strojni kodi.
 
-
-
 <br><br>
 
 ## Algoritem
@@ -34,8 +32,6 @@ Vključujejo tudi interdisciplinarna območja kot:
 
 - **Lastnosti:** ima podatke, vrne rezultat, natančno določen, končen, izvedljiv
 - **Izvajalec:** človek, stroj, el. Naprava
-
-
 
 <br><br>
 
@@ -57,13 +53,11 @@ Vključujejo tudi interdisciplinarna območja kot:
 - **Ekstremno načrtovanje** - pripravimo testne primere in pričakovane rezultate
 - **Čimveč preverjanja** – ne moremo preverit če program dela prav, lahko pa ugotovimo, če ne dela prav
 
-
-
 <br><br>
 
 ## Java
 
-- *Programski jezik*
+- _Programski jezik_
 - Začetek nastajanja **1991**
 - **James Gosling** in sodelavci v **SUN Microsystems**
 - Konkurenca C++
@@ -71,7 +65,7 @@ Vključujejo tudi interdisciplinarna območja kot:
 <br>
 
 - **JRE** – programsko orodje omogoča izvajanje prevedenih javanskih programov
-- **JDK** – razvojno orodje za ustvarjalce programske opreme (*JRE included*)
+- **JDK** – razvojno orodje za ustvarjalce programske opreme (_JRE included_)
 
  <br>
 
@@ -109,6 +103,7 @@ System.out.println("Danes je lep dan");
 /*System.out.println(""-to je dvojni narekovaj);
 System.out.println()*/
 ```
+
 <br>
 
 ### Vnašanje podatkov
@@ -145,9 +140,7 @@ podatek.close();
 `podatek.next()` je za eno besedo
 `podatek.nextLine()` pa za več besed
 
-- kje je podatek?
-	- v spremenljivki spremenljivka
-	- tip podatka je String (niz)
+- kje je podatek? - v spremenljivki spremenljivka - tip podatka je String (niz)
 
 #### Razred bufferedReader
 
@@ -171,14 +164,16 @@ podatek.close();
 ```javascript
 int x = (int)(Math.random()*7)
 ```
-> nevem
-- in naslednji stavek?
 
+> nevem
+
+- in naslednji stavek?
 
 ```javascript
 int x = (int)(Math.random()*6+5)
 ```
-> tudi  nevem
+
+> tudi nevem
 
 <br>
 
@@ -188,13 +183,12 @@ int x = (int)(Math.random()*6+5)
 - med izvajanjem programa - med številskimi tipi ali pri tvorjenju niza številk
 
 | Začetni pod. tip        | Končni pod. tip | Način spremembe                               |
-|:------------------------|:----------------|:----------------------------------------------|
+| :---------------------- | :-------------- | :-------------------------------------------- |
 | `String`                | `int`           | `Integer.parseInt(spremelnjivka)`             |
 | `int`                   | `String`        | `Integer.toString(spremelnjivka)`             |
 | `String`                | `Double`        | `Double.valueOf(spremelnjivka).doubleValue()` |
 | `Double`                | `String`        | `Double.toString(spremelnjivka)`              |
 | Ostali tipi (ne String) | `int`           | `(int)spremelnjivka`                          |
-
 
 <br>
 
@@ -203,7 +197,7 @@ int x = (int)(Math.random()*6+5)
 - pri preverjanju pogojev (pogojni stavki, zanke)
 
 | znak | pogoj              | primer |
-|------|--------------------|--------|
+| ---- | ------------------ | ------ |
 | `>`  | večje              | `a>b`  |
 | `>=` | večje ali enako    | `a>=b` |
 | `<`  | manjše             | `a<b`  |
@@ -215,14 +209,15 @@ int x = (int)(Math.random()*6+5)
 
 - če preverjamo več pogojev
 
-| Znak  | Pogoj     | Primer         |
-|:------|:----------|:---------------|
-| `&&`  | IN (AND)  |  `a==b && b<c` |
-| `||`  | ALI (OR)  |  `a==b || b<c` |
+| Znak | Pogoj    | Primer        |
+| :--- | :------- | :------------ |
+| `&&` | IN (AND) | `a==b && b<c` |
+| `||` | ALI (OR) | `a==b || b<c` |
 
 <br>
 
 ### Pogojni stavek
+
 #### if
 
 - preveri izpolnjenost pogoja ali več pogojev (primerja vrednosti spremenljivk)
@@ -246,6 +241,7 @@ if (pogoj) {
 	stavek ali več stavkov
 }
 ```
+
 #### if else if else
 
 > slika logike if else if elsa
@@ -263,7 +259,7 @@ if (pogoj) {
 #### if na kratko
 
 ```javascript
-(pogoj) ? čeJePogojIzpolnjen:čePogojNiIzpolnjen
+pogoj ? čeJePogojIzpolnjen : čePogojNiIzpolnjen;
 ```
 
 Primer:
@@ -300,14 +296,15 @@ default:
 
 > to treba malo lepše razložit
 
-> DN: simulacija meta (bacanja) kock - zaženeš program in izpiše pattern od kocke iz *
+> DN: simulacija meta (bacanja) kock - zaženeš program in izpiše pattern od kocke iz \*
 
 ```javascript
 * *   * *
 * *    *
 * *   * *
 ```
->  in tko naprej
+
+> in tko naprej
 
 <br><br>
 
@@ -381,9 +378,9 @@ for (int i=0; i<kolikokratSeZankaIzvede; i++)
 for (int i=kolikokratSeZankaIzvede; i>0; i--)
 ```
 
-`int i=0;` in `int i=kolikokratSeZankaIzvede;` - deklariramo spremenljivko (števec)  ki ga običajno nastavimo na min ali max vrednost. 
+`int i=0;` in `int i=kolikokratSeZankaIzvede;` - deklariramo spremenljivko (števec) ki ga običajno nastavimo na min ali max vrednost.
 
-`i<kolikokratSeZankaIzvede;` in  `i>0;` - pogoj za izvedbo ukazov - se preveri pred vsako izvedbo zanke. 
+`i<kolikokratSeZankaIzvede;` in `i>0;` - pogoj za izvedbo ukazov - se preveri pred vsako izvedbo zanke.
 
 `i++` in `i--` - povečanje ali zmanjševanje števca po vsaki izvedbi zanke.
 
@@ -418,6 +415,7 @@ do {
 	koda
 } while (pogoj)
 ```
+
 <br><br>
 
 ### Vaje
@@ -473,18 +471,18 @@ public class VeckratnikiSedmice {
     // vpraša za število
     System.out.println("Vnesite prvo naravno število");
     int st1 = Integer.parseInt(vhod.readLine());
-    
+
     System.out.println("Vnesite drugo naravno število");
     int st2 = Integer.parseInt(vhod.readLine());
-    
+
     int stVec = 0;
-    
+
     for (int i = st1+1; i < st2; i++ ) {
       if (i%7==0) {
         stVec++;
       }
     }
-    
+
     System.out.println("Stevilo veckratnikov: "+stVec);
   }
 }
@@ -503,23 +501,23 @@ import java.io.*;
 
 public class DesToDv {
   public static void main(String[] args) throws IOException {
-    
+
     BufferedReader vhod = new BufferedReader(new InputStreamReader(System.in));
-    
+
     System.out.println("Vnesite desetiško število");
-    
+
     int dec = Integer.parseInt(vhod.readLine());
     int ost = 0;
     String bin = "";
-    
+
     while (rez > 0) {
-      
+
       ost = dec % 2;
       dec = dec / 2;
       bin = ost + "" + bin;
-      
+
     }
-    
+
     System.out.println("Dvojiska verzija stevila je: " + bin);
   }
 }
@@ -536,23 +534,23 @@ import java.io.*;
 
 public class DesToOct {
   public static void main(String[] args) throws IOException {
-    
+
     BufferedReader vhod = new BufferedReader(new InputStreamReader(System.in));
-    
+
     System.out.println("Vnesite desetiško število");
-    
+
     int dec = Integer.parseInt(vhod.readLine());
     int ost = 0;
     String oct = "";
-    
+
     while (dec > 0) {
-      
+
       ost = dec % 8;
       dec = dec / 8;
       oct = ost + "" + oct;
-      
+
     }
-    
+
     System.out.println("Oktalna verzija stevila je: " + oct);
   }
 }
@@ -569,24 +567,24 @@ import java.io.*;
 
 public class DesToHex {
   public static void main(String[] args) throws IOException {
-    
+
     BufferedReader vhod = new BufferedReader(new InputStreamReader(System.in));
-    
+
     System.out.println("Vnesite desetiško število");
-    
+
     int dec = Integer.parseInt(vhod.readLine());
     int ost = 0;
     String hex = "";
     String[] nums = {"0","1","2","3","4","5","6","7","8","9","A","B","C","D","E","F"};
-    
+
     while (dec > 0) {
-      
+
       ost = dec % 16;
       dec = dec / 16;
       hex = nums[ost] + "" + hex;
-      
+
     }
-    
+
     System.out.println("Sestnajstiska verzija stevila je: " + hex);
   }
 }
@@ -603,20 +601,20 @@ import java.io.*;
 
 public class VeckratnikiSedemVecjeEniceKotStotice {
   public static void main(String[] args) throws IOException {
-    
+
     BufferedReader vhod = new BufferedReader(new InputStreamReader(System.in));
-    
+
     int min = 105; // najmanjsi trimestni veckrat
     int max = 999; // najvecje mozno tromestno stevilo
-    
+
     int maxLineWidth = 5; // najvec stevil kar je lahko v eni vrstici
     int curLinePos = 1; // trenutna pozicija v liniji
-    
+
     while (min <= max) {
-       
+
       // preveri ce so enice vecje od stotic
       if (min%10 > min/100) {
-        
+
         if (curLinePos % maxLineWidth != 0) {
           System.out.print(min + " ");
         } else {
@@ -651,12 +649,14 @@ Napiši program, ki sprejme število točk od ekipe in število odigranih tekem 
 <br><br>
 
 ### Nizi
+
 Niz je lahko sestavljen iz znakov, presledkov, ločil.
 
 ```java
 String niz = "Niz je besedilo.";
 String krneki = "E898 z72$:) )?*-_14ffw";
 ```
+
 <br>
 
 #### OPERACIJE Z NIZI
@@ -664,6 +664,7 @@ String krneki = "E898 z72$:) )?*-_14ffw";
 **Število znakov** v nizu dobimo z `niz.length()`.
 
 **Združevanje nizov:**
+
 ```java
 String niz1 = "Kosa stari ";
 String niz2 = "kaj ti?";
@@ -722,6 +723,7 @@ Ločilo med elementi pove, kako so elementi, ki jih vpisujemo v tabelo, ločeni 
 String eh = "kaj je s tabo človek kaj si nor?";
 String[] = eh.splot(" "); // "kaj", "je", "s" ... "nor?"
 ```
+
 <br>
 
 **DN:** napiši program, ki prebere niz s tipkovnice, in ga izpiše tako, da vsakoč ko naleti na `a` nadaljuje z izpisom na naslednji vrstici.
@@ -746,7 +748,6 @@ String[] = eh.splot(" "); // "kaj", "je", "s" ... "nor?"
 - spremenljivka, ki lahko vsebuje več podatkov
 - v eno spremenljivko lahko shranimo več vrednosti
 
-
 #### Enodimenzionalne tabele
 
 Deklaracija in inicializacija
@@ -755,13 +756,16 @@ Deklaracija in inicializacija
 tip ImeTabele[] = {vrednost1, vrednost2, ..., vrednostN};
 tip[] ImeTabele = {vrednost1, vrednost2, ..., vrednostN};
 ```
+
 Vse vrednosti so istega tipa (določen z deklaracijo).
 
 ```java
 String[] sadje = {"banana", "jabolko", "hruška"};
 int stevilke[] = {1,2,3,4,5,6,7,77,420};
 ```
+
 Dostop do vrednosti:
+
 ```java
 System.out.println(sadje[1]); // kaki
 ```
@@ -777,6 +781,7 @@ String sadje[] = new String[4];
 ```
 
 -tabela sadje je tipa string in ima 4 mesta
+
 - dokler ne določimo drugače so vse vrednosti tabele `null`
 - pri številskih tipih bi bile vrednosti `0`
 
@@ -805,6 +810,7 @@ length()
 **Uporaba:** če moramo določeno skupino ukazov večkrat **ponovit**.
 
 **Lastne metode:**
+
 - definiramo jih sami
 - zapisane znotraj razreda class, ne pa znotraj glavne metode main
 - lahko več lastnih metod v enem razredu
@@ -846,6 +852,7 @@ public class Vsota {
 <br>
 
 **Naloga**
+
 > napiši program ki sprejme tabelo celih stevil, jih izpise, potem jih razvrsti po velikosti in seenkrat izpise
 
 ```java
@@ -853,38 +860,38 @@ import java.io.*;
 
 public class RazvrscenIzpis {
   public static void main(String[] args) throws IOException {
-    
+
     // Nacin vnosa podatkov
     BufferedReader vhod = new BufferedReader(new InputStreamReader(System.in));
-    
+
     // Navodila za uporabnika
     System.out.println("Vnesite števila, ločena z vejicami. (Primer: 1,4,2,6,5,7,3)");
-    
+
     // Vnos shranjen kot String
     String[] vnesena_stevila = vhod.readLine().split(",");
-    
+
     // Pretvorba vnesenih stevil v int in polnjenje stevila[]
     int[] stevila = new int[vnesena_stevila.length];
-    
+
     for (int i=0; i<vnesena_stevila.length; i++) {
       stevila[i] = Integer.parseInt(vnesena_stevila[i]);
     }
-    
+
     // Izpis neurejenih vnesenih stevil
     System.out.print("Vnesena stevila: ");
     izpis(stevila);
     System.out.println("");
-    
+
     // Uporaba razvrsti() metode za razvrstit stevila
     int[] razvrscena_stevila = razvrsti(stevila);
-    
+
     // izpis razvrscenih stevil
     System.out.print("Razvrscena stevila: ");
     izpis(razvrscena_stevila);
     System.out.println("");
-    
+
   } // konec main() metode
-  
+
   // Metoda za razvrscanje stevil v tabeli
   public static int[] razvrsti(int[] stevila) {
     // Bubble sort
@@ -901,7 +908,7 @@ public class RazvrscenIzpis {
     // vrne tabelo razvrscenih stevil
     return stevila;
   }
-  
+
   // Metoda za izpis tabele
   public static void izpis(int[] stevila) {
     System.out.print("{");
@@ -916,6 +923,7 @@ public class RazvrscenIzpis {
 <br>
 
 **Naloga**
+
 > Vnos: število stranic večkotnika - Izpis: število diagonal v večkotniku. Za izračuna diagonal napiši svojo metodo.
 
 ```java
@@ -923,20 +931,20 @@ import java.io.*;
 
 public class Diagonale {
   public static void main(String[] args) throws IOException {
-    
+
     // Nacin vnosa podatkov
     BufferedReader vhod = new BufferedReader(new InputStreamReader(System.in));
-    
+
     // Navodila za uporabnika
     System.out.println("Vnesite stevilo stranic veckotnika:");
-    
+
     // Vnos shranjen kot String
     int stranice = Integer.parseInt(vhod.readLine());
-    
+
     System.out.println(stranice + "-kotnik ima " + diagonale(stranice) + " diagonal.");
-    
+
   } // konec main() metode
-  
+
   // Metoda za izpis tabele
   public static int diagonale(int stranice) {
     int diagonale = (stranice * (stranice - 3)) / 2;
@@ -950,8 +958,6 @@ public class Diagonale {
 manjka se in se vaj
 
 ---
-
-
 
 ## Objektno programiranje
 
@@ -971,14 +977,12 @@ Zgradba objektnega razreda
 Class Razred {
   atributi,
   konstruktorji,
-  metode: 
+  metode:
     - nastavljanje atributov
     - vračanje atributov
     - uporabne metode
 }
 ```
-
-
 
 #### Primeri
 
@@ -986,45 +990,45 @@ Razred **Osebe**.
 
 ```java
 public class Osebe {
-    
+
   private String ime, priimek, datumRojstva;
-    
+
   public Osebe() {}
-    
+
   public Osebe(String ime) {
     this.ime = ime;
   }
-    
+
   public Osebe(String ime, String priimek, String datumRojstva) {
     this.ime = ime;
     this.priimek = priimek;
     this.datumRojstva = datumRojstva;
   }
-    
+
   public void spremeniIme(String ime) {
     this.ime = ime;
   }
-    
+
   public void spremeniPriimek(String priimek) {
     this.priimek = priimek;
   }
-    
+
   public void spremeniDatumrojstva(String datumRojstva) {
     this.datumRojstva = datumRojstva;
   }
-    
+
   public String vrniIme() {
     return ime;
   }
-    
+
   public String vrniPriimek() {
     return priimek;
   }
-    
+
   public String vrniDatumrojstva() {
     return datumRojstva;
   }
-    
+
   public int vrniStarost(int letnica) {
     int letnicaRojstva = Integer.parseInt(datumRojstva.substring(6));
     return letnica - letnicaRojstva;
@@ -1032,18 +1036,16 @@ public class Osebe {
 }
 ```
 
-
-
 Testiramo razred Osebe:
 
 ```javascript
 public class TestOsebe {
   public static void main(String[] args) {
-      
+
     Osebe oseba1 = new Osebe();
     Osebe oseba2 = new Osebe("Matej");
     Osebe oseba3 = new Osebe("Janez", "Novak", "24.12.1980");
-      
+
     System.out.println(oseba1.vrniIme() + " " + oseba2.vrniIme() + " " + oseba3.vrniIme());
     System.out.println(oseba3.vrniIme() + " " + oseba3.vrniPriimek() + " " + oseba3.vrniDatumrojstva());
     oseba1.spremeniIme("Franc");
@@ -1053,12 +1055,109 @@ public class TestOsebe {
 }
 ```
 
+### Preverjanje za test: Objektno programiranje
 
+Preberi kodo in odgovori na vprašanja spodaj.
 
+```java
+class Paralelogram {
+    private int a, b, alfa, obseg;
+    public Paralelogram(a) {
+        this.a = a;
+        this.b = a;
+        this.alfa = 90;
+        this.obseg = 4*a;
+    }
+    public Paralelogram(a, alfa) {
+        this.a = a;
+        this.b = a;
+        this.alfa = alfa;
+        this.obseg = 4*a;
+    }
+    public Paralelogram(a, b, alfa) {
+        this.a = a;
+        this.b = b;
+        this.alfa = alfa;
+        this.obseg = 2*a + 2*b;
+    }
+    public void spremeniA(a) {
+        this.a = a;
+        this.obseg = 2*a + 2*b;
+    }
+    public void spremeniB(b) {
+        this.b = a;
+        this.obseg = 2*a + 2*b;
+    }
+    public void spremeniAlfa(alfa) {
+        this.alfa = alfa;
+    }
+    public int vrniA() {
+        return a;
+    }
+    public int vrniB() {
+        return b;
+    }
+    public int vrniAlfa() {
+        return alfa;
+    }
+    public int vrniObseg() {
+        return obseg;
+    }
+}
+```
 
+```java
+class TestParalelogram {
+    public static void main(String[]args) {
+        Paralelogram paralelogram = new Paralelogram(9, 11, 60);
+        Paralelogram kvadrat = new Paralelogram(7);
+        Paralelogram romb = new Paralelogram(79, 60);
+        Paralelogram pravokotnik = new Paralelogram(8, 10, 90);
 
+        System.out.println(pravokotnik.vrniObseg()); // 1.
+        int daljsi = Math.max(kvadrat.vrniB(), pravokotnik.vrniA()); // 2.
+        System.out.println(pravokotnik.vrniB(), paralelogram.vrniA()); // 3.
+        int ostanek = kvadrat.vrniObseg() % romb.vrniA(); // 4.
+        String niz = "" + kvadrat.vrniObseg() + romb.vrniB() + pravokotnik.vrniA() + paralelogram.vrniAlfa(); // 5.
 
+        int stevec = 0;
+        while (kvadrat.vrniObseg() > paralelogram.vrniA()) {
+            stevec++;
+            paralelogram.spremeniA(paralelogram.vrniA() + stevec);
+        }
+        // 6.
+        int stevilo = (int)(Math.random() *4 +5);
+        pravokotnik.spremeniB(stevilo);
+        int nakljucno = pravokotnik.vrniObseg(); // 7.
+    }
+}
+```
 
+#### Vprašanja:
+
+1. Kaj izpiše stavek? (2t) - [36](pink)
+2. Kolikšna je vrednost spremenljivke [daljsi](green)? (2t) - [8](pink)
+3. Kaj izpiše stavek? (2t) - [false](pink)
+4. Kolikšna je vrednost spremenljivke [ostanek](green)? (2t) - [1](pink)
+5. Kaj se zapiše v niz [niz](green)? (2t) - ["289860"](pink) oz. [289860](pink) pač String tip ne številka
+6. Kolikšna je vrednost spremenljivke [stevec](green)? (2t) - [6](pink)
+7. Kolikšna je največja možna vrednost spremenljivke [nakljucno](green)? (2t) - [8](pink)
+
+- V razredu **Paralelogram** napiši metodo za izračun ploščine. (5t)
+
+  ```java
+  public double ploscina() {
+      // Koda
+  }
+  ```
+
+- V razredu **TestParalelogram** napiši stavek, ki izračuna vrednost drugega kota v likih. (3t)
+
+  ```java
+  public double ploscina() {
+      // Koda
+  }
+  ```
 
 [if]: https://res.cloudinary.com/solamona/image/upload/v1537456195/zvs/sts-kp/rac/5l/programiranje/if_statement.jpg
 [ifelse]: https://res.cloudinary.com/solamona/image/upload/v1537456152/zvs/sts-kp/rac/5l/programiranje/if_else_statement.jpg

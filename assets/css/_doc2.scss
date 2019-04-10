@@ -1,6 +1,19 @@
 @import 'variables';
 @import 'common_mixins';
 
+.highlight::-webkit-scrollbar {
+  width: 5px;
+  height: 6px;
+}
+
+.highlight::-webkit-scrollbar-track {
+  background: #ddd;
+}
+
+.highlight::-webkit-scrollbar-thumb {
+  background: rgb(170, 170, 170);
+}
+
 html {
   font-size: 18px;
 }

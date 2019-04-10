@@ -51,7 +51,7 @@ header {
       position: absolute;
       top: 50%;
       left: 50%;
-      transform: translate(-50%,-50%);
+      transform: translate(-50%, -50%);
 
       svg {
         $d: 15px;
@@ -96,7 +96,7 @@ header {
           position: absolute;
           top: 50%;
           left: 50%;
-          transform: translate(-50%,-50%);
+          transform: translate(-50%, -50%);
         }
       }
 
@@ -117,6 +117,6 @@ header {
 
 @media screen and (max-width: 640px) {
   header::before {
-    background: #2779BD!important;
+    background: #2779BD !important;
   }
 }
