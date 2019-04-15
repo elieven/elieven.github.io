@@ -212,7 +212,7 @@ Ideja: pogubnost človeških strasti in neobvladljiva čustva.
 
 ## Martin Kačur
 
-![Slika iz filma](http://gradiva.txt.si/m/slovenscina/ivan-cankar-martin-kacur/img/Kacur_blatni_dol.jpg){: .img-float-left}
+![Slika iz filma](https://res.cloudinary.com/solamona/image/upload/v1555264613/zvs/sts-kp/rac/5l/slovenscina/kacur.jpg){: .img-float-left}
 
 Povest poteka v treh krajih: **Zapolje** (kjer preživi pol leta), **Blatni dol** (11 let) in **Lazi** (8 let).
 
@@ -652,4 +652,20 @@ totalitarni režim omejuje svobodo posameznika z nasiljem in kaznuje upornike. A
 ### Načinovni odvisnik
 
 ### Vzročni odvisnik
+
+
+
+---
+
+
+
+| Ime           | Razmerje med deli                                            | Vezniki                                                      | Primer                                         |
+| ------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------------------- |
+| Vezalno       | Dopolnjevalni stavek **daje podatke o sočasnem dogodku, ki sledi**. | in, ter, pa                                                  | Hodi in gleda ter si požvižgava.               |
+| Stopnjevalno  | Dopolnjevalni stavek poleg **sočasnosti** / **zaporednosti** dogodka kaj posebej poudarja oz. izraža **nepričakovanost**. | niti-niti, ne-ne, ne le-ampak tudi, ne samo, ampak tudi, ne le - še celo | Niti ne piše niti se ne pripravlja na pisanje. |
+| Ločno         | Dopolnjevalni stavek izraža **izbirno možnost**.             | ali-ali, bodisi-bodisi, ali                                  | Ali beri ali poslušaj.                         |
+| Protivno      | Dopolnjevalni stavek izraža **posledico dejanja** iz osnovnega stavka. | a, toda, vendar, pa, ampak, temveč                           | Je majhna, toda prebrisana.                    |
+| Posledično    | Dopolnjevalni stavek izraža **posledico dejanja** iz osnovnega stavka. | zato                                                         | Cesta je spolzka, zato vozite previdno.        |
+| Pojasnjevalno | Dopolnjevalni stavek izraža **pojasnilo** oz. **dokaz za dejanje** v osnovnem stavku. | saj, kajti, in sicer, to je, tj.                             | Badeni si kapo, kajti zunaj brije veter.       |
+| Sklepalno     | Dopolnjevalni stavek pove **sklep**, ki je **izpeljan iz ugotovitve** v osnovnem stavku. | torej, zatorej, potemtakem                                   | Star je 13 let, torej hodi v 8. razred.        |
 

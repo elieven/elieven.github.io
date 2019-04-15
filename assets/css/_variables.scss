@@ -1,11 +1,20 @@
 // Default font styles
-$default-font: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+$default-font: -apple-system,
+BlinkMacSystemFont,
+"Segoe UI",
+Helvetica,
+Arial,
+sans-serif,
+"Apple Color Emoji",
+"Segoe UI Emoji",
+"Segoe UI Symbol";
 $logo-font: 'poppinsregular';
-$roboto: 'Roboto', sans-serif;
+$roboto: 'Roboto',
+sans-serif;
 
 // Sizes
-$hh: 56px;
-$mw: 980px;
+$hh: 60px; //56px;
+$mw: 1104px; // 1104px; // 980px;
 
 // Viewport breakpoints
 $xs: 576px;
@@ -14,18 +23,20 @@ $md: 992px;
 $lg: 1200px;
 
 // Elevation
-$z1: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-$z2: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+$z1: 0 1px 3px rgba(0, 0, 0, 0.12),
+0 1px 2px rgba(0, 0, 0, 0.24);
+$z2: 0 3px 6px rgba(0, 0, 0, 0.16),
+0 3px 6px rgba(0, 0, 0, 0.23);
 
 // Colors
 $ghblack: #24292e;
 $selection-color: #ccff00;
 $border-color: #eaecef;
-$border-color-2: rgba(0,0,0,0.125);
+$border-color-2: rgba(0, 0, 0, 0.125);
 
 // Paragraph styles
 $p-line-height: 24px; // 26px
-$p-font: $default-font;//"Verdana"; // "Source Serif Pro", serif;
+$p-font: $default-font; //"Verdana"; // "Source Serif Pro", serif;
 $p-font-size: 1rem; // 18px
 $bold-weight: 600;
 

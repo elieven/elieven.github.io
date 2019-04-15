@@ -168,6 +168,78 @@ $$
 
 
 
+
+
+## Odvod
+
+Odvod funkcije `f(x)` v točki `T(x, y)` je enak smernemu koeficientu tangente na graf te funkcije v tej točki. Označimo ga `f'(x)`.  
+
+
+$$
+f'(x_0) = k_t
+$$
+
+
+![Odvod funkcije slika](https://res.cloudinary.com/solamona/image/upload/v1555364958/zvs/sts-kp/rac/5l/matematika/odvod_1.jpg){: width="300px" align="center"}
+
+
+
+### Pravila za odvajanje
+
+- Produkt funkcije in konstante 
+
+$$
+\big(c \cdot f(x)\big)' = c \cdot f'(x)
+$$
+
+
+
+- Vsota in razlika funkcij 
+
+$$
+\big( f(x) \pm g(x) \big)' = f'(x) \pm g'(x)
+$$
+
+
+
+- Produkt funkcij 
+
+$$
+\big( f(x) \cdot g(x) \big)' = f'(x) + g(x) + f(x) + g'(x)
+$$
+
+
+
+- Kvocient funkcij 
+
+
+$$
+\bigg( \frac{f(x)}{g(x)} \bigg)' = \frac{f'(x) \cdot g(x) - f(x) \cdot g'(x)}{g^2(x)}
+$$
+
+
+
+
+### Odvodi elementarnih funkcij
+
+| FUNKCIJA `f(x)` | ODVOD `f(x)'`             |
+| --------------- | ------------------------- |
+| \\( c \\)       | \\( 0 \\)                 |
+| \\( x \\)       | \\( 1 \\)                 |
+| \\( x^n \\)     | \\( nx^{n-1} \\)          |
+| \\( e^x \\)     | \\( e^x \\)               |
+| \\( a^x \\)     | \\( a^xlna \\)            |
+| \\( lnx \\)     | \\( \frac{1}{x} \\)       |
+| \\( log_ax \\)  | \\( \frac{1}{xlna} \\)    |
+| \\( sinx \\)    | \\( cosx \\)              |
+| \\( cosx \\)    | \\( -sinx \\)             |
+| \\( tanx \\)    | \\( \frac{1}{cos^2x} \\)  |
+| \\( cotx \\)    | \\( -\frac{1}{sin^2x} \\) |
+
+
+
+
+
 ## Kombinatorika
 
 Kombinatorika je področje matematike, ki se ukvarja s tem, na koliko načinov je možno razporediti neko množico elementov ali na koliko načinov je možno izbrati elemente iz neke množice.
@@ -178,7 +250,7 @@ Kombinatorika je področje matematike, ki se ukvarja s tem, na koliko načinov j
 
 S kombinatoričnim drevesom grafično prikažemo proces
 
- izbiranja odločitev. Drevo vseh možnosti narišemo tako, da vsako vozlišče razvejimo na toliko vozlišč, kolikor izbir imamo na voljo v danem koraku.
+Izbiranja odločitev. Drevo vseh možnosti narišemo tako, da vsako vozlišče razvejimo na toliko vozlišč, kolikor izbir imamo na voljo v danem koraku.
 
 ![Kombinatorično drevo](https://res.cloudinary.com/solamona/image/upload/v1554756069/zvs/sts-kp/rac/5l/matematika/kombinatorika_drevo.png)
 

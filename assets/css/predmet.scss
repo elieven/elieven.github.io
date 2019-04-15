@@ -82,7 +82,7 @@
         overflow: hidden;
         white-space: nowrap;
       }
-      
+
       .predmet-subtitle {
         display: block;
         font-size: 14px;
@@ -103,6 +103,7 @@
   .predmeti {
     margin: 0 -12px 0 -12px;
   }
+
   .predmet-wrap {
     padding: 4px;
   }
@@ -113,21 +114,26 @@
   .predmeti {
     margin: 0 -16px 0 -16px;
   }
+
   .predmet-wrap {
     padding: 0;
+
     &:nth-child(1) {
       .predmet {
         border-top: 1px solid $predmet_border_color;
       }
     }
   }
+
   .predmet {
     border: 0;
     border-bottom: 1px solid $predmet_border_color;
     box-shadow: none;
+
     .predmet-content {
       height: 48px;
       position: relative;
+
       .predmet-figure {
         height: 48px;
         padding: 0;
@@ -136,22 +142,26 @@
         position: absolute;
         top: 0;
         left: 0;
+
         .predmet-icon {
           width: 48px;
           height: 48px;
         }
       }
+
       .predmet-status {
         position: absolute;
         top: 2px;
         right: 0;
       }
+
       .predmet-text {
         position: absolute;
         top: 0;
         right: 16px + 18px;
         left: 48px + 18px;
         height: 48px;
+
         .predmet-title {
           text-align: left;
           position: absolute;
@@ -159,6 +169,7 @@
           left: 0;
           right: 0;
         }
+
         .predmet-subtitle {
           text-align: left;
           position: absolute;
