@@ -1,6 +1,6 @@
 --- 
 # front matter for compiling 
---- 
+---
 
 @import 'common_mixins';
 
@@ -14,7 +14,8 @@
 @import "animationoverlay";
 @import "notifications";
 
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -64,7 +65,7 @@ body {
     top: 0;
     left: 0;
   }
-  
+
   &::after {
     content: ' ”';
     color: #aaa;

@@ -2,69 +2,72 @@
 
 <html lang="sl" class="desktop">
 
-  <head>
+<head>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
-    <!-- PWA stuff -->
-    <link rel="manifest" href="/manifest.json">
-    <meta name="theme-color" content="#2779BD">
+  <!-- PWA stuff -->
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#2779BD">
 
-    <title> {{ page.title }} </title>
-    <meta name="description" content="{{page.desc}}" />
+  <title> {{ page.title }} </title>
+  <meta name="description" content="{{page.desc}}" />
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
-    <!--link href="https://fonts.googleapis.com/css?family=Roboto:500|Source+Serif+Pro:400,700" rel="stylesheet"-->
-    <!--link href="https://fonts.googleapis.com/css?family=Montserrat:600|Open+Sans" rel="stylesheet"-->
-    <!-- Logo font -->
-    <link href="/assets/font/poppins.css" rel="stylesheet" type="text/css">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
+  <!--link href="https://fonts.googleapis.com/css?family=Roboto:500|Source+Serif+Pro:400,700" rel="stylesheet"-->
+  <!--link href="https://fonts.googleapis.com/css?family=Montserrat:600|Open+Sans" rel="stylesheet"-->
+  <!-- Logo font -->
+  <link href="/assets/font/poppins/poppins.css" rel="stylesheet" type="text/css">
 
-    <!-- Page style -->
-    <!-- Overlay scrollbars -->
-    <link rel="stylesheet" type="text/css" href="/assets/css/OverlayScrollbars.min.css">
-    <!-- tailwind for in dev -->
-    <!--link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet"-->
-    <!-- bootstrap grid - probably to be replaced with tailwind grid -->
-    <link href="/assets/css/grid.css" rel="stylesheet" type="text/css">
-    <!-- normal page style (but currently all in one file) -->
-    <link href="/assets/css/style.css" rel="stylesheet" type="text/css">
-    <!-- syntax highlighting styles -->
-    <link href="/assets/css/syntax.css" rel="stylesheet" type="text/css">
+  <!-- Page style -->
+  <!-- Overlay scrollbars -->
+  <link rel="stylesheet" type="text/css" href="/assets/css/OverlayScrollbars.min.css">
+  <!-- tailwind for in dev -->
+  <!--link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet"-->
+  <!-- bootstrap grid - probably to be replaced with tailwind grid -->
+  <link href="/assets/css/grid.css" rel="stylesheet" type="text/css">
+  <!-- normal page style (but currently all in one file) -->
+  <link href="/assets/css/style.css" rel="stylesheet" type="text/css">
+  <!-- syntax highlighting styles -->
+  <link href="/assets/css/syntax.css" rel="stylesheet" type="text/css">
 
-  </head>
+</head>
 
-  <body>
+<body>
 
-    <div id="notification-container">
+  <div id="notification-container">
 
-      <div class="notification">
-        <div class="notification-text">
-          Ta brskalnik ni podprt, zato nekatere funkcije ne bodo delovale.
-        </div>
-        <button class="notification-dismiss">Razumem</button>
+    <div class="notification">
+      <div class="notification-text">
+        Ta brskalnik ni podprt, zato nekatere funkcije ne bodo delovale.
       </div>
-
+      <button class="notification-dismiss">Razumem</button>
     </div>
 
-    {{content}}
+  </div>
 
-    <!-- Overlay Scrollbars JS -->
-    <script src="/assets/js/OverlayScrollbars.min.js"></script>
+  {{content}}
 
-    <!-- Google ANALytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123951407-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-123951407-1');
-    </script>
+  <!-- Overlay Scrollbars JS -->
+  <script src="/assets/js/OverlayScrollbars.min.js"></script>
 
-  </body>
+  <!-- Google ANALytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123951407-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-123951407-1');
+  </script>
+
+</body>
 
 </html>

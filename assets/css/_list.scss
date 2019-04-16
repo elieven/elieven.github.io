@@ -18,13 +18,17 @@
     padding: 8px;
 
     .list-item {
+      @include for-mobile {
+        border-radius: 0px;
+      }
+
+      border-radius: 6px;
       @include list-grid-item-border-hover();
       padding: 0 1rem;
       color: $ghblack;
       text-decoration: none;
       position: relative;
-      border-radius: 6px;
-      height: 88px;
+      height: $list-item-height;
       display: flex;
       align-items: center;
 

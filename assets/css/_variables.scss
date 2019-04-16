@@ -8,13 +8,14 @@ sans-serif,
 "Apple Color Emoji",
 "Segoe UI Emoji",
 "Segoe UI Symbol";
-$logo-font: 'poppinsregular';
-$roboto: 'Roboto',
+$logo-font: "Poppins";
+$roboto: "Roboto",
 sans-serif;
 
 // Sizes
 $hh: 60px; //56px;
 $mw: 1104px; // 1104px; // 980px;
+$list-item-height: 80px;
 
 // Viewport breakpoints
 $xs: 576px;
@@ -51,7 +52,7 @@ $h2-font-size: 1.6666666666666667rem; // 30px;
 $h2-font-weight: 500;
 $h2-color: #111;
 
-$h3-font: "Arial";
+$h3-font: Arial;
 $h3-font-size: 1.2222222222222223rem; // 22px
 $h3-font-weight: 600;
 $h3-color: #212121;
