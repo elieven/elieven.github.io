@@ -19,12 +19,14 @@
 
     .list-item {
       @include list-grid-item-border-hover();
-      padding: 12px;
-      display: block;
+      padding: 0 1rem;
       color: $ghblack;
       text-decoration: none;
       position: relative;
       border-radius: 6px;
+      height: 88px;
+      display: flex;
+      align-items: center;
 
 
       .list-item-image {
@@ -37,12 +39,10 @@
       }
 
       .list-item-text {
-        position: absolute;
-        top: 12px;
-        bottom: 12px;
-        left: 76px;
-        right: 12px;
+        padding-left: 20px;
         font-family: $default-font;
+        display: flex;
+        flex-direction: column;
 
         span {
           display: block;
@@ -69,7 +69,7 @@
 }
 
 
-@media screen and (max-width: 767px) {
+@include for-mobile {
   .list-title {
     padding-left: 8px;
     margin-bottom: 0;
@@ -87,12 +87,12 @@
 
       .list-item {
         border: 0;
-        box-shadow: 0 0 0 0 rgba(0,0,0,0) !important;
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
         border-bottom: 1px solid $list-item_border_color;
 
         &:hover {
           border: 0;
-          box-shadow: 0 0 0 0 rgba(0,0,0,0)!important;
+          box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
           border-bottom: 1px solid $list-item_border_color;
         }
       }
