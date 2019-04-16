@@ -29,31 +29,31 @@
     <!-- loopa skozi use dele URL arraya (srednji del URL-ja) -->
     {% for i in (1..url_loop_size) %}
 
-      {% if i != 4 %}
-        {% assign cururl = prevurl | append: url_arr[i] | append: "/" %}
-      {% endif %}
+    {% if i != 4 %}
+    {% assign cururl = prevurl | append: url_arr[i] | append: "/" %}
+    {% endif %}
 
-      <li>
-        <span class="path-separator">/</span>
-      </li>
+    <li>
+      <span class="path-separator">⦁</span>
+    </li>
 
-      {% if num != 3 %}
-        <li>
-          <a href="{{cururl}}" class="path-segment">{{ url_arr[i] }}</a>
-        </li>
-      {% else %}
-        <li>
-          <a href="{{cururl}}" class="path-segment">{{ url_arr[i] }}</a>
-        </li>
-      {% endif %}
-      
+    {% if num != 3 %}
+    <li>
+      <a href="{{cururl}}" class="path-segment">{{ url_arr[i] }}</a>
+    </li>
+    {% else %}
+    <li>
+      <a href="{{cururl}}" class="path-segment">{{ url_arr[i] }}</a>
+    </li>
+    {% endif %}
 
-      {% assign prevurl = cururl %}
+
+    {% assign prevurl = cururl %}
 
     {% endfor %}
 
     <!-- zadni del URLja torej trenutni dokument / folder -->
-    <li><span class="path-separator">/</span></li>
+    <li><span class="path-separator">⦁</span></li>
     <li><span class="path-end">{{url_arr[url_arr_size]}}</span></li>
 
   </ol>

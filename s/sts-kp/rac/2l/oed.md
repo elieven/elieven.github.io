@@ -8,15 +8,26 @@ title: OED • 2. letnik • Računalnikar • STŠ Koper
 
 ## Električni naboj - Q
 
-\$$ Q = I \times{t} $$
+$$
+\newcommand{\RAC}[1]{\phantom{a}\\[0pt]\mathrm{#1}\\[0pt]\phantom{a}}
 
-Enota je \\(As\\) (amper sekunda).
+\RAC{
+    Q = I \cdot t
+}
+$$
+
+Enota je **As** (amper sekunda).
 
 
 
 __Osnovni naboj:__
 
-\$$ e_0 = ^+_- 1,6 \times{ 10^{-19} As } $$
+$$
+\RAC{
+    e_0 = ^+_- 1,6 \cdot 10^{-19} As 
+}
+$$
+
 
 Naboj telesa je odvisen od __razlike__ med __številom elektronov__ (e<sup>-</sup>) in  __števila protonov__ (p<sup>+</sup>) na telesu in je vedno večkratnik osnovnega naboja.
 
@@ -24,21 +35,32 @@ Naboj telesa je odvisen od __razlike__ med __številom elektronov__ (e<sup>-</su
 > Koliko e<sup>-</sup> potrebujemo, da dobimo naboj 1As?
 
 
+$$
+\RAC{
+    1e^+ \quad \dots\quad 1,6 \cdot 10^{-19} As \\
+    \quad x \quad\dots\quad 1As
+}
+$$
 
-![krizni racun zacetek][r1d1]
+$$
+\RAC{
+    x = \frac{ 1e^- \cdot  As  }{ 1,6 \cdot 10^{-19} As  }
+}
+$$
 
 
-
-\$$ x = \frac{ 1e^- \times{ As } }{ 1,6 \times{ 10^{-19} As } } $$
-
-
-
-\$$ x = \frac{ 1e^- \times{ 10^{-19}} }{ 1,6 } $$
-
+$$
+\RAC{
+    x = \frac{ 1e^- \cdot 10^{-19}} { 1,6 }
+}
+$$
 
 
-\$$ 1As = 62,5 \times{ 10^{17}e^- } $$
-
+$$
+\RAC{
+    1As = 62,5 \times{ 10^{17}e^- }
+}
+$$
 
 
 ## Električni potencial - V
