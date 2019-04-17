@@ -20,9 +20,10 @@ header {
     right: 0;
     height: 150px + $hh;
     background: #4076de;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    //box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
     will-change: transform;
     z-index: -1;
+    box-shadow: rgb(238, 238, 238) 0px 4px 4px;
   }
 
   #header-logo {

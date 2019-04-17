@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   font-display: swap;
 }
 
@@ -14,13 +14,16 @@ html {
 }
 
 body {
-  background-color: #f8fafc !important; // #e7f0f7 !important; //#FBFCFE !important;
-  //background-color: white;
+  //background-color: #f8fafc !important; // #e7f0f7 !important; //#FBFCFE !important;
   line-height: 1.5;
   color: $ghblack;
+  //background-color: rgba(93, 168, 243, 0.04);
+  background: #FBFBFB;
+  background: #F8FAFC !important;
 }
 
-html, body {
+html,
+body {
   overflow: scroll;
   overflow-scrolling: touch;
 }
@@ -33,8 +36,8 @@ html, body {
 }
 
 button {
-  outline: none!important;
-  font-weight: 500!important;
+  outline: none !important;
+  font-weight: 500 !important;
 }
 
 ::selection,

@@ -1,0 +1,48 @@
+#buttons-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 200;
+  pointer-events: none;
+}
+
+$btn-size: 40px;
+
+#back-to-top-btn {
+  width: $btn-size;
+  height: $btn-size;
+  background-size: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  pointer-events: all !important;
+  position: absolute;
+  right: 24px;
+  bottom: 24px;
+  box-shadow: #def 0px 4px 4px;
+  cursor: pointer;
+  border-radius: 8px;
+  outline: 0;
+  background-color: white;
+  border: 1px solid #dae1e7;
+
+  opacity: 0;
+  transform: translateY(150px);
+  transition: all 0.2s ease;
+
+  svg {
+    display: block;
+    margin: auto;
+  }
+
+  &:hover {
+    background-color: #F2F3F5;
+    border: 1px solid #c5ccd2;
+  }
+
+  &.lift {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

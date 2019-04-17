@@ -34,9 +34,10 @@ $ghblack: #24292e;
 $selection-color: #ccff00;
 $border-color: #eaecef;
 $border-color-2: rgba(0, 0, 0, 0.125);
+$border-color-3: #eaecf0;
 
 // Paragraph styles
-$p-line-height: 24px; // 26px
+$p-line-height: 26px; // 24px
 $p-font: $default-font; //"Verdana"; // "Source Serif Pro", serif;
 $p-font-size: 1rem; // 18px
 $bold-weight: 600;
@@ -64,6 +65,7 @@ $h4-color: #333;
 
 // List item and grid item styles
 $item-border-color: rgba(217, 224, 230, 1);
+$item-border-radius: 8px;
 
 // Predmet styles
 $predmet_all_color: $item-border-color;

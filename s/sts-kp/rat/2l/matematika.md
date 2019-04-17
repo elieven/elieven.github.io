@@ -14,8 +14,6 @@ manjka se kr stvari
 
 ## Polinomi
 
-<!--
-
 Predpis za polinome:
 
 \\( p(x) = a_nx^n + a_{n-1}x^{n-1} + a_{n-2}x^{n-2} + \phantom{a}\cdots\phantom{a} a_2x^2 + a_1x + a_0 \\)
@@ -83,14 +81,9 @@ Pri množenju se stopnja polinoma sešteva (ker se potence pri množenju seštev
 
 > wtf kako da to nardim u mathjaxu ??? tipo 1 mesec rabi da skontam zaprau lol
 
-
-<br><br>
-
--->
-
 > Manjka se kr stvari
 
-<br><br>
+
 
 ## Adicijski izreki
 

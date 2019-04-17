@@ -15,7 +15,7 @@
 }
 
 html {
-  font-size: 18px;
+  font-size: 18px; // 16px
 }
 
 body {
@@ -38,7 +38,7 @@ header::before {
   background-color: $bg;
   margin-top: 16px * 2;
   margin-bottom: 16px;
-  border-radius: 6px;
+  border-radius: $item-border-radius;
 
   #toc-toggle {
     $d: 44px;
@@ -168,7 +168,9 @@ header::before {
     background-color: white;
     border: 1px solid #dae1e7;
     font-family: $p-font;
-    border-radius: 6px;
+    border-radius: $item-border-radius;
+
+    border-color: $border-color-3;
 
     svg {
       max-width: 100%;
