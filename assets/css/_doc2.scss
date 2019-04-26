@@ -34,7 +34,7 @@ header::before {
 #table-of-content {
   $bg: #fff;
   display: inline-block;
-  border: solid 1px hsl(208, 21%, 88%);
+  border: solid 1px $borderd;
   background-color: $bg;
   margin-top: 16px * 2;
   margin-bottom: 16px;
@@ -166,7 +166,7 @@ header::before {
     padding: 45px;
     padding-top: 36px;
     background-color: white;
-    border: 1px solid #dae1e7;
+    border: 1px solid $borderl; //#dae1e7;
     font-family: $p-font;
     border-radius: $item-border-radius;
 
