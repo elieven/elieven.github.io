@@ -38,7 +38,7 @@ Nad črticami so števila binarnega zapisa (10110011) in pod črtami so vrednost
 128 +0 +32 +16 +0 +0 +2 +1 = 179
 ```
 
-![Sestava IP naslova](https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.cnblogs.com%2Fcnblogs_com%2Fjcsu%2Fcisco%2Fcisco_icnd1_ip_address_format.PNG&f=1){: align="center"}
+![Sestava IP naslova](https://res.cloudinary.com/solamona/image/upload/v1556298187/zvs/sts-kp/rac/5l/uiks/zgradba-ip-naslova.png){: align="center"}
 
 Zapis naslova v **CIDR** obliki: `192.168.32.77/24` je decimalni zapis IP naslova, ki mu sledi poševnica in za njo število bitov, ki so uporabljeni za zapis omrežja (omrežnega dela).
 
@@ -50,7 +50,7 @@ Vsak IP naslovi sodi v enega izmed 5 razredov.
 
 > Polje **razmerje** je razmerje med koločino bitov (**b**) uporabljenih za zapis **omrežja** in **naprave**. Prikazano je tudi v bajtih (**B**). Primer: 2B:2B - 2 bajta za zapis omrežja in 2 bajta za zapis naprave.
 
-| Razred |  Razmerje omr:napr  |        Obseg IP naslova         |
+| Razred |  Razmerje omr:napr  |                Obseg IP naslova |
 | :----: | :-----------------: | ------------------------------: |
 | **A**  | `8b:24b` - `1B:3B`  |   `1.0.0.0` - `127.255.255.255` |
 | **B**  | `16b:16b` - `2B:2B` | `128.0.0.0` - `191.255.255.255` |
@@ -248,7 +248,7 @@ Na transportnem sloju določimo TCP/UDP __[NEKI MANJKA]__
 
 #### NAT tabela
 
-|        WAN        |       LAN        |
+| WAN               | LAN              |
 | ----------------- | ---------------- |
 | `138.76.297,5001` | `10.0.0.1,3345`  |
 | `138.76.297,6000` | `10.0.0.1,2000`  |
@@ -411,7 +411,7 @@ Vsaka naprava ima v **svojem spominu ARP tabelo**, ki vsebuje **IP naslove**, pr
 
 > VAJA: zapišite ARP tabele naprave C
 
-|     IP naslov     |     MAC naslov      |
+| IP naslov         | MAC naslov          |
 | ----------------- | ------------------- |
 | `222.222.222.220` | `1A-23-F9-CD-06-9B` |
 | `222.222.222.223` | `5C-66-AB-90-70-B1` |

@@ -214,7 +214,7 @@ header::before {
 
     strong {
       font-weight: inherit;
-      font-weight: $bold-weight;
+      font-weight: 600;
       //color: rgb(88, 88, 235);
     }
 
@@ -413,7 +413,7 @@ header::before {
     }
 
     code {
-      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+      font-family: "Fira code", "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
       font-size: 12px;
       padding: 0.2em 0.4em;
       margin: 0;
@@ -672,7 +672,7 @@ header::before {
   [href=pink] {
     color: #5858eb !important;
     pointer-events: none;
-    font-weight: 600;
+    font-weight: $bold-weight;
   }
 
   [href=highlight] {
@@ -687,113 +687,113 @@ header::before {
   [href=green-dark] {
     color: #1F9D55 !important;
     pointer-events: none;
-    font-weight: 600;
+    font-weight: $bold-weight;
   }
 
   [href=green] {
     color: #38C172 !important;
     pointer-events: none;
-    font-weight: 600;
+    font-weight: $bold-weight;
   }
 
   [href=green-light] {
     color: #51D88A !important;
     pointer-events: none;
-    font-weight: 600;
+    font-weight: $bold-weight;
   }
 
   // BLUE
   [href=blue-dark] {
     color: #2779BD !important;
     pointer-events: none;
-    font-weight: 600;
+    font-weight: $bold-weight;
   }
 
   [href=blue] {
     color: #3490DC !important;
     pointer-events: none;
-    font-weight: 600;
+    font-weight: $bold-weight;
   }
 
   [href=blue-light] {
     color: #6CB2EB !important;
     pointer-events: none;
-    font-weight: 600;
+    font-weight: $bold-weight;
   }
 
   // RED
   [href=red-dark] {
     color: #CC1F1A !important;
     pointer-events: none;
-    font-weight: 600;
+    font-weight: $bold-weight;
   }
 
   [href=red] {
     color: #E3342F !important;
     pointer-events: none;
-    font-weight: 600;
+    font-weight: $bold-weight;
   }
 
   [href=red-light] {
     color: #EF5753 !important;
     pointer-events: none;
-    font-weight: 600;
+    font-weight: $bold-weight;
   }
 
   // ORANGE
   [href=orange-dark] {
     color: #DE751F !important;
     pointer-events: none;
-    font-weight: 600;
+    font-weight: $bold-weight;
   }
 
   [href=orange] {
     color: #F6993F !important;
     pointer-events: none;
-    font-weight: 600;
+    font-weight: $bold-weight;
   }
 
   [href=orange-light] {
     color: #FAAD63 !important;
     pointer-events: none;
-    font-weight: 600;
+    font-weight: $bold-weight;
   }
 
   // INDIGO
   [href=indigo-dark] {
     color: #5661B3 !important;
     pointer-events: none;
-    font-weight: 600;
+    font-weight: $bold-weight;
   }
 
   [href=indigo] {
     color: #6574CD !important;
     pointer-events: none;
-    font-weight: 600;
+    font-weight: $bold-weight;
   }
 
   [href=indigo-light] {
     color: #7886D7 !important;
     pointer-events: none;
-    font-weight: 600;
+    font-weight: $bold-weight;
   }
 
   // PURPLE
   [href=purple-dark] {
     color: #794ACF !important;
     pointer-events: none;
-    font-weight: 600;
+    font-weight: $bold-weight;
   }
 
   [href=purple] {
     color: #9561E2 !important;
     pointer-events: none;
-    font-weight: 600;
+    font-weight: $bold-weight;
   }
 
   [href=purple-light] {
     color: #A779E9 !important;
     pointer-events: none;
-    font-weight: 600;
+    font-weight: $bold-weight;
   }
 }
