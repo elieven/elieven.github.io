@@ -16,7 +16,7 @@ manjka se kr stvari
 
 Predpis za polinome:
 
-\\( p(x) = a_nx^n + a_{n-1}x^{n-1} + a_{n-2}x^{n-2} + \phantom{a}\cdots\phantom{a} a_2x^2 + a_1x + a_0 \\)
+$  p(x) = a_nx^n + a_{n-1}x^{n-1} + a_{n-2}x^{n-2} + \phantom{a}\cdots\phantom{a} a_2x^2 + a_1x + a_0 $
 
 <br>
 
@@ -88,22 +88,19 @@ Pri množenju se stopnja polinoma sešteva (ker se potence pri množenju seštev
 ## Adicijski izreki
 
 $$
-\newcommand{\RAC}[1]{\phantom{a}\\[0pt]\mathrm{#1}\\[0pt]\phantom{a}}
 
 \sin 75^o \neq \sin 30^o + \sin 45^o \\[8pt]
 \sin 75^o = \sin (30^0 + 45^o)
 $$
 
 $$
-\RAC{
   \color{#090}{\pm \pm} \quad \sin (\alpha \pm \beta) = \sin \alpha \cdot \cos \beta \pm \cos \alpha \cdot \sin \beta \\[8pt]
 
   \color{#090}{\pm \mp} \quad \cos (\alpha \pm \beta) = \cos \alpha \cdot \cos \beta \mp \sin \alpha \cdot \sin \beta
-}
+
 $$
 
 $$
-\RAC{
 \begin{array}{c|ccccc}
 
 \alpha & 0^o & 30^o & 45^o & 60^o & 90^o \\
@@ -113,7 +110,7 @@ $$
 
 
 \end{array}
-}
+
 $$
 
 
@@ -136,9 +133,8 @@ Glavnica ostaja enaka, obresti so enake.
 
 
 $$
-\RAC{
     o = \frac{G \cdot p}{100} \qquad o_n = \frac{G \cdot p \cdot n}{100} = \text{obresti po n letih}
-}
+
 $$
 
 > Primer: Miha si od banke sposodi...
@@ -151,12 +147,11 @@ Glavnica se po računanju obresti veča, zato se tudi obresti s časom večajo.
 
 
 $$
-\RAC{
     G_0 = 1000 \\
     G_1 = 1030 \\
     G_2 = 1060,9 \\
     G_3 = 1090,73
-}
+
 $$
 
 
@@ -269,9 +264,8 @@ Permutacije so razporeditve danih n elementov na n prostih mest. Če so vsi elem
 
 
 $$
-\RAC{
     P_n = n \cdot (n - 1) \cdot (n - 2) \cdot \dots \cdot 3 \cdot 2 \cdot 1 = n!
-}
+
 $$
 
 
@@ -289,9 +283,8 @@ Primer: Koliko različnih petmestnih števil lahok zapišemo iz števk 1, 2, 3, 
 
 
 $$
-\RAC {
     V^r_n = \frac{n!}{(n - r)!}
-}
+
 $$
 
 
@@ -307,9 +300,8 @@ Primer: Koliko različnih trimestnih števil lahko sestaviš iz števk 1, 2, 3, 
 
 
 $$
-\RAC {
     C^r_n = \frac{n!}{r! \cdot (n - r)!}
-}
+
 $$
 
 
@@ -317,9 +309,8 @@ Izraz, ki nastopa na desni strani zgornje formule, lahko označimo tudi z binoms
 
 
 $$
-\RAC {
     \binom{n}{r} = C^r_n = \frac{n!}{r! \cdot (n - r)!}
-}
+
 $$
 
 

@@ -1,6 +1,7 @@
 ---
 layout: document
 title: VOS • 2. letnik • Računalniški Tehnik • STŠ Koper
+latex: true
 ---
 
 # Vzpostavitev Omrežnih Servisov

@@ -691,7 +691,9 @@ header::before {
   }
 
   [href=green] {
-    color: #38C172 !important;
+    color: #11BD5A
+      /*#38C172*/
+       !important;
     pointer-events: none;
     font-weight: $bold-weight;
   }
@@ -704,13 +706,13 @@ header::before {
 
   // BLUE
   [href=blue-dark] {
-    color: #2779BD !important;
+    color: #0071DE !important;
     pointer-events: none;
     font-weight: $bold-weight;
   }
 
   [href=blue] {
-    color: #3490DC !important;
+    color: #0071DE !important;
     pointer-events: none;
     font-weight: $bold-weight;
   }
@@ -729,7 +731,7 @@ header::before {
   }
 
   [href=red] {
-    color: #E3342F !important;
+    color: #F4253A !important;
     pointer-events: none;
     font-weight: $bold-weight;
   }
