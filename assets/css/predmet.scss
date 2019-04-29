@@ -41,7 +41,7 @@
   padding: 13px;
   text-decoration: none;
   color: $ghblack;
-  border-radius: 6px;
+  border-radius: $item-border-radius;
   user-select: none;
 
   .predmet-content {

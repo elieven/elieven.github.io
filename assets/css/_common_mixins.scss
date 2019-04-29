@@ -31,7 +31,7 @@ $item-hover-border-color: $item-border-color;
 @mixin list-grid-item-border-hover() {
   transition: transform 60ms ease-out 0s;
   will-change: transform;
-  border: 1px solid $borderd;
+  border: 1px solid #e5e7eb;
   background-color: white;
   outline: 0;
 

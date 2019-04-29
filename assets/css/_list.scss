@@ -22,7 +22,7 @@
         border-radius: 0px;
       }
 
-      border-radius: 6px;
+      border-radius: $item-border-radius;
       @include list-grid-item-border-hover();
       padding: 0 1rem;
       color: $ghblack;
