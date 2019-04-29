@@ -7,10 +7,6 @@ desc: Snov fizike za 2. letnik Računalniškega tehnika (oz. 5 letnik izobražev
 
 # Fizika
 
-$$
-\newcommand{\RAC}[1]{\phantom{a}\\[0pt]\mathrm{#1}\\[0pt]\phantom{a}}
-$$
-
 ## Električni tok (I)
 
 [Razlaga zadev](https://www.youtube.com/watch?v=iyG9_UFJVoI)
@@ -18,11 +14,11 @@ $$
 Električni **tok** merimo v **Amperih** (**A**). Električni **naboj** je označen s črko **e** in njegova enota je **Columb** (**C**). **Čas** je označen s črko **t**. \\(\mathbb{Z}\\) je **realno število**. \\(\mathrm{e_0}\\) je **osnovni naboj**.
 
 $$
-\RAC{
+
   I = \frac{e}{t} \qquad e = I \cdot t \qquad As = A \cdot s
   \\[16pt]
   e = \mathbb{Z} \cdot e_0 \qquad e_0 = 1,6 \cdot 10^{-19}As
-}
+
 $$
 
 **Amper sekunda** in **Columb** sta enaki enoti - \\(\mathrm{1As = C}\\).
@@ -32,22 +28,21 @@ $$
 ### Vaja 1: izračunaj čas
 
 $$
-\RAC{
+
   I = 20mA \qquad 
   e = 200mAh \qquad 
   t = ?
-}
+
 $$
 
 > Treba najt kaj je navodilo naloge da ni tko pusto "izračunaj čas" ...
 
 $$
-\require{cancel}
-\RAC{
+
   t = \frac{e}{I} \quad 
   = \quad \frac{200\cancel{mA}h}{20\cancel{mA}} \quad 
   = \quad 10h
-}
+
 $$
 
 <br>
@@ -55,35 +50,34 @@ $$
 ### Vaja 2: izračunaj število elektronov, ki preteče v 1s
 
 $$
-\RAC{
+
   I = 20mA \qquad
   e = 200mAh \qquad
   t = 1s \qquad
   \\[8pt]
   \mathbb{Z} = ?
-}
+
 $$
 
 Začnemo z **enačbo za** izračunat **električni tok (I)**.
 
 $$
-\RAC{
+
   I = \frac{\color{fuchsia}{e}}{t} \quad  = \quad \frac{\color{fuchsia}{\mathbb{Z} \cdot e_0 }}{t}
-}
+
 $$
 
 Potem jo obrnemo, da dobimo enačbo za \\(\mathbb{Z}\\)
 
 $$
-\RAC{
-  \begin{align}
-  \mathbb{Z} & = \frac{\color{#06f}{I} \cdot \color{#c0c}{t}}{ \color{#093}{e_0} } 
+
+  \mathbb{Z}  = \frac{\color{#06f}{I} \cdot \color{#c0c}{t}}{ \color{#093}{e_0} } 
   \\[12pt]
-  \mathbb{Z} & = \frac{ \color{#06f}{20 \cdot 10^{-3} A} \cdot \color{#c0c}{1s} }{ \color{#093}{1,6 \cdot 10^{-19}As} } 
+  \mathbb{Z}  = \frac{ \color{#06f}{20 \cdot 10^{-3} A} \cdot \color{#c0c}{1s} }{ \color{#093}{1,6 \cdot 10^{-19}As} } 
   \\[16pt]
-  \mathbb{Z} & = 0,02
-  \end{align}
-}
+  \mathbb{Z}  = 0,02
+
+
 $$
 
 <br>
@@ -95,9 +89,9 @@ $$
 ## Električna napetost (U)
 
 $$
-\RAC{
+
   A = F \cdot s \qquad F = m \cdot a
-}
+
 $$
 
 **A** je **delo** (merimo ga v **Joulih** - **J**). **F** je **sila** in **s** je **pot**.
@@ -105,24 +99,24 @@ $$
 V drugi enačbi je **m = masa** in **a = pospešek** (merjen v m/s<sup>2</sup>).
 
 $$
-\RAC{
+
   P \quad = \quad \frac{A}{t} \quad = \quad \frac{J}{s} \quad = \quad W \\[16pt]
 
-  \begin{align}
-  A & = U \cdot e \\[8pt]
-  A & = U \cdot t \cdot I \\[8pt]
-  P & = \frac{U \cdot \cancel{t} \cdot I}{\cancel{t}} \\[8pt]
-  P & = U \cdot I
-  \end{align}
-}
+
+  A  = U \cdot e \\[8pt]
+  A  = U \cdot t \cdot I \\[8pt]
+  P  = \frac{U \cdot \cancel{t} \cdot I}{\cancel{t}} \\[8pt]
+  P  = U \cdot I
+
+
 $$
 
 **Električno delo:** 1 Volt = 1 Joul na Amper sekundo
 
 $$
-\RAC{
+
   1V = \frac{J}{As} \qquad J = VAs
-}
+
 $$
 
 <br>
@@ -152,9 +146,9 @@ V sklenjeni tokovni zanki je vsota padcev napetosti na vseh elementih v zanki en
 Ohmov zakon pravi da je **tok skozi upornik** pri stalni temperaturi **premo sorazmeren** napetosti med priključkoma upornika.
 
 $$
-\RAC{
+
   U = R \cdot I \qquad R = \frac{U}{I} \qquad I = \frac{U}{R}
-}
+
 $$
 
 <br><br>
@@ -209,9 +203,9 @@ $$
 
 
 $$
-\RAC{
+
   \overrightarrow{F} = I \cdot \overrightarrow{\mathscr{l}} \cdot \overrightarrow{B}
-}
+
 $$
 
 **F** je sila, **I** je tok, **l** je dolžina žice in **B** je jakost magnetnega polja.
@@ -225,7 +219,7 @@ $$
 Imamo elektronsko tuljavo kot na skici. Stranica **a** je dolga 15 cm in **b** 8cm. Ima 50 **navojev** in skozi teče **tok** 1,2 Ampera. Gostota magnetnega polja je 0,8T. Vrti se s 1500 vrtljaji na minuto.
 
 $$
-\RAC{
+
   \begin{array}{ccc|c}
     a & = & 15cm \\
     b & = & 8cm \\
@@ -237,35 +231,35 @@ $$
     M & = & \\
     P & = &
   \end{array}
-}
+
 $$
 
 Najprej izračunamo **M**. Enačba za **M** od **enega** navoja je:
 
 $$
-\RAC{
+
   M_1 \quad = \quad r \cdot F \quad = \quad \frac{b}{2} \cdot F_1 + \frac{b}{2} \cdot F_2
-}
+
 $$
 
 Za **celoten M** od vseh **50** navojev:
 
 $$
-\RAC{
-  \begin{align}
 
-  M & = N \cdot \color{#0a0}{b} \cdot I \cdot \color{#0a0}{a} \cdot B \\[12pt]
 
-  M & = \color{#e40}{N} \cdot \color{#919}{I} \cdot \color{#0a0}{S} \cdot \color{#04f}{B} \\[8pt]
 
-  M & = \color{#e40}{50} \cdot \color{#919}{1,2\cancel{A}} \cdot \color{#0a0}{15 \cdot 8 \cdot 10^{-4}m^{\cancel{2}}} \cdot \color{#04f}{0,8\frac{N}{\cancel{A}\cancel{m}}} \\[8pt]
+  M  = N \cdot \color{#0a0}{b} \cdot I \cdot \color{#0a0}{a} \cdot B \\[12pt]
 
-  M & = 50 \cdot 1,2 \cdot 15 \cdot 8 \cdot 10^{-4}m \cdot 0,8N \\[16pt]
+  M  = \color{#e40}{N} \cdot \color{#919}{I} \cdot \color{#0a0}{S} \cdot \color{#04f}{B} \\[8pt]
 
-  M & = 0,57Nm
+  M  = \color{#e40}{50} \cdot \color{#919}{1,2\cancel{A}} \cdot \color{#0a0}{15 \cdot 8 \cdot 10^{-4}m^{\cancel{2}}} \cdot \color{#04f}{0,8\frac{N}{\cancel{A}\cancel{m}}} \\[8pt]
 
-  \end{align}
-}
+  M  = 50 \cdot 1,2 \cdot 15 \cdot 8 \cdot 10^{-4}m \cdot 0,8N \\[16pt]
+
+  M  = 0,57Nm
+
+
+
 $$
 
 ---
@@ -276,22 +270,22 @@ Uporablja se za prenos elektrike na velike razdalje.
 
 
 $$
-\RAC{
+
     \phi_1 = B_0 \cdot N_1 \cdot \cos{\omega t} \qquad \phi_2 = B_0 \cdot N_2 \cdot \cos{\omega t}
-}
+
 $$
 
 
 $$
-\RAC{
+
     U_1 = \frac{- \Delta \phi_1}{\Delta t} \qquad U_2 = \frac{- \Delta \phi_2}{\Delta t}
-}
+
 $$
 
 $$
-\RAC{
+
     \frac{U_1}{U_2} = \frac{N_1}{N_2} \qquad P_1 = P_2
-}
+
 $$
 
 ---

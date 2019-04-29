@@ -8,13 +8,7 @@ title: OED • 2. letnik • Računalnikar • STŠ Koper
 
 ## Električni naboj - Q
 
-$$
-\newcommand{\RAC}[1]{\phantom{a}\\[0pt]\mathrm{#1}\\[0pt]\phantom{a}}
-
-\RAC{
-    Q = I \cdot t
-}
-$$
+$$ \mathrm{Q = I \cdot t} $$
 
 Enota je **As** (amper sekunda).
 
@@ -22,45 +16,23 @@ Enota je **As** (amper sekunda).
 
 __Osnovni naboj:__
 
-$$
-\RAC{
-    e_0 = ^+_- 1,6 \cdot 10^{-19} As 
-}
-$$
+$$ \mathrm{e_0 = 1,6 \cdot 10^{-19} As} $$
 
 
-Naboj telesa je odvisen od __razlike__ med __številom elektronov__ (e<sup>-</sup>) in  __števila protonov__ (p<sup>+</sup>) na telesu in je vedno večkratnik osnovnega naboja.
+Naboj telesa je odvisen od __razlike__ med __številom elektronov__ $e^-$ in  __števila protonov__ $p^+$ na telesu in je vedno večkratnik osnovnega naboja.
 
 > __Primer:__
-> Koliko e<sup>-</sup> potrebujemo, da dobimo naboj 1As?
+> Koliko $e^-$ potrebujemo, da dobimo naboj 1As?
 
 
-$$
-\RAC{
-    1e^+ \quad \dots\quad 1,6 \cdot 10^{-19} As \\
-    \quad x \quad\dots\quad 1As
-}
-$$
+$$ 1e^+ \quad \dots\quad 1,6 \cdot 10^{-19} As \\ \quad x \quad\dots\quad 1As $$
 
-$$
-\RAC{
-    x = \frac{ 1e^- \cdot  As  }{ 1,6 \cdot 10^{-19} As  }
-}
-$$
+$$ x = \frac{ 1e^- \cdot  As  }{ 1,6 \cdot 10^{-19} As } $$
+
+$$ x = \frac{ 1e^- \cdot 10^{-19}} { 1,6 } $$
 
 
-$$
-\RAC{
-    x = \frac{ 1e^- \cdot 10^{-19}} { 1,6 }
-}
-$$
-
-
-$$
-\RAC{
-    1As = 62,5 \times{ 10^{17}e^- }
-}
-$$
+$$ 1As = 62,5 \cdot 10^{17}e^- $$
 
 
 ## Električni potencial - V
@@ -69,13 +41,13 @@ Potencial zemlje je enak 0. Potencial nekega telesa je enak napetosti med zemljo
 
 ![elektricni potencial slika][slika-el-potencial]
 
-\$$ U_{12} = V_2 - V_1 $$
+$$ U_{12} = V_2 - V_1 $$
 
 
 
 ## Gostota toka - J
 
-\$$ J = \frac{I}{A} $$
+$$ J = \frac{I}{A} $$
 
 > slika
 
@@ -145,12 +117,12 @@ Prevodnost je lastnost materiala, da prevaja električni tok. Je nasprotje uporn
 
 \$$ R = R_0( 1 + \propto \triangle T) $$
 
-| Znak                | Pomen                                                |
-|---------------------|------------------------------------------------------|
-| \\( R \\)           | Upornost pri temperaturi                             |
-| \\( R_0 \\)         | Upornost pri 20°C                                    |
-| \\( \propto \\)     | Temperaturni koeficient materiala (+ ali -)          |
-| \\( \triangle T \\) | Sprememba temperature  |
+| Znak                | Pomen                                       |
+| ------------------- | ------------------------------------------- |
+| \\( R \\)           | Upornost pri temperaturi                    |
+| \\( R_0 \\)         | Upornost pri 20°C                           |
+| \\( \propto \\)     | Temperaturni koeficient materiala (+ ali -) |
+| \\( \triangle T \\) | Sprememba temperature                       |
 
 \\( \triangle T = T - 20°C \\)
 

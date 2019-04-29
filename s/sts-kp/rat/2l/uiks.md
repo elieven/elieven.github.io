@@ -15,18 +15,14 @@ IP naslov je **32 mestno binarno število**, ki se uporablja za **identifikacijo
 **Postopek pretvorbe binarnega okteta v decimalnega:** bit na skrajni desni ima vrednost 2<sup>0</sup> (torej 1), bit na njegovi levi pa 2<sup>1</sup> (2). Tako se nadaljuje do skrajnega levega bita, ki ima vrednost 2<sup>7</sup> (128). Da dobimo decimalno vrednost okteta samo seštejemo vrednosti bitov, kjer je bit 1. 
 
 $$
-\newcommand{\RAC}[1]{\phantom{a}\\[0pt]\mathrm{#1}\\[0pt]\phantom{a}}
-
-\RAC{
-  \overset{1}{\underset{128}{\_\_}}\phantom{|}
-  \overset{0}{\underset{64}{\_\_}}\phantom{|}
-  \overset{1}{\underset{32}{\_\_}}\phantom{|}
-  \overset{1}{\underset{16}{\_\_}}\phantom{|}
-  \overset{0}{\underset{8}{\_\_}}\phantom{|}
-  \overset{0}{\underset{4}{\_\_}}\phantom{|}
-  \overset{1}{\underset{2}{\_\_}}\phantom{|}
-  \overset{1}{\underset{1}{\_\_}}
-}
+\overset{1}{\underset{128}{\_\_}}\phantom{|}
+\overset{0}{\underset{64}{\_\_}}\phantom{|}
+\overset{1}{\underset{32}{\_\_}}\phantom{|}
+\overset{1}{\underset{16}{\_\_}}\phantom{|}
+\overset{0}{\underset{8}{\_\_}}\phantom{|}
+\overset{0}{\underset{4}{\_\_}}\phantom{|}
+\overset{1}{\underset{2}{\_\_}}\phantom{|}
+\overset{1}{\underset{1}{\_\_}}
 $$
 
 Nad črticami so števila binarnega zapisa (10110011) in pod črtami so vrednosti posamičnega bita. Ko seštejemo vrednosti vseh bitov kjer je 1 dobimo število - v tem primeru 128 +0 +32 +16 +0 +0 +2 +1 = 179.
@@ -112,17 +108,13 @@ Omrežje je razreda **C** torej imamo **24 bitov** za zapis omrežja in **8 bito
 > podčrtaji (_) so biti za zapis naprav
 
 $$
-\RAC{
   192.168.0.\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_
-}
 $$
 
 Ker želimo 2 podomrežji moramo vzeti dovolj bitov, da lahko zapišemo 2 različni števili. Vzamemo torej 1 bit (ima lahko **2<sup>1</sup>** različnih vrednosti - torej **2** kar je ravno prav za ta primer).
 
 $$
-\RAC{
   192.168.0.\phantom{|}\_\phantom{|}|\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_\phantom{|}\_
-}
 $$
 
 <br><br>
