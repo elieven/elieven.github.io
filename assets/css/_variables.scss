@@ -41,7 +41,7 @@ $borderd: rgba(0, 0, 0, 0.1);
 
 // Paragraph styles
 $p-line-height: 26px; // 24px
-$p-font: 'Fira Sans',
+$p-font: $default-font,
 sans-serif; //"Verdana"; // "Source Serif Pro", serif;
 $p-font-size: 1rem; // 18px
 $bold-weight: 500; // 600
