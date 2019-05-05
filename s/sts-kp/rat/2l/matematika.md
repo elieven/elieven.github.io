@@ -417,3 +417,27 @@ Predpostavimo, da se poskus vedno odvija pod enakimi, natančno določenimi pogo
 
 Dogodke označujemo z velikimi tiskanimi črkami $A$, $B$, $C$, ...
 
+Dogodek je lahko:
+
+- **Gotov** - ($A$ se zgodi pri vsaki ponovitvi poskusa): pri metu poštene igralne kocke pade manj kot 7 pik.
+- **Nemogoč** - ($A$ se ne zgodi v nobeni ponovitvi poskusa): potegnemo belo kroglico iz posode, v kateri so samo črne kroglice.
+- **Slučajen** - ($A$ se v nekaterih ponovitvah poskusa zgodi, v nekaterih pa ne, pri čemer pred posameznim poskusom ne moremo z gotovostjo napovedati, ali se bo zgodil): na loteriji z eno samo srečko zadenemo glavni dobitek.
+
+<br>
+
+**Nasprotni dogodek $A'$ dogodka $A$ se zgodi, če se $A$ ne zgodi:** Met igralne kocke $\rightarrow A$ - padejo več kot 4 pike; $A'$ - padejo največ 4 pike.
+
+
+
+**Verjetnost dogodka** $A$ je enaka $P(A) = \frac{m}{n}$ , kjer je n-število vseh izidov in m-število ugodnih izidov.
+
+[Primeri](indigo):
+
+1. Kolokšna je verjetnost dogodka $A$, da pri metu igralne kocke pade manj kot 5 pik?
+
+Število vseh izidov : 6, število ugodnih izidov: 4. $P(A) = \frac{4}{6} = \frac{2}{3}​$
+
+2. V besedi FIBONACCI na slepo prečrtamo eno črko. Kolikšna je verjetnost, da je prečrtana črka:
+   - $A \qquad P(A) = \frac{1}{9}$ 
+   - $C \qquad P(B) = \frac{2}{9}​$
+   - samoglasnik $P(C) = \frac{1}{9}$
