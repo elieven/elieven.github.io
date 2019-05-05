@@ -6,6 +6,93 @@ latex: true
 
 # Matematika
 
+## Kvadratna Funkcija
+
+Je funkcija, ki jo lahko zapišemo z enačbo (**splošne**) oblike $f(x) = ax^2 + bx + c​$  kjer so koeficienti **a**, **b** in **c** poljubna realna števila in vodilni koeficient $a \neq 0​$.
+
+
+
+### Oblike kvadratne funkcije
+
+[Splošna](pink): $f(x) = ax^2 + bx + c$ 
+
+[Temenska oblika](pink): $f(x) = a(x - p)^2 + q$ . Števili **p** in **q** sta koordinati temena kvadratne funkcije. **Teme** je točka $\mathrm{T}(p, q)$ v kateri kvadratna funkcija doseže **ekstremno vrednost**. Za izračunati $p$ in $q$ lahko uporabimo naslednji formuli:
+
+
+
+$$
+p = - \frac{b}{2a} \qquad q = \frac{4ac-b^2}{4a}
+$$
+
+
+
+
+
+[Ničelna oblika](pink): $f(x) = a(x - x_1)(x - x_2)$ . Števili $x_1$ in $x_2$ sta ničli kvadratne funkcije. V splošnem sta to kompleksni števili. Ničelno obliko lahko dobimo iz splošne z [razcepom](http://www2.arnes.si/~mpavle1/mp/izrazi.html#razcep), lahko pa $x_1$ in $x_2$ izračunamo po naslednji formuli:
+
+
+
+$$
+x_{1,2} = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+$$
+
+
+
+
+
+Število, ki v zgornji formuli nastopa pod korenom, je **diskriminanta** kvadratne funkcije: $D = b^2 - 4ac$ . Diskriminanta nam pove, koliko realnih ničel ima kvadratna funkcija:
+
+- Če je $D > 0​$, sta obe ničli kvadratne funkcije realni ($x_1, x_2 \in \mathbb{R}​$).
+- Če je $D = 0​$, sta števili $x_1​$ in $x_2​$  enaki - kvadratna funkcija ima samo eno realno ničlo ($x_1 = x_2 \in \mathbb{R}​$).
+- Če je $D < 0$, sta obe ničli kvadratne funkcije nerealni ($x_1, x_2 \notin \mathbb{R}$) - graf funkcije ne seka abscisne osi (v realnem [koordinatnem sistemu](http://www2.arnes.si/~mpavle1/mp/koord.html).)
+
+
+
+### Graf kvadratne funkcije
+
+Graf kvadratne funkcije narišemo postopoma:
+
+- najprej narišemo graf $y = x^2$,
+- potem ta graf raztegnemo z [raztegom v smeri osi *y*](http://www2.arnes.si/~mpavle1/mp/funk3.html#ry) za faktor $a​$
+- nato ga še premaknemo s [premikom za vektor](http://www2.arnes.si/~mpavle1/mp/funk3.html#pv) ($p$, $q$)
+
+
+
+[Primer](indigo): $f(x) = 2x^2 - 12x + 16$
+
+1. Najprej funkcijo preoblikujemo v temensko obliko: $f(x) = 2(x - 3)^2 - 2$
+2. in potem narišemo: 
+
+![](http://www2.arnes.si/~mpavle1/mp/funk/kvad_s3.gif){: .imgc}
+
+
+
+Iz zgornjega postopka vidimo, da vodilni koeficient ***a*** odloča o tem, kako je obrnjena kvadratna funkcija:
+
+![](http://www2.arnes.si/~mpavle1/mp/funk/kvad_s4.gif){: .imgc}
+
+
+
+
+
+## Racionalna funkcija
+
+**Racionalna funkcija** je vsaka funkcija, ki jo lahko zapišemo z enačbo spodnje oblike, kjer je $p$ poljuben polinom, $q$ pa poljuben neničelni polinom.
+
+
+$$
+f(x) = \frac{p(x)}{q(x)}
+$$
+
+
+
+
+
+
+
+
+
+<!--
 ---
 
 manjka se kr stvari
@@ -16,7 +103,9 @@ manjka se kr stvari
 
 Predpis za polinome:
 
-$  p(x) = a_nx^n + a_{n-1}x^{n-1} + a_{n-2}x^{n-2} + \phantom{a}\cdots\phantom{a} a_2x^2 + a_1x + a_0 $
+$$
+p(x) = a_nx^n + a_{n-1}x^{n-1} + a_{n-2}x^{n-2} + \phantom{a}\cdots\phantom{a} a_2x^2 + a_1x + a_0 
+$$
 
 <br>
 
@@ -83,12 +172,11 @@ Pri množenju se stopnja polinoma sešteva (ker se potence pri množenju seštev
 
 > Manjka se kr stvari
 
-
+-->
 
 ## Adicijski izreki
 
 $$
-
 \sin 75^o \neq \sin 30^o + \sin 45^o \\[8pt]
 \sin 75^o = \sin (30^0 + 45^o)
 $$
@@ -97,7 +185,6 @@ $$
   \color{#090}{\pm \pm} \quad \sin (\alpha \pm \beta) = \sin \alpha \cdot \cos \beta \pm \cos \alpha \cdot \sin \beta \\[8pt]
 
   \color{#090}{\pm \mp} \quad \cos (\alpha \pm \beta) = \cos \alpha \cdot \cos \beta \mp \sin \alpha \cdot \sin \beta
-
 $$
 
 $$
@@ -110,7 +197,6 @@ $$
 
 
 \end{array}
-
 $$
 
 
@@ -134,7 +220,6 @@ Glavnica ostaja enaka, obresti so enake.
 
 $$
     o = \frac{G \cdot p}{100} \qquad o_n = \frac{G \cdot p \cdot n}{100} = \text{obresti po n letih}
-
 $$
 
 > Primer: Miha si od banke sposodi...
@@ -151,7 +236,6 @@ $$
     G_1 = 1030 \\
     G_2 = 1060,9 \\
     G_3 = 1090,73
-
 $$
 
 
@@ -160,12 +244,9 @@ $$
 
 ## Odvod
 
-Odvod funkcije `f(x)` v točki `T(x, y)` je enak smernemu koeficientu tangente na graf te funkcije v tej točki. Označimo ga `f'(x)`.  
+Odvod funkcije `f(x)` v točki `T(x, y)` je enak smernemu koeficientu tangente na graf te funkcije v tej točki. Označimo ga `f'(x)`.  $f'(x_0) = k_t$
 
 
-$$
-f'(x_0) = k_t
-$$
 
 
 ![Odvod funkcije slika](https://res.cloudinary.com/solamona/image/upload/v1555364958/zvs/sts-kp/rac/5l/matematika/odvod_1.jpg){: width="300px" align="center"}
@@ -265,7 +346,6 @@ Permutacije so razporeditve danih n elementov na n prostih mest. Če so vsi elem
 
 $$
     P_n = n \cdot (n - 1) \cdot (n - 2) \cdot \dots \cdot 3 \cdot 2 \cdot 1 = n!
-
 $$
 
 
@@ -284,7 +364,6 @@ Primer: Koliko različnih petmestnih števil lahok zapišemo iz števk 1, 2, 3, 
 
 $$
     V^r_n = \frac{n!}{(n - r)!}
-
 $$
 
 
@@ -301,7 +380,6 @@ Primer: Koliko različnih trimestnih števil lahko sestaviš iz števk 1, 2, 3, 
 
 $$
     C^r_n = \frac{n!}{r! \cdot (n - r)!}
-
 $$
 
 
@@ -310,7 +388,6 @@ Izraz, ki nastopa na desni strani zgornje formule, lahko označimo tudi z binoms
 
 $$
     \binom{n}{r} = C^r_n = \frac{n!}{r! \cdot (n - r)!}
-
 $$
 
 
@@ -319,3 +396,24 @@ Primer: Na koliko načinov lahko izberem iz razreda z 20 dijaki 3 predstavnike?
 > Rešitev: C<sup>3</sup><sub>20</sub> = 20! / 3! · 17! = 1140
 
  
+
+### Verjetnost
+
+[Poskus](indigo) je vsako hoteno dejanje, ki ga opravimo v natanko določenih pogojih.
+
+<u>Primeri</u>:
+
+1. Po mizi zakotalimo običajno igralno kocko.
+2. Iz običajnega kompleta 32 kart izberemo eno karto.
+3. Kupimo eno od 100 000 loterijskih srečk.
+
+Predpostavimo, da se poskus vedno odvija pod enakimi, natančno določenimi pogoji. Pojav, ki se lahko v posameznem poskusu zgodi ali pa tudi ne, imenujemo [dogodek](indigo).
+
+<u>Primeri</u>:
+
+1. Pade sodo število pik. Pade šestica. Padejo več kot štiri pike.
+2. Izvlečena karta je as. Izvlečena karta je rdeče barve. Izvlečena karta je figura.
+3. Kupljena srečka zadene glavni dobitek. Kupljena srečka zadene manjši dobitek. Kupljena srečka ne zadene ničesar.
+
+Dogodke označujemo z velikimi tiskanimi črkami $A$, $B$, $C$, ...
+

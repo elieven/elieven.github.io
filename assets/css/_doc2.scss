@@ -26,6 +26,11 @@ header::before {
   box-shadow: 0 !important;
 }
 
+// KaTeX
+.katex-display {
+  padding: 1.5rem 0;
+}
+
 #word_count {
   font-size: 0.7777777777777778rem; // 14px
   padding: 12px 2px;
