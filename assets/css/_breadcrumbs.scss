@@ -8,11 +8,7 @@ $crumb-padding: .75rem;
   width: 100%;
   padding-left: 0.75rem;
   padding-right: 0.75rem;
-  //padding-top: .25rem;
-  //padding-bottom: .25rem;
   padding: .5rem .8rem;
-  //border-radius: .25rem;
-  //background-color: #f1f5f8;
   background-color: #FFF;
   border: 1px solid #dae1e7;
   border-radius: $item-border-radius;
@@ -30,14 +26,12 @@ $crumb-padding: .75rem;
 
       a {
         font-weight: 500;
-        //color: #0366d6 !important;
         color: #8E8E8E;
         text-decoration: none;
         padding: .25rem $crumb-padding;
         min-width: 30px;
 
         &:hover {
-          //text-decoration: underline;
           background: #EFEFEF;
           border-radius: 420px;
         }
@@ -48,8 +42,6 @@ $crumb-padding: .75rem;
       }
 
       span.path-separator {
-        //margin-left: .25rem;
-        //margin-right: .25rem;
         color: #8795a1;
         padding: 0 .25rem;
       }
