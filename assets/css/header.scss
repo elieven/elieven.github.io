@@ -116,9 +116,3 @@ header {
     }
   }
 }
-
-@media screen and (max-width: 640px) {
-  header::before {
-    background: #2779BD !important;
-  }
-}
