@@ -28,7 +28,7 @@ $$
 
 
 
-[Ničelna oblika](pink): $f(x) = a(x - x_1)(x - x_2)$ . Števili $x_1$ in $x_2$ sta ničli kvadratne funkcije. V splošnem sta to kompleksni števili. Ničelno obliko lahko dobimo iz splošne z [razcepom](http://www2.arnes.si/~mpavle1/mp/izrazi.html#razcep), lahko pa $x_1$ in $x_2$ izračunamo po naslednji formuli:
+[Ničelna oblika](pink): $f(x) = a(x - x_1)(x - x_2)​$ . Števili $x_1​$ in $x_2​$ sta ničli kvadratne funkcije. V splošnem sta to kompleksni števili. Ničelno obliko lahko dobimo iz splošne z [razcepom](http://www2.arnes.si/~mpavle1/mp/izrazi.html#razcep), lahko pa $x_1​$ in $x_2​$ izračunamo po naslednji formuli:
 
 
 
@@ -208,7 +208,7 @@ $$
 | **G** - glavnica            | Znesek, ki se nam obrestuje             |
 | **o** - obresti             | Znesek, za kateregase glavnica poveča   |
 | **p** - obrestna mera       | V %, banke računajo letno obrestno mero |
-| **r** - obrestovalni faktor | \\( \mathrm{r} = 1 + \frac{p}{100} \\)  |
+| **r** - obrestovalni faktor | $\mathrm{r} = 1 + \frac{p}{100}$        |
 | **n** - obrestovalna doba   |                                         |
 
 
@@ -244,7 +244,7 @@ $$
 
 ## Odvod
 
-Odvod funkcije `f(x)` v točki `T(x, y)` je enak smernemu koeficientu tangente na graf te funkcije v tej točki. Označimo ga `f'(x)`.  $f'(x_0) = k_t$
+Odvod funkcije $f(x)$ v točki $\mathrm{T}(x, y)$ je enak smernemu koeficientu tangente na graf te funkcije v tej točki. Označimo ga $f'(x)$.  $f'(x_0) = k_t​$
 
 
 
@@ -255,31 +255,19 @@ Odvod funkcije `f(x)` v točki `T(x, y)` je enak smernemu koeficientu tangente n
 
 ### Pravila za odvajanje
 
-- Produkt funkcije in konstante 
-
-$$
-\big(c \cdot f(x)\big)' = c \cdot f'(x)
-$$
+- [Produkt](indigo) funkcije in [konstante](indigo) $\big(c \cdot f(x)\big)' = c \cdot f'(x)$
 
 
 
-- Vsota in razlika funkcij 
-
-$$
-\big( f(x) \pm g(x) \big)' = f'(x) \pm g'(x)
-$$
+- [Vsota](indigo) in [razlika](indigo) funkcij $\big( f(x) \pm g(x) \big)' = f'(x) \pm g'(x)$
 
 
 
-- Produkt funkcij 
-
-$$
-\big( f(x) \cdot g(x) \big)' = f'(x) + g(x) + f(x) + g'(x)
-$$
+- [Produkt](indigo) funkcij $\big( f(x) \cdot g(x) \big)' = f'(x) \cdot g(x) + f(x) \cdot g'(x)$
 
 
 
-- Kvocient funkcij 
+- [Kvocient](indigo) funkcij 
 
 
 $$
@@ -291,19 +279,19 @@ $$
 
 ### Odvodi elementarnih funkcij
 
-| FUNKCIJA `f(x)` | ODVOD `f(x)'`             |
-| --------------- | ------------------------- |
-| \\( c \\)       | \\( 0 \\)                 |
-| \\( x \\)       | \\( 1 \\)                 |
-| \\( x^n \\)     | \\( nx^{n-1} \\)          |
-| \\( e^x \\)     | \\( e^x \\)               |
-| \\( a^x \\)     | \\( a^xlna \\)            |
-| \\( lnx \\)     | \\( \frac{1}{x} \\)       |
-| \\( log_ax \\)  | \\( \frac{1}{xlna} \\)    |
-| \\( sinx \\)    | \\( cosx \\)              |
-| \\( cosx \\)    | \\( -sinx \\)             |
-| \\( tanx \\)    | \\( \frac{1}{cos^2x} \\)  |
-| \\( cotx \\)    | \\( -\frac{1}{sin^2x} \\) |
+| FUNKCIJA $f(x)$ | ODVOD $f(x)'$       |
+| --------------- | ------------------- |
+| $c$             | $0$                 |
+| $x$             | $1$                 |
+| $x^n$           | $nx^{n-1}$          |
+| $e^x$           | $e^x$               |
+| $a^x$           | $a^xlna$            |
+| $lnx$           | $\frac{1}{x}$       |
+| $log_ax$        | $\frac{1}{xlna}$    |
+| $sinx$          | $cosx$              |
+| $cosx$          | $-sinx$             |
+| $tanx$          | $\frac{1}{cos^2x}$  |
+| $cotx$          | $-\frac{1}{sin^2x}$ |
 
 
 
@@ -345,7 +333,7 @@ Permutacije so razporeditve danih n elementov na n prostih mest. Če so vsi elem
 
 
 $$
-    P_n = n \cdot (n - 1) \cdot (n - 2) \cdot \dots \cdot 3 \cdot 2 \cdot 1 = n!
+P_n = n \cdot (n - 1) \cdot (n - 2) \cdot … \cdot 3 \cdot 2 \cdot 1 = n!
 $$
 
 
@@ -441,3 +429,4 @@ Dogodek je lahko:
    - $A \qquad P(A) = \frac{1}{9}$ 
    - $C \qquad P(B) = \frac{2}{9}​$
    - samoglasnik $P(C) = \frac{1}{9}$
+

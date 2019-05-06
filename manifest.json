@@ -1,13 +1,12 @@
 {
   "name": "SolaMona",
   "short_name": "SolaMona",
-  "theme_color": "#2196f3",
-  "background_color": "#2779bd",
+  "theme_color": "#3F5ECA",
+  "background_color": "#3F5ECA",
   "display": "standalone",
   "Scope": "/",
   "start_url": "/",
-  "icons": [
-    {
+  "icons": [{
       "src": "/assets/appicons/icons/icon-72x72.png",
       "sizes": "72x72",
       "type": "image/png"
