@@ -19,7 +19,7 @@ header {
     left: 0;
     right: 0;
     height: 150px + $hh;
-    background: #3F5ECA; //#4076de;
+    background: #3F5ECA !important; //#4076de;
     //box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
     will-change: transform;
     z-index: -1;
