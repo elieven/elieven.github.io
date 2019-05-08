@@ -112,4 +112,4 @@ Debeli koaksialni kabel je koaksialen kabel premera **1,27 centimetrov** (polovi
 [ftp]: https://res.cloudinary.com/solamona/image/upload/v1537116188/zvs/sts-kp/rac/1l/IEKI/FTP_Ethernet_Cable.jpg
 [stp]: http://www.siemon.com/share/products05/cable_category-6a-f-ftp-cable-ls0h-int.jpg
 [optika]: http://www.fokab.si/media/k2/items/src/787ae9ec9023a82f5aa7e4c1a64f73cb_2.jpg
-[koaksialni]: https://res.cloudinary.com/solamona/image/upload/v1537115090/zvs/sts-kp/rac/1l/IEKI/koakislni.png
+[koaksialni]: https://res.cloudinary.com/solamona/image/upload/v1557333901/zvs/sts-kp/rac/1l/IEKI/koaksialnikabel.jpg

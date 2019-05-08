@@ -138,3 +138,10 @@ layout: default
 <!-- Here be dragons -->
 
 {% endif %}
+
+<!-- SVG Graphs and such -->
+{% if page.jsxgraph %}
+<script type="text/javascript" charset="UTF-8" src="//cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.7/jsxgraphcore.js">
+</script>
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.7/jsxgraph.css" />
+{% endif %}
