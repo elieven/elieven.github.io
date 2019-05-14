@@ -74,11 +74,14 @@ header::before {
     }
 
     span {
-      font-family: Helvetica;
-      font-size: 16px;
-      font-weight: 600;
+      font-family: Segoe UI; //Helvetica;
+      font-size: 14px;
+      font-weight: 700;
+      color: #212121;
       height: 100%;
-      line-height: $d + 2px;
+      letter-spacing: 1px;
+      line-height: $d;
+      text-transform: uppercase;
       padding: 0 8px;
     }
 

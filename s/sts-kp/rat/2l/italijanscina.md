@@ -17,19 +17,49 @@ title: Italijanščina • 2. letnik • Računalniški Tehnik • STŠ Koper
 
 
 
-| Venire  | Dare | Stare | Fare |
-| ------- | ---- | ----- | ---- |
-| vieni   |      |       |      |
-| venga   |      |       |      |
-| veniamo |      |       |      |
-| venite  |      |       |      |
-| vengano |      |       |      |
+| Venire  | Dare  | Stare  | Fare     |
+| ------- | ----- | ------ | -------- |
+| vieni   | da'   | sta'   | fa'      |
+| venga   | dia   | stia   | faccia   |
+| veniamo | diamo | stiamo | facciamo |
+| venite  | date  | state  | fate     |
+| vengano | diano | stiano | facciano |
 
 
+
+| Dire    | Sapere   | Tenere  | Rimanere  |
+| ------- | -------- | ------- | --------- |
+| di'     | sappi    | tieno   | rimano    |
+| dica    | sappia   | tenga   | rimanga   |
+| diciamo | sappiamo | teniamo | rimaniamo |
+| dite    | sappiate | tenete  | rimanete  |
+| dicano  | sapiano  | tengano | rimangano |
 
 
 
 ## Imperativo negativo della 2a persone singolare
+
+[Parla](indigo) piu forte! **→** Non [parlare](indigo) forte!
+
+[Dormi](indigo) sul divano! **→** Non [dormire](indigo) sul divano!
+
+[Sii](indigo) paziente! **→** Non [essere](indigo) paziente!
+
+[Va'](indigo), via! **→** Non [andare](indigo) via!
+
+[Esci](indigo)! **→** Non [uscire](indigo)!
+
+[Vieni](indigo) da solo! **→** Non [venire](indigo) da solo!
+
+[Da'](indigo) quell' esame! **→** Non [dare](indigo) quell' esame!
+
+[Sta'](indigo) zitto! **→** Non [dormire](indigo) sul divano!
+
+[Dormi](indigo) sul divano! **→** Non [stare](indigo) zitto!
+
+[Fa'](indigo) presto! **→** Non [fare](indigo) presto!
+
+[Di'](indigo) la verita! **→** Non [dire](indigo) la verita!
 
 
 
@@ -50,6 +80,8 @@ title: Italijanščina • 2. letnik • Računalniški Tehnik • STŠ Koper
 
 
 ### Stare + Gerundio
+
+**Stare + gerundio** si usa per parlare di [un’azione che succede in questo momento](pink). 
 
 
 
