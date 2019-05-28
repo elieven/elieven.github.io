@@ -39,27 +39,27 @@ title: Italijanščina • 2. letnik • Računalniški Tehnik • STŠ Koper
 
 ## Imperativo negativo della 2a persone singolare
 
-[Parla](indigo) piu forte! **→** Non [parlare](indigo) forte!
+[Parla](pink) piu forte! **→** Non [parlare](highlight) forte!
 
-[Dormi](indigo) sul divano! **→** Non [dormire](indigo) sul divano!
+[Dormi](pink) sul divano! **→** Non [dormire](highlight) sul divano!
 
-[Sii](indigo) paziente! **→** Non [essere](indigo) paziente!
+[Sii](pink) paziente! **→** Non [essere](highlight) paziente!
 
-[Va'](indigo), via! **→** Non [andare](indigo) via!
+[Va'](pink), via! **→** Non [andare](highlight) via!
 
-[Esci](indigo)! **→** Non [uscire](indigo)!
+[Esci](pink)! **→** Non [uscire](highlight)!
 
-[Vieni](indigo) da solo! **→** Non [venire](indigo) da solo!
+[Vieni](pink) da solo! **→** Non [venire](highlight) da solo!
 
-[Da'](indigo) quell' esame! **→** Non [dare](indigo) quell' esame!
+[Da'](pink) quell' esame! **→** Non [dare](highlight) quell' esame!
 
-[Sta'](indigo) zitto! **→** Non [dormire](indigo) sul divano!
+[Sta'](pink) zitto! **→** Non [dormire](highlight) sul divano!
 
-[Dormi](indigo) sul divano! **→** Non [stare](indigo) zitto!
+[Dormi](pink) sul divano! **→** Non [stare](highlight) zitto!
 
-[Fa'](indigo) presto! **→** Non [fare](indigo) presto!
+[Fa'](pink) presto! **→** Non [fare](highlight) presto!
 
-[Di'](indigo) la verita! **→** Non [dire](indigo) la verita!
+[Di'](pink) la verita! **→** Non [dire](highlight) la verita!
 
 
 

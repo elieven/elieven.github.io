@@ -27,6 +27,56 @@ title: Slovenščina • 2. letnik • Računalniški Tehnik • STŠ Koper
 
 
 
+## Priredja in podredja
+
+### Tabela za priredja
+
+To so tiste povedi, kjer sta po dva stavka enakovredna (noben ni  odvisen od drugega). Nekatera priredja sestojijo iz več kot dveh delov. Če so deli  priredja  glavni in odvisni stavki, je to **priredje podredij**.
+
+| Ime               | Razmerje med deli                                            | Vezniki                                                      | Primer                                         |
+| ----------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------------------- |
+| **vezalno**       | Dopolnjevalni stavek daje podatke o sočasnem ali sledečem dogodku. | in, ter, pa                                                  | Hodi in gleda ter si požvižgava.               |
+| **stopnjevalno**  | Dopolnjevalni stavek poleg sočasnosti/zaporednosti dogodka kaj posebej poudarja oz. izraža nepričakovanost. | niti-niti, n-ne, ne le-ampak tudi, ne samo, ampak tudi, ne le - še celo | Niti ne piše niti se ne pripravlja na pisanje. |
+| **ločno**         | Dopolnjevalni stavek izraža izbirno možnost.                 | ali-ali, bodisi-bodisi, ali                                  | Ali beri ali poslušaj.                         |
+| **protivno**      | Dopolnjevalni stavek izraža neskladnost, nasprotje z osnovnim stavkom. | a, toda, vendar, pa, ampak, temveč                           | Je majhna, toda prebrisana.                    |
+| **posledično**    | Dopolnjevalni stavek izraža posledico dejanja iz osnovnega stavka. | zato                                                         | Cesta je spolzka, zato vozite previdno.        |
+| **pojasnjevalno** | Dopolnjevalni stavek izraža pojasnilo oz. dokaz za dejanje v osnovnem stavku. | saj, kajti, in sicer, to je, tj.                             | Nadeni si kapo, kajti zunaj brije veter.       |
+| **sklepalno**     | Dopolnjevalni stavek pove sklep, ki je izpeljan iz ugotovitve v osnovnem stavku. | torej, zatorej, potemtakem                                   | Star je 13 let, torej hodi v 8. razred.        |
+
+
+
+### Tabela za podredja in enostavčne povedi
+
+Stavka med seboj nista enakovredna, kar pomeni, da je en stavek  nadrejen drugemu. Prvi stavek je glavni in lahko nastopa samostojno glede na pomen stavka, drugi je odvisni in opravlja vlogo stavčega člena, pomensko dopolnjuje glavni stavek in ne  more nastopati sam, ker je sicer pomensko nepopolen.
+
+| Vrsta odvisnika + primer                                     | Vprašalnica                                              | Vez. besede                           | Enostavčna poved                                             |
+| ------------------------------------------------------------ | -------------------------------------------------------- | ------------------------------------- | ------------------------------------------------------------ |
+| **1. osebkov odvisnik** <br> [Kdor](pink) [dela](green), je uspešen učenec. | **Kdo ali kaj?**                                         | [Kdo](pink), [kar](pink)              | [Delaven človek](green) je uspešen.                          |
+| **2. predmetni odvisnik** <br/> Povedal ji je, [kaj](pink) [meni](green) o tem. | **Koga ali kaj?** <br> **Koga ali česa?** ...            | [Kaj](pink), da, kako, koliko         | Povedal ji je [mnenje](green) o tem.                         |
+| **3. časovni odvisnik** <br/> Domov je odšel, [ko](pink) [je zvonilo](green). | **Kdaj?**                                                | [Ko](pink), medtem ko, preden, odkar  | Domov je prišel [ob zvonenju](green).                        |
+| **4. krajevni odvisnik** <br/> Dobiva se, [kjer](pink) [je travnik](green). | **Kje? Kam?**                                            | [Kjer, kamor](pink)                   | Dobiva se [na travniku](green).                              |
+| **5. načinovni odvisnik** <br/> Govori, [kot da](pink) [je navita](green). <br> Gledala sta film, [ne da](pink) [bi spregovorila](green). | **Kako?**                                                | [Kot da](pink), ne da                 | Govori [kot navita](green). <br> Gledala sta film [brez besed](green). |
+| **6. vzročni odvisnik** <br/> [Ker](pink) [sem utrujen](green), grem spat. | **Zakaj?**                                               | [Ker](pink)                           | [Zaradi utrujenosti](green) grem spat.                       |
+| **7. namerni odvisnik** <br/> Učil sem se, [da bi](pink) [popravil oceno](green). | **Čemu? S kakšnim namemon?** <br>*Zakaj? (+ odg. DA BI)* | [Da bi](pink)                         | Učil sem se z [namenom popraviti oceno](green).              |
+| **8. pogojni odvisnik** <br/>[Če](pink) [bi zmagal](green) na loteriji, bi šel na Maldive. | **Pod katerim pogojem?**                                 | [Če](pink)                            | V [primeru zmage](green) na loteriji bi šel na Maldive.      |
+| **9. dopustni odvisnik** <br/> [Čeprav](pink) [sem se učil](green), sem dobil enico. <br> [Kljub temu da](pink) [sem se učil](green), sem dobil enico. | **Kljub čemu?**                                          | [Čeprav, četudi, kljub temu da](pink) | [Kljub učenju](green) sem dobil enico.                       |
+| **10. prilastkov odvisnik** <br/> To je moja sošolka, [ki](pink) [živi v Ljubljani](green). | **Kakšen? Kateri? Čigav?**                               | [Ki](pink), kateri                    | To je moja sošolka [iz Ljubljane](green).                    |
+
+
+
+## Stavčni členi
+
+| Stavčni člen       | Grafična oznaka | Krajšave | Pomen                                | Vprašalnica                                                  | Primer                                      |
+| ------------------ | --------------- | -------- | ------------------------------------ | ------------------------------------------------------------ | ------------------------------------------- |
+| osebek             | img             | os.      | vršilec dejanja, <br> nosilec stanja | kdo - kaj                                                    | *Slavček* poje. <br> *Vrata* so odprta.     |
+| povedek            | img             | pov.     | dejanje, stanje, potek               | kaj se dogaja, godi                                          | *Piše* knjigo.                              |
+| predmet            | img             | pred.    | kar/kogar osebkovo dejanje prizadeva | koga - česa <br> komu - čemu <br> koga - kaj <br> po kom - čem <br> s kom - čim | Poslušam *glasbo*. <br>Podarim *ji* knjigo. |
+| prislovno določilo | img             | p. d.    |                                      |                                                              |                                             |
+| kraja              | p.d.k.          | p.d.k.   | zaznamuje kraj                       | kam, kje, kod                                                | *Pod lipo* smo.                             |
+| časa               | p.d.č.          | p.d.č.   | zaznamuje čas                        | kako, kdaj, od kdaj                                          | *Zvečer* grem.                              |
+| načina             | p.d.n.          | p.d.n.   | pove način                           | kako, na kakšen način                                        | *Srečno* vozi.                              |
+| vzroka             | p.d.v.          | p.d.v.   | pove vzrok                           | zakaj                                                        | *Zaradi snega* vozi počasi.                 |
+
 
 
 ---

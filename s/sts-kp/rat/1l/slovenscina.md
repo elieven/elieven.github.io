@@ -158,7 +158,17 @@ Glede na [sorodnost](green) ali [tematsko povezanost](green) besede družimo v b
 
 ### Izvor besed, prevzemanje besed
 
+V slovenskem jeziku imamo domače in tuje besede, zato jih delimo na domače in prevzete besede. Kadar imamo na voljo domačo in prevzeto besedo, ima prednost domača.
 
+[Domače besede](pink) so besede, za katere menimo, da so še praslovenskega izvora in sp tako skupne tudi drugim slovanskim jezikom, ali pa so se razvile skozi zgodovino slovenskega jezika. **Primer**: mati, kri, nebo, hiša, miza...
+
+[Prevzete besede](pink): so besede, ki smi jih v slovenščino dobili iz nekega drugega jezika. Delimo jih na:
+
+- **Sposojenke**: besede, ki so popolnoma prilagojene slovenskem jeziku v pisavi, izgovoru in pregibanju (kultura, miting, jogurt, pica...)
+- **Tujke**: delno prilagojene slovenskem jeziku, ohranile so zapis (jazz. renault, shakespeare...)
+- **Citatne besede in besedne zveze**: se pišejo, izgovarjajo in pregibajo kot v izvornem jeziku (first lady, ski open)
+
+Pri iskanju izvora besede si pomagamo z **etimološkim slovarjem** (slovenski etimološki slovar), kjer je pojasnjeno, od kod beseda izvira in kakšen je njen prvotni pomen.
 
 
 
@@ -178,8 +188,8 @@ Glede na [sorodnost](green) ali [tematsko povezanost](green) besede družimo v b
   - **Literarna zgodovina**: književnost skozi čas = literarna obdobja
   - **Literarna teorija**: nadzvrsti in zvrsti književnosti, žanri književnosti (mladinska, potopisna, znanstveno fantastična, kriminalna...)
 
-| Zvrst Nadzvrsti | Lirika (izpoveduje)        | Epika / pripovedništvo (pripoveduje)                         | Dramatika (prikazuje)      |
-| --------------- | -------------------------- | ------------------------------------------------------------ | -------------------------- |
+| Zvrst Nadzvrsti | Lirika (izpoveduje)        | Epika / pripovedništvo (pripoveduje)                                                                              | Dramatika (prikazuje)      |
+| --------------- | -------------------------- | ----------------------------------------------------------------------------------------------------------------- | -------------------------- |
 | Zvrsti / vrste  | sonet, oda, elegija, himna | [v verzih](purple) (ep, balada, romanca), [v prozi](purple) (črtica, povest, pravljica, bajka, pripovedka, roman) | komedija, tragedija, drama |
 
 
@@ -545,11 +555,11 @@ Pomembno vlogo imajo vsoda in naključja, osebe so prikazane romantično, slutij
 
 Primerjava med [antično](green) in [renesančno](green) dramatiko:
 
-| Antična (Sofokles: Kralj Ojdip)                    | Renesančna (Shakespeare: Romeo in Julija)                    |
-| -------------------------------------------------- | ------------------------------------------------------------ |
+| Antična (Sofokles: Kralj Ojdip)                    | Renesančna (Shakespeare: Romeo in Julija)                                                         |
+| -------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
 | Človekov propad in nemoč so posledica volje bogov. | Tragičen razplet je posledica volje, čustev, ravnanj, okolja - junak je konkretna individualnost. |
-| Analitična drama.                                  | Sintetična drama.                                            |
-| Pravilo treh enotnosti.                            | Ne upošteva pravila treh enotnosti (besedilo daljše, več prizorišč in oseb). |
+| Analitična drama.                                  | Sintetična drama.                                                                                 |
+| Pravilo treh enotnosti.                            | Ne upošteva pravila treh enotnosti (besedilo daljše, več prizorišč in oseb).                      |
 
 
 
@@ -567,8 +577,8 @@ Zgrajen je iz dveh delov (1605, 1615).
 
 [Tema](pink): Nasprotje med [idealizmom](green) in [realizmom](green).
 
-| Idealizem (Don Kihot)                                        | Realizem (Sančo Pansa)                                       |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Idealizem (Don Kihot)                                                  | Realizem (Sančo Pansa)                                             |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------ |
 | Obubožan plemič, nesebičen, poduhovljen. <br>(idealizem, nadzemeljsko) | Preprost, naiven kmet brez domišlije. <br> (Realizem, prakticizem) |
 
 [Ideja](pink): Kritika srednjeveških vitežkih romanov. Človek ima pravico, da svobodno izbira svojo življensko pot, človek brez idealov ne more živeti.
@@ -864,13 +874,13 @@ Povest v verzih. Je vrh Prešernovega romantičnega pojmovanja življenja in lju
 
 [Matiju Čopu](green) je posvetilni sonet umrlemu prijatelju. Razloži, da je pesnitev žalostinka, saj se je tudi on (tako kot Črtomir) zaradi ljubezni odpovedal ljubezenski sreči.
 
-|             | UVOD                                                         | [KRST](red)                                                  |
-| ----------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **Tema**    | Zadnji boj za staro vero, vsiljevanje nove.                  | Črtomirjeva krst, osebna junakova vsoda.                     |
-| **Zgradba** | Simetrična; tercine, epski slog.                             | Simetrična; stance, lirski in dramski slog.                  |
-| **Črtomir** | Zagrizen, odločen in optimističen junak ter vodja, bil je zunanji boj, notranje skladna oseba z jasnim ciljem, ve, kaj hoče, je vodja. | Razočaran in obupan človek, bije notranji boj, notranje razdvojena oseba, nesrečen - značilen lik romantične književnosti. |
-|             |                                                              | Razlog za krst: Več interpretacij - Črtomirjeva ljubezen do Bogomile, zaradi malodušja in otopelosti, vseeno mu je, kaj se dogaja. |
-| **Ideja**   | Nacionalna in svobodoljubna.                                 | Človekova osebna problematika, krivična usoda.               |
+|             | UVOD                                                                                                                                                                                                                                                         | [KRST](red)                                                                                                                                                                                                                                                                                                                                                                                           |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Tema**    | Zadnji boj za staro vero, vsiljevanje nove.                                                                                                                                                                                                                  | Črtomirjeva krst, osebna junakova vsoda.                                                                                                                                                                                                                                                                                                                                                              |
+| **Zgradba** | Simetrična; tercine, epski slog.                                                                                                                                                                                                                             | Simetrična; stance, lirski in dramski slog.                                                                                                                                                                                                                                                                                                                                                           |
+| **Črtomir** | Zagrizen, odločen in optimističen junak ter vodja, bil je zunanji boj, notranje skladna oseba z jasnim ciljem, ve, kaj hoče, je vodja.                                                                                                                       | Razočaran in obupan človek, bije notranji boj, notranje razdvojena oseba, nesrečen - značilen lik romantične književnosti.                                                                                                                                                                                                                                                                            |
+|             |                                                                                                                                                                                                                                                              | Razlog za krst: Več interpretacij - Črtomirjeva ljubezen do Bogomile, zaradi malodušja in otopelosti, vseeno mu je, kaj se dogaja.                                                                                                                                                                                                                                                                    |
+| **Ideja**   | Nacionalna in svobodoljubna.                                                                                                                                                                                                                                 | Človekova osebna problematika, krivična usoda.                                                                                                                                                                                                                                                                                                                                                        |
 | **Vsebina** | Črtomir se s svojo vojsko bojuje proti močnejši Valjhunovi, upirajo se nasilnemu pokristjanjevanju; zatečejo se v Ajdovski gradec, ko jim zmanjka hrane, izkoristijo viharno noč za pobeg, a jih Valjhun napade, umrejo vsi poganski vojaki razen Črtomirja. | Črtomir se obupan zateče k Bohinjskemu jezeru, pomisli na samomor, reši ga misel na Bogomilo; sreča jo, a mu ona pove, da je postala kristjanka - zanj je trepetala in molila, prosi ga, naj tudi on sprejme novo vero. Črtomir se krsti, a se z Bogomilo ne more poročiti, saj se je ona zaobljubila Bogu - postane nuna, zato Črtomir postane duhovnih, upa na večno življenje z Bogomilo po smrti. |
 
 

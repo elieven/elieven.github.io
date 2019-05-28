@@ -160,6 +160,84 @@ $$
 
 
 
+## Zaporedja
+
+**Zaporedje** je funkcija $f: \mathbb{N \to R}$ 
+
+To pomeni, da poljubnemu naravnemu številu $n$ pripada določeno realno število, ki ga označimo $a_n​$ in ga imenujemo **n-ti člen zaporedja**.
+
+Zaporedje ponavadi podamo s formulo za splošni člen.
+
+[Zgled](pink): Zaporedje s splošnim členom $a_n = n^2 + 1​$ ima člene: $a_1 = 2​$, $a_2 = 5​$, $a_3 = 10​$, $a_4 = 17, \quad \dots​$
+
+
+
+### Lastnosti zaporedij
+
+Zaporedje [narašča](pink), če za $an \in \mathbb{N}$ velja: $a_{n+1} > a_n$
+
+Zaporedje [pada](pink), če za $an \in \mathbb{N}$ velja $a_{n+1} < a_n$
+
+Zaporedje je [omejeno navzgor](pink), če obstaja realno število $M$, tako da za  $an \in \mathbb{N}$ velja: $a_n \leqslant M$ . Število $M$ imenujemo **zgornja meja zaporedja**. Če je zaporedje navzgor omejeno, obstaja celo več zgornjih mej. Najmanjši med njimi pravimo natančna zgornja meja ali **supremum** zaporedja. Zaporedje lahko natančno zgornjo mejo doseže ali pa tudi ne. Če obstaja člen, ki je enak natančni zgornji meji, ga imenujemo **maksimalni člen zaporedja**.
+
+Zaporedje je [omejeno navzdol](pink), če obstaja realno število $m$, tako da za  $an \in \mathbb{N}$ velja:  $a_n \geqslant m$ . Število $m​$ imenujemo **spodnja meja zaporedja**. Če je zaporedje navzdol omejeno, obstaja celo več spodnjih mej. Največji med njimi pravimo natančna spodnja meja ali **infimum** zaporedja. Zaporedje lahko natančno spodnjo mejo doseže ali pa tudi ne. Če obstaja člen, ki je enak natančni spodnji meji, ga imenujemo **minimalni člen zaporedja**.
+
+Zaporedje je [omejeno](pink), če je navzgor in navzdol omejeno.
+
+
+
+### Vsota prvih n členov zaporedja
+
+Poljubnemu zaporedju $a_n$ lahko priredimo **zaporedje delnih vsot**:
+
+- $s_1 = a_1$
+- $s_2 = a_1 + a_2​$
+- $s_3 = a_1 + a_2 + a_3$
+
+Oziroma na splošno: $s_n = a_1 + a_2 + \dots + a_n$
+
+Število $s_n$ imenujemo *n*-ta delna vsota ali vsota prvih *n* členov zaporedja $a_n$. Drugo ime za  $s_n$ je vsota končne vrste.
+
+
+
+### Aritmetično zaporedje
+
+Aritmetično zaporedje je zaporedje, v katerem je [razlika dveh zaporednih členov konstantna](pink). To razliko označimo $d$ (diferenca).
+
+Torej: $a_n - a_{n-1} = d$ oziroma: $a_n = a_{n-1} + d$ .
+
+Formula za vsoto prvih $n$ členov aritmetičnega zaporedja (za vsoto končne aritmetične vrste):
+
+
+$$
+s_n = \frac{n(a_1 + a_n)}{2}
+$$
+
+
+[Lastnosti](pink) aritmetičnega zaporedja:
+
+- Če je diferenca $d > 0​$ (*pozitivna*), aritmetično zaporedje narašča.
+- Če je diferenca $d < 0$ (*negativna*), aritmetično zaporedje pada.
+- Če je diferenca $d = 0$, je aritmetično zaporedje konstantno.
+
+Vsak člen aritmetičnega zaporedja (razen prvega) je enak aritmetični sredini svojih sosedov:
+
+
+$$
+a_n = \frac{a_{n+1} + a_{n-1}}{2}
+$$
+
+
+### Geometrijsko zaporedje
+
+Geometrijsko zaporedje je zaporedje, v katerem je [količnik dveh zaporednih členov konstanten](pink). Ta količnik označimo *k* ali *q* (kvocient).
+
+Torej: $a_n / a_{n-1} = k$ oziroma: $a_n = a_{n-1} \cdot k​$
+
+Formula za splošni člen geometrijskega zaporedja: $a_n = a_1 \cdot k^{n-1}$
+
+
+
 ## Obrestni račun
 
 | Spremenljivka               | Kaj pomeni                              |
