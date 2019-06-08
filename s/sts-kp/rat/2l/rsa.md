@@ -377,3 +377,122 @@ Kot zanimivost in če bo komu gdaj rablo si lahko pogledaste `useCapture` (drugi
 ### Povezava z bazo
 
 > finally
+
+
+
+
+
+---
+
+
+
+
+
+## SQL (Structured Query Language)
+
+### DDL (Data Definiton Language)
+
+[CREATE](pink) ustvari tabelo ali bazo
+
+```sql
+CREATE TABLE tabela (podatki o tabeli); /* ustvari tabelo z imenom tabela */
+CREATE DATABASE baza;                   /* ustvari bazo z imenom baza */
+```
+
+[DROP](pink) izbriše tabelo ali bazo
+
+```sql
+DROP TABLE tabela;   /* izbriše tabelo */
+DROP DATABASE  baza; /* izbriše bazo */
+```
+
+[ALTER](pink) doda, odstrani ali spremeni stolpec (atribut) v tabeli
+
+```sql
+/* Doda stolpec naslov tabeli tabela */
+ALTER TABLE tabela ADD naslov VARCHAR(255); 
+/* Izbriše stolpec (atribut) email tabeli tabela */
+ALTER TABLE tabela DROP COLUMN email; 
+/* Doda tuj ključ */
+ALTER TABLE tabela ADD FOREIGN KEY (group_id) REFERENCES group(id); 
+/* Odstrani stolpec (atribut) email iz tabele user */
+ALTER TABLE tabela DROP COLUMN email; 
+/* Spremeni podatkovni tip datum_rojstva v year */
+ALTER TABLE tabela ALTER COLUMN datum_rojstva year; 
+```
+
+
+
+### DML (Data Manipulation Language)
+
+[SELECT](pink) izbere in izpiše izbrane podatke
+
+```sql
+/* Izbere vse podatke iz tabele user */
+SELECT * FROM user; 
+/* Izbere ime in priimek v vrstici z id vrednosti 1 */
+SELECT ime, priimek FROM user WHERE id=1; 
+```
+
+[INSERT](pink) 
+
+```sql
+/* Katere vrednosti bodo vnešene v katero tabelo */
+INSERT INTO user (ime, priimek, datum_rojstva, opis) 
+VALUES ("Janez", "Novak", "1991-01-27", "Dolg opis ..."); /* Vrednosti za vnos */
+```
+
+[UPDATE](pink) 
+
+```sql
+
+```
+
+[DELETE](pink) 
+
+```sql
+
+```
+
+
+
+### Podatkovni tipi
+
+```sql
+INT     /* Števila */
+CHAR    /* Znaki lahko definiraš dolžino tipo CHAR(8) */
+VARCHAR /* Kratke besede */
+DATE    /* Datum v obliki YYYY-MM-DD */
+TEXT    /* Besedilo */
+```
+
+
+
+
+
+### Primeri uporabe
+
+Ustvarjanje tabele
+
+```sql
+CREATE TABLE uporabnik (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    ime VARCHAR(255),
+    priimek VARCHAR(255),
+    datum_rojstva DATE,
+    id_skupine INT,
+    
+    FOREIGN KEY (id_skupine) REFERENCES skupina(id)
+);
+```
+
+
+
+Izbira iz več povezanih tabel z zdužitvijo
+
+```sql
+SELECT ime, priimek FROM zaposleni
+INNER JOIN delo_na_projektu ON zaposleni.id = delo_na_projektu.id_r
+WHERE delo = "DBA";
+```
+

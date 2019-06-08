@@ -451,7 +451,7 @@ header::before {
         white-space: pre;
         background: transparent;
         border: 0;
-        font-size: 15px;
+        font-size: 14px; // 15px
         display: inline;
         max-width: auto;
         padding: 0;
@@ -622,6 +622,11 @@ header::before {
   //h2:first-of-type {
   //  margin-top: 12px !important;
   //}
+
+  sub,
+  sup {
+    font-size: 0.7777777777777778rem;
+  }
 }
 
 
@@ -671,6 +676,14 @@ header::before {
   }
 }
 
+
+
+// Fix for code blocks
+.doc {
+  pre {
+    line-height: 22px;
+  }
+}
 
 
 
