@@ -439,19 +439,23 @@ SELECT ime, priimek FROM user WHERE id=1;
 ```sql
 /* Katere vrednosti bodo vnešene v katero tabelo */
 INSERT INTO user (ime, priimek, datum_rojstva, opis) 
-VALUES ("Janez", "Novak", "1991-01-27", "Dolg opis ..."); /* Vrednosti za vnos */
+VALUES ('Janez', 'Novak', '1991-01-27', 'Dolg opis ...'); /* Vrednosti za vnos */
 ```
 
-[UPDATE](pink) 
+[UPDATE](pink) posodobi podatke v vrstici
 
 ```sql
-
+/* England is my city */
+UPDATE users SET email='user@mail.com', city='England';
 ```
 
-[DELETE](pink) 
+[DELETE](pink) izbriše vrstice (zapise) v tabeli
 
 ```sql
-
+/* Izbriše vrstico ki ima UserID = 1 */
+DELETE FROM users WHERE UserID=32634;
+/* Izbriše vse zapise v tabeli, brez da zbriše tabelo, indexi se ohranijo */
+DELETE FROM users;
 ```
 
 
