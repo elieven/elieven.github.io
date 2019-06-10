@@ -1161,3 +1161,97 @@ class TestParalelogram {
 
 [if]: https://res.cloudinary.com/solamona/image/upload/v1537456195/zvs/sts-kp/rac/5l/programiranje/if_statement.jpg
 [ifelse]: https://res.cloudinary.com/solamona/image/upload/v1537456152/zvs/sts-kp/rac/5l/programiranje/if_else_statement.jpg
+
+
+
+## Primeri iz mature
+
+Napišite programsko kodo v izbranem jeziku, in sicer za algoritem, ki preveri, ali je število, ki ga uporabnik vnese preko standardnega vhoda, praštevilo. Če je prastevilo, naj algoritem izpiše »PRAŠTEVILO«, sicer »NI PRAŠTEVILO«
+
+```java
+import java.io.*;
+
+class Playground {
+    public static void main(String[ ] args) throws IOException {
+        BufferedReader vhod = new BufferedReader(new InputStreamReader(System.in));
+        
+        System.out.println("Vnesite stevilo");
+        int stevilo = Integer.parseInt(vhod.readLine());
+        
+        int del = 0;
+        
+        for ( int i = 1; i < stevilo + 1; i++ ) {
+            if (stevilo % i == 0) {
+                del++;
+            }
+        }
+        
+        if (del == 2) {
+            System.out.println("PRASTEVILO");
+        } else {
+            System.out.println("NI PRASTEVILO");
+        }
+    }
+}
+```
+
+<br>
+
+
+
+Napišite programsko kodo v izbranem jeziku, ki obrne števke v številu (123456 - 654321 ), ki ga vnese uporabnik preko standardnega vhoda. Novo nastalo število algoritem izpiše na standardni izhod. 
+
+```java
+import java.io.*;
+
+class Playground {
+    public static void main(String[ ] args) throws IOException {
+        BufferedReader vhod = new BufferedReader(new InputStreamReader(System.in));
+        
+        System.out.println("Vnesite stevilo");
+        String stevilo = vhod.readLine();
+        
+        String novoStevilo = "";
+        
+        for (int i = stevilo.length(); i > 0 ; i-- ) {
+            novoStevilo = novoStevilo + stevilo.charAt(i - 1);
+        }
+        
+        System.out.println(novoStevilo);
+    }
+}
+```
+
+<br>
+
+
+
+Napisite programsko kodo v izbranem jeziku, ki preveri ali je stevilo, ki ga vnese uporabnik, popolno stevilo. Stevilo je popolno, ko je vsota njegovih manjsih deliteljev enaka vrednosti vnesenega stevila. (28: 1+2+4+7+14=28 -stevilo je popolno). Ce je stevilo popolno, potem izpise »POPOLNO«, sicer »NI POPOLNO«. 
+
+```java
+import java.io.*;
+
+class Playground {
+    public static void main(String[ ] args) throws IOException {
+        BufferedReader vhod = new BufferedReader(new InputStreamReader(System.in));
+        
+        System.out.println("Vnesite stevilo");
+        int stevilo = Integer.parseInt(vhod.readLine());
+        
+        int vsota = 0;
+        
+        for (int i = 1; i < stevilo; i++) {
+            if (stevilo % i == 0) {
+                vsota += i;
+            }
+        }
+        
+        if (vsota == stevilo) {
+            System.out.println("POPOLNO");
+        } else {
+            System.out.println("NI POPOLNO");
+        }
+    }
+}
+```
+

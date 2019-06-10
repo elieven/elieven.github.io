@@ -500,3 +500,11 @@ INNER JOIN delo_na_projektu ON zaposleni.id = delo_na_projektu.id_r
 WHERE delo = "DBA";
 ```
 
+
+
+Sortiranje izpisanih podatkov
+
+```sql
+SELECT * FROM users WHERE city='Koper' ORDER BY age ASC; /* Ali DESC */
+```
+
