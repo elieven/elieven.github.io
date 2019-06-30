@@ -1,5 +1,5 @@
-@import 'variables';
-@import 'common_mixins';
+@import "variables";
+@import "common_mixins";
 
 .highlight::-webkit-scrollbar {
   width: 5px;
@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  background-color: #F8F9FA;
+  background-color: #f8f9fa;
 }
 
 header::before {
@@ -161,7 +161,6 @@ header::before {
       display: none;
     }
   }
-
 }
 
 .docwrap {
@@ -215,7 +214,7 @@ header::before {
       }
 
       .task-list-item-checkbox {
-        margin: 0 .5em .25em -1.6em;
+        margin: 0 0.5em 0.25em -1.6em;
         vertical-align: middle;
       }
     }
@@ -233,15 +232,15 @@ header::before {
       box-sizing: content-box;
       background-color: #fff;
 
-      &[align=right] {
+      &[align="right"] {
         padding-left: 20px;
       }
 
-      &[align=left] {
+      &[align="left"] {
         padding-right: 20px;
       }
 
-      &[align=center] {
+      &[align="center"] {
         display: block !important;
         margin: 2em auto;
       }
@@ -258,17 +257,22 @@ header::before {
       box-sizing: content-box;
       height: 0;
       overflow: visible;
-      margin: 15px 0;
+      //margin: 15px 0;
       overflow: hidden;
       background: transparent;
       border: 0;
-      border-bottom: 1px solid #dfe2e5;
-      border-bottom-color: #eee;
-      height: 0.25em;
+      //border-bottom: 1px solid #dfe2e5;
+      //border-bottom-color: #eee;
+      //height: 0.25em;
       padding: 0;
-      margin: 24px 0;
-      margin: 56px 0;
-      background-color: #e1e4e8;
+      //margin: 24px 0;
+      //margin: 56px 0;
+      //background-color: #e1e4e8;
+
+      // New
+      border-bottom: 1px solid #ececec;
+      padding-top: 44px;
+      margin-bottom: 40px;
 
       &::before {
         display: table;
@@ -294,6 +298,8 @@ header::before {
         font-weight: 600;
         padding: 6px 13px;
         border: 1px solid #dfe2e5;
+        // New
+        background: #f1f5f9;
       }
 
       td {
@@ -421,7 +427,8 @@ header::before {
     }
 
     code {
-      font-family: "Fira code", "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+      font-family: "Fira code", "SFMono-Regular", Consolas, "Liberation Mono",
+        Menlo, Courier, monospace;
       font-size: 12px;
       padding: 0.2em 0.4em;
       margin: 0;
@@ -433,7 +440,8 @@ header::before {
     pre {
       margin-top: 0;
       margin-bottom: 0;
-      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier,
+        monospace;
       font-size: 12px;
       padding: 16px;
       overflow: auto;
@@ -486,7 +494,6 @@ header::before {
       margin-top: 0;
       margin-bottom: 16px;
       line-height: $p-line-height;
-
     }
 
     .octicon {
@@ -502,7 +509,6 @@ header::before {
     .pl-1 {
       padding-left: 4px !important;
     }
-
   }
 
   // end of doc
@@ -587,7 +593,8 @@ header::before {
     font-size: $h2-font-size;
     font-weight: $h2-font-weight;
     margin-top: 72px;
-    margin-bottom: 12px;
+    margin-bottom: 1rem;
+    padding-bottom: 4px;
   }
 
   h3 {
@@ -629,9 +636,7 @@ header::before {
   }
 }
 
-
 @media screen and (max-width: $xs) {
-
   html {
     font-size: 16px;
   }
@@ -676,8 +681,6 @@ header::before {
   }
 }
 
-
-
 // Fix for code blocks
 .doc {
   pre {
@@ -685,19 +688,17 @@ header::before {
   }
 }
 
-
-
 .doc {
 
   // TEXT COLORING - Colors by Tailwind css mostly
-  [href=pink] {
+  [href="pink"] {
     color: #5858eb !important;
     pointer-events: none;
     font-weight: $bold-weight;
   }
 
-  [href=highlight] {
-    background-color: #85F8CA !important;
+  [href="highlight"] {
+    background-color: #85f8ca !important;
     color: #000 !important;
     pointer-events: none;
     padding: 1px 3px;
@@ -705,117 +706,117 @@ header::before {
   }
 
   // GREEN
-  [href=green-dark] {
-    color: #1F9D55 !important;
+  [href="green-dark"] {
+    color: #1f9d55 !important;
     pointer-events: none;
     font-weight: $bold-weight;
   }
 
-  [href=green] {
-    color: #11BD5A
+  [href="green"] {
+    color: #11bd5a
       /*#38C172*/
        !important;
     pointer-events: none;
     font-weight: $bold-weight;
   }
 
-  [href=green-light] {
-    color: #56C376 !important;
+  [href="green-light"] {
+    color: #56c376 !important;
     pointer-events: none;
     font-weight: $bold-weight;
   }
 
   // BLUE
-  [href=blue-dark] {
-    color: #0071DE !important;
+  [href="blue-dark"] {
+    color: #0071de !important;
     pointer-events: none;
     font-weight: $bold-weight;
   }
 
-  [href=blue] {
-    color: #0071DE !important;
+  [href="blue"] {
+    color: #0071de !important;
     pointer-events: none;
     font-weight: $bold-weight;
   }
 
-  [href=blue-light] {
-    color: #6CB2EB !important;
+  [href="blue-light"] {
+    color: #6cb2eb !important;
     pointer-events: none;
     font-weight: $bold-weight;
   }
 
   // RED
-  [href=red-dark] {
-    color: #CC1F1A !important;
+  [href="red-dark"] {
+    color: #cc1f1a !important;
     pointer-events: none;
     font-weight: $bold-weight;
   }
 
-  [href=red] {
-    color: #F4253A !important;
+  [href="red"] {
+    color: #f4253a !important;
     pointer-events: none;
     font-weight: $bold-weight;
   }
 
-  [href=red-light] {
-    color: #EF5753 !important;
+  [href="red-light"] {
+    color: #ef5753 !important;
     pointer-events: none;
     font-weight: $bold-weight;
   }
 
   // ORANGE
-  [href=orange-dark] {
-    color: #DE751F !important;
+  [href="orange-dark"] {
+    color: #de751f !important;
     pointer-events: none;
     font-weight: $bold-weight;
   }
 
-  [href=orange] {
-    color: #F6993F !important;
+  [href="orange"] {
+    color: #f6993f !important;
     pointer-events: none;
     font-weight: $bold-weight;
   }
 
-  [href=orange-light] {
-    color: #FAAD63 !important;
+  [href="orange-light"] {
+    color: #faad63 !important;
     pointer-events: none;
     font-weight: $bold-weight;
   }
 
   // INDIGO
-  [href=indigo-dark] {
-    color: #5661B3 !important;
+  [href="indigo-dark"] {
+    color: #5661b3 !important;
     pointer-events: none;
     font-weight: $bold-weight;
   }
 
-  [href=indigo] {
-    color: #6574CD !important;
+  [href="indigo"] {
+    color: #6574cd !important;
     pointer-events: none;
     font-weight: $bold-weight;
   }
 
-  [href=indigo-light] {
-    color: #7886D7 !important;
+  [href="indigo-light"] {
+    color: #7886d7 !important;
     pointer-events: none;
     font-weight: $bold-weight;
   }
 
   // PURPLE
-  [href=purple-dark] {
-    color: #794ACF !important;
+  [href="purple-dark"] {
+    color: #794acf !important;
     pointer-events: none;
     font-weight: $bold-weight;
   }
 
-  [href=purple] {
-    color: #9561E2 !important;
+  [href="purple"] {
+    color: #9561e2 !important;
     pointer-events: none;
     font-weight: $bold-weight;
   }
 
-  [href=purple-light] {
-    color: #A779E9 !important;
+  [href="purple-light"] {
+    color: #a779e9 !important;
     pointer-events: none;
     font-weight: $bold-weight;
   }

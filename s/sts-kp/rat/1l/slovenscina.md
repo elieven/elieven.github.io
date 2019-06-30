@@ -293,7 +293,7 @@ Najbolj razširjena knjiga na svetu, prevajana v svetovne jezike - prvi slovensk
 
 
 
-### Prilika o izgubljenem sinu
+### Pridiga o izgubljenem sinu
 
 Besedilo je del Nove zaveze - Lukovega evangelija.
 
@@ -305,7 +305,7 @@ Oče je imel dva sina, med katerima je enakomerno razdelil bogastvo. Starejši s
 
 Besedilo pripoveduje o očetovi ljubezni, saj je le tako odpusti sinu vse, kar je storil slabega. Za zgodbo o družinskih odnosih se skriva verska resničnost - oče = bog, izgubljeni sin = grešnik, vzorni starejši sin = vernik.
 
-Prilika / parabola? = besedilo, v katerem je sporočilo ponazorjeno s prispodobo - abstraktna snov s konkretno podobo.
+Pridiga / parabola? = besedilo, v katerem je sporočilo ponazorjeno s prispodobo - abstraktna snov s konkretno podobo.
 
 [Sporočilo:](pink) Bog ljubi človeka brezpogojno, tudi ljudje naj se ljubijo in si odpuščajo.
 

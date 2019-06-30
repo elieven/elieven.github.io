@@ -157,7 +157,7 @@ Uporaba pojma: Kultura predstavlja različne oblike umetniškega ustvarjanja.
 
 Samo človek daje dogajanju in stvarem pomen in tako oblikuje simbole. Simboli omogočajo sporazumevanje in vnašajo red in predvidljivost. So rezultat kulturnega dogovora (*konvencije*). Z njimi se ljudje povezujejo in ločijo od drugih. Vstop v kulturo neke skupnosti je povezan z vstopom v njen simbolni svet. Kulturni šok nastopa, če če s svojim ravnanjem razžalimo ljudi, ali pa nas gostitelj napeljuje k ravnanju, ki je za nas nesprejemljivo. Simbolni pomeni se spreminjajo s časom (*debelost, krzno*) in okoljem (*krizantema*).
 
-#### Funkcije simbolov
+[Funkcije simbolov](pink)
 
 - sporazumevalna
 - identifikacijska

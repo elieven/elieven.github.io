@@ -58,7 +58,7 @@ Je iz 90-ih let, zastarel, ponekod še vedno uporabljen. Ima hitrost 56kbps (Kil
 
 ### Dostop preko satelitske povezave
 
-- (do 1 Mbps)
+- Hitrost do 1 Mbps.
 
 ### Brezžični dostop
 

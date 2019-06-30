@@ -143,9 +143,11 @@ Naloga naprave, ki se želi povezati v mrežo je da poišče DHCP strežnik. To 
 
 Kle umes manjka ful vaj - je za dodat!
 
---- 
+---
 
 <br>
+
+[Ne gledat tega ki je narobe](red)
 
 **Vaja:** (*ni povezana z DHCP*) Omrežje `192.168.17.0` razdeli na 5 različno velikih podomrežij in zapišite njihove naslove. 3 usmerjevalniki med seboj povezani, in 2 podomrežji ene s 30 in eno s 114 napravami.
 
@@ -168,7 +170,6 @@ $$
 Vrednost **n** je število bitov, **st** pa število IP naslovov, ki jih lahko zapišemo z **n** biti. Za 2 napravi nam bo torej dovolj 2 bita (2<sup>2</sup> - 2 = 2). Ker uporabimo za zapis naprav le zadnja 2 bita bo maska tega podomrežja `/30` (32 - 2).
 
 $$
-
 \underset{128}{\_\_} \phantom{a}
 \underset{64}{\_\_} \phantom{a}
 \underset{32}{\_\_} \phantom{a}
@@ -178,7 +179,6 @@ $$
 \Big| \phantom{a}
 \underset{2}{\_\_} \phantom{a}
 \underset{1}{\_\_}
-
 $$
 
 Ker uporabimo 2 bita jih od teh osmih "odrežemo". Velikost blokov, ki jih lahko s temi dvemi biti naredimo je enaka številki na levi od črte s katero smo jih odrezali - v tem primeru 4. 

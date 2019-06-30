@@ -4,133 +4,219 @@ title: Info
 latex: true
 ---
 
->  *Zapiski za maturo iz **VIO** predmeta. (Začasno v infotu ma jbg)*
+# SLO
 
-<br>
+### Orientalska književnost ()
+- [x] Prilika o izgubljenem sinu
 
-# Številski sistemi
+### Antika, Antična kjiževnost (-800 do -500)
+- [x] Odiseja
+- [x] Kralj Ojdip
 
-## Uvod v številske sisteme
+### Srednji vek pri slovencih (1000 do 1400)
+- [x] Brižinski spomeniki
+	- [x] Pridiga o grehu in pokori
 
-**Številski sistem** je sistem v katerem so urejena števila. Za predstavitev podatkov in naslovov v računalništvu uporabljamo 4 številske sisteme - **dvojiški** oz. binarni, **šestnajstiški** oz. heksadecimalni (HEX), **desetiški** in **osmiški**.
+### Humanizem in renesansa (1400 do 1600)
+- [x] Romeo in Julija
+- [x] Don Kihot
 
-Binarni sistem je uporabljen v rač. ker so tranzistorji zmožni beležiti oz. prekljapljati se med dvemi stanji - vrednost 1 in 0.
+### Reformacija in protestantizem (1550 do 1600)
+- [x] O zidavi cerkva
 
-**Kodiranje** je pretvorba iz ene oblike zapisa v drugo (splošno ime).
+### Barok ()
+- [x] Na noviga lejta dan
 
+### Razsvetljenstvo (1768 do 1819)
+- [x] Matiček se ženi
 
+### Romantika (1800 do 1830)
+- [x] Jevgenij Onjegin
+- [x] Krst pri Savici
+- [x] Sonetni venec
 
-### Desetiški številski sistem
-Posamezno mesto v desetiškem (dekadnem) sistemu imanujemo **dekada**. Če imamo na razpolago $n$ dekad, lahko zapišemo $10^n$ različnih števil (npr. 3 dekade ${10}^3$ št = 1000 različnih števil).
-Če zapisujemo pozitivna števila (brez - spredaj) je največje število, ki ga lahko zapišemo z $n$ dekadami ${10}^n -1$ (npr 3 dekade = 999).
+### Realizem (1830 do 1870)
+- [x] Zločin in kazen
 
-Za označiti, da je število desetiško dodamo na konec (10) npr. ${1762}_{(10)}$
+### Naturalizem (1880 do 1900)
+- [x] Hiša lutk
 
+###  Realizem v Slovenski književnosti (obdobje med romantiko in realizmom) (1848 do 1899)
+- [x] Mejnik
+- [x] Visoška kronika
 
 
-### Dvojiški številski sistem
-Je številski sistem z osnovo 2. Edini vrednosti možni sta 0 in 1. Posamezno mesto v številu imenujemo bit. Tak zapis uporabljajo rač. ker vezja lahko ponazorijo signal samo z 1 (električni tok je) in 0 (toka ni). Je zelo zanesljiv zapis in manj občutljiv na motnje pri prenosu, zato se ga vedno več uporablja (glasba, telefonija...)
+- [ ] Martin Kačur
+- [ ] Hlapci
 
-Da jih lahko razlikujemo od desetiških, moramo dvojiška števila ustrezno označiti s tem, da na koncu spodaj dodamo (2) npr. $101_{(2)}​$
+### Moderna (1899 do 1918)
+- [x] Saloma
 
+### Evropska književnost 20. stoletja
+- [x] Preobrazba
+- [x] Tujec
+- [x] Čakajoč Godota
 
+### Ekspresionizem v slovenski književnosti (1918 do 1930)
+- [ ] Kons. 5
+- [ ] Matkova Tina
+- [ ] Dogodek v mestu Gogi
 
-### Šestnajstiški številski sistem
 
-Imenujemo ga tudi heksadecimalni (HEX). V računalnikih so vsa števila shranjena v dvojiškem zapisu, vendar so ti nepregledni, zato jih pogosto prikažemo v HEX zapisu, ker štirje dvojiški biti predstavljajo eno HEX cifro. Npr. ${1011000101101110}_{(2)}​$ je enako kot **B16E** v HEX.
+- [ ] Samorastniki
+- [ ] Bosa pojdiva dekle, obsorej
 
-Decimalni zapis pozna le 10 različnih cifer (0 - 9), HEX pa 16, zato moramo vrednosti od 10 do 15 zapisati z drugačnimi znaki (A, B, C, D, E, F).
+### Sodobna slovenska književnost (od 1950 dalje)
+- [x] Južni otok
+- [x] Črni deček
+- [x] Tantadruj
+- [x] Manuet za kitaro
+- [x] Veliki briljantni valček
 
-Kot druga moramo tudi HEX števila označiti, s (16) na koncu npr. ${1100}_{(16)}$
+---
 
+### Orientalska književnost ()
 
+Prilika o izgubljenem sinu
+### Antika, Anticna književnost (-800 do -500)
 
-## Pretvarjanje med številskimi sistemi
+Odiseja - Homer
+Kralj Ojdip - Sofokles
+Znacilnosti -
+Razvija liriko, epiko in dramatiko, osrednje mesto zavzemata ep in tragedija.
 
-$$
-\cdots
-$$
+Stari grki so verjeli v vec bogov, ti imajo pomembno vlogo v književnosti = svet ljudi, bogov in polbogov
+Pomen: vplivala na evropske književnosti razlicnih obdobij.
+### Srednji vek pri slovencih (1000 do 1400)
 
+Brizinski spomenniki - Pridiga o grehu in pokori
 
+Pisani so v latinici, crkopis je karolinška minuskula. Jezik je slovenšcina v zgodnjem obdobju, brez narecnih posebnosti in tujk.
 
-## Seštevanje dvojiških števil
+Je pridiga - polliteralno besedilo. Poucno in vzgojno pridiga preprostejšim, zato vsebuje besedilo ponazoritve - zglede / eksemple iz življenja.
 
-$$
-\cdots
-$$
+Znacilnosti
 
+V casu od 10. do 14. stoletja se v slovenski književnosti razvija ljudsko slovstvo in polliteraturna besedila za cerkveno rabo (pismenstvo).
 
+### Humanizem in renesansa (1400 do 1600)
 
-## Predznačena in nepredznačena števila
+Romeo in Julija - William Shakespeare
 
-$$
-\cdots
-$$
+Don Kihot - Miguel de Cervantes
 
+Znacilnosti
 
+Razvila je vse nadzvrsti književnosti
 
-## Druge matematične operacije v dvojiškem sistemu
+Lirika: Tremi k spojitvi cutne in duhovne lepote - pesniški slog je okrašen s prispodobami in metaforiko, eleganten. Osrednja zvrst je sonet. Glavni predstavnik je Francesco Petrarca.
+Pripovedništvo: Razvije predvsem novelo in roman. Novela je pripoved krajšega obsega, snov je iz stvarnega življenja, zgradba je zaokrožena okoli enega dogodka, oseb je manj, zaplet in razplet sta presenetljiva, vcasih ima glavno vlogo predmet. Mojster Giovanini Boccaccio. Roman - srednjeveški in novi tipi (pastirski, potepuški, ljubezenski) - mojster Cervantes.
+Dramatika: Po anticnih vzorcih, novost so snovi in ideje, ki jih je zajemala iz sodobnega življenja. Mojster William.
 
-$$
-\cdots
-$$
+### Reformacija in protestantizem (1550 do 1600)
 
+O zidavi cerkva - Primoz Trubar
 
+Znacilnosti
 
-## Mere in enote v računalništvu
+1550 - izide prva tiskana knjiga: Abecednik in Katekizem.
+1600 - nastopi protireformacija.
+Reformacija: (lat. Reformare - preoblikovati, preurediti) - versko gibanje v Evropi v 16. stoletju. Zahtevala je spremembe cerkva (placevanje odpustkov, razkošje, nemoralnost duhovšcine…).
+Protestantizem: gibanje, ki nasprotuje cerkvenemu razkošju - borili so se proti praznoverju vernikov, odpravili celibat…
+Je obdobje, ki temelji na zahtevi po spremembi cerkve, pristopa proti napakam (npr. odpustki), zahteva branje svetega pisma v materinem jeziku.
+Obdobje je za književnost zelo pomembno, saj je slovenšcina postala knjižni jezik, gre za zacetke slovenske književnosti, ki je še neumetniška, poucna, namenjena cerkvenim potrebam.
 
-Bit je najmanjša možna informacija (0 ali 1), ki se združuje v večje enote
+### Protireformacija
 
-| Enota              | Vrednost / opis                              |
-| ------------------ | -------------------------------------------- |
-| Četverka (nibble)  | 4 biti (npr 1100)                            |
-| Zlog, oktet (Byte) | 1B = 8b (npr. 11010011)                      |
-| Beseda (Word)      | Načeloma je pomnilniška beseda dolga 8 bitov |
+1558 leta je bil izdan ukaz o prepovedi delovanja vseh protestantskih dejavnostih. Tako so pod vodstvom škofa Tomaža Hrena porušili in unicili vse, kar so reformatorji ustvarili (zažgali vse knjige, razen Biblije).
+Ta književnost je skromna, manj pomembna. Govorimo o t.i. knjižnem zastoju. Med zvrstmi in vrstami se najbolj razširijo pridige, nabožne pripovedi, cerkvene pesmi, duhovne igre.
 
-Bit označimo z **b** in zlog (Byte) z **B**. Zapis večjih količin bitov je nepregleden, zato uporabljamo predpone (kilo K, mega M, giga G...)
+### Barok ()
 
-| Zapis predpone | Vrednost v desetiškem sistemu         | Vrednost v dvojiškem sistemu              |
-| -------------- | ------------------------------------- | ----------------------------------------- |
-| k (kilo)       | 10<sup>3</sup> = 1.000 b              | 2<sup>10</sup> = 1.024 b                  |
-| M (mega)       | 10<sup>6</sup> = 1.000.000 b          | 2<sup>20</sup> = 1.048.576 b ali 1.024 kb |
-| G (giga)       | 10<sup>9</sup> = 1.000.000.000 b      | 2<sup>30</sup> = 1.024 Mb                 |
-| T (tera)       | 10<sup>12</sup> = 1.000.000.000.000 b | 2<sup>40</sup> = 1.024 Gb                 |
-| P (peta)       | 10<sup>15</sup> = 1.000 Tb            | 2<sup>50</sup> b                          |
-| E (exa)        | 10<sup>18</sup> = 1.000 Pb            | 2<sup>60</sup> b                          |
-| Z (zetta)      | 10<sup>21</sup> = 1.000 Eb            | 2<sup>70</sup> b                          |
-| Y (yotta)      | 10<sup>24</sup> = 1.000 Zb            | 2<sup>80</sup> b                          |
+Na noviga lejta dan - Janez Krstnik
+Znacilnosti
+Barok - pretirano,prepolno, izumetricno, okraseno, izrazno zapleteno
+Za književnost je znacilna slikovito, dogajalna raznovrstnost, bogata metaforika, v temah pogosta nasprotja in razklanost,
+Slovenska barocna književnost je pomembna, ker je prekinila obdobje literarnega zastoja (protireformacije) - besedila so namenjena cerkveni rabi.
 
-V desetiškem sistemu povečujemo vrednosti predpon za 1000 oz. $10^3​$. V dvojiškem sistemu je najbližja vrednost $2^{10}​$ = 1024, zato so jo določili kot ekvivalent predponi kilo.
+### Razsvetljenstvo (1768 do 1819)
 
-Če želimo **poudariti uporabo določene vrednostne predpone** jo zapišemo spodaj desno brez oklepajev npr. 50GB<sub>10</sub> in 4GB<sub>2</sub>.
+Maticek se ženi - Anton Tomaz Linhart
+Znacilnosti
+razsvetljenci so s svobodnim razumom razmišljaji o cloveku, kritizirali so praznoverje, zaostalost, verski fanatizem, neukost, predsodke, nestrpnost, nasilje, zastarele državne in družbene oblike - tudi verske, fevdalizem, plemiški privilegij, znacilen je razsvetljenski optimizem. Poudarjajo razum cloveka, njegove potrebe in koristi, sreco. Za ideje uporabljajo književnost, ki je idejna, tendencna, angažirana.
+Za slovensko književnost je zelo pomembno obdobje, pomeni razvoj slovenske posvetne književnosti (umetniške književnosti).
 
-[Dvojiško vrednost predpone](green) uporabljamo pri določanju kapacitete pomnilnika DRAM, SRAM, predpomnilnika v mikroprocesorju... [desetiško vrednost predpone](green) pa pri določanju kapacitete trdih diskov, diskov SSD in diskov FLASH.
+### Romantika (1800 do 1830)
 
-> Razlika med USB velikostjo na pakiranju in v resnici - zaradi vrednosti kapacitete (na pakiranju piše desetiška, računalnik pa uporablja dvojiško).
+Jevgenij Onjegin - Sergei Puskin
+Krst pri Savici - France Preseren
+Sonetni venec - France Preseren
+Znacilnosti
+Romantika je umetnostna smer v polovici 19. stoletja, ki je poudarjala subjektivnost, custva in domišlijo. Ime izhaja iz besede roman (romanticno pomeni “tako kot v romanih” - prispodoba za nekaj lepega, nestvarnega, custvenega).
+usmerjenost v clovekovo notranjost, custva (ljubezen)
+mocna domišlija (izmišljen svet, nenavadnost)
+razocaranje nad stvarnostjo, beg iz starega sveta v idealizirano pretelost ali prihodnost.
+zanimanje za narodovo preteklost in ljudsko pesništvo
+izpovedovanje custev lirika v prednosti pred epiko, poezija pred prozo)
+privzdignjenost jezika custveno obarvan slog
+Realizem (1830 do 1870)
 
+Znacilnosti
 
+Je umetnost objektivne stvarnosti, prikazuje vsakdanje dogajanje in ljudi, je ocitno nasprotje romantike.
+Romantika - custveno, subjektivno, individualno, izjemno, odmik iz preteklosti
+Realizem - razum, objektivno, vsakdanje, tipicno, premik v sedanjost
+Potekal je v 2. polovici 19. stoletja.
 
+### Evropski Realizem (1830 - 1870)
 
+Zlocin in kazen - Fjodor Mihajlovic Dostojevski
+Znacilnosti
+Francija, Anglija, Rusija
 
-# Uvod
+### Naturalizem (1870 - 1900)
+- Hiša lutk - Henrik Ibsen
+- Znacilnosti
 
-## Zgodovina
+Je umetnostna smer, skrajna oblika realizma. Je neke vrste fotografiranje resnicnosti. Avtorji so težili k skoraj znanstvenemu opisovanju realnosti, ki s svojimi biološkimi in socialnimi zakoni obvladuje cloveka in njegovo življenje. Držali so se nacela, da je clovek del narave in ga je mogoce raziskovati predvsem kot posledico treh temeljnih naravnih faktorjev, ki so: dednost, okolje in doba oz. zgodovinski trenutek_.
 
-Računalnik je bil izumljen, da je prevzel monotono, dolgočasno ponavljajoče se računanje, pri čem so ljudje storili mnogo napak.
+### Realizem v Slovenski knjizevnosti (1854 - 1899)
 
+Mejnik - Anton Askerc
+Visoška kronika - Ivan Tavcar
+Znacilnosti
+Slovenska književnost izgublja romanticne znacilnosti, približuje se realizmu.
+Razlicni izrazi za to obdobje: Romanticni realizem, poeticni realizem, prevlada _obdobje med romantiko in realizmom.
+Obdobje je za slovensko književnost pomembno: prvic se razvije kratka proza (novela, znacajevka), nastane prvi slovenski roman (J. Jurcic: Deseti brat, 1866), prva pomembnejša dela književne kritike in esejistike - literarni program (F. Levstik: Popotovanje iz Litije do Cateža, 1858). Uveljavi se lirska in epska poezija. Poskus prve izvirne tragedije.
 
+### Moderna (1899 - 1918)
 
-### Praobdobje
+Saloma - Oscar Wilde
+Martin Kacur - Ivan Cankar
+Hlapci - Ivan Cankar
+Znacilnosti
 
-[Abakus (abak)](pink) je najstarejša računska naprava ohranjena do danes. Iznašli so jo v babilonu nekje med 3000 in 2000 pr.n.št. 
+### Evropska knjizevnosti 20.stol
 
-![Abacus - abac slika](https://upload.wikimedia.org/wikipedia/commons/e/ea/Boulier1.JPG){: width="300px"}
+Preobrazba - Franz Kafka
+Tujec - Albert Camus
+Cakajoc Godota - Samuel Beckett
+Znacilnosti
 
+### Ekspresionzem v Slovenski knjizevnosti
 
+Kons. 5 - Srecko Kosovel
+Matkova Tina - Ivan Pregelj
+Dogodek v mestu Gogi - Slavko Grum
+Samorastniki - Prezihov Voranc
+Bosa pojdiva dekle, obsorej - Karel Destovnik Kajuh
+Znacilnosti
 
-[Logaritemsko računalo](pink) (izumljeno 1620 - 1630) je najpreprostejše logaritmično računalo, ki omogoča množenje in deljenje na podlagi logaritmiranja. Ta pravila je odkril škotski matematik John Napier.
+### Sodobna slovenska književnost
 
-![Logaritemsko računalo](http://4.bp.blogspot.com/-oEqjh6jXeXo/VTjZLHaySAI/AAAAAAAAEsI/62e-c7vrivI/s1600/sliderule20-web.jpg){: width="600px"}
-
-
-
+Južni otok - Kajetan Kovic
+Crni decek - Dane Zajc
+Tantadruj - Ciril Kosmac
+Manuet za kitaro - Vitomil Zupan
+Veliki briljantni valcek - Drago jancar
+Znacilnosti
