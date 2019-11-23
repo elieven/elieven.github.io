@@ -1,0 +1,13 @@
+ime: Višja Strokovna Šola Nova Gorica
+kratica: VSŠ Nova Gorica
+code: vss-ng
+programi:
+  - program: Informatik
+    code: inf
+    letniki:
+      - letnik: 1
+        predmeti:
+          - predmet: RAI
+            code: rai
+            name: Računalništvo in Informatika
+            status: wip

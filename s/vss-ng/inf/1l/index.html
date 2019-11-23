@@ -1,0 +1,16 @@
+---
+layout: solamona
+title: Informatik
+---
+
+{% assign programDataPath = site.data.s.vss-ng.programi[0] %}
+
+<div class="con">
+
+  <h2 class="page-name">{{programDataPath.program}}</h2>
+
+  {% include breadcrumbs.html %}
+
+  {% include program-predmeti_v2.html program=programDataPath %}
+
+</div>
